@@ -1,0 +1,135 @@
+<!DOCTYPE>
+<%
+      set Obj = folders.ExtObject
+        id = request("id")
+%>
+<html>
+<head>
+
+    <script src="functions.js" type="text/javascript"> </script>
+
+    <title><%=Obj.AppName%> <%=Obj.AppEdition%></title>
+    <link rel="stylesheet" type="text/css" href="<%=Obj.UIColor%>.css" />
+
+</head>
+<body>
+  <%
+      header = "header"
+        if Obj.AppCompany <> "MetaProducts" then header="header-no-logo"
+    %>
+
+    <div class="<%=header%>">
+        <div class="wrapper">
+			<div class="product-logo">
+	            <%=Obj.AppName%><span><%=Obj.AppEdition%></span></div>
+			<a href="https://www.metaproducts.com" class="mp-logo"></a>
+        </div>
+    </div>
+    <nav class="menu">
+        <table class="wrapper" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+	            <td><a href="./">Home</a></td>
+            	<td class="space"></td>
+            	<td><a href="tutorials.htm">Tutorials</a></td>
+            	<td><a href="/report.csv">Report</a></td>
+            	<td><a href="projects.htm" class="active">Projects</a></td>
+            	<td><a href="wizard.htm">Wizard</a></td>
+			</tr>
+        </table>
+    </nav>
+    <div class="content">
+        <div class="wrapper">
+            <div id="text" style="margin-right: 0;">
+                <!--Projects heading-->
+                <%      set prj = folders.ProjectByIID(CLng(id)) %>
+                <h2>
+                    Project:
+                    <%=prj.Caption %>
+                </h2>
+                <div id="form">
+                    <p> Offline URL:
+                    </p>
+                    <p>
+                        <img style="width:24px;height:24px;vertical-align:middle" src="images/offline.png">&nbsp;&nbsp;<a href="<%=prj.GetOfflineURL %>" target="_top">Browse the Project offline</a>
+                    </p>
+                    <p> Online URL: 
+                    </p>
+                    <p>
+                        <img style="width:24px;height:24px;vertical-align:middle" src="images/online.png">&nbsp;&nbsp;<a href="<%=prj.URL%>" target="_blank">
+                            <%=prj.FirstURLLine %>
+                        </a>
+                    </p>
+                    <%=prj.DownloadStats %>
+                    <p></p>
+                    <table cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td>
+                                <b>Downloaded files:</b>
+                            </td>
+                            <td>
+                                <%=prj.s200 %>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Not modified:</b>
+                            </td>
+                            <td>
+                                <%=prj.s304 %>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Parsed files:</b>
+                            </td>
+                            <td>
+                                <%=prj.SParsed %>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Not found:</b>
+                            </td>
+                            <td>
+                                <%=prj.S400 %>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Error while downloading:</b>
+                            </td>
+                            <td>
+                                <%=prj.SErrors %>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Aborted/Limited:</b>
+                            </td>
+                            <td>
+                                <%=prj.SAborted %>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Downloaded files size:</b>
+                            </td>
+                            <td>
+                                <%=prj.SSize %>
+                                bytes (<%=FormatNumber(CLng(prj.SSize)/1024/1024, 2)%>
+                                MBytes)
+                            </td>
+                        </tr>
+                    </table>
+                    <p>
+                    </p>
+                </div>
+                <div id="footer">
+                </div>
+            </div>
+            <div style="clear: both">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+Name=LiveLeak
+StepCount=2
+0.ParamParsingCount=2
+0.0.ParsingSourceCount=1
+0.0.0.ParsingSource=STRING	convert_url = "	"
+0.0.ParsingRulesCount=1
+0.0.0.ParsingRule=STRING	DIRECT_URL		
+0.1.ParsingSourceCount=1
+0.1.0.ParsingSource=PARAM	{:PAGETITLE}
+0.1.ParsingRulesCount=1
+0.1.0.ParsingRule=STRING	TITLE	liveleak.com - 	
+0.DomainNames=liveleak.com
+0.TemplateRequestURL=
+0.TemplateDirectDownloadURL={:DIRECT_URL}
+0.TemplateVideoTitleExtract={:TITLE}

@@ -1,0 +1,21 @@
+Name=trilulilu.ro
+KeySubstrings=http://www.trilulilu.ro/
+TestURL=http://www.trilulilu.ro/Wanna0704/e123377828296f
+StepCount=1
+0.ParamParsingCount=3
+0.0.ParsingSourceCount=1
+0.0.0.ParsingSource=STRING	http://static.trilulilu.ro/flash/player/	</object>
+0.0.ParsingRulesCount=1
+0.0.0.ParsingRule=STRING	FlashObject	flashvars	>
+0.1.ParsingSourceCount=1
+0.1.0.ParsingSource=CALCULATED_PARAM	FlashObject
+0.1.ParsingRulesCount=1
+0.1.0.ParsingRule=STRING	FlashParam	value="	"
+0.2.ParsingSourceCount=1
+0.2.0.ParsingSource=CALCULATED_PARAM	FlashParam
+0.2.ParsingRulesCount=1
+0.2.0.ParsingRule=URLPARAMS
+0.DomainNames=trilulilu.ro
+0.TemplateRequestURL=
+0.TemplateDirectDownloadURL=http://fs{:server}.trilulilu.ro/stream.php?type=audio&source=site&hash={:hash}&username={:userid}&key={:key}
+0.TemplateVideoTitleExtract=

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "oee_sample", "oee_sample.csproj", "{5BE08898-34E8-4765-8E93-9489DE45F204}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5BE08898-34E8-4765-8E93-9489DE45F204}.Debug.ActiveCfg = Debug|.NET
+		{5BE08898-34E8-4765-8E93-9489DE45F204}.Debug.Build.0 = Debug|.NET
+		{5BE08898-34E8-4765-8E93-9489DE45F204}.Release.ActiveCfg = Release|.NET
+		{5BE08898-34E8-4765-8E93-9489DE45F204}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

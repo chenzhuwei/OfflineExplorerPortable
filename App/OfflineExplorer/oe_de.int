@@ -1,0 +1,2861 @@
+[Intl File 4.0]
+Language=Deutsch
+Charset=1
+Font=Tahoma
+; Version: 2848, Letztes Update:2008-10-17 - | Übersetzt von: Wulf E. Bingel, Bad Liebenzell
+; Version: 2924, Letztes Update:2009-04-22 - | Übersetzt von: A. Keiblinger, Berlin
+; Version: XXXX, Letztes Update:2010-08-19 - | Übersetzt von: Simone Linke, Dresden
+; Version: XXXX, Letztes Update:2011-10-06 - | Übersetzt von: Sci, Germany
+[MainForm]
+
+lblAddress.Caption=Adresse:
+lblLevel.Caption=Ebene:
+btnCreate.Caption=&Download
+edtAddress.Caption=Web-Adresse hier eingeben, um ein neues Projekt zu starten und herunterzuladen
+pgProjects.Caption=Projekte
+lvSeq.0=Projekte
+pgWebSites.Caption=Baum
+lblDisabledURLs.Caption=Ausgeschlossene &URLs
+pgLevels.Caption=Ebenen
+PList.0=Kanal
+PList.1=Geladen
+PList.2=Länge
+PList.3=Status
+PList.4=URL
+Log4.0=Quelle
+Log4.1=Zeit
+Log4.2=Information
+Ribbon.0=Start
+Ribbon.1=Eigenschaften
+Ribbon.2=Download
+Ribbon.4=Ansicht
+Ribbon.6=Internet
+Ribbon.7=Tools
+Ribbon.8=Erweitert
+Ribbon.9=Hilfe
+btnExpandIB1.Hint=Internen Editor auf Vollbildmodus umschalten
+tbEDOpen.Hint=Zu bearbeitende Datei öffnen
+tbEDSave.Hint=Speichert Änderungen in Datei
+tbEDCut.Hint=Markierten Text in Zwischenablage ausschneiden
+tbEDCopy.Hint=Kopiert markierten Thext in die Zwischenablage
+tbEDPaste.Hint=Text aus Zwischenablage einfügen
+tbEDUndo.Hint=Änderung rückgängig machen
+tbEDFind.Hint=Suchen
+tbWBBack.Hint=Zurück
+tbWBForw.Hint=Vorwärts
+tbWBStop.Hint=Abbrechen
+tbWBRefr.Hint=Aktualisieren
+tbWBPrint.Hint=Drucken|Die aktuelle Seite des internen Browsers drucken
+tbWBSettings.Hint=Interne Browser-Einstellungen|Schriftgröße der aktuell dargestellten internen Seite ändern oder Anzeige von Bildern ermöglichen/ausschließen
+tbWBHome.Hint=Startseite|Projektliste und Statistik im Browser ansehen
+tbWBCatchURL.Hint=Den nächsten angeklickten Link als Projekt einrichten|Der nächste Klick auf eine URL oder eine Schaltfläche wird als Projekt erfasst, welches jederzeit heruntergeladen werden kann.
+tbWBAutoSave.Hint=AutoSave|Alle fehlenden Seiten herunterladen und dem Projekt automatisch hinzufügen
+mpTShow.Caption=&Zeigen
+mpTStop.Caption=&Download stoppen...
+mpTClipboard.Caption=&Zwischenablage überwachen
+mpTPaste.Caption=Projekt &einfügen
+mpTIntegration.Caption=&Wenn eine URL eingefügt wird
+mpTDefTemplate.Caption=&Mustervorlage verwenden
+mpTAutoStart.Caption=Download &automatisch starten
+mpTExit.Caption=&Beenden
+dlgRFromFile.Caption=Fortsetzen aus Datei
+dlgRFromFile.Filter=Dateien in Warteschlange|*.wdq|Alle Dateien|*.*
+dlgStoFile.Caption=Zwischenspeichern in Datei
+dlgStoFile.Filter=Dateien in Warteschlange|*.wdq|Alle Dateien|*.*
+mpAProject.Caption=&Projekt
+mpAWizard.Caption=Assistent
+mpAFolder.Caption=&Ordner
+mpATemplate.Caption=&Mustervorlage...
+mpASeparator.Caption=Mustervorlagen
+mpBSeparator.Caption=Mustervorlagen
+mpSStop.Caption=Ausgewähltes Projekt &stoppen
+mpSStopAll.Caption=&Alle stoppen
+mpFSFontSize.Caption=&Schriftgröße
+mpFSLargest.Caption=&Größte
+mpFSLarger.Caption=G&rößer
+mpFSMedium.Caption=&Mittel
+mpFSSmaller.Caption=&Kleiner
+mpFSSmallest.Caption=K&leinste
+mpFSShowImages.Caption=Bilder an&zeigen
+mpFSShowImages.Hint=Darstellung von Bildern im internen Browser ein-/ausschalten
+mpFSBrowseOnline.Caption=Aktuelle URL o&nline öffnen
+mpFSBrowseOnline.Hint=Öffnet dargestellte URL online
+mpFSBrowseOffline.Caption=Aktuelle URL &offline öffnen
+mpFSBrowseOffline.Hint=Öffnet dargestellte URL offline
+mpFSBrowsingProject.Caption=Das angezeigte &Projekt wählen
+mpFSViewSource.Caption=Quelltext anzeigen
+odRestore.Caption=Wiederherstellung aus Datei
+odRestore.Filter=Offline Explorer Backup|*.boe|Alle Dateien|*.*
+odBackup.Caption=Backup in Datei
+odBackup.Filter=Offline Explorer Backup|*.boe|Alle Dateien|*.*
+pmWBPrint.Caption=&Drucken...
+pmWBPreview.Caption=D&ruckvorschau...
+dxbManager.0=Hauptmenü
+dxbManager.1=Symbolleiste
+dxbManager.2=Fortschrittsbalken
+dxbManager.3=Browser-Symbolleiste
+dxbManager.4=Editor-Symbolleiste
+dxbManager.5=Meldungsprotokoll
+dxbManager.6=Zeitplaner-Symbolleiste
+dxbManager.7=Data Mining
+dxbManager.8=Durchsuchen && Bearbeiten
+dxbManager.8.Hint=Externe Tools anpassen
+dxbManager.9=Nutzeransicht
+dxbManager.10=Stopp
+dxbManager.11=Tools
+dxbManager.12=Hilfe
+dxbManager.13=Verwalten
+dxbManager.14=Erstellen
+dxbManager.15=Projektansicht
+dxbManager.16=Download
+dxbManager.16.Hint=Verbindungseinstellungen
+dxbManager.17=Eigene Einstellungen 1
+dxbManager.18=Multifunktionsleiste
+dxbManager.19=Verbindungen
+dxbManager.19.Hint=Interneteinstellungen
+dxbManager.20=Dateien
+dxbManager.21=Dateifilter
+dxbManager.22=URL-Filter
+dxbManager.23=Erweiterte Einstellungen
+dxbManager.24=Registrierung && Lizenz
+dxbManager.25=Offline Explorer
+dxbManager.26=Proxy
+dxbManager.26.Hint=Proxyserver
+dxbManager.27=Zeigen/Verbergen
+dxbManager.28=Inhalt
+dxbManager.29=Zeitplanung
+dxbManager.30=Geschwindigkeit
+dxbManager.31=Einwahl
+dxbManager.32=Herunterfahren
+dxbManager.33=Projekte sichern/wiederherstellen
+dxbManager.34=Durchsuchen/Bearbeiten
+dxbManager.35=Start
+dxbManager.36=Integration
+dxbManager.37=Bestätigungen
+dxbManager.38=Fertigstellung
+dxbManager.39=Neue Versionen
+dxbManager.40=Dateibaum
+dxbManager.41=Erscheinung
+dxbManager.42=Neustart && Update
+dxbManager.43=Seitenindex
+dxbManager.44=Anhalten && Fortsetzen
+dxbManager.45=Data Mining
+dxbManager.46=Drucken
+dxbManager.47=Vorlagen
+dxbManager.48=Dateibäume
+dxbManager.49=Import && Export
+dxbManager.50=Veröffentlichen
+dxbManager.51=Versionsinformation
+miFile.Caption=&Datei
+miFNewProject.Caption=&Neu...
+miFNewProject.Hint=Projekt oder Ordner neu erstellen
+miFExport.Caption=&Export
+miFExport.Hint=Heruntergeladene Projektdateien in ein anderes Verzeichnis kopieren
+miFDelSelected.Caption=Löschen
+miFDelSelected.Hint=Ausgewähltes Projekt, Ordner oder Datei löschen
+miFProperties.Caption=Ei&genschaften...
+miFProperties.Hint=Eigenschaften des gewählten Projektes
+miFDProperties.Caption=&Mustervorlagen anzeigen...
+miFDProperties.Hint=Standardeigenschaften für alle neu erstellten Projekte
+miFSaveChanges.Caption=Änderungen &speichern
+miFSaveChanges.Hint=Speichern Sie Ihre Änderungen an Optionen oder Projekten
+miFExit.Caption=&Beenden
+miFExit.Hint=Programm beenden
+miFWizard.Caption=&Assistent
+miFWizard.Hint=Assistent für neue Projekte nutzen
+miFPrint.Caption=&Drucken...
+miFPrint.Hint=Alle geladenen Webseiten des ausgewählten Projektes drucken
+miEUndoDel.Caption=Löschen &rückgängig
+miEUndoDel.Hint=Gelöschtes Projekt oder Ordner wiederherstellen
+miECut.Caption=Auss&chneiden
+miECut.Hint=Gewähltes Projekt oder Ordner ausschneiden und in die Zwischenablage legen
+miECopy.Caption=&Kopieren
+miECopy.Hint=Ausgewähltes Projekt oder Ordner in die Zwischenablage kopieren
+miEPaste.Caption=&Einfügen
+miEPaste.Hint=Projekt oder Ordner aus Zwischenablage einfügen
+miEFindFiles.Caption=S&uche nach Dateien oder Ordnern...
+miEFindFiles.Hint=Suche nach Projekten, Ordnern oder Dateien
+miEFindContents.Caption=&Inhalte suchen...
+miEFindContents.Hint=Suche nach Schlagwörtern innerhalb heruntergeladener Dateien
+miVInternalBrowser.Caption=&Interner Browser
+miVInternalBrowser.Hint=Interner Browser zur schnellen Anzeige heruntergeladener Webseiten
+miVOptions.Caption=&Optionen...
+miVOptions.Hint=Ansicht oder Einstellung verschiedener Programmoptionen
+miDStart.Caption=&Start
+miDStart.Hint=Projekt oder Ordner herunterladen
+miDStop.Caption=St&opp
+miDStop.Hint=Download des ausgewählten Projektes stoppen
+miDSuspendFile.Caption=&Zwischenspeichern in &Datei...
+miDSuspendFile.Hint=Die Download-Warteschlange in einer Datei speichern
+miDResumeFile.Caption=&Fortsetzen aus Datei...
+miDResumeFile.Hint=Wiederherstellen der zu ladenden URLs aus einer Datei
+miDSpeed.Caption=&Geschwindigkeit
+miDSpeed.Hint=Geschwindigkeit
+miTDatamine.Caption=&Data Mining...
+miTDatamine.Hint=Heruntergeladene Projektdateien mit TextPipe verarbeiten
+miTBrowse.Caption=S&urfen
+miTBrowse.Hint=Ausgewähltes Projekt oder Datei zum Surfen öffnen
+miVBrowseWith.Caption=Surfen &mit
+miTHHangup.Caption=&Auflegen
+miTHHangup.Hint=Auflegen
+miTHShutdown.Caption=&Herunterfahren
+miTHShutdown.Hint=Herunterfahren
+miHContents.Caption=&Inhalte
+miHContents.Hint=Hilfe, Inhalt und Index
+miFDelete.Caption=&Löschen
+miFDProject.Caption=&Projekt
+miFDProject.Hint=Löschen des ausgewählten Projektes
+miFDFolder.Caption=&Ordner
+miFDFolder.Hint=Löschen des ausgewählten Ordners
+miEDelete.Caption=&Verzeichnis oder Datei
+miEDelete.Hint=Löschen des ausgewählten Verzeichnisses oder der Datei
+miFDOld.Caption=A&lte Projektdateien
+miFDOld.Hint=Alle Dateien des markierten Projektes löschen
+miFRename.Caption=&Umbenennen
+miFRename.Hint=Umbenennen eines ausgewählten Projektes oder Ordners
+miEdit.Caption=&Bearbeiten
+miView.Caption=&Ansicht
+Toolbars1.Caption=S&ymbolleisten
+miVTToolbar.Caption=&Standardleiste
+miVTToolbar.Hint=Standardsymbolleiste. Erlaubt die schnelle Ausführung allgemeiner Aufgaben
+miVTAddressBar.Caption=&Adressleiste
+miVTAddressBar.Hint=Adressleiste. Zum schnellen Download beliebiger Webseiten mit Standard-Projekteigenschaften
+miVTTextLabels.Caption=&Symboltitel
+miVStatusBar.Caption=Stat&uszeile
+miVStatusBar.Hint=Statuszeile
+miVExplorerBar.Caption=&Explorerleiste
+miVProjects.Caption=&Projekte
+miVProjects.Hint=Projekte
+miVMap.Caption=&Baum
+miVMap.Hint=Baumansicht der bereits geladenen Dateien
+miVQueue.Caption=&Warteschlange
+miVQueue.Hint=Download-Warteschlange
+miVMessages.Caption=&Fortschritt
+miVMPanel.Caption=&Download-Status
+miVMPanel.Hint=Status des aktuellen Downloads anzeigen
+miVLog.Caption=&Nachrichtenfenster
+miVLog.Hint=Anzeige des Nachrichtenfensters
+miDownload.Caption=D&ownload
+miDStartAll.Caption=Alle st&arten
+miDStartAll.Hint=Startet den Download aller Projekte
+miDStopAll.Caption=Alle sto&ppen
+miDStopAll.Hint=Download aller Projekte stoppen
+miPlugins.Caption=&Extras
+miTHTMLImp.Caption=&Import von HTML
+miTBackupRestore.Caption=&Backup / Wiederherstellen
+miTBackupProjects.Caption=&Backup
+miTBackupProjects.Hint=Speichern von Projekteinstellungen und heruntergeladenen Dateien in einer gepackten Datei
+miTRestoreProjects.Caption=&Wiederherstellung
+miTRestoreProjects.Hint=Wiederherstellen von Projekteinstellungen und heruntergeladenen Dateien aus einer gepackten Datei
+miTSequencer.Caption=Sa&mmler
+miTSResume.Caption=&Unterbrochen
+miTSHighlight.Caption=&Nächstes Projekt markieren
+miTSReset.Caption=Auf &erstes Projekt zurücksetzen
+miHelp.Caption=&Hilfe
+miHRegister.Caption=JETZT &kaufen!
+miHRegister.Hint=Online-Registrierung des Programms
+miHWebSite.Caption=&Website
+miHWebSite.Hint=Homepage besuchen
+miHTips.Caption=&Tipps anzeigen
+miHTips.Hint=Nützliche Tipps ansehen
+miHCheck.Caption=Gibt es eine neue &Version?
+About1.Caption=Über &Offline Explorer
+About1.Hint=Über das Programm
+miVEditIn.Caption=&Bearbeiten mit
+miVViewIn.Caption=&Ansehen in
+miFNProject.Caption=&Projekt
+miFNProject.Hint=Projekt
+miFNFolder.Caption=&Ordner
+miFNFolder.Hint=Ordner
+miFNTemplate.Caption=&Mustervorlage
+miFNTemplate.Hint=Mustervorlage
+miFNTemplates.Caption=———— Mustervorlagen ————
+miFNTemplates.Hint=———— Mustervorlagen ————
+miFImport.Caption=&Import
+miDSHigh.Caption=&Hoch
+miDSHigh.Hint=Hoch
+miDSMedium.Caption=&Mittel
+miDSMedium.Hint=Mittel
+miDSLow.Caption=&Niedrig
+miDSLow.Hint=Niedrig
+miDSBackground.Caption=&Hintergrund
+miDSBackground.Hint=Hintergrund
+miVTCustomize.Caption=&Anpassen
+miVTCustomize.Hint=Symbolleiste anpassen
+miTHangupExit.Caption=&Auflegen und Computer herunterfahren
+miTHangupExit.Hint=Nach Ende des Downloads Modemverbindung trennen oder Computer herunterfahren
+miTHHHangupOnce.Caption=&Einmal auflegen
+miTHHHangupOnce.Hint=Nur jetzt auflegen
+miTHHHangupAlways.Caption=&Immer auflegen
+miTHHHangupAlways.Hint=Immer auflegen
+miTHSShutdownOnce.Caption=&Einmal herunterfahren
+miTHSShutdownOnce.Hint=Nur jetzt herunterfahren
+miTHSShutdownAlways.Caption=&Immer herunterfahren
+miTHSShutdownAlways.Hint=Immer herunterfahren
+miTRemember.Caption=&Seite merken
+miTRemember.Hint=Seite merken
+miVSequencer.Caption=Sa&mmler
+miVSequencer.Hint=Projektsammler
+miVTFlatToolbar.Caption=&Flache Symbole
+miVTFlatToolbar.Hint=Flache Schaltflächen
+miVIcons.Caption=Projekt-&Icons
+miDSuspend.Caption=&Zwischenspeichern
+miDSuspend.Hint=Download unterbrechen/fortsetzen
+miVSchedMan.Caption=&Zeitplan-Manager
+miVSchedMan.Hint=Geplante Downloads verwalten
+miVLanguages.Caption=&Sprachen
+miDSRestart.Caption=Download neu sta&rten
+miDSRestart.Hint=Veranlasst den kompletten Download des gewählten Projektes
+miDSUpdate.Caption=Projekt akt&ualisieren
+miDSUpdate.Hint=Es werden nur neue oder veränderte Dateien des Projektes geladen
+miDSContinue.Caption=&Download verbliebener Dateien/Links
+miDSContinue.Hint=Prüfen Sie, welche Dateien/Links fehlen, und versuchen Sie, diese herunterzuladen
+miHForum.Caption=&Nutzerforen
+miHForum.Hint=Finden Sie Anworten auf Ihre Fragen oder diskutieren Sie Ihre Vorschläge im Supportbereich des Offline Explorer
+miDSPreview.Caption=Seiten&index
+miDSPreview.Hint=Seitenindexvorschau erstellen
+miTTAdjust.Caption=&Tools einstellen
+miTTAdjust.Hint=Öffnet die Dialogbox zum Hinzufügen/Entfernen von Tools
+miTRestoreMap.Caption=Projekt&baum wiederherstellen
+miTRestoreMap.Hint=Heruntergeladene Dateien zur Wiederherstellung des Projektbaums verarbeiten
+tbHDTools.Caption=Tools
+tbTTCreate.Caption=Vorlage erstellen
+tbTTCreate.Hint=Neue Vorlage erstellen
+miTEdit.Caption=Bearbeiten
+miTEdit.Hint=Bearbeiten
+mpTSuspendNoDownload.Caption=Es gibt keine aktiven Downloads
+mpTSuspendNoDownload.Hint=Aktive Downloads anzeigen
+tbDStart.Caption=Start
+tbDStart.Hint=Download mit Standarddateieinstellungen starten
+miDRSRestart.Caption=Download &neustarten
+miDRSRestart.Hint=Gesamtes Projekt erneut herunterladen
+miDRSUpdate.Caption=Projekt &aktualisieren
+miDRSUpdate.Hint=Ausgewählte Projekte herunterladen und neue oder geänderte Dateien erhalten
+miDRSContinue.Caption=Fehlende Dateien &herunterladen
+miDRSContinue.Hint=Fehlende Links suchen und herunterladen
+miHRegister1.Caption=&Registrieren
+miHRegister1.Hint=Registrieren
+miESelectAll.Caption=&Alles auswählen
+miESelectAll.Hint=Alles auswählen
+mpTCopyURL.Caption=&URL kopieren
+mpTCopyURL.Hint=URL kopieren
+miHNewFeature.Caption=Neue &Funktionen anfordern
+miHNewFeature.Hint=Neue Funktionen anfordern
+tbHLicense.Caption=Lizenz
+tbHLicense.Hint=Lizenz
+tbHRelease.Caption=Freigabemitteilungen
+tbHRelease.Hint=Freigabemitteilungen
+mpSuspendToFile.Caption=Projekt in &Datei zwischenspeichern
+mpSuspendToFile.Hint=Projekt in Datei zwischenspeichern
+mpTBrowseNewTab.Caption=In neuem Tab s&urfen
+mpTBrowseNewTab.Hint=In neuem Tab surfen
+mpTMarkRead.Caption=Als gelesen markieren
+mpTMarkRead.Hint=Als gelesen markieren
+mpTMarkUnRead.Caption=Als ungelesen markieren
+mpTMarkUnRead.Hint=Als ungelesen markieren
+mpTTemplates.Caption=&Mustervorlage verwenden
+mpTTemplates.Hint=Mustervorlage für ausgewähltes Projekt
+mpTDescription.Caption=Projektbes&chreibung
+mpTDescription.Hint=Beschreibung
+mpTDisable.Hint=Laden verhindern
+mpTDisable.Caption=Vom Herunterlade&n ausschließen
+mpTProtect.Hint=Geschützt
+mpTProtect.Caption=Schüt&zen
+mpTStatistics.Hint=Statistik
+mpTStatistics.Caption=Stat&istik
+mpTSingleClickMap.Caption=Öffnen mit Einfach&klick
+mpTSingleClickMap.Hint=Surfen mit Einfach&klick
+mpTCloseFolders.Caption=Schließen nicht verwendeter &Ordner
+mpTCloseFolders.Hint=Nicht verwendete &Ordner schließen
+mpTSelectFiles.Caption=Date&ien auswählen
+mpTSelectFiles.Hint=Dateien auswählen
+mpTSort.Caption=S&ortieren
+mpTSName.Caption=Nach &Name
+mpTSName.Hint=Nach Name
+mpTSTime.Caption=Nach &Download-Zeit
+mpTSTime.Hint=Nach Download-Zeit
+mpTSURL.Caption=Nach &URL
+mpTSURL.Hint=Nach URL
+mpTSFolders.Caption=&Stammordner nach Name
+mpTSFolders.Hint=Stammordner nach Name
+mpTRefresh.Caption=&Aktualisieren
+mpTRefresh.Hint=Aktualisieren
+pmiCancel.Caption=&Abbruch
+pmiCancel.Hint=Download gewählter Datei abbrechen
+pmiRestart.Caption=&Neustart
+pmiRestart.Hint=Anhalten und den Download der gewählten Datei von vorne beginnen
+pmiFinalize.Caption=Fertigstellen
+pmiFinalize.Hint=Fragment des heruntergeladenen Medien-Streams sichern
+pmiPlay.Caption=Wiedergabe
+pmiPlay.Hint=Wiedergabe
+pmiCopy.Caption=&URL kopieren
+pmiCopy.Hint=URL der markierten Datei kopieren
+pmiReferer.Caption=Vorherige URL kopieren
+pmiReferer.Hint=Start-URL der markierten Dateien kopieren
+pmiSelectProject.Caption=&Projekt wählen
+pmiSelectProject.Hint=Zeigt das Projekt an, welches die angegebene Datei lädt
+pmiConnsHighlight.Caption=Aktive Verbindungen &hervorheben
+dxBarStatic1.Caption=Download-Status
+dxBarStatic1.Hint=Zeigt den gegenwärtigen Stand des Downloads an
+pmiDown.Caption=Verbindungsfenster zeigen/verbergen
+pmiDown.Hint=Anzeige des Verbindungsfensters (STRG+P)
+btnExpandIB2.Caption=Maximieren/Wiederherstellen
+btnExpandIB2.Hint=Internen Browser als Vollbild darstellen
+tbWBBack2.Caption=Zurück
+tbWBBack2.Hint=Einen Schritt zurück
+tbWBForw2.Caption=Vorwärts
+tbWBForw2.Hint=Einen Schritt vor
+tbWBStop2.Caption=Stopp
+tbWBStop2.Hint=Anhalten
+tbWBRefr2.Caption=Aktualisieren
+tbWBRefr2.Hint=Ansicht aktualisieren
+tbWBPrint2.Caption=Drucken
+tbWBPrint2.Hint=Drucken|Druckt die aktuelle interne Browserseite
+tbWBHome2.Caption=Startseite
+tbWBHome2.Hint=Startseite aufrufen|Projekt- und Statistikseite im Browser darstellen
+tbWBCatchURL2.Caption=Nächsten gewählten Link hinzufügen
+tbWBCatchURL2.Hint=Den nächsten angeklickten Link als neues Projekt hinzufügen|Mit nächstem Klick auf eine URL oder einen Button wird daraus ein Projekt erstellt, das zu jeder beliebigen Zeit ausgeführt werden kann.
+tbWBAutoSave2.Caption=AutoSave
+tbWBAutoSave2.Hint=Automatisch speichern|Fügt alle fehlenden Seiten und Dateien automatisch zum Projekt hinzu und speichert dieses.
+edtWBURL2.Caption=Adresse:
+edtWBURL2.Hint=Adresse der Seite
+tbWBSettings2.Hint=Interne Browsereinstellungen|Ändert Schriftgröße der aktuell dargestellten internen Seite oder schaltet Bilder ein/aus
+mpFSFontSize2.Caption=Schri&ftgröße
+mpFSLargest2.Caption=&Größte
+mpFSLarger2.Caption=Größer
+mpFSMedium2.Caption=&Mittel
+mpFSSmaller2.Caption=Kleiner
+mpFSSmallest2.Caption=Kleinste
+mpFSShowImages2.Caption=Bilder anzeigen
+mpFSShowImages2.Hint=Schaltet die Bilddarstellung im internen Browser ein oder aus
+mpFSBrowseOnline2.Caption=Aktuelle URL o&nline zeigen
+mpFSBrowseOnline2.Hint=Aktuelle URL online anzeigen
+mpFSBrowseOffline2.Caption=Unter aktueller URL offline surfen
+mpFSBrowseOffline2.Hint=Unter atueller URL offline surfen
+mpFSBrowsingProject2.Caption=&Projekt zum Surfen wählen
+mpFSViewSource2.Caption=Quelltext der Seite anzeigen
+tbEDOpen2.Caption=Öffnen
+tbEDOpen2.Hint=Öffnen|Öffnet zu bearbeitende Datei
+tbEDSave2.Caption=Speichern
+tbEDSave2.Hint=Speicher|Speichert Änderungen in Datei
+tbEDCut2.Caption=Ausschneiden
+tbEDCut2.Hint=Ausschneiden|Schneidet gewählten Text aus und legt ihn in die Zwischenablage
+tbEDCopy2.Caption=Kopieren
+tbEDCopy2.Hint=Kopieren|Kopiert gewählten Text in die Zwischenablage
+tbEDPaste2.Caption=Einfügen
+tbEDPaste2.Hint=Einfügen|Aus Zwischenablage einfügen
+tbEDUndo2.Caption=Rückgängig
+tbEDUndo2.Hint=Rückgängig|Änderung zurücknehmen
+tbEDFind2.Caption=Suchen
+tbEDFind2.Hint=Suchen|Einen Text suchen
+pmLCaption.Caption=Nachrichtenprotokoll
+pmLCaption.Hint=Nachrichtenprotokoll
+pmLLogMessages.Caption=Protokoll starten
+pmLLogMessages.Hint=Protokolliert mit
+pmLClear.Caption=Löschen
+pmLClear.Hint=Löscht den Inhalt
+pmLTrack.Caption=&Protokoll
+pmLTrack.Hint=Protokoll
+pmLCopy.Caption=In Zwischenablage ko&pieren
+pmLCopy.Hint=In die Zwischenablage kopieren
+pmLSave.Caption=Protokoll in Datei &speichern
+pmLSave.Hint=Protokoll in Datei speichern
+pmLFind.Caption=Suchen
+pmLFind.Hint=Suche
+pmLClose.Caption=Proto&koll schließen
+pmLClose.Hint=Schließt das Protokoll
+pmLFilter.Caption=Fil&ter
+pmLFilter.Hint=Nachrichten filtern
+pmLFConnect.Caption=Verbindungsstatus
+pmLFConnect.Hint=Zeigt den aktuellen Verbindungsstatus an
+pmLFDownload.Caption=&Download-Status
+pmLFDownload.Hint=Aktueller Status des Downloads
+pmLFDisconnect.Caption=Status Verb&indungsabbrüche
+pmLFDisconnect.Hint=Anzahl der Verbindungsabbrüche
+pmLFDetails.Caption=Detai&ls
+pmLFDetails.Hint=Details
+pmLFQueue.Caption=Info Warteschlange
+pmLFQueue.Hint=Informationen zur Warteschlange
+pmLFRejectedURLs.Caption=Abgewiesene URLs
+pmLFRejectedURLs.Hint=Nicht akzeptierte URLs anzeigen
+pmLFInternalWebSrv.Caption=Anfragen an den internen &Webserver
+pmLFInternalWebSrv.Hint=An den internen Webserver gerichtete Anfrage
+dxcSSelect.0=Tagesplan
+dxcSSelect.1=Wochenplan
+dxcSSelect.2=Monatsplan
+dxcSSelect.3=Jahresplan
+dxbSScheduler.Caption=Zeitplaner
+dxbSScheduler.Hint=Ruft den Zeitplaner auf
+dxbSSequencer.Caption=Sammler
+dxbSSequencer.Hint=Projektsammler
+dxbSSeqRun.Caption=Projektsammler jetzt starten
+dxbSSeqRun.Hint=Projektsammler sofort starten
+dxbSSeqStartAt.Caption=Startet Projektsammler für Aufgaben wie:
+dxbSSeqStartAt.Hint=Projektsammler starten für Aufgaben wie:
+dxbSeqLoop.Caption=Projekte kontinuierlich herunterladen
+dxbSeqLoop.Hint=Projekte im Sammler in Endlosschleife herunterladen
+miSSelect.Caption=&Projekt auswählen
+miSSkip.Caption=&Dieses Projekt in Sammler aufnehmen
+miSRemove.Caption=&Entfernen
+miSRemoveAll.Caption=&Alle entfernen
+miSLoad.Caption=&Lade Sammlung:
+miSLoad.Hint=Lädt die Sammlung
+miSSave.Caption=Sammlung speichern:
+miSSave.Hint=Speichert die Sammlung
+dxbSClose.Caption=S&chließen
+dxbSClose.Hint=Schließt Zeitplaner
+mpQAbort.Caption=&Abbruch
+mpQAbort.Hint=Laufenden Download der URL abbrechen
+mpQAbortDisable.Caption=Abbrechen && &Deaktivieren
+mpQAbortDisable.Hint=Download laufender URLs stoppen und in den Projekteigenschaften deaktivieren
+mpQACurrentURL.Caption=Laufende &URL(s)
+mpQACurrentURL.Hint=Aktuelle URL vom Download ausschließen
+mpQAFolder.Hint=Alle Links im gegenwärtigen Ordner deaktivieren
+mpQAFolder1.Hint=Alle Links in den Ordnern deaktivieren
+mpQAFolder2.Hint=Deaktiviert alle Links innerhalb der Ordner
+mpQAServer.Hint=Alle Links auf dem gegenwärtigen Server deaktivieren
+mpQCopyURL.Caption=&URL kopieren
+mpQCopyReferer.Caption=Verweis kopieren
+mpQSelectProject.Caption=&Projekt auswählen
+mpQSelectConnection.Caption=Verbindungstyp wählen
+mpQSaveList.Caption=Liste als Datei &speichern
+mpQSaveList.Hint=In Textdatei speichern
+mpQPause.Caption=&Projektdownload anhalten
+mpQConnections.Caption=Verbindungs&limit
+mpQCAll.Caption=Alle verfügbaren Verbind&ungen nutzen
+mpQC1.Caption=&1 Verbindung
+mpQC2.Caption=&2 Verbindungen
+mpQC5.Caption=&5 Verbindungen
+mpQC10.Caption=1&0 Verbindungen
+mpQSelectAll.Caption=All&es markieren
+mpQInvertSelection.Caption=Auswah&l umkehren
+mpQSelectMask.Caption=Auswahl über &Maske:
+mpQMoveToTop.Caption=Nach o&ben bewegen
+mpQMoveToBottom.Caption=Nach un&ten bewegen
+mpQShowReferers.Caption=Zeige Bezugspunkt
+mpQColorize.Caption=Farbschema
+mpQCoServer.Caption=Nach &Servernamen
+mpQCoExtension.Caption=Nach Dateiforma&t
+mpQCoNone.Caption=Kei&ne
+mpDownload2.Caption=Down&load
+mpQCopyPOST.Caption=Kopiere SENDE-Anfragen
+mpQCopyPOST.Hint=Kopiere SENDE-Anfragen
+miVView.Caption=Ansicht
+miPI1.Caption=&Standard
+miPI1.Hint=Standard
+mpTDeleteProjectOnly.Caption=Nur Pr&ojekteinstellung
+mpTDeleteProjectOnly.Hint=Nur Projekteinstellungen
+miPI2.Caption=W&ichtig
+miPI2.Hint=Wichtig
+miPI3.Caption=&Rückblick
+miPI3.Hint=Rückblick
+miPI4.Caption=Nicht löschen
+miPI4.Hint=Nicht löschen
+miPI5.Caption=R&eferenz
+miPI5.Hint=Referenz
+miPI6.Caption=&Live
+miPI6.Hint=Live
+miPI7.Caption=&Neuigkeiten
+miPI7.Hint=Neuigkeiten
+miPI8.Caption=Favori&t
+miPI8.Hint=Favorit
+miPI9.Caption=&Artikel
+miPI9.Hint=Artikel
+miPI10.Caption=Firma
+miPI10.Hint=Firmenname
+miPI11.Caption=&Finanzen
+miPI11.Hint=Finanzen
+miPI12.Caption=&Nutzergruppe
+miPI12.Hint=Nutzergruppe
+miPI13.Caption=S&pezial
+miPI13.Hint=Spezial
+miPI14.Caption=Verteilt
+miPI14.Hint=Verteilt
+miPI15.Caption=Pri&vat
+miPI15.Hint=Privat
+miPI16.Caption=Persönlich
+miPI16.Hint=Persönlich
+miPI17.Caption=Hohe Priorität
+miPI17.Hint=Hohe Priorität
+miPI18.Caption=Geringe Priorität
+miPI18.Hint=Geringe Priorität
+miPI19.Caption=Bedenklich
+miPI19.Hint=Bedenklich
+dxbSeqRemove.Caption=Entferne geladende Projekte aus dem Sammler
+dxbSeqRemove.Hint=Entferne geladene Projekte aus dem Sammler
+miEDeleteFiles.Caption=&Nur Projektdateien
+miEDeleteFiles.Hint=Löschen der heruntergeladenen Dateien des ausgewählten Projektes
+mpEDeleteProjectOnly.Caption=&Nur Projekteinstellungen
+mpEDeleteProjectOnly.Hint=Nur Projekteinstellungen
+miTPublish.Caption=Veröffentlichen
+miTPublish.Hint=Projekteinstellungen mit anderen Nutzern teilen
+miTPublishedProjects.Caption=Veröffentlic&hte Projekte auflisten
+miTPublishedProjects.Hint=Veröffentlichte Projekte
+miTTextPipe.Caption=TextP&ipe
+miTTextPipe.Hint=DataMystic TextPipe starten
+miTCustom1.Caption=Menü 1
+miTCustom2.Caption=Menü 2
+miTCustom3.Caption=Menü 3
+pmLFCheckAll.Caption=&Alles a&uswählen
+pmLFCheckAll.Hint=Alles markieren
+pmLFUnCheckAll.Caption=&Nichts
+pmLFUnCheckAll.Hint=Nichts markieren
+miDDCreate.Caption=&Neues Projekt erstellen
+miDDCreate.Hint=Erstellt aus diesem Link ein neues Projekt
+miDDAdd.Caption=&Link zum angegebenen Projekt hinzufügen
+miDDAdd.Hint=Fügt diesen Link zum angegebenen Projekt hinzu
+miDDAddUS.Caption=Link anfügen (&URL-Ersatz)
+mpWBTClose.Caption=&Schließen
+mpWBTCloseAll.Caption=&Alles schließen
+mpWBTNewWindow.Caption=&Neues Fenster
+mpWBTNewEditWindow.Caption=Neues &Bearbeitungsfenster
+mpWBTFixedWidth.Caption=Feste Fenstertitelbreite
+mpWBTMultiLineTabs.Caption=Mehrzeilige Tabs
+odEDLoad.Filter=Alle Dateien|*.*
+MenuItem1.Caption=&Rückgängig
+MenuItem4.Caption=Ausschneiden
+MenuItem5.Caption=Kopieren
+MenuItem6.Caption=Einfügen
+MenuItem7.Caption=Löschen
+MenuItem9.Caption=A&lles markieren
+MenuItem10.Caption=&Wortumbruch
+odEDSave.Filter=Alle Dateien|*.*
+odSeqLoad.Filter=Offline Explorer Sammler|*.soe|Alle Dateien|*.*
+odSeqSave.Filter=Offline Explorer Sammler|*.soe|Alle Dateien|*.*
+sdLog.Caption=Protokoll speichern
+sdLog.Filter=Protokolldateien|*.log|Alle Dateien|*.*
+sdQueue.Filter=Textdateien|*.txt|Alle Dateien|*.*
+dxbManager.0=Hauptmenü
+dxbManager.1=Symbolleiste
+dxbManager.2=Fortschrittsbalken
+dxbManager.3=Browser-Symbolleiste
+dxbManager.4=Editor-Symbolleiste
+dxbManager.5=Meldungsprotokoll
+dxbManager.6=Zeitplaner-Symbolleiste
+dxbManager.7=Data Mining
+dxbManager.8=Durchsuchen && Bearbeiten
+dxbManager.9=Nutzeransicht
+dxbManager.10=Downloads verwalten
+dxbManager.11=Tools
+dxbManager.12=Hilfe
+dxbManager.13=Bearbeiten
+dxbManager.14=Erstellen
+dxbManager.15=Projektansicht
+dxbManager.16=Download
+dxbManager.17=Einstellungen
+dxbManager.18=Multifunktionsleiste
+dxbManager.8.Hint=Externe Tools anpassen
+dxbManager.16.Hint=Verbindungseinstellungen
+miFSiteMap.Caption=&Google-Projektbaum erstellen
+miFSiteMap.Hint=Google-Seitenverzeichnisstruktur-Datei erstellen
+miVStyle.Caption=&Farbschema
+miVStyle.Hint=Farbe der Nutzeroberfläche ändern
+miVSBlue.Caption=&Blau
+miVSBlue.Hint=Blau
+miVSSilver.Caption=&Silber
+miVSSilver.Hint=Silber
+miVSBlack.Caption=Schw&arz
+miVSBlack.Hint=Schwarz
+miSMPanel.Caption=&Download-Fortschritt
+miSMPanel.Hint=Status des laufenden Downloads anzeigen
+miVLevels.Caption=&Ebenen
+miVLevels.Hint=Ebenen
+miHCheck.Hint=Gibt es eine neuere Version?
+edtWBURL.Hint=Adresse zum Surfen im internen Browser
+mpAddToSeq.Caption=&Zum Sammler hinzufügen
+mpAddToSeq.Hint=Projekte zum Sammler hinzufügen
+mpPColor.Caption=&Farbe
+mpPColor.Hint=Farbe
+tbProjectState.Caption=Projekts&tatus
+tbPSStopped.Caption=Ge&stoppt
+tbPSStopped.Hint=Gestoppt
+tbPSNormal.Caption=&Normal
+tbPSNormal.Hint=Normal
+pmiConnectionsCnt.Caption=&Verbindungen
+pmiConnectionsCnt.Hint=Anzahl der Verbindungen ändern
+pmiMassDown.Caption=Herunter&laden mit Mass Downloader
+pmiMassDown.Hint=Herunterladen mit Mass Downloader
+pmiDownloadedC.Caption=Geladen
+pmiDownloadedC.Hint=Geladen
+pmiQueueC.Caption=Warteschlange
+pmiQueueC.Hint=Warteschlange
+pmiSizeC.Caption=Größe
+pmiSizeC.Hint=Größe
+mpFSAddSelLinks.Caption=Ausgewählte Links dem &aktuellen Projekt hinzufügen
+mpFSAddSelLinks.Hint=Ausgewählte Links dem aktuellen Projekt hinzufügen
+pmLFLimit.Caption=Protokoll-Limi&t
+miLFL5000.Caption=5.000 Zeilen
+miLFL5000.Hint=5.000 Zeilen
+miLFL50000.Caption=50.000 Zeilen
+miLFL50000.Hint=50.000 Zeilen
+miLFL500000.Caption=500.000 Zeilen
+miLFL500000.Hint=500.000 Zeilen
+miDEW5.Caption=Tabellenzelle extrahieren
+miDEW5.Hint=Tabellenzelle extrahieren
+tbIB2DEW.Caption=Datenextraktion
+edtIB2Search.Caption=Suchen mit Google:
+edtIB2Search.Hint=Suchen mit Google:
+miPC1.Caption=&1 Verbindung
+miPC1.Hint=1 Verbindung
+miPC2.Caption=&2 Verbindungen
+miPC2.Hint=2 Verbindungen
+miPC3.Caption=&3 Verbindungen
+miPC3.Hint=3 Verbindungen
+miPC5.Caption=&5 Verbindungen
+miPC5.Hint=5 Verbindungen
+miPC10.Caption=1&0 Verbindungen
+miPC10.Hint=10 Verbindungen
+miPC15.Caption=15 Verbindungen
+miPC15.Hint=15 Verbindungen
+miPC20.Caption=20 &Verbindungen
+miPC20.Hint=20 Verbindungen
+miPCSetup.Caption=&Setup
+miPCSetup.Hint=Setup
+tbSOld.Caption=Alte Ansicht der Menüs
+tbSOld.Hint=Alte Ansicht der Menüs und Symbolleisten wiederherstellen
+tbVRibbon.Caption=Multifunktionsleiste
+tbVRibbon.Hint=Ansicht wie bei Office 2010 für die Multifunktionsleiste
+miLCopyURL.Caption=&URL kopieren
+miLCopyURL.Hint=URL der ausgewählten Verbindung kopieren
+tbSIDelay.Caption=Verzögerung zwischen Downloads:
+tbSIDelay.Hint=Verzögerung zwischen Downloads
+tbSIRetries.Caption=Anzahl Versuche:
+tbSIRetries.Hint=Anzahl Versuche
+tbSICookies.Caption=Cookies des MS Internet Explorer zulassen
+tbSICookies.Hint=Cookies des MS Internet Explorer zulassen
+tbSIUAgent.Caption=Identifizieren als:
+tbSIUAgent.Hint=Identifizieren als
+tbSIConns.Caption=Anzahl Verbindungen:
+tbSIConns.Hint=Anzahl Verbindungen
+tbSITimeout.Caption=Wartezeit (Sekunden):
+tbSITimeout.Hint=Wartezeit (Sekunden)
+tbIOGZIP.Caption=Geschwindigkeit mit GZIP-Codierung erhöhen
+tbIOGZIP.Hint=Geschwindigkeit mit GZIP-Codierung erhöhen
+tbIONTLM.Caption=Alternative Verbindungsmethode verwenden
+tbIONTLM.Hint=Alternative Verbindungsmethode verwenden
+tbIOPASV.Caption=PASV-Modus für FTP-Downloads
+tbIOPASV.Hint=PASV-Modus für FTP-Downloads
+tbISDialup.Caption=Einwahl
+tbISDialup.Hint=Einwahl
+tbISSpeedCust.Caption=&Anpassen
+tbISSpeedCust.Hint=Anpassen
+tbISHSCust.Caption=&Anpassen
+tbISHSCust.Hint=Anpassen
+tbIPProxy.Caption=Proxy
+tbIPProxy.Hint=Proxy
+tbAFiles.Caption=Dateien
+tbAFiles.Hint=Dateiadressen
+tbAIntegration.Caption=Integration
+tbAIntegration.Hint=Integration
+tbAConfirm.Caption=Bestätigungen
+tbAConfirm.Hint=Bestätigungen
+tbACompletion.Caption=Download-Benachrichtigung
+tbACompletion.Hint=Download-Benachrichtigung
+tbAVersions.Caption=Neue Versionen
+tbAVersions.Hint=Neue Versionen
+tbAMap.Caption=Baum...
+tbAMap.Hint=Projektbaum-Tab-Einstellungen
+tbAAppearance.Caption=Ansicht
+tbAAppearance.Hint=Nutzeransicht-Einstellungen
+tbPFFText.Caption=Text
+tbPFFText.Hint=Text
+tbPFFImages.Caption=Bilder
+tbPFFImages.Hint=Bilder
+tbPFFVideo.Caption=Video
+tbPFFVideo.Hint=Video
+tbPFFAudio.Caption=Audio
+tbPFFAudio.Hint=Audio
+tbPFFArchive.Caption=Archiv
+tbPFFArchive.Hint=Archiv
+tbPFFUDef.Caption=Nutzerdefiniert
+tbPFFUDef.Hint=Nutzerdefiniert
+tbPFFOther.Caption=Sonstiges
+tbPFFOther.Hint=Sonstiges
+tbPFFLocation.Caption=&Adresse
+tbPFFLUF.Caption=Laden mit &URL-Filter-Einstellungen
+tbPFFLUF.Hint=Herunterladen mit URL-Filter-Einstellungen
+tbPFFLServer.Caption=Download nur vom Startserver
+tbPFFLServer.Hint=Download nur vom Startserver
+tbPFFLDir.Caption=Download nur vom Startordner
+tbPFFLDir.Hint=Download nur vom Startordner
+tbPFFLAny.Caption=Download von irgendeiner Seite
+tbPFFLAny.Hint=Download von irgendeiner Seite
+tbPFFLDomain.Caption=Download nur von der Startdomäne
+tbPFFLDomain.Hint=Download nur von der Startdomäne
+tbPFFCustomize.Caption=&Anpassen
+tbPFFCustomize.Hint=Anpassen
+tbPUFProtocol.Caption=Protokollieren
+tbPUFProtocol.Hint=Protokollieren
+tbPUFServer.Caption=Server:
+tbPUFServer.Hint=Server
+tbPUFDir.Caption=Verzeichnis:
+tbPUFDir.Hint=Dateiverzeichnis
+tbPUFFile.Caption=Dateiname:
+tbPUFFile.Hint=Dateiname
+tbPASchedule.Caption=Zeitplan
+tbPASchedule.Hint=Zeitplan
+tbPAPassword.Caption=Passwort:
+tbPAPassword.Hint=Passwort
+tbPACopies.Caption=Dateikopien:
+tbPACopies.Hint=Dateikopien
+tbPALinks.Caption=Linkübersetzung
+tbPALOffline.Caption=O&ffline
+tbPALOffline.Hint=Offline
+tbPALOnline.Caption=O&nline
+tbPALOnline.Hint=Online
+tbPALNo.Caption=&Keine Übersetzung
+tbPALNo.Hint=Keine Übersetzung
+tbPAContent.Caption=Inhaltsfilter:
+tbPAContent.Hint=Inhaltsfilter
+tbPALimits.Caption=Grenzwerte:
+tbPALimits.Hint=Download nach Größe, Dateiart oder Zeit begrenzen
+tbPAParsing.Caption=Syntaxanalyse:
+tbPAParsing.Hint=Syntaxanalyse-Optionen
+miDDCreate.Caption=&Ein neues Projekt erstellen
+miDDCreate.Hint=Link als neues Projekt hinzufügen
+miDDAdd.Caption=&Link zum ausgewählten Projekt hinzufügen
+miDDAdd.Hint=Link zum ausgewählten Projekt hinzufügen
+miDDAddUS.Caption=Link hinzufügen (Ersatz-&URL)
+mpWBTClose.Caption=&Schließen
+mpWBTCloseAll.Caption=&Alles schließen
+mpWBTNewWindow.Caption=Neues &Browserfenster
+mpWBTNewEditWindow.Caption=Neues B&earbeitungsfenster
+mpWBTFixedWidth.Caption=Fixierte Titelseitenweite
+mpWBTMultiLineTabs.Caption=Mehrzeilige Tabs
+odEDLoad.Filter=Alle Dateien|*.*
+MenuItem1.Caption=&Rückgängig
+MenuItem4.Caption=&Ausschneiden
+MenuItem5.Caption=&Kopieren
+MenuItem6.Caption=&Einfügen
+MenuItem7.Caption=&Löschen
+MenuItem9.Caption=Alles aus&wählen
+MenuItem10.Caption=&Wortumbruch
+odEDSave.Filter=Alle Dateien|*.*
+odSeqLoad.Filter=Offline-Explorer-Sequenz|*.soe|Alle Dateien|*.*
+odSeqSave.Filter=Offline-Explorer-Sequenz|*.soe|Alle Dateien|*.*
+sdLog.Caption=Benachrichtigungsprotokoll speichern
+sdLog.Filter=Protokolldateien|*.log|Alle Dateien|*.*
+sdQueue.Filter=Textdateien|*.txt|Alle Dateien|*.*
+pgQueue.Caption=Warteschlange
+dxbManager.52=Vorlagen
+dxbManager.53=Import
+dxbManager.54=Export
+miFExport5.Caption=Dateien &exportieren...
+miFExport5.Hint=Heruntergeladene Projektdateien in anderen Ordner kopieren, HTML-Hilfe oder anderes Format
+tbHITorrent.Caption=Torrent-Datei...
+tbHITorrent.Hint=Neues Projekt aus BitTorrent-Datei erzeugen
+miFImport5.Caption=Fa&voriten
+miFImport5.Hint=Projekt aus Link in Favoriten/Lesezeichen erstellen
+tbHNewProject.Caption=Neues Projekt...
+tbHNewProject.Hint=Neues Projekt zum Download von Webseiten erstellen
+tbHNewFolder.Caption=Neuer Ordner
+tbHNewFolder.Hint=Neuen Ordner zur Gruppierung eines Projekts erstellen
+tbHPrjTemplate.Caption=Projekt aus Vorlage
+tbHIProjectSettings.Caption=Projekteinstellungen
+tbHEProjectSettings.Caption=Projekteinstellungen
+tbHITextFile.Caption=Laden aus &Textdatei...
+tbHITextFile.Hint=Projekteinstellungen aus Textdatei erstellen
+tbHETextFile.Caption=Speichern als &Textdatei...
+tbHETextFile.Hint=Projekteinstellungen in einer Textdatei speichern
+tbHCMyTemplates.Caption=&Meine Vorlagen
+tbHCMyTemplates.Hint=Vorlagen (vorgefertigte Projekte) zum Erstellen neuer Projekte. Benutzen Sie den Tab in der Werkzeugleiste, um die Liste der Vorlagen zu bearbeiten.
+odTorrent.Caption=BitTorrent-Datei öffnen
+odTorrent.Filter=BitTorrent-Dateien|*.torrent|Alle Dateien|*.*
+odText.Caption=Projekt aus Textdatei laden
+odText.Filter=Textdateien|*.txt|Alle Dateien|*.*
+sdText.Caption=Projekt als Textdatei speichern
+sdText.Filter=Textdateien|*.txt|Alle Dateien|*.*
+tbFProjectSettings.Caption=Pro&jekteinstellungen
+tbVSBTAll.Caption=&BitTorrent-Downloads
+tbVSBTAll.Hint=Übersicht der BitTorrent-Downloads
+tbAOptimizeIndex.Caption=&Optimieren des Suchindexes
+tbAOptimizeIndex.Hint=Startet ein Programm zur Re-Indizierung der Suchdatenbank. Diese Anwendung läuft im Hintergrund und beendet sich dann von selbst.
+tbHReportProblem.Caption=Prob&lem melden
+tbHReportProblem.Hint=Problem an Hersteller melden
+cbTemplateNames.0=Nur eine Seite herunterladen
+cbTemplateNames.1=Nur Bilder auf einer Seite herunterladen
+cbTemplateNames.2=Nur Bilder von der Website herunterladen
+cbTemplateNames.3=Nur Flash-Dateien von der Website herunterladen
+cbTemplateNames.4=Nur Mediendateien von der Website herunterladen
+cbTemplateNames.5=Nur von der Startwebsite herunterladen
+cbTemplateNames.6=Nur eine Seite mit Bildern und Skripten herunterladen
+cbTemplateNames.7=Nur Seiten, Bilder und Skripte von der Website herunterladen
+miFVisualWizard.Caption=Visueller Assistent
+miFVisualWizard.Hint=Ein neues Projekt visuell erstellen
+miVSCaramel.Caption=&Karamel
+miVSCaramel.Hint=Karamel
+miVSCoffee.Caption=K&affee
+miVSCoffee.Hint=Kaffee
+miVSPink.Caption=&Pink
+miVSPink.Hint=Pink
+miVSGreen.Caption=&Grün
+miVSGreen.Hint=Grün
+miVSSeven.Caption=Windows 7
+miVSSeven.Hint=Windows 7
+tbVRecentDownloads.Caption=Kürzliche Downloads
+miDRSCheckLinks.Caption=Website-Links prüfen
+miDRSCheckLinks.Hint=Das Projekt herunterladen und einen detailierten Bericht über Links und Websitefehler erstellen
+tbTDeletedProjects.Caption=Gelöschte Projekte
+tbTDeletedProjects.Hint=Zeigt eine Liste der gelöschten Projekte mit Möglichkeit zum Wiederherstellen an
+tbsDP.Caption=Download-Fortschritt
+tbsDP.Hint=Download-Fortschritt
+tbSchedMan.Caption=Zeitplan-Manager
+tbSchedMan.Hint=Zeigt geplante Projekte an - Ziehen Sie ein Projekt zur Planung auf den Zeitbalken
+tbDPProgress.Caption=Download-Fortschritt
+tbDPProgress.Hint=Zeigt die Dateien, die momentan heruntergeladen werden
+mpFSShowSearch.Caption=Suc&hfeld zeigen
+mpFSShowSearch.Hint=Suchfeld zeigen
+mpFSBrowserPopups.Caption=Browser-Popups
+mpFSPNewTab.Caption=In neuem &Tab öffnen
+mpFSPNewTab.Hint=In neuem Tab öffnen
+mpFSPSameTab.Caption=Im &selben Tab öffnen
+mpFSPSameTab.Hint=Im selben Tab öffnen
+mpFSPNewWin.Caption=In Popup-&Fenster öffnen
+mpFSPNewWin.Hint=In Popup-Fenster öffnen
+tbIBWStart.Caption=Aufnahme starten
+tbIBWStart.Hint=Starten Sie die Aufnahme Ihrer Aktionen, um die herunterzuladenden Seitenbereiche zu wählen
+tbIBWStop.Caption=Aufnahme abbrechen
+tbIBWStop.Hint=Aufnahme abbrechen
+tbIBVWizard.Caption=Visueller Assistent:
+tbIBVWizard.Hint=Erstellen Sie visuell ein neues Projekt
+tbIBWDone.Caption=Fertig
+tbIBWDone.Hint=Visuelle Auswahl beenden und neues Projekt erstellen
+tbAdministration.Caption=Administration...
+tbAdministration.Hint=Schützen Sie bestimmte Funktionen mit einem Passwort
+tbHEBurn.Caption=Projektdateien brennen
+tbHEBurn.Hint=Heruntergeladene Dateien auf eine CD/DVD exportieren
+tbClose.Caption=Schließen
+tbClose.Hint=Schließen
+mpWBBrowserPopups.Caption=Browser-&Popups
+mpWBNewTab.Caption=In neuem &Tab öffnen
+mpWBSameTab.Caption=Im &selben Tab öffnen
+mpWBPopup.Caption=In Popup-&Fenster öffnen
+dxbManager.55=Administration
+miFNewProject6.Caption=Neu
+miFNewProject6.Hint=Neues Projekt oder neuen Ordner erstellen
+miVSSkinAllForms.Caption=Skin für &alle Fenster
+miVSSkinAllForms.Hint=Verseht sämtliche Fenster mit einem Skin
+tbHIProjectSettings.Hint=Projekteinstellungen importieren
+tbHEProjectSettings.Hint=Projekteinstellungen exportieren
+dxbSSeqMoveDown.Caption=Nach Unten
+dxbSSeqMoveDown.Hint=Bewegt das markierte Element nach unten
+dxbSSeqMoveUp.Caption=Nach Oben
+dxbSSeqMoveUp.Hint=Bewegt das markierte Element nach oben
+tbPSummary.Caption=Zusammenfassung
+tbPSummary.Hint=Zeigt eine Kurzfassung aller Projekteinstellungen an
+dxbManager.56=Anzeige
+tbDPMonitor.Caption=System-Monitor
+tbDPMonitor.Hint=Zeigt Graphen über die Programmaktivität an
+tbDPSequencer.Caption=Sequenzer
+tbDPSequencer.Hint=Erstellt eine Downloadschlange um Projekte eins nach dem anderen abzuarbeiten
+tbDPLog.Caption=Log
+tbDPLog.Hint=Zeigt das Log des Downloads/Internen Servers an
+tbTPRemoveFromSchedule.Caption=Aus Zeitplan entfernen
+tbTPRemoveFromSchedule.Hint=Stoppt die zeitliche Planung des Downloadprojekts
+tbTPSetupSchedule.Caption=Zeitplan einrichten...
+tbTPSetupSchedule.Hint=Zeigt Eigenschaftendialog an um Einstellungen im Zeitplan zu ändern
+
+[dlgDXImages]
+
+Label3.Caption=Projekteinstellungen
+Label4.Caption=Zusammenfassung
+Label5.Caption=Information
+Label6.Caption=Projekt-Statistik
+Label8.Caption=Heruntergeladene Seiten und Dateitypen
+Label1.Caption=Support
+Label2.Caption=Weblinks
+Label7.Caption=Information
+tbSummary.Caption=Eigenschaften
+tbInfo.Caption=Info
+tbHelp.Caption=Hilfe
+tbNew.Caption=Neu
+Label9.Caption=Wähle zu erstellendes Element
+Label40.Caption=Meine Vorlagen
+lblNewManage.Caption=VORLAGEN MANAGEN
+lblNewEdit.Caption=EDITIEREN
+btnNewCreate.Caption=Erstellen
+lblSPreview1.Caption=Vorschau nicht verfügbar
+lblSPreview2.Caption=Hier klicken um ein Screenshot zu erstellen
+btnProperties.Caption=Eigenschaften
+btnProperties.Description=Ausgewählte Projekteigenschaften
+btnDescription.Caption=Beschreibung
+btnDescription.Description=Liefert Informationen über das Projekt
+btnProtect.Caption=Passwortschutz
+btnProtect.Description=Projekteinstellungen mit Passwort schützen
+btnContents.Caption=Offline Explorer Hilfe
+btnContents.Description=Ruft die Hilfedokumentation auf
+btnForums.Caption=Nutzerforen
+btnForums.Description=Anworten zu Ihren Fragen finden oder Vorschläge diskutieren
+btnNewFeature.Caption=Neues Feature beantragen
+btnNewFeature.Description=Reichen Sie Ihre Ideen und Vorschläge ein
+btnProblem.Caption=Problem berichten
+btnProblem.Description=Auf der Firmenwebseite Bericht erstatten
+btnRelease.Caption=Versionshinweise
+btnRelease.Description=Versionshinweise und Liste der Änderungen lesen
+btnLicense.Caption=Lizenzvertrag
+btnLicense.Description=Lizenzvereinbarungstext lesen
+
+
+[dlgFM]
+
+lblLevel2.Caption=Ebene:
+lblLevel.Caption=Ebene:
+btnPlus.Hint=Fenster des Offline Explorer maximieren/minimieren
+btnX.Hint=Offline Explorer schließen
+btnDownload.Caption=Download
+btnDownload.Hint=Klicken Sie hier zum Herunterladen der aktuellen Seite für späteres Offline-Surfen
+btnHomeList.Caption=WEBLISTE
+btnHomeList.Hint=Liste der heruntergeladenen Websites
+btnHomeWizard.Caption=ASSISTENT
+btnHomeWizard.Hint=Neues Projekt erstellen
+btnHomeOptions.Caption=OPTIONEN
+btnHomeOptions.Hint=Persönliche Programmeinstellungen
+btnHomeAbout.Caption=ÜBER
+btnHomeAbout.Hint=Über Lexar Offline Browser
+btnHomeTools.Caption=TOOLS
+btnHomeTools.Hint=Speicherverwaltung und andere Tools
+btnHomeHelp.Caption=HILFE
+btnHomeHelp.Hint=Programmhandbuch und Upgrade-Optionen
+spSkinShadowLabel21.Caption=WEBLISTE
+btnLBrowse.Caption=Surfen
+btnLStart.Caption=Start
+btnLProperties.Caption=Eigenschaften
+btnLDelete.Caption=Löschen
+spSkinShadowLabel20.Caption=ÜBER - LEXAR OFFLINE BROWSER
+spSkinShadowLabel1.Caption=Die Software Lexar Offline Browser™ wird exklusiv von Lexar Media, Inc. unter Lizenz von der MetaProducts Corporation vertrieben. Ihre Nutzung dieser Software unterliegt der Endnutzerlizenzvereinbarung, die Ihnen bei der ersten Nutzung angezeigt wird und hierin enthalten ist. Versionen des Offline Explorer mit größerem Funktionsumfang sind käuflich erhältlich und können auf den Seiten der MetaProducts Corporation heruntergeladen werden.
+spSkinShadowLabel4.Caption=Um Ihre Lexar Offline Browser auf eine fortgeschrittene Version zu erweitern, klicken Sie einfach auf das HILFE-Symbol im Hauptmenü und dann auf die Option "Nach Upgrades suchen".
+spSkinShadowLabel61.Caption=Copyright 1997-2011, MetaProducts Corporation.  Alle Rechte vorbehalten. Lexar™, das Lexar-Logo und When Memory Matters™ sind unter Lizenz genutzte Markenzeichen der Lexar Media, Inc.
+btnLexarSite.Caption=KLICKEN ZUM AUFRUFEN DER LEXAR-WEBSITE
+btnConfirmOK.Caption=Ja
+spSkinShadowLabel22.Caption=EIGENSCHAFTEN
+btnProp1.Caption=URL und Ebene
+btnProp2.Caption=Dateitypen
+btnProp3.Caption=Website-Passwort
+btnProp4.Caption=Zeitplaner
+btnProp5.Caption=Einschränkungen für Webadressen
+spSkinShadowLabel23.Caption=OPTIONEN
+btnOptionsUI.Caption=Nutzeransicht
+btnOptionsInternet.Caption=Interneteinstellungen
+Label5.Caption=Start-URL:
+Label6.Caption=Die Download-Aufgabe nutzt die URL als Startadresse. Wenn diese Seite geladen ist, findet Offline Explorer alle Links auf ihr und lädt sie entsprechend den Aufgabeneinstellungen.
+Label18.Caption=URL-Beispiele sind: http://www.metaproducts.com/ ftp://ftp.microsoft.com/data/
+Label19.Caption=Aufgabenname:
+Label20.Caption=Sie können einen Namen eingeben, der anstelle der URL in der Webliste erscheint.
+Label25.Caption=Website-Nutzername:
+Label26.Caption=Website-Passwort:
+spSkinShadowLabel24.Caption=ASSISTENT - SCHRITT 1 von 3
+btnWizardNext1.Caption=WEITER
+btnWizardBack1.Caption=ZURÜCK
+Label21.Caption=Über die Ebenen können Sie schnell festlegen, wie viele Webseiten geladen werden sollen. Einfach ausgedrückt handelt es sich hierbei um die Anzahl an Links weg von der Startseite bis hin zur am weitesten davon entfernten Ebene.
+Label22.Caption=Um nur die erste Seite mit all ihren Bildern zu laden, setzen Sie die Ebenen = 0. Bei Ebenen = 1 werden die erste Seite und alle direkt mit ihr verlinkten Seiten geladen.
+spSkinShadowLabel25.Caption=ASSISTENT - SCHRITT 2 von 3
+cbLevel.Caption=Ebenenlimit:
+btnWizardBack2.Caption=ZURÜCK
+btnWizardNext2.Caption=WEITER
+spSkinShadowLabel2.Caption=Einschränkungen für Webadresse:
+spSkinShadowLabel60.Caption=Laden Sie entweder Webseiten innerhalb der gewählten Website oder auch Seiten außerhalb
+rbURL.Caption=NUr innerhalb der Start-URL laden:
+rbAny.Caption=Ohne Einschränkungen laden
+spSkinShadowLabel26.Caption=ASSISTENT - SCHRITT 3 von 3
+spSkinShadowLabel59.Caption=Die folgenden Dateitypen herunterladen:
+cbImages.Caption=&Grafiken (Bilder)
+cbAudio.Caption=&Audio (Töne, Musik)
+cbVideo.Caption=&Video
+cbArchive.Caption=Archive (&ZIP, RAR etc.)
+btnWizardBack3.Caption=ZURÜCK
+btnWizardFinish.Caption=FERTIG
+cbAllImages.Caption=&Bilder von beliebigen Adressen laden
+spSkinShadowLabel27.Caption=TOOLS - SPEICHERVERWALTUNG
+spSkinShadowLabel42.Caption=Kapazität:
+spSkinShadowLabel43.Caption=Genutzter Platz:
+spSkinShadowLabel44.Caption=Freier Platz:
+spSkinShadowLabel45.Caption=GESPEICHERTe WEBSITEDATEN
+spSkinShadowLabel46.Caption=Websites:
+spSkinShadowLabel47.Caption=Gesamt:
+spSkinShadowLabel48.Caption=Webseiten:
+spSkinShadowLabel49.Caption=Bilder:
+spSkinShadowLabel50.Caption=Audio:
+spSkinShadowLabel51.Caption=Andere:
+spSkinShadowLabel41.Caption=Video:
+btnMMDelete.Caption=ALLE HERUNTERGELADENEN WEBSITES LÖSCHEN
+spSkinShadowLabel28.Caption=TOOLS
+btnToolsMemory.Caption=Speicherverwaltung
+spSkinShadowLabel29.Caption=AUF NEUE VERSION PRÜFEN
+spSkinShadowLabel30.Caption=EIGENSCHAFTEN - URL UND EBENE
+Label11.Caption=URL:
+Label12.Caption=Name:
+Label13.Caption=Ebene:
+btnPropApply1.Caption=Anwenden
+spSkinShadowLabel31.Caption=EIGENSCHAFTEN - DATEITYPEN
+lblPFF.Caption=Dateitypen herunterladen:
+btnPropApply2.Caption=Anwenden
+cbPFFImages.Caption=&Grafiken (Bilder)
+cbPFFAudio.Caption=&Audio (Töne, Musik)
+cbPFFVideo.Caption=&Video
+cbPFFArchive.Caption=Archive (&ZIP, RAR etc.)
+spSkinShadowLabel32.Caption=EIGENSCHAFTEN - WEBSITE-PASSWORT
+spSkinShadowLabel6.Caption=Nutzername:
+spSkinShadowLabel7.Caption=Passwort:
+btnPropApply3.Caption=Anwenden
+spSkinShadowLabel33.Caption=EIGENSCHAFTEN - ZEITPLANER
+Label10.Caption=Download-Intervalle:
+Label1.Caption=Start um (Stunde:Minute):
+Label2.Caption=Wochentag:
+Label27.Caption=Tag:
+Label28.Caption=Monat:
+btnPropApply4.Caption=Anwenden
+WhenBox.0=Kein Zeitplan
+WhenBox.1=Täglich
+WhenBox.2=Wöchentlich
+WhenBox.3=Monatlich
+WhenBox.4=Jährlich
+WhenBox.5=Jeden
+WeekdayBox.0=Sonntag
+WeekdayBox.1=Montag
+WeekdayBox.2=Dienstag
+WeekdayBox.3=Mittwoch
+WeekdayBox.4=Donnerstag
+WeekdayBox.5=Freitag
+WeekdayBox.6=Samstag
+MonthBox.0=Januar
+MonthBox.1=Februar
+MonthBox.2=März
+MonthBox.3=April
+MonthBox.4=Mai
+MonthBox.5=Juni
+MonthBox.6=Juli
+MonthBox.7=August
+MonthBox.8=September
+MonthBox.9=Oktober
+MonthBox.10=November
+MonthBox.11=December
+OnceBox.Caption=Nur einmal
+spSkinShadowLabel34.Caption=OPTIONEN - NUTZERANSICHT
+spSkinShadowLabel8.Caption=Nutzeransicht
+spSkinShadowLabel9.Caption=Neue Download-Aufgabe erstellen
+Label9.Caption=Standard-Ebenenzahl:
+lblOUILanguage.Caption=Sprache:
+btnOptionsApply1.Caption=Anwenden
+cbDrag.Caption=Ziehen und Verschieben der Symbolleiste erlauben
+cbAlpha.Caption=Durchsichtiges Fenster
+cbBrowseMin.Caption=Offline-Surfen von Websites minimiert das Programm
+cbAutoRun2.Caption=Das Programm automatisch mit Windows starten
+cbOpenWebList.Caption=Das Menü WEBLISTE beim Starten eines neuen Downloads öffnen
+spSkinShadowLabel35.Caption=OPTIONEN - INTERNET
+spSkinShadowLabel10.Caption=Interneteinstellungen
+spSkinShadowLabel11.Caption=Anzahl an Verbindungen:
+spSkinShadowLabel14.Caption=Wartezeit (Sekunden):
+spSkinShadowLabel15.Caption=Wartezeit zwischen Downloads (Sekunden):
+spSkinShadowLabel16.Caption=Anzahl Versuche:
+btnOptionsApply2.Caption=Anwenden
+spSkinShadowLabel36.Caption=WILLKOMMEN
+spSkinShadowLabel37.Caption=Bitte lesen Sie sich die Lizenzvereinbarung durch und stimmen Sie ihr zu, um fortzufahren:
+spSkinShadowLabel38.Caption=Durch Klick auf den Button "Ich stimme zu" bestätigen Sie, dass Sie die Bedingungen der obenstehenden Vereinbarung gelesen haben und ihnen zustimmen.
+spSkinShadowLabel39.Caption=Sprache wählen:
+btnWelcomeAgree.Caption=Ich stimme zu
+btnWelcomeCancel.Caption=Abbrechen
+cbAutoRun.Caption=Anwendung automatisch mit Windows starten
+spSkinShadowLabel52.Caption=EIGENSCHAFTEN - EINSCHRÄNKUNGEN FÜR WEBADRESSEN
+cbPServerDir.Caption=Nur innerhalb der Start-URL laden (Server und Verzeichnis)
+cbPAny.Caption=Ohne Einschränkungen laden
+cbPImages.Caption=Bilder von beliebigen Seiten laden
+btnPropApply5.Caption=Anwenden
+spSkinShadowLabel53.Caption=ÜBER
+spSkinButton2.Caption=Lizenz
+spSkinButton3.Caption=Versionshinweise
+spSkinButton4.Caption=MetaProducts Corporation
+spSkinShadowLabel54.Caption=ÜBER - LIZENZ
+spSkinShadowLabel55.Caption=ÜBER - VERSIONSHINWEISE
+spSkinShadowLabel56.Caption=ÜBER - METAPRODUCTS CORPORATION
+spSkinShadowLabel57.Caption=Die MetaProducts Corporation ist ein Software-Entwicklungsunternehmen, das sich speziell auf diverse Datenübertragungstechnologien spezialisiert hat. Das Unternehmen wurde 1997 gegründet und hat es sich zum Ziel gesetzt, hochqualitative Internetsoftware zu entwerfen, zu entwickeln und zu vermarkten. Die MetaProducts Corporation wurde bereits mehrfach ausgezeichnet und ist ein führendes Unternehmen im Bereich Indizierung und Herunterladen von Dateien - dieser Erfolg ist vor allem der Verpflichtung des Unternehmens geschuldet, nur qualitativ wertvolle und weltweit führende Anwendungen zusammen mit der absolut besten Kundenunterstützung zu bieten.
+spSkinButton7.Caption=KLICKEN ZUM AUFRUFEN DER METAPRODUCTS-WEBSITE
+spSkinShadowLabel58.Caption=HILFE
+spSkinButton5.Caption=Inhalte
+spSkinButton6.Caption=Auf neue Updates prüfen
+btnToolsUpdates.Caption=Produkt-Upgrade
+btnBack.Hint=Zurück zum vorigen Bildschirm
+btnOptions.Hint=Persönliche Programmeinstellungen
+btnHome.Hint=Ins Hauptmenü
+imgSI.Hint=Download-Status
+lblRunningW.Hint=Aktive Downloads
+imgRunning.Hint=Download-Status
+lblAllDownloads.Hint=Alle Downloads in der Webliste
+spSkinShadowLabel100.Caption=Download Prozent:
+imgAutoSave.Hint=Automatisches Speichern ist aktiv
+imgScheduled.Hint=Geplante Projekte
+btnLManage.Caption=Managen
+btnMStatistics.Caption=Informationen zum letzten Download
+btnMSpaceUsage.Caption=Speicherverbrauch
+btnOptionsDefaults.Caption=Level Standardeinstellung
+btnOptionsStartup.Caption=Startup Einstellungen
+btnOptionsAutoSave.Caption=Automatisches Speichern
+lblAudVid1.Caption=Note: Der Lexar Offline Browser unterstützt keine Video oder Audio Downloads. Um Videos und Audiodateien downloaden zu können, benötigen Sie ein Upgrade auf MetaProducts Offline Browser.
+btnAudVid1.Caption=KLICKEN UM DIE UPGRADE SEITE AUFZURUFEN
+cbText.Caption=&Webseiten
+cbUDef.Caption=&Skripte, Styles und Flash
+cbOther.Caption=&Andere
+lblMMTotalTxt.Caption=Website benutzer Platz:
+btnMMUpdate.Caption=Update
+btnToolsSearch.Caption=Suche
+lblAudVid2.Caption=Note: Der Lexar Offline Browser unterstützt keine Video oder Audio Downloads. Um Videos und Audiodateien downloaden zu können, benötigen Sie ein Upgrade auf MetaProducts Offline Browser.
+cbPFFText.Caption=&Webseiten
+cbPFFUDef.Caption=&Skripte, Styles und Flash
+cbPFFOther.Caption=&Andere
+btnAudVid2.Caption=KLICKEN UM DIE UPGRADE SEITE AUFZURUFEN
+lblOUIShowTrayAlert.Caption=Downloadstatus im System Tray Infobereich
+cbShowSI.Caption=Immer Statusindikator anzeigen
+btnHelpContents.Caption=Inhaltsverzeichnis
+btnHelpSupport.Caption=Support kontaktieren
+spSkinShadowLabel3.Caption=METAPRODUCTS OFFLINE BROWSER
+spSkinShadowLabel12.Caption=Es tut uns leid, aber diese Software ist vorgesehen nur auf speziellen Lexar SD-Karten zu laufen.
+btnSorryInfo.Caption=Mehr Info
+btnSorryClose.Caption=Schließen
+spSkinShadowLabel13.Caption=MANAGEN
+btnMExport.Caption=Exportieren
+btnMDelete.Caption=Löschen
+spSkinShadowLabel62.Caption=MANAGEN - EXPORTIEREN
+spSkinShadowLabel63.Caption=Ganze Webseite zu einer einzelnen Datei komprimieren. Kann unter Windows angezeigt werden und auf anderen Systemen (falls entsprechende Anzeigesoftware installiert ist)
+spSkinShadowLabel64.Caption=Exportieren nach Datei:
+spSkinShadowLabel65.Caption=Ganze komprimierte Webseite in eine Datei einbetten. Läuft nur unter Windows, beschert aber bessere Qualität bei der Anzeige offline wegen des eingebetten Browsers und Webservers.
+spSkinShadowLabel66.Caption=Speicherpfad für die Ausgabedatei:
+cbECHM.Caption=HTML Hilfe (CHM)
+cbEEXE.Caption=Anzeige-Applikation (EXE)
+btnEExport.Caption=Exportieren
+spSkinShadowLabel67.Caption=EXPORT-FORTSCHRITT
+spSkinShadowLabel68.Caption=Projektname:
+spSkinShadowLabel69.Caption=EIGENSCHAFTEN - INFORMATIONEN ZUM LETZTEN DOWNLOAD
+spSkinShadowLabel70.Caption=Heruntergeladene Seiten:
+spSkinShadowLabel71.Caption=Heruntergeladene Dateien:
+spSkinShadowLabel72.Caption=Gesamtgröße:
+spSkinShadowLabel73.Caption=Herunterzuladen:
+spSkinShadowLabel74.Caption=Download Prozent:
+lblMSStarted1.Caption=Download gestartet:
+lblMSElapsed1.Caption=Verstrichene Zeit:
+spSkinShadowLabel75.Caption=EIGENSCHAFTEN - SPEICHERVERBRAUCH
+spSkinShadowLabel5.Caption=Dateien gesamt:
+spSkinShadowLabel19.Caption=Textdateien:
+spSkinShadowLabel76.Caption=Audiodateien:
+spSkinShadowLabel77.Caption=Videodateien:
+spSkinShadowLabel81.Caption=Andere Dateien:
+spSkinShadowLabel17.Caption=OPTIONEN - STANDARD DOWNLOADEINSTELLUNGEN
+spSkinShadowLabel78.Caption=Level Standardeinstellung:
+spSkinShadowLabel79.Caption=Level
+spSkinShadowLabel80.Caption=Beschreibung
+lblODDSLev0.Caption=Nur aktuelle Seite downloaden.
+spSkinShadowLabel85.Caption=Downloadet die aktuelle Seite und alle mir ihr verlinkten Webseiten.
+spSkinShadowLabel87.Caption=Downloadet die Level 1 Seiten plus alle mit denen verlinkten Webseiten.
+spSkinShadowLabel89.Caption=Typische Einstellung um eine kleinere Website downzuloaden.
+spSkinShadowLabel90.Caption=Üblicherweise ausreichend um die ganze Website downzuloaden.
+btnOptionsApply3.Caption=Übernehmen
+spSkinShadowLabel18.Caption=OPTIONEN - STARTUP EINSTELLUNGEN
+lblOUILanguage2.Caption=Sprache:
+btnOptionsApply4.Caption=Übernehmen
+cbDrag2.Caption=Werkzeugleiste ausdocken
+cbAutoRun3.Caption=Programm autostarten wenn Windows startet
+spSkinShadowLabel92.Caption=ÜBER - METAPRODUCTS OFFLINE BROWSER
+spSkinShadowLabel97.Caption=ANDERE VERSIONEN VON METAPRODUCTS OFFLINE BROWSER
+spSkinShadowLabel98.Caption=Die MetaProducts Offline Explorer Produktfamilie umfasst erweiterte Versionen von MetaProducts Offline Browser und steht zum Download und Kauf über die MetaProducts Webseite bereit. Für mehr Informationen über die Offline Explorer Produktfamilie klicken Sie bitte auf den untenstehenden Link.
+btnMPOESite.Caption=KLICKEN UM DIE OFFLINE EXPLORER SEITE ZU BESUCHEN
+spSkinShadowLabel99.Caption=OPTIONEN - AUTOMATISCHES SPEICHERN
+spSkinShadowLabel103.Caption=In diesem Modus, wann immer Sie eine Webseite BROWSEN und auf einen Link zu einer fehlenden Seite oder Datei klicken während Sie weiterhin online sind, wird die fehlende Seite oder Datei automatisch heruntergeladen und Ihrer zuvor gedownloadeten Webseite hinzugefügt.
+spSkinShadowLabel105.Caption=Wenn Sie den Download einer Webseite zum vollständigen Abschluss bringen oder auch vorzeitig beendigen, können Sie auf den BROWSEN Button in der WEBLISTE klicken um die Webseite in Ihrem Standardbrowser offline anzuzeigen. Abhängig jedoch von Ihren Downloadeinstellungen mögen manche Seiten oder Dateien nicht heruntergeladen worden sein. Sie können dann Automatisches Speichern verwenden, um diese fehlenden Seiten und Dateien nachzuladen.
+spSkinShadowLabel107.Caption=In diesem Modus, wann immer Sie eine Webseite BROWSEN und auf einen Link zu einer fehlenden Seite oder Datei klicken während Sie weiterhin online sind, erhalten Sie eine Webseite mit SEITE NICHT GEFUNDEN. Sie können dann wählen, entweder die fehlende Seite oder Datei herunterzuladen um sie Ihrer zuvor gedownloadeten Webseite hinzuzufügen, oder stattdessen weiter zu browsen und die Seite oder Datei nicht herunterzuladen.
+btnOptionsApply5.Caption=Übernehmen
+cbAutoSave.Caption=Automatisches Speichern AN
+cbAutoSaveOff.Caption=Automatisches Speichern AUS
+spSkinShadowLabel104.Caption=WERKZEUGE - SUCHEN
+btnSearch.Caption=Suchen
+spSkinShadowLabel116.Caption=Downloaden nach Ordner:
+btnAboutBuyNow.Caption=Jetzt kaufen!
+btnAboutRegister.Caption=Registrieren
+spSkinShadowLabel115.Caption=Auswahl dieser Option wird eine heruntergeladene Webseite aus der WebListe nach einem Ordner auf Ihrem Computer kopieren.
+cbEFolder.Caption=Ordner auf Ihrer Festplatte
+lblAboutRegTo.Caption=Registriert auf:
+spSkinShadowLabel102.Caption=ÜBER - REGISTRIEREN
+spSkinShadowLabel106.Caption=Danke schön für die Registrierung!
+spSkinShadowLabel108.Caption=Solche Registrierungen ermöglichen uns in weitere Entwicklung dieses Produkts und anderer in der Zukunft zu investieren.
+spSkinShadowLabel109.Caption=Wenn Sie Fragen bezüglich des Registrierungsprozesses haben oder Sie sich über die verschiedenen zur Verfügung stehenden Bezahlmethoden informieren möchten, klicken Sie auf den 'Jetzt kaufen'-Button auf der Eingangsseite.
+spSkinShadowLabel110.Caption=Sofort nach Bezahlungsbestätigung erhalten Sie automatisch Ihre Registrierungsdetails, welche im Kasten unten einzutragen sind.
+btnRegisterOK.Caption=OK
+spSkinShadowLabel111.Caption=TESTPERIODE ZU ENDE
+spSkinShadowLabel112.Caption=Das Ende des 30 Tage Testzeitraums ist erreicht. Wir hoffen dass Sie etwas Gefallen am Verwenden unserer Software gefunden haben.
+spSkinShadowLabel114.Caption=Zum Herauszufinden, wie Sie Ihr Exemplar von MetaProducts Offline Browser registrieren, bitte auf den 'Jetzt kaufen'-Button klicken.
+btnBuyNowTrial.Caption=JETZT KAUFEN
+miPCut.Caption=A&usschneiden
+miPCopy.Caption=&Kopieren
+miPPaste.Caption=&Einfügen
+btnHomeBuyNow.Caption=JETZT KAUFEN!
+btnHomeRegister.Caption=REGISTRIEREN
+
+[dlgInstall]
+Caption=Herzlich willkommen!
+
+btnCancel.Caption=Abbruch
+Label2.Caption=Es wird ausdrücklich empfohlen, alle Programme zu schließen, bevor mit der Installation begonnen wird.
+Label3.Caption=Klicken Sie zum Beenden auf Abbruch und schließen Sie alle laufenden Anwendungen. Klicken Sie auf Weiter, um mit der Installation fortzufahren.
+Label4.Caption=WARNUNG: Dieses Programm ist durch US-amerikanische Urheberrechtsgesetze und Bestimmungen internationaler Verträge geschützt.
+Label5.Caption=Unbefugte Vervielfältigung oder unbefugter Vertrieb dieses Programms oder eines Teils davon sind strafbar. Dies wird sowohl straf- als auch zivilrechtlich verfolgt und kann schwere Strafen und Schadenersatzforderungen zur Folge haben.
+Label14.Caption=Lizenzbestimmung
+rbAccept.Caption=&JA - ich akzeptiere die Vereinbarung
+rbDontAccept.Caption=&NEIN - ich möchte abbrechen
+Label6.Caption=Das Programm %s wird im Zielverzeichnis unten installiert:
+Label7.Caption=Um einen anderen Ordner zu wählen, klicken Sie auf Durchsuchen und wählen Sie das gewünschte Verzeichnis aus.
+Label8.Caption=Möchten Sie %s doch nicht installieren, klicken Sie auf Abbruch und beenden Sie die Installation.
+Label16.Caption=Installationsverzeichnis
+Label22.Caption=Ziel&verzeichnis
+btnBrowse.Caption=&Durchsuchen
+Label9.Caption=Alle Informationen zur Installation von %s wurden vollständig angegeben.
+Label10.Caption=Klicken Sie auf Weiter, um mit der Installation zu beginnen, oder auf Zurück, um das Setup von vorne zu beginnen.
+Label17.Caption=Programm-Shortcuts
+cbDesktop.Caption=Eine Verknüpfung auf dem Desktop anlegen
+cbQuickLaunch.Caption=Eine Verknüpfung in der Schnellstartleiste anlegen
+cbAutostart.Caption=&Laden beim Windows-Start
+Label18.Caption=Kopiere Dateien
+lblFile.Caption=Nichts zum Extrahieren.
+Label11.Caption=Dateien werden kopiert:
+Label23.Caption=Integration
+Label24.Caption=Sie können %s bei einigen installierten Browsern einbinden
+Label25.Caption=Bitte Auswahlkästchen vor dem Browser aktivieren, der in den Mass Downloader eingebunden werden soll:
+lvBrowsers.0=Name
+lvBrowsers.1=Pfad
+lvBrowsers.2=Browser
+Label12.Caption=%s wurde korrekt installiert.
+Label13.Caption=Klicken Sie auf Fertigstellen, um die Installation zu beenden.
+Label19.Caption=Installation abgeschlossen
+cbRun.Caption=%s jetzt starten.
+cbTutorial.Caption=%s &Tutorial öffnen
+ilReboot.Caption=Führen Sie einen Neustart des Computers durch, um die Installation abzuschließen. Neustart jetzt?
+ilSetupCapt.Caption=%s Setup
+ilWelcome.Caption=Willkommen
+ilLicenseAgreement.Caption=Lizenzvereinbarung
+ilDestination.Caption=Zielverzeichnis wählen
+ilStartInstall.Caption=Installation starten
+ilInstalling.Caption=Beim Installieren
+ilInstComplete.Caption=Die Installation ist komplett
+ilFinish.Caption=Fertigstellen
+ilNext.Caption=Weiter >
+ilInstProblem.Caption=Es gibt ein Problem. Bitte stellen Sie sicher, dass genug freier Plattenspeicher zur Verfügung steht und Sie Schreibrechte haben. OE darf während des Updates nicht gestartet sein. Führen Sie die Installation noch einmal durch.
+ilPreparing.Caption=Vorbereitung
+ilNothingToUnpack.Caption=Es gibt nichts zu entpacken.
+ilDone.Caption=Fertig.
+ilInstCancel.Caption=Das Setup ist unvollständig. Wenn Sie jetzt abbrechen, wird das Programm nicht installiert.%sSie können das Setup aber später erneut ausführen. %sWollen Sie die Installation wirklich abbrechen?
+ilWebSite.Caption=Website
+ilBuyNow.Caption=JETZT kaufen!
+ilTechSupp.Caption=Technischer Support
+ilUninstall.Caption=%s deinstallieren
+ilUninstCapt.Caption=%s deinstallieren
+ilRemoveQ.Caption=Wollen Sie %s wirklich entfernen?
+ilRemoved.Caption=%s erfolgreich von Ihrem System entfernt.
+ilRebootQ.Caption=Bitte führen Sie einen Neustart des Computers durch, um die Deinstallation zu vollenden. Neustart jetzt?
+ilRebootInst.Caption=Bitte neustarten Sie das System vor der Installation von %s.
+ilRebootRun.Caption=Bitte neustarten Sie den Computer vor der Ausführung des Programms %s.
+ilInstRunQ1.Caption=%s läuft bereits auf Ihrem System.
+ilInstRunQ2.Caption=Solange das Programm %s läuft, können Sie die Installation nicht durchführen.
+ilInstRunQ3.Caption=Wollen Sie %s schließen?
+ilInstRunQ4.Caption=Ein anderer Nutzer arbeitet gerade mit %s. Sie müssen alle Instanzen von %s schließen und die Installation danach durchführen.
+ilUninstRunQ1.Caption=Sie können die Installation nicht fortsetzen, solange %s läuft.
+ilUninstRunQ2.Caption=Ein anderer Nutzer arbeitet gerade mit %s. Sie müssen alle Instanzen von %s schließen und die Deinstallation danach durchführen.
+ilAllFiles.Caption=Alle Dateien
+ilBrowsers.Caption=Browserintegration
+ilInstalled.Caption=(Die Integration ist bereits installiert)
+ilNotDetected.Caption=- (nicht erkannt)
+ilBrowseExec.Caption=Suchen nach Programm-Datei von %s
+ilNoEnoughRights.Caption=Leider haben Sie nicht die nötigen Rechte, um diese Operation zu beenden.\nBitten Sie Ihren Administrator, dies für Sie auszuführen.
+btnBack.Caption=< &Zurück
+dlgBrowse.Caption=Zielverzeichnis auswählen
+btnNext.Caption=Weiter >
+Label26.Caption=Das Programm kann periodisch nach neueren Versionen von %s suchen. Sie können auch im Menü "Hilfe | Gibt es eine neue Version?" jederzeit überprüfen, ob es diese gibt.
+cbNVCheck.Caption=&Automatische Überprüfung auf neue Version ermöglichen.
+ilIntro.Caption=Einführung
+Label6MOB.Caption=Sie können das Programm auf jegliche Computer-Festplatte oder direkt auf eine Memory Card installieren.
+lblHDD.Caption=Auswahl dieser Option wird das Programm auf die Festplatte Ihres Computers installieren. Von der Festplatte aus wird es schneller und effizienter laufen.
+lblMC.Caption=Auswahl dieser Option wird das Programm direkt auf eine Memory Card installieren. Sie können dann die Memory Card an irgendeinem Computer einlegen und das Programm dafür nutzen Webseiten direkt darauf downloadend abzuspeichern.
+rbHDD.Caption=Festplatte
+rbMC.Caption=Memory Card
+
+[dlgAbout]
+Caption=Über Offline Explorer
+
+lblDescr.Caption=Offline Explorer erlaubt es Ihnen, Webseiten schnell zu kopieren und anschließend offline mit einem internen oder externen Browser anzusehen oder auf dem eigenen Webserver zu veröffentlichen.
+lblOnDay1.Caption=Um zu erfahren, wie Sie eine Lizenz für Offline Explorer erwerben können, klicken Sie auf den "Bestellen"-Button.
+lblOnDay2.Caption=Nachdem Sie Ihren Registrierungsschlüssel erhalten haben, klicken Sie auf den "Registrieren"-Button. Damit schalten Sie Funktionen im Programm frei, die nur registrierten Anwendern vorbehalten sind.
+lblOnEnd1.Caption=Sie haben das Ende der 30-tägigen Testphase erreicht.
+lblOnEnd2.Caption=Wir hoffen, dass Ihnen Offline Explorer gefallen hat.
+Label3.Caption=Registriert für:
+lblReg.Caption=NICHT REGISTRIERT
+lblLatestInfo.Caption=Offline Explorer ist keine Freeware. Sie dürfen dieses Programm für 30 Tage ausprobieren. Danach müssen Sie eine Registrierung erwerben.
+lblSiteInfo.Caption=Aktuelle Informationen erhalten Sie auf unserer Webseite:
+Label4.Caption=Bitte schreiben Sie uns, wenn Sie Fragen haben:
+btnClose.Caption=Schließen
+btnCancel.Caption=Abbrechen
+btnReleaseNotes.Caption=&Versionen
+btnLicense.Caption=&Lizenz
+btnOrdering.Caption=&Bestellen
+btnRegister.Caption=&Registrieren
+lblRegistered.Caption=Registriert für:
+
+[dlgOptions]
+Caption=Optionen
+
+Label1.Caption=Kategorie:
+btnOK.Caption=OK
+btnCancel.Caption=Abbrechen
+Label4.Caption=&Anzahl Verbindungen:
+Label5.Caption=&Wählpause (Sekunden):
+Label16.Caption=&Pause zwischen Downloads:
+Label6.Caption=Anzahl Wiederholungen auf so viele &Versuche begrenzen:
+Label32.Caption=Verbindungseinstellungen
+Label30.Caption=Interner HTTP-Server
+Label11.Caption=Agent-Bestimmung
+cbRetries.Caption=Anzahl Wähl&versuche:
+cbIECookies.Caption=Cookies von &Microsoft Internet Explorer zulassen
+cbHTTPStart.Caption=Interner &HTTP-Port:
+cbOHTTPLocal.Caption=Nur lokalen &Zugriff erlauben
+rbUA1.Caption=&Identifizieren als:
+rbUA2.Caption=&Diese Identifikation verwenden:
+Label52.Caption=Geschwindigkeitsbegrenzung
+Label53.Caption=Byte/Sek
+Label54.Caption=Mit dieser Einstellung können Sie die Übertragungsrate für eine vorgegebene Geschwindigkeit bestimmen.
+Label58.Caption=RTSP-Streams-Bandbreite
+Label59.Caption=Maximale &RTSP-Bandbreite:
+Label78.Caption=Kompression
+cbSetSpeedLimit.Caption=Geschwin&digkeit
+brHigh.Caption=&Hoch
+rbMedium.Caption=&Mittel
+rbLow.Caption=&Niedrig
+rbBackground.Caption=&Im Hintergrund
+cbRTSPBandwidth.0=14.4K-Modem
+cbRTSPBandwidth.1=19.2K-Verbindung
+cbRTSPBandwidth.2=28.8K-Modem
+cbRTSPBandwidth.3=33.6K-Modem
+cbRTSPBandwidth.4=56K-Modem
+cbRTSPBandwidth.5=112K Dual ISDN
+cbRTSPBandwidth.6=256Kbps DSL/Kabel
+cbRTSPBandwidth.7=384Kbps DSL/Kabel
+cbRTSPBandwidth.8=512Kbps DSL/Kabel
+cbRTSPBandwidth.9=T1 / LAN
+cbRTSPBandwidth.10=10Mbps LAN
+cbGZIP.Caption=Geschwindigkeit durch Einsatz von &GZIP erhöhen
+Label48.Caption=Einwählparameter zum Download von Internetseiten
+Label14.Caption=&Verbindung wählen:
+Label18.Caption=&Benutzername:
+Label19.Caption=&Passwort:
+Label22.Caption=&Wahl wiederholen:
+Label23.Caption=mal
+Label24.Caption=&Intervall zwischen Wählversuchen:
+Label25.Caption=Sekunden
+rbDial2.Caption=&Einwahl über DFÜ-Verbindung
+rbDial3.Caption=Externes Wählprogramm benutzen
+rbDial1.Caption=&Keine automatische Wahl nutzen
+Label65.Caption=Befehlszeile zum Wählen:
+Label66.Caption=Befehlszeile zum Auflegen:
+Label49.Caption=Trennen
+Label50.Caption=Programm beenden und System herunterfahren
+cbHangUp.Caption=&Abbauen der Modemverbindungen, wenn alle Downloads abgeschlossen sind
+cbHangUpAt.Caption=&Trennen
+cbClose.Caption=&Programm beenden, wenn alle Downloads abgeschlossen sind
+cbCloseAt.Caption=&Beenden
+cbShutdown.Caption=&System nach Beendigung des Programms herunterfahren
+cbShutdown2.Caption=Spezieller kompatibler Shutdown-Modus (bei Problemen mit Standardmodus)
+cbHibernate.Caption=&Computer in den Ruhezustand versetzen, ohne die Anwendung zu schließen.
+Label76.Caption=&Proxy-Serverliste
+Label77.Caption=Verbindungseinstellungen
+lvProxies.0=Typ
+lvProxies.1=Server
+lvProxies.2=Port
+lvProxies.3=Benutzer
+btnPAdd.Caption=Hinzufügen
+btnPRemove.Caption=Entfe&rnen
+btnPLoad.Caption=&Laden
+btnPSave.Caption=&Speichern
+btnPAutoDetect.Caption=Automatisch
+cbNTLM.Caption=Alternative Verbindungsmethode wählen (für NTL&M-Authentifizierung, etc.)
+cbPASV.Caption=PAS&V-Modus für FTP-Downloads
+btnPEdit.Caption=B&earbeiten
+Label7.Caption=Proxy&adresse:
+Label8.Caption=Proxy&port:
+Label31.Caption=Proxyserver-Einstellungen
+Label33.Caption=Proxybestätigung (leer lassen, wenn nicht benötigt)
+btnPrxADetect.Caption=&Autom. erkennen
+rbHProxy1.Caption=Kein Proxy
+rbHProxy2.Caption=&HTTP-Proxy
+rbHProxy3.Caption=&SOCKS4
+rbHProxy4.Caption=S&OCKS5
+Label9.Caption=Benutzer&name
+Label10.Caption=Pass&wort:
+cbNTLMProxy.Caption=NTL&M-Bestätigung verwenden
+Label60.Caption=Proxytyp
+Label61.Caption=Proxyserver-Einstellungen
+Label62.Caption=Proxy&adresse:
+Label63.Caption=Proxy&port:
+Label69.Caption=Proxy Authentifizierung (leer lassen falls nicht benötigt)
+rbRProxy1.Caption=Keinen Pro&xy verwenden
+rbRProxy2.Caption=&HTTP-Proxy
+rbRProxy3.Caption=&SOCKS4
+rbRProxy4.Caption=&RTSP-Proxy
+rbRProxy5.Caption=S&OCKS5
+Label67.Caption=Nutzer&name:
+Label68.Caption=Pass&wort:
+Label6.Caption=Proxy&adresse:
+Label17.Caption=Proxy&port:
+Label34.Caption=Proxy&typ
+Label35.Caption=Proxyserver-&Einstellungen
+cbPPASV.Caption=PAS&V-Modus für FTP-Download
+rbFProxy1.Caption=Kein Proxy
+rbFProxy2.Caption=&HTTP-Proxy
+rbFProxy3.Caption=&SOCKS4
+rbFProxy4.Caption=User@Sei&te
+rbFProxy5.Caption=S&OCKS5
+Label26.Caption=Benutzer&name
+Label27.Caption=Pass&wort:
+lblTools.Caption=Zum Betrachten einer Webseite eines der folgenden Tools verwenden:
+Label43.Caption=Tool-&Fenster
+Label20.Caption=&Titel:
+Label21.Caption=&Datei:
+Label57.Caption=&Hotkey:
+btnADetect.Caption=Autom. &erkennen
+btnOBrAdd.Caption=< &Hinzufügen
+btnOBrRemove.Caption=&Entfernen >
+cbShowMode.0=Normal
+cbShowMode.1=Maximiert
+cbShowMode.2=Minimiert
+Label1.Caption=&Hauptfenster verbergen beim Einsatz des Schlüssels:
+Label44.Caption=Ansicht
+Label45.Caption=Durch Doppelklick auf ein Projekt:
+Label41.Caption=Projektbaum
+lblAutoSave.Caption=Minuten
+rbAMap1.Caption=Projektbaum stellt nur &Webseiten dar, die zum ausgewählten Projekt gehören
+rbAMap2.Caption=Projektbaum zeigt &alle heruntergeladenen Webseiten an
+bxAutoSave.Caption=Alle Änderungen &speichern
+cbTray.Caption=In System&bereich einfügen
+cbASplash.Caption=Splashs&creen (Startbild) zeigen
+rbODblClick1.Caption=&Projekt mit Browser ansehen
+rbODblClick2.Caption=Projekt&einstellungen öffnen
+Label64.Caption=Dateien sortieren nach:
+rbAMapSort1.Caption=&Name
+rbAMapSort2.Caption=&Erweiterung
+cbXButton.Caption="X"-Button minimiert das Hauptfenster
+Label37.Caption=&Download-Verzeichnis
+Label39.Caption=Wartung
+Label40.Caption=&Projekte, Mustervorlagen und Baum-Verzeichnis
+Label13.Caption=Freie Kapazität auf Festplatte:
+Label12.Caption=&Grenze für freien Festplattenspeicher:
+Label29.Caption=Klicken Sie auf "Entfernen", um nicht mehr benötigte Webseiten und Dateien aus Ihrem Download-Verzeichnis zu entfernen
+Label73.Caption=&Temporäres Verzeichnis:
+btnBrowse.Caption=D&urchsuchen
+btnClean.Caption=&Entfernen
+btnBrowse1.Caption=Durc&hsuchen
+cbDirOverload.Caption=Download-&Verzeichnisse vor Überlastung schützen
+Button1.Caption=&Durchsuchen
+Label46.Caption=&System
+Label47.Caption=&Wenn eine URL hinzugefügt wird
+Label55.Caption=URL-&Filter
+Label56.Caption=URL mit folgenden Dateiendungen (mit Komma trennen):
+Label74.Caption=FireFox und Mozilla Kontextmenü:
+cbOIClipboard.Caption=&Zwischenablage überwachen
+cbIIECtxMenu.Caption=Kontextmenü von MS Internet &Explorer verwenden
+cbOIDefaults.Caption=Standard-&Mustervorlage verwenden
+cbIPFolder.Caption=Projekt in Ordner &verlagern:
+cbOIAutoStart.Caption=Download &automatisch starten
+cbICFilter.0=Nicht annehmen
+cbICFilter.1=Nur annehmen
+cbIOperaCtxMenu.Caption=Kontextmenü von &Opera benutzen
+btnFireFox.Caption=In&stallieren
+Label51.Caption=Bestätigungen
+cbACURLMoved.Caption=Wenn die Projekt-&URL verschoben wird
+cbACDelete.Caption=Löschen von &Dateien
+cbACDelPFiles.Caption=Löschen von &Projektdateien
+cbACHangup.Caption=Beenden einer &Verbindung
+cbACExit.Caption=&Beenden des Programms
+cbACFolderStart.Caption=Wenn ein &Ordner bereit ist, seine Projekte herunterzuladen
+rbACMAsk.Caption=Bestätigung &abfragen
+rbACMDownload.Caption=&Starte Download der neuen URL
+rbACMStop.Caption=Download s&toppen
+cbACExitDownload.Caption=Nur wenn aktive D&ownloads vorhanden
+cbACRestore.Caption=Bei Wiederherstellung Projekte mit identischen Namen
+Label70.Caption=Fertigstellung Download
+Label71.Caption=SMT&P-Serveradresse:
+Label72.Caption=Postausgangsserver (SMTP)
+Label38.Caption=Festplattenkapazität
+lblRMore.Caption=Lädt neue oder aktualisierte Dateien
+cbACPReport.Caption=Fertigstellung eines Projektes melden über
+rbACPReport1.Caption=&Ton:
+rbACPReport2.Caption=&E-Mail:
+rbACPReport3.Caption=IC&Q-UIN:
+cbACPEDetailed.Caption=Detailierte Liste aller neuen und aktualisierten Dateien senden
+cbRMore.Caption=&Wenn mehr als:
+Label75.Caption=Automatisch nach Programm-Updates suchen
+cbNVCheck.Caption=Imm&er
+btnNVCheck.Caption=Jetzt prüfen
+Label2.Caption=Unterkategorie für Anzeige auswählen
+btnHelp.Caption=&Hilfe
+OptionsTree.0=Internet
+OptionsTree.1=Verbindung
+OptionsTree.2=Geschwindigkeit
+OptionsTree.3=Wählen
+OptionsTree.4=Beenden
+OptionsTree.5=Proxyserver
+OptionsTree.6=Tools
+OptionsTree.7=Externe Browser
+OptionsTree.8=Viewer
+OptionsTree.9=Editoren
+OptionsTree.10=Erweitert
+OptionsTree.11=Dateien
+OptionsTree.12=Integration
+OptionsTree.13=Bestätigungen
+OptionsTree.14=Fertigstellung
+OptionsTree.15=Neue Versionen
+OptionsTree.16=Datei-Baum
+OptionsTree.17=Erscheinung
+dlgOBrowse.Caption=Durchsuchen
+dlgOBrowse.Filter=Ausführbare Dateien|*.exe;*.com|Alle Dateien|*.*
+odCSound.Caption=Öffne Musikdatei
+odCSound.Filter=Wave-Dateien (*.wav)|*.wav|Alle Dateien|*.*
+odProxyList.Filter=Textdateien|*.txt|Alle Dateien|*.*
+sdProxyList.Filter=Textdateien|*.txt|Alle Dateien|*.*
+cbAMinimize.Caption=&Minimieren beim Start
+Button2.Caption=A&nwenden
+Label79.Caption=BitTorrent
+cbATrayBalloon.Caption=Hinweis in der Taskleiste zeigen, wenn Projekt-Download beendet ist
+lblDDWarning.Caption=Achtung: es wird empfohlen, nicht mehr als 60 Zeichen im Pfad zu verwenden.
+cbACPEStats.Caption=D&ownload-Statistiken senden
+lblAPsw1.Caption=Passwort:
+lblAPsw2.Caption=Bitte e&rneut eingeben:
+lblAdmin.Caption=Passwortgeschützte Funktionen
+cbPPOptions.Caption=&Optionen schützen
+cbPPAdd.Caption=&Hinzufügen neuer Projekte und Ordner schützen
+OptionsTree.18=Administration
+btnResetOptions.Caption=Optionen zurücksetzen...
+lblICProtect.Caption=Mit Passwort schützen
+btnOBrChange.Caption=<   Ä&ndern
+cbIIEHistory.Caption=IE Verlauf updaten
+lblPPSrvUser.Caption=&Benutzername:
+lblPPSrvPsw.Caption=&Passwort:
+cbPPInternalServer.Caption=Zugang zum Internen &Server vor anderen Computern schützen
+lblMPXMemLimit.Caption=Speichernutzung pro Projektbaum begrenzen auf:
+edtFindControls.Hint=Schlüsselwort eintippen um Einstellungen und Optionen zu finden (F4)
+
+[dlgMakeSiteMap]
+Caption=Google-Seitenverzeichnisstruktur erstellen
+
+lblFNFormat.Caption=&Priorität:
+Label3.Caption=Optionale Parameter
+lblPutFiles.Caption=&Änderungsintervall:
+btnClose.Caption=Abbrechen
+btnExport.Caption=&Erstellen
+btnBrowse.Caption=&Durchsuchen
+btnHelp.Caption=&Hilfe
+cbPlainDir.Caption=Ausgabe des letzten &Modifikations-Datums
+cbFreq.0=Nicht bekannt
+cbFreq.1=Ständig
+cbFreq.2=Stündlich
+cbFreq.3=Täglich
+cbFreq.4=Wöchentlich
+cbFreq.5=Montlich
+cbFreq.6=Jährlich
+cbFreq.7=Niemals
+cbRecentFiles.Caption=Nur die zuletzt geladenen Dateien verwenden
+Label32.Caption=&Zielverzeichnis fürs Erstellen der Seitenverzeichnisstruktur-Dateien
+cbFreq.Caption=Nicht festgelegt
+
+[dlgFolderProp]
+Caption=Ordneroptionen
+
+FolderTree.0=Ordner
+btnCancel.Caption=Abbrechen
+btnOK.Caption=OK
+Label2.Caption=Ordner&name:
+Label3.Caption=Sie können jedem Ihrer Projektordner ein anderes Verzeichnis zuordnen. Alle Projekte in diesem Ordner werden in demselben Verzeichnis gespeichert.
+Label5.Caption=Wenn das angegebene Verzeichnis nicht besteht, wird es automatisch angelegt.
+Label6.Caption=Ordner Download-Verzeichnis
+Label32.Caption=Allgemein
+btnDefaults.Caption=&Ordner Standard
+btnFromTemplate.Caption=&Standard von der Mustervorlage erzeugen
+cbFDD.Caption=&Anwenden
+btnBrowse.Caption=&Durchsuchen
+btnApplyFDD.Caption=Auch &Unterverzeichnisse
+btnHelp.Caption=&Hilfe
+lblDDWarning.Caption=Achtung, es wird empfohlen, nicht mehr als 60 Zeichen im Pfad zu verwenden.
+
+[dlgDataMine]
+Caption=Data Mining
+
+Label1.Caption=Mit Data Mining können Sie heruntergeladene Webseiten bearbeiten und Informationen extrahieren oder nach spezifizierten Regeln umwandeln.
+Label2.Caption=Der Data-Mining-Prozess beruht auf dem Tool TextPipe der DataMystic Corporation. TextPipe ist ein Werkzeug zur gleichzeitigen Bearbeitung von Text mehrerer Dateien.
+Label3.Caption=Leider ist TextPipe nicht auf Ihrem Computer installiert. Klicken Sie auf die Schaltfläche, um die TextPipe-Website zu öffnen.
+btnTextPipe.Caption=TextPipe-Website
+Label4.Caption=Mit Data Mining können Sie heruntergeladene Webseiten bearbeiten und Informationen extrahieren oder nach speziefizierten Regeln umwandeln. Hierzu benötigen Sie das Tool TextPipe der DataMystic Corporation.
+Label6.Caption=TextPipe-Filter
+Label7.Caption=TextPipe-Startkommandos
+cbTextOnly.Caption=&Nur Text- und HTML-Dateien durchsuchen
+cbRun.Caption=&Filter verwenden, wenn TextPipe lädt
+cbQuit.Caption=&Beenden von TextPipe nach Auswertung der Filter
+rbFilter1.Caption=&TextPipe mit neuem Filter starten
+rbFilter2.Caption=&Verwenden der TextPipe-Filterdatei (*.fll) für das ausgewählte Projekt:
+cbPassFiles.Caption=Heruntergeladene Projektdateien nach &TextPipe umleiten
+btnStart.Caption=&Start
+btnCancel.Caption=Abbrechen
+btnHelp.Caption=Hilfe
+dlgOpenFilter.Caption=Filterdatei öffnen
+dlgOpenFilter.Filter=TextPipe-Filterdateien|*.fll|Alle Dateien|*.*
+
+[dlgCustomizeContents]
+Caption=Anpasssen der Datei Contents.htm
+
+Label1.Caption=Kopfzeile:
+Label2.Caption=Inhalte:
+Label3.Caption=Fußzeile:
+Label4.Caption=Hinweis: Verwenden Sie das %URL%-Makro, um den Pfad zum Exportziel zu übernehmen; %Caption% - Projektname, wie er im Projektbaum erscheint.
+btnOK.Caption=OK
+btnCancel.Caption=Abbrechen
+Button1.Caption=&Reset
+
+[dlgProgress]
+Caption=Fortschritt
+
+Button1.Caption=Abbruch
+
+[dlgPDescr]
+Caption=Projektbeschreibung
+
+ToolButton1.Caption=&Neu
+ToolButton1.Hint=Änderungen anwenden
+SaveButton.Caption=&Speichern
+SaveButton.Hint=Änderungen verwerfen
+PrintButton.Caption=&Drucken
+PrintButton.Hint=Aktuelle Datei drucken
+CutButton.Caption=Auss&chneiden
+CutButton.Hint=Gewählten Eintrag löschen
+CopyButton.Caption=&Kopieren
+CopyButton.Hint=Ausgewählten Eintrag in Zwischenablage kopieren
+PasteButton.Caption=&Einfügen
+PasteButton.Hint=Inhalte aus Zwischenablage einfügen
+UndoButton.Caption=&Rückgängig
+UndoButton.Hint=Rückgängig: Letzten Vorgang
+FontName.Hint=Schriftart|Schriftart auswählen
+FontSize.Hint=Schriftgröße|Schriftgröße wählen
+BoldButton.Hint=Fett
+ItalicButton.Hint=Kursiv
+UnderlineButton.Hint=Unterstrichen
+LeftAlign.Hint=Linksbündig
+CenterAlign.Hint=Zentriert
+RightAlign.Hint=Rechtsbündig
+BulletsButton.Hint=Bullets|Bullet-Modus aktivieren
+mpUndo.Caption=&Rückgängig
+mpUndo.Hint=Rückgängig: Letzten Vorgang
+mpCut.Caption=Auss&chneiden
+mpCut.Hint=Gewählten Eintrag löschen
+mpCopy.Caption=&Kopieren
+mpCopy.Hint=Ausgewählten Eintrag in Zwischenablage kopieren
+mpPaste.Caption=&Einfügen
+mpPaste.Hint=Inhalte aus Zwischenablage einfügen
+mpSelectAll.Caption=&Alles auswählen
+
+[dlgPrint]
+Caption=Es wird gedruckt:
+
+Label1.Caption=Die Projektseiten werden gedruckt. Bitte warten.
+btnCancel.Caption=Abbrechen
+
+[dlgApplyTemplate]
+Caption=Mustervorlage für Projekt verwenden
+
+Label1.Caption=&Auswählen von Mustervorlagen für das Projekt:
+Label2.Caption=&Mustervorlage:
+Label3.Caption=Projekt-URL, Filter-Schlüsselwörter und Dateifilter-Erweiterungen
+btnOK.Caption=OK
+btnCancel.Caption=Abbrechen
+rbReplace.Caption=Durch Schlüsselwörter und Dateierweiterungen aus der Vorlage ersetzen
+rbJoin.Caption=Zusammensetzung der Schlüsselwörter und Dateierweiterungen aus der Vorlage
+
+[dlgOldFiles]
+Caption=Alte Projektdateien löschen
+
+List.0=Dateien
+btnClose.Caption=&Schließen
+btnDeleteAll.Caption=&Alles löschen
+btnDelete.Caption=Auswahl &löschen
+
+[dlgImgDimensions]
+Caption=Bildgrößen-Filter
+
+Label19.Caption=Bilddateien überspringen, wenn kleiner als:
+lblLowWidth.Caption=Pixel
+lblLowHeight.Caption=Pixel
+Label1.Caption=Bilddateien überspringen, wenn größer als:
+lblHighWidth.Caption=Pixel
+lblHighHeight.Caption=Pixel
+Label4.Caption=Achtung: Diese Version unterstützt nur folgende Dateitypen:
+Label2.Caption=Bilddateien der angegebenen Gößen (mit Kommata trennen) überspringen:
+btnOK.Caption=OK
+btnCancel.Caption=Abbruch
+cbLowWidth.Caption=&Breite
+cbLowHeight.Caption=&Höhe
+cbHighWidth.Caption=B&reite
+cbHighHeight.Caption=Hö&he
+
+[dlgMapSelect]
+Caption=Baum-Dateien wählen
+
+List.0=URL
+List.1=Größe
+dxbeMask.Caption=Maske wählen, um Dateien zu selektieren, und ENTER drücken:
+dxbeMask.Hint=Maske wählen, um Dateien zu markieren
+btnDelete.Caption=Löschen
+btnDelete.Hint=Markierte Dateien löschen
+btnClose.Caption=Schließen
+btnClose.Hint=Fenster schließen
+btnBrowse.Caption=&Durchsuchen
+btnBrowse.Hint=Durchsuchen
+dxBarManager1.0=Auswahl
+dxBarStatic1.Caption=Drücken Sie zum Stoppen zweimal die Taste "Escape" bzw. "ESC"
+dxBarStatic1.Hint=Drücken Sie zum Stoppen zweimal die Taste "Escape" bzw. "ESC"
+
+[dlgSelectMask]
+Caption=URLs aus Warteschlange markieren
+
+Label1.Caption=Maske wählen, um URLs zu selektieren, und ENTER drücken:
+btnOK.Caption=OK
+btnCancel.Caption=Abbruch
+
+[dlgSubst]
+Caption=URL-Vervollständigung
+
+Label1.Caption=Tipp: Wählen Sie einen Eintrag ab, wenn die Regel zur Vervollständigung einer URL nur für die geladenen Dateien gelten soll, d.h. die URLs werden so geladen wie sie sind, jedoch werden die Offline-Dateinamen und Links entsprechend der Vervollständigungsregel angepaßt.
+btnOK.Caption=OK
+btnCancel.Caption=Abbruch
+btnHelp.Caption=&Hilfe
+Label2.Caption=&URL:
+btnTest.Caption=&Test
+List.0=URL
+List.1=Ersetzen
+List.2=mit
+lblURL.Caption=&URL:
+lblReplace.Caption=E&rsetzen:
+lblWith.Caption=&mit:
+btnAdd.Caption=< &Hinzufügen
+btnRemove.Caption=&Entfernen >
+btnClear.Caption=A&lles entfernen
+cbApplyAll.Caption=A&lle passenden Regeln anwenden
+mpMoveUp.Caption=Nach &Oben
+mpMoveDown.Caption=Nach &Unten
+mpDuplicate.Caption=Dupli&zieren
+mpCopy.Caption=&Kopieren
+
+[dlgStatistics]
+Caption=Projektstatistik
+
+List.0=Parameter
+List.1=Wert
+btnClean.Caption=Projektdateie&n aufräumen
+cbValues.0=Projektname:
+cbValues.1=URL:
+cbValues.2=Name der Baum-Datei:
+cbValues.3=Baum-Einträge:
+cbValues.4=Download zuletzt gestartet:
+cbValues.5=Beendet:
+cbValues.6=Verstrichene Zeit:
+cbValues.7=Durchschnittsgeschwindigkeit:
+cbValues.8=Heruntergeladen:
+cbValues.9=Projekt wurde nicht heruntergeladen.
+cbValues.10=Aktuelle Download-Statistik:
+cbValues.11=Heruntergeladene Dateien:
+cbValues.12=Nicht geänderte:
+cbValues.13=Durchlaufene Dateien:
+cbValues.14=Nicht gefunden:
+cbValues.15=Fehler beim Download:
+cbValues.16=Abgebrochen/Begrenzt:
+cbValues.17=Heruntergeladene Dateigrößen:
+cbValues.18=Gesamt-Projektstatistik:
+cbValues.19=Dateien gesamt:
+cbValues.20=Gesamtgröße:
+cbValues.21=Textdateien:
+cbValues.22=Textdateiengröße:
+cbValues.23=Bilddateien:
+cbValues.24=Bilddateiengröße:
+cbValues.25=Andere Dateien:
+cbValues.26=Größe anderer Dateien:
+btnCopy.Caption=Ko&pieren
+btnClose.Caption=Schließen
+cbValues.27=Erfolgreiche Downloads:
+cbValues.28=Audiodateien:
+cbValues.29=Audiodateiengröße:
+cbValues.30=Videodateien:
+cbValues.31=Videodateiengröße:
+cbValues.32=Archivdateien:
+cbValues.33=Archivdateiengröße:
+cbValues.34=PROJEKT-INFORMATION
+cbValues.35=DOWNLOAD-ZEITSTEMPEL
+cbValues.36=BAUM-INFORMATION
+cbValues.37=DATEIEN GESAMT UND VERWENDETER SPEICHERPLATZ
+
+[dlgProtect]
+Caption=Passwortschutz für Projekteinstellugen
+
+Label1.Caption=&Passwort:
+Label2.Caption=Bitte wiederholen:
+btnOK.Caption=OK
+btnCancel.Caption=Abbrechen
+
+[dlgPassword]
+Caption=Bitte geben Sie das Passwort ein.
+
+Label1.Caption=&Passwort:
+btnOK.Caption=OK
+btnCancel.Caption=Abbrechen
+
+[dlgMultipleImport]
+Caption=Import mehrerer Lesezeichen/Favoriten
+
+Label1.Caption=&Wählen Sie die Links der neuen Projekte und klicken Sie OK
+Label2.Caption=&Muster:
+btnOK.Caption=OK
+btnCancel.Caption=Abbrechen
+
+[dlgSetProxy]
+Caption=Einstellungen Proxyserver
+
+Label34.Caption=Servertyp
+Label35.Caption=Einstellungen Proxyserver
+Label6.Caption=&Adresse:
+Label17.Caption=&Port:
+Label36.Caption=Proxyauthentifizierung (leer lassen, falls nicht benötigt)
+btnOK.Caption=OK
+btnCancel.Caption=Abbruch
+rbFProxy1.Caption=&HTTP-Proxy
+rbFProxy2.Caption=&SOCKS4
+rbFProxy3.Caption=S&OCKS5
+rbFProxy4.Caption=User@Sei&te
+rbFProxy5.Caption=&RTSP Proxy
+Label26.Caption=Benutzer&name:
+Label27.Caption=Pass&wort:
+
+[dlgAddR]
+Caption=Passwort hinzufügen
+
+btnOK.Caption=OK
+btnCancel.Caption=Abbrechen
+
+[dlgTemplates]
+Caption=Neu
+
+lblCustom.Caption=Einrichten
+btnClose.Caption=Schließen
+btnCancel.Caption=Abbrechen
+btnOK.Caption=OK
+pgNew.Caption=Standard
+pgTemplates.Caption=Mustervorlagen
+btnAdd.Caption=&Neu
+btnRemove.Caption=&Entfernen
+btnProp.Caption=&Optionen
+btnDef.Caption=&Standard
+btnReset.Caption=&Zurücksetzen
+cbSmallIcons.Caption=&Kleine Symbole verwenden
+btnHelp.Caption=&Hilfe
+pmTCut.Caption=Auss&chneiden
+pmTCut.Hint=Projekt oder Ordner in Zwischenablage verschieben
+pmTCopy.Caption=&Kopieren
+pmTCopy.Hint=Projekt oder Ordner in Zwischenablage kopieren
+pmTPaste.Caption=&Einfügen
+pmTPaste.Hint=Projekt oder Ordner aus Zwischenablage einfügen
+pmTSort.Caption=Nach Namen &sortieren
+btnLoad.Caption=&Laden...
+btnPaste.Caption=Ein&fügen
+odText.Caption=Projekt aus Textdatei laden
+odText.Filter=Textdateien|*.txt|Alle Dateien|*.*
+btnAdd.Hint=Neue Vorlage erstellen
+btnProp.Hint=Ausgewählte Vorlage editieren
+btnRemove.Hint=Ausgewählte Vorlage löschen
+btnDef.Hint=Ausgewählte Vorlage als Standardvorlage festlegen
+btnLoad.Hint=Vorlage aus einer Textdatei laden
+btnPaste.Hint=Vorlage aus Zwischenablage einfügen
+btnReset.Hint=Ausgewählte Vorlage auf Ausgangseinstellungen zurücksetzen
+btnNewProject.Caption=Neues Projekt erstellen
+btnNewProject.Hint=Neues Projekt mittels der ausgewählten Vorlage erstellen
+
+[dlgAskPwd]
+Caption=Verifizierung
+
+Label1.Caption=Bitte geben Sie Ihren Namen und das Passwort an
+Label2.Caption=&Seite:
+Label3.Caption=&Bereich:
+Label5.Caption=&Benutzername:
+Label6.Caption=&Passwort:
+Button1.Caption=OK
+Button2.Caption=Abbrechen
+
+[dlgExport]
+Caption=Export
+
+lblFNFormat.Caption=&Format Dateiname:
+Label32.Caption=&Zielverzeichnis zum Kopieren der geladenen Webseiten
+Label1.Caption=Dateinamen
+Label3.Caption=Contents.htm-Datei
+lblPutFiles.Caption=Dateien ablegen nach:
+btnClose.Caption=Abbrechen
+btnExport.Caption=E&xport
+btnBrowse.Caption=&Durchsuchen
+cbStandardExt.Caption=Standard&erweiterungen für bekannte Dateitypen verwenden
+cbPreserveOnline.Caption=&Online-Links beibehalten
+btnHelp.Caption=&Hilfe
+cbShortFileNames.0=Übernehmen wie Original
+cbShortFileNames.1=8+3 - MS DOS kompatibel
+cbShortFileNames.2=Joliet - CD-R 64-Zeichen
+cbAutorunCD.Caption=Autorun-&CD erstellen
+cbContents.Caption=C&ontents.htm-Datei anlegen
+btnCustomize.Caption=&Anpassen
+cbPlainDir.Caption=&Keine Unterverzeichnisse anlegen
+cbPutTo.0=Ordner auf Festplatte
+cbPutTo.1=ZIP-Archiv
+cbPutTo.2=MHT-Archiv
+cbPutTo.3=MS Internet Explorer Cache
+cbPutTo.4=HTML-Hilfe (CHM-Datei)
+cbPutTo.5=Viewer für EXE-Archive
+cbFastExport.Caption=Schneller Expor&t
+cbOriginalURL.Caption=Original-URL in HTML-Dateien zufügen
+cbRecentFiles.Caption=Exportiere nur zuletzt geladene Dateien
+Label51.Caption=Export heruntergeladener Dateien nach:
+cbPutTo.6=HTML-Hilfe mit Inhalten
+cbPutTo.7=Upload auf FTP-Seite
+cbDisablePopups.Caption=&Sperren von Pop-up-Links
+cbOpen.Caption=O&effnen der Datei, wenn Export abgeschlossen ist
+Label42.Caption=Server:
+Label33.Caption=Nutzername:
+Label34.Caption=Passwort:
+cbFTPDelete.Caption=Exportierte Dateien löschen, wenn &Upload erfolgreich war
+lblFilesLinks.Caption=Dateinamen und Links übersetzen
+lblOptions.Caption=Sonstige Optionen
+Label31.Caption=FTP-Server
+cbShortFileNames.Caption=Beibehalten
+cbReport.Caption=Report.txt-Datei ers&tellen
+lblEXE.Caption=EXE-Viewer Interface
+cbEXEShowBar.Caption=A&dressleiste anzeigen
+cbEXEShowStatus.Caption=S&tatusleiste anzeigen
+cbEXEDisablePopup.Caption=Popup-Links de&aktivieren
+btnHide.Caption=Ver&stecken
+
+[dlgReg]
+Caption=Registrierung
+
+Label1.Caption=Danke für Ihre Registrierung von
+Label2.Caption=Ihre Registrierung ermöglicht uns, dieses Produkt zu verbessern und weitere hilfreiche Programme für Sie zu entwickeln.
+Label3.Caption=Wenn Sie nicht wissen, wie Sie sich registrieren lassen können, klicken Sie auf den Button "Bestellen" um genauere Informationen zu erhalten.
+Label4.Caption=Wenn Ihre Zahlung bei uns eingegangen ist, erhalten Sie automatisch Ihren Registrier-Code, den Sie in das Feld unten eintragen müssen.
+Label5.Caption=Produkt:
+Label7.Caption=Registrier-Code:
+btnOK.Caption=OK
+btnCancel.Caption=Abbrechen
+btnOrder.Caption=Bestellen
+
+[dlgWizard]
+Caption=Assistent für neue Projekte
+
+Label1.Caption=Ein Projekt beinhaltet den Download von Webseiten. Die URL wird als Startadresse verwendet. Wenn die Seite geladen ist, bestimmt Offline Explorer alle Links auf dieser Seite und lädt sie entsprechend den Projekteinstellungen.
+Label2.Caption=Projekt-&URL:
+Label3.Caption=Projekt&name:
+Label4.Caption=Sie können einen Projektnamen angeben, der im Projektbaum anstelle der URL erscheinen soll.
+Label5.Caption=URL-Beispiele sind: http://www.metaproducts.com/  ftp://ftp.microsoft.com/data/  http://winfiles.cnet.com/apps/98/desktop.html
+Label7.Caption=Willkommen zu einem neuen Projekt
+Label8.Caption=Seiten durch Downloadgrenze bestimmen
+Label11.Caption=Mit der Angabe der Ebenenzahl können Sie bestimmen, wie viele Seiten heruntergeladen werden sollen. Anders gesagt: Dieser Wert entspricht der Anzahl an Links, ausgehend von der ersten Seite bis zu der davon am weitesten entfernten verlinkten Seite.
+Label15.Caption=Setzen Sie Ebenen = 0, um nur die erste Seite zu laden. Ebenen = 1 lädt die erste Seite und alle Seiten, die darauf direkt verlinkt sind.
+Label17.Caption=Entfernen Sie das Häkchen bei "Ebenenlimit", um eine unbegrenzte Anzahl an Ebenen zu laden (die ganze Website).
+Label18.Caption=Wenn Sie diese Einstellung wählen, empfehlen wir Ihnen, die Option "Nur innerhalb der URL laden" oder "Nur ab Start-Server laden" auf den nächsten Seiten zu definieren. Ansonsten besteht die Gefahr, dass Sie das komplette Internet herunterladen!
+Label10.Caption=&Ebenenlimit:
+Label6.Caption=Wählen Sie die Dateitypen zum Download
+rbDAll.Caption=&Alle Dateien herunterladen, für die ein Link auf der Startseite existiert
+rbDSkip.Caption=&Folgende Dateitypen beim Download übergehen:
+cbImages.Caption=&Grafiken (Bilder)
+cbAudio.Caption=Audio (&Töne, Musik)
+cbVideo.Caption=&Video
+cbArchive.Caption=Archive (&ZIP, RAR etc.)
+Label9.Caption=Seite, von der Dateien heruntergeladen werden sollen
+Label16.Caption=Beispiel: Wenn Offline Explorer einen Link findet, der auf http://www.srv.com/dir1/dir2/somefile.htm verweist, dann versucht er den Inhalt aus den Verzeichnissen /dir1/ und /dir2/ zu laden. Erlaubt der Server die Auflistung von Verzeichnisstrukturen, wird Offline Explorer in der Lage sein, mehrere Dateien zu laden.
+rbURL.Caption=Nur innerhalb der &URL laden:
+rbSrv.Caption=Nur ab Start-&Server laden:
+rbAny.Caption=Von jeder &Adresse laden
+cbAllImages.Caption=&Bilder von jeder Adresse laden
+cbExploreDirs.Caption=&Versuche, alle Unterverzeichnisse zu durchsuchen
+Label12.Caption=Gratulation!
+Label13.Caption=Sie haben gerade ein neues Projekt im Offline Explorer erstellt.
+Label14.Caption=Was wollen Sie als nächstes tun?
+Label19.Caption=Offline Explorer lädt Seiten einer Website, um Links zu anderen Websites und Dateien zu bekommen. Diese Informationen werden dazu genutzt, die Seitenstruktur generieren zu können, ohne dass die komplette Website geladen werden muss.
+rbDNow.Caption=&Das neue Projekt jetzt starten
+rbProperties.Caption=&Erweiterte Einstellungen
+rbDLater.Caption=&Projekt später starten
+rbDSiteMap.Caption=Erstelle Seitenverzeichnisstruktur
+btnBack.Caption=< Zur&ück
+btnNext.Caption=W&eiter >
+btnCancel.Caption=Abbrechen
+cbShow.Caption=Beim Start von Offline Explorer &zeigen
+cbLevel.Caption=&Ebenenlimit:
+lblPassword.Caption=Falls die Webseite ein Passwort benötigt, für mehr Informationen dazu hier klicken.
+
+[dlgBR]
+Caption=Fortschritt
+
+btnCancel.Caption=Abbrechen
+btnOK.Caption=OK
+List.0=Download-Verzeichnis
+List.1=Verzeichnisse
+mpDDBrowse.Caption=&Durchsuchen
+
+[dlgProp]
+Caption=Projekteinstellungen
+
+Label4.Caption=&Kategorie:
+btnOK.Caption=OK
+btnCancel.Caption=Abbrechen
+btnHelp.Caption=Hilfe
+Label44.Caption=(F12 Übersicht Kommandos)
+lblTCaption.Caption=Name &Mustervorlage:
+lblCaption.Caption=&Projektname:
+lblURL.Caption=Adresse (&URL):
+lblURLs.Caption=Adressen (&URLs):
+Label16.Caption=Adresse und Ebenen
+Label43.Caption=(F11 zum Vergrößern)
+lblProjectID.Caption=Projekt-ID:
+rbFM1.Caption=&Nur modifizierte Dateien herunterladen
+cbFMCheckSize.Caption=&Dateigröße prüfen
+cbFMSkipMedia.Caption=Überspringe &existierende Mediendateien
+rbFM2.Caption=&Alle Dateien herunterladen
+rbFM3.Caption=&Vorhandene Dateien NICHT herunterladen
+rbFM4.Caption=Vorhandene Dateien &übergehen ab Ebene
+cbLevel.Caption=&Ebenenlimit:
+Label15.Caption=Welche Dateien sollen geladen werden?
+Label20.Caption=Dateigröße
+Label21.Caption=Erweiterung
+Label19.Caption=&Adresse
+cbFTLocation.0=Laden mit URL-Filtereinstellungen
+cbFTLocation.1=Laden nur vom Start-Server
+cbFTLocation.2=Laden nur aus dem Start-Verzeichnis
+cbFTLocation.3=Laden von irgendeiner Seite
+cbFTSHigh.Caption=Ma&ximum Größe
+cbFTSLow.Caption=M&inimum Größe
+cbFTSMD.Caption=Laden mit &Mass Downloader
+btnFTAdd.Caption=< &Zufügen
+btnFTDel.Caption=&Entfernen >
+btnSelAll.Caption=A&lles
+btnSelNone.Caption=&Nichts
+btnImageSize.Caption=Bildgrößen
+Label42.Caption=Überspringe folgende &URLs während des Downloads
+Label56.Caption=Teste eine URL auf UR&L-Filter
+btnUFTest.Caption=&Test
+Label29.Caption=Dateien folgender Protokolle herunterladen
+Label30.Caption=Protokolle anpassen
+rbUFProt1.Caption=&Alle Protokolle
+rbUFProt2.Caption=&Nur das Startprotokoll
+rbUFProt3.Caption=&Einstellungen
+cbUP0.Caption=Laden von &Webseiten (HTTP-Protokoll)
+cbUP1.Caption=Laden von &FTP-Seiten (FTP-Protokoll)
+cbUP3.Caption=Laden von &sicheren Webseiten (HTTPS-Protokoll)
+cbUP2.Caption=Laden von lokalen &Dateien (Datei:// URLs)
+cbUP4.Caption=Laden von MS &Media Player Streams (MMS-Protokoll)
+cbUP5.Caption=Laden von &Real Streams (RTSP Protokoll)
+cbUP6.Caption=Lädt R&ealstreams (PNM Protokol)
+Label40.Caption=Dateien von folgenden Servern laden
+Label46.Caption=Einige Dateifilterkategorien haben keine URL-Filtereinstellung in ihrer Positionsbeschreibung
+Label45.Caption=Hinweis:
+Label6.Caption=Such&begriff:
+Label51.Caption=(F11 zum Erweitern)
+cbLSrvs.0=Ausgeschlossene Suchbegriffe
+cbLSrvs.1=Eingeschlossene Suchbegriffe
+btnLSAdd.Caption=&Hinzufügen >
+btnLSDel.Caption=< &Entfernen
+btnLSUp.Caption=Nach oben bewegen
+btnLSDown.Caption=Nach unten bewegen
+lblOtherSrvLev.Caption=Links zu anderen Servern
+rbSPro4.Caption=Dateien nur vom Start-&Server laden
+rbSPro5.Caption=Dateien nur von der Start-&Domäne laden
+cbOtherSrvLev.Caption=Lade &bis zu
+rbSPro1.Caption=Von &allen Servern
+rbSPro2.Caption=&Nur innerhalb des Start-Servers
+rbSPro3.Caption=&Benutzerdefinierte Servereinstellung
+rbSProSrv.Caption=Se&rver
+rbSProDmn.Caption=&Domäne
+Label36.Caption=Dateien von folgenden Verzeichnissen laden
+Label37.Caption=Suchbegriffe definieren
+Label47.Caption=Hinweis:
+Label48.Caption=Einige Dateifilterkategorien haben keine URL-Filtereinstellung in ihrer Positionsbeschreibung
+Label7.Caption=Such&begriff:
+Label52.Caption=(F11 zum Erweitern)
+cbLDirs.0=Ausgeschlossene Suchbegriffe
+cbLDirs.1=Eingeschlossene Suchbegriffe
+btnLPAdd.Caption=&Hinzufügen >
+btnLPDel.Caption=< &Entfernen
+btnLPUp.Caption=Nach oben bewegen
+btnLPDown.Caption=Nach unten bewegen
+rbUFDir1.Caption=&Alle Verzeichnisse
+rbUFDir2.Caption=&Nur aus dem Start-Verzeichnis und darunter
+rbUFDir3.Caption=&Suchbegriffe für Verzeichnisse definieren
+Label38.Caption=Dateien mit folgenden Dateinamen laden
+Label39.Caption=Suchbegriffe definieren
+Label50.Caption=Einige Dateifilterkategorien haben keine URL-Filtereinstellung in ihrer Positionsbeschreibung
+Label49.Caption=Hinweis:
+rbUFFile1.Caption=&Alle Dateinamen
+rbUFFile2.Caption=&Nur die Start-Dateinamen
+rbUFFile3.Caption=&Suchbegriffe für Dateien definieren
+Label8.Caption=Such&begriff:
+Label53.Caption=(F11 zum Eweitern)
+cbLFiles.0=Ausgeschlossene Suchbegriffe
+cbLFiles.1=Eingeschlossene Suchbegriffe
+btnLFAdd.Caption=&Hinzufügen >
+btnLFDel.Caption=< &Entfernen
+btnLFUp.Caption=Nach oben bewegen
+btnLFDown.Caption=Nach unten bewegen
+lblExecBefore.Caption=Ausführen &vor Download:
+lblExecAfter.Caption=Ausführen &nach Download:
+Label18.Caption=Syntaxanalyse
+btnSubst.Caption=Ersatz-&URL
+cbExploreDirs.Caption=Untersuche alle &Unterverzeichnisse
+cbIgnoreErrors.Caption=Unterdrücke Fehler auf Webseite
+cbExploreForms.Caption=Durchsuche HT&ML-Dateien
+cbExploreSSMaps.Caption=L&ade Seitenverzeichnisstruktur vom Server
+cbComplexScripts.Caption=Skript-Kalkulation durchführen
+cbCheckFiles.Caption=Integrität von HTML-Dateien &prüfen
+cbConvertRSS.Caption=Konvertiere &RSS-Feeds nach HTML
+lblSLTime.Caption=Minuten
+lblSLTSize.Caption=KBytes
+Label17.Caption=Grenzwerte
+Label18.Caption=Überprüfen
+bxSLTSize.Caption=Webseiten nicht laden, die &größer sind als:
+bxSLNumber.Caption=Download beenden, wenn &Anzahl der Dateien größer als:
+bxSLTime.Caption=Download beenden, wenn &Zeit überschritten ist:
+Label2.Caption=Dateien mit und ohne Hyperlinks werden an die OFFLINE-Adresse angepasst.
+Label11.Caption=Dateien mit und ohne Hyperlinks werden an die ONLINE-Adresse angepasst.
+Label1.Caption=Der Download spiegelt eine Webseite mit allen Original-Links. (Warnung: Diese Methode könnte das Offline-Browsen eines Projektes unmöglich machen.)
+Label31.Caption=Anpassen der Links während die Dateien analysiert werden
+rbLOffline.Caption=&Offline anpassen
+rbLOnline.Caption=On&line anpassen
+rbNotTranslate.Caption=&Nicht anpassen
+Label10.Caption=Download-&Intervalle:
+Label5.Caption=Zeit-Inter&vall:
+Label26.Caption=&Wochentag:
+Label27.Caption=&Tag:
+Label28.Caption=&Monat:
+Label25.Caption=&Automatischer Download des Projektes nach Zeitplan
+Label24.Caption=&Zeit:
+WhenBox.0=Manuell
+WhenBox.1=Täglich
+WhenBox.2=Wöchentlich
+WhenBox.3=Monatlich
+WhenBox.4=Jährlich
+WhenBox.5=Alle
+MonthBox.0=Januar
+MonthBox.1=Februar
+MonthBox.2=März
+MonthBox.3=April
+MonthBox.4=Mai
+MonthBox.5=Juni
+MonthBox.6=Juli
+MonthBox.7=August
+MonthBox.8=September
+MonthBox.9=Oktober
+MonthBox.10=November
+MonthBox.11=Dezember
+OnceBox.Caption=&Nur einmal
+WeekdayBox.0=Sonntag
+WeekdayBox.1=Montag
+WeekdayBox.2=Dienstag
+WeekdayBox.3=Mittwoch
+WeekdayBox.4=Donnerstag
+WeekdayBox.5=Freitag
+WeekdayBox.6=Samstag
+Label22.Caption=&Geschützte Seiten und Seitenbereiche
+Label23.Caption=Achtung: Zur NTLM-Berechtigung, DOMÄNE in das Feld Benutzernamen eingeben.
+rbSPsw0.Caption=&Diesen Benutzernamen und das Passwort verwenden
+lblSUserName.Caption=Benutzer&name:
+lblSPassword.Caption=Pass&wort:
+rbSPsw1.Caption= &Zum Einloggen in geschützte Web- und FTP-Seiten
+rbSPsw5.Caption=im &HTML-Format
+rbSPsw2.Caption=&Anfordern von Benutzername und Passwort auf geschützten Seiten
+rbSPsw3.Caption=Geschützte Seiten &ignorieren und Download fortsetzen
+rbSPsw4.Caption=Download &stoppen, wenn Seite geschützt ist
+lblLKeepCopies.Caption=Kopien
+Label32.Caption=&Kopien von älteren Dateien erstellen und nicht überschreiben
+Label33.Caption=Datei&format für alte Dateien
+bxLKeepCopies.Caption=&Alte Dateien behalten:
+cbMSIECache.Caption=Dateien in &MS Internet Explorer Cache kopieren
+cbFCZeros.Caption=Führende Nullen hin&zufügen
+cbFCUseDate.Caption=&Datums-/Zeitformat für Datei nach folgendem Format benutzen
+Label34.Caption=&Text-Suchwörter
+Label12.Caption=&Suchwörter:
+Label35.Caption=&Benachrichtigung
+Label3.Caption=Benachrichtigen per &Email (Adressen mit Komma oder Leerzeichen trennen):
+Label13.Caption=&Thema:
+cbSearchForAll.Caption=Nach &allen Suchwörtern suchen
+cbSaveNoKw.Caption=&Seiten ohne im Text enthaltene Suchwörter speichern
+cbGraphNoKw.Caption=Download von &Grafiken, die keine Suchwörter erfordern
+cbStopOnKw.Caption=Download stoppen, wenn Suchwörter gefunden wurden
+cbNoSaveKw.Caption=Kei&ne Seiten speichern, die im Text Suchwörter beinhalten
+cbSearchInTags.Caption=Innerhalb HTML-&Tags
+Label54.Caption=TextPipe-Filter
+Label55.Caption=TextPipe-Ausführungsoptionen
+rbFilter1.Caption=TextPipe mit &neuem Filter starten
+rbFilter2.Caption=TextPipe-&Filterdatei (*.fll) nutzen, um geladene Dateien zu verarbeiten:
+cbPassFiles.Caption=Heruntergeladene Projektdateien nach &TextPipe umleiten
+cbTextOnly.Caption=Data Mining nur für &Text- und HTML-Dateien
+cbRun.Caption=Filter starten, wenn TextPipe lädt
+cbQuit.Caption=TextPipe &beenden nach Durchlauf des Filters
+cbDMNew.Caption=&Data Mining nur für neue und aktualisierte Dateien
+Label9.Caption=Eine Unterkategorie auswählen
+btnDEW.Caption=Vorlagen
+ItemTree.0=Projekt
+ItemTree.1=Dateifilter
+ItemTree.2=Text
+ItemTree.3=Bilder
+ItemTree.4=Video
+ItemTree.5=Audio
+ItemTree.6=Archiv
+ItemTree.7=Benutzerdefiniert
+ItemTree.8=Sonstiges
+ItemTree.9=URL-Filter
+ItemTree.10=URL-Ausschluss
+ItemTree.11=Protokoll
+ItemTree.12=Server
+ItemTree.13=Verzeichnis
+ItemTree.14=Datei
+ItemTree.15=Inhaltsfilter
+ItemTree.16=Erweitert
+ItemTree.19=Link-Anpassung
+ItemTree.20=Zeitplaner
+ItemTree.21=Passwörter
+ItemTree.22=Dateikopien
+ItemTree.23=Data Mining
+ItemTree.24=Datenextraktion
+btnApply.Caption=A&nwenden
+odImportKeywords.Caption=Schlagworte aus Textdatei laden
+odImportKeywords.Filter=Textdateien|*.txt|Alle Dateien|*.*
+MenuItem1.Caption=Rückgängig
+MenuItem3.Caption=Ausschneiden
+MenuItem4.Caption=Kopieren
+MenuItem5.Caption=Einfügen
+MenuItem6.Caption=Löschen
+MenuItem8.Caption=&Alles markieren
+mpCut.Caption=Auss&chneiden
+mpCopy.Caption=&Kopieren
+mpPaste.Caption=&Einfügen
+mpEdit.Caption=&Bearbeiten
+dlgOpenFilter.Caption=Filterdatei öffnen
+dlgOpenFilter.Filter=TextPipe-Filterdateien|*.fll|Alle Dateien|*.*
+cbIndex.Caption=Indi&zieren geladener Dateien für schnellere Suche
+cbFTLocation.4=Laden nur von der Ausgangsdomäne
+cbSPro2.Caption=Laden von Dateien &nur aus Startdatei
+cbUFDir2.Caption=Laden von Dateien &nur aus dem Startordner und darunter
+cbUFFile2.Caption=Laden von Dateien &nur mit dem Startdateinamen
+Label121.Caption=&Suchwörter
+cbSearchForAll5.Caption=Suche nach &allen Suchwörtern
+cbSaveNoKw5.Caption=Speich&ern dieser Seite
+cbGraphNoKw5.Caption=Download aller G&rafiken von dieser Seite
+cbStopOnKw5.Caption=Download von Seiten st&oppen, wenn Suchwörter gefunden wurden
+cbSearchInTags5.Caption=Suchen innerhalb HTML-T&ags
+cbSaveOnKw5.Caption=Speic&hern dieser Seiten
+cbGraphOnKw5.Caption=Download aller G&rafiken von diesen Seiten
+cbStopNoKw5.Caption=Download von Seiten sto&ppen, wenn Suchwörter nicht gefunden wurden
+lvDEW.0=Vorlage
+btnDEWDelete.Caption=&Löschen
+Label58.Caption=Text-Suchwörter
+Label59.Caption=Wenn Suchwörter auf einer Seite gefunden wurden
+Label60.Caption=Wenn Suchwörter auf einer Seite nicht gefunden wurden
+Label57.Caption=Daten extrahieren aus heruntergeladenen Seiten
+ItemTree.17=Grenzen
+ItemTree.18=Syntaxanalyse
+cbUP7.Caption=Laden von &BitTorrent-Protokoll
+cbNoFollow.Caption=&Markieren Sie Online-Links als "nicht verfolgen" ("nofollow").
+ItemTree.25=Berichte
+ItemTree.26=Visuelle Blöcke
+cbIgnoreLogout.Caption=Auslo&ggen-Links ignorieren
+lblLMixed.Caption=Alle eingeschränkten Links beibehalten. Alle heruntergeladenen Links verweisen auf Offline-Seiten.
+rbLMixed.Caption=Gemischt
+lblWPRun.Caption=Heruntergeladene Dateien
+rbWPRun1.Caption=Filter ausführen, &wenn Download beendet wird
+rbWPRun2.Caption=Filter ausführen &jeden
+lblDDWarning.Caption=Achtung: es wird empfohlen, nicht mehr als 60 Zeichen im Pfad zu verwenden.
+lblDDExists.Caption=Wenn das angegebene Verzeichnis nicht existiert, wird es automatisch angelegt.
+lblDownloadDir.Caption=Download-Verzeichnis
+cbFDD.Caption=&Aktivieren
+btnDDBrowse.Caption=&Durchsuchen...
+lblNPReports.Caption=Datenbank mit Details zu Website-Fehlern und Links erstellen
+btnViewReport.Caption=&Bericht anzeigen...
+rbReportErrors1.Caption=Fehler und Seitenstrukturen nicht aufzeichnen
+rbReportErrors2.Caption=Nur Fehler aufzeichnen
+rbReportErrors3.Caption=Fehler und komplette Seitenstrukturen zur Fehlersuche aufzeichnen
+lblVBSNo.Caption=Es wurde für dieses Projekt kein visueller Block definiert. Bitte nutzen Sie den Visuellen Assistenten des internen Browsers, um die Projekteinstellungen visuell vorzunehmen.
+lblVBS.Caption=Links innerhalb visueller Blöcke folgen
+rbVBS1.Caption=Links von kompletten Seiten herunterladen
+rbVBS2.Caption=Links nur innerhalb ähnlicher visueller Blöcke folgen
+mpMoveUp.Caption=Nach &oben bewegen
+mpMoveDown.Caption=Nach &unten bewegen
+lblTemplateURL.Caption=Dies ist eine Vorlage um neue Projekte zu erstellen. Vorlagen enthalten keine URLs (Webadressen).
+ItemTree.27=Audit-Log
+cbOtherSrvDir.Caption=in allen Verzeichnissen
+lblPassword.Caption=Hier klicken um mehr darüber zu erfahren, wie man Passwort-geschützte Webseiten herunterlädt.
+cbCArchives.0=Keine Archivierung
+cbCArchives.1=Gesonderten Ordner pro jeweiligen Tag erstellen
+cbCArchives.2=Gesonderten Ordner pro jede Stunde erstellen
+lblCopiesArchive.Caption=Gesonderten Ordner pro jeweiliges Projekt erstellen
+cbReportClear.Caption=Beim Starten eines neuen Downloads vorherigen Bericht beseitigen
+Label14.Caption=&Benutzername:
+lblAuditLog.Caption=Audit-Log
+cbAuditLog.Caption=Alle Operationen &loggen in:
+btnLogDirBrowse.Caption=Bro&wsen...
+edtFindControls.Hint=Schlüsselwort eintippen um Einstellungen und Optionen zu finden (F4)
+
+[dlgCSearch]
+Caption=Inhalte suchen
+
+btnFind.Caption=&Suchen
+btnCancel.Caption=Abbrechen
+btnAbort.Caption=&Abbrechen
+btnBrowse.Caption=&Durchsuchen
+btnSave.Caption=&Speichern
+btnDelete.Caption=&Löschen
+btnEdit.Caption=B&earbeiten
+Label1.Caption=&Suchbegriff:
+cbSearchForAll.Caption=&Alle Suchbegriffe finden
+cbTextOnly.Caption=Nur in &Textdateien suchen
+cbRecent.Caption=&Nur zuletzt geladene Dateien
+cbSearchInTags.Caption=Suche innerhalb von HTML-Tags
+sdSave.Caption=Suchergebnisse speichern
+sdSave.Filter=HTML-Dateien - Offline-Links|*.htm|HTML-Dateien - Online-Links|*.htm|Textdateien|*.txt|Alle Dateien|*.*
+cbIndexed.Caption=Indizierte Suche
+lblFiles.Caption=&Nur für Dateien:
+
+[dlgCleanUp]
+Caption=Geladene Seiten entfernen
+
+btnAbort.Caption=&Abbrechen
+btnDelSel.Caption=Auswahl &löschen
+btnDelAll.Caption=&Alles löschen
+btnClose.Caption=&Schließen
+btnMaps.Caption=Unbenutzte &Baum-Dateien
+miCUOpen.Caption=Datei &oder Verzeichnis öffnen
+miCUDelete.Caption=&Löschen
+
+[DialerForm]
+Caption=Wählhilfe
+
+Label3.Caption=Status:
+Label4.Caption=Letzter Fehler:
+CancelButton.Caption=Abbrechen
+
+[TipForm]
+Caption=Tipp des Tages
+
+Label2.Caption=Wussten Sie schon?
+cbShowOnStart.Caption=Tipps beim Start zeigen
+Box.0=Nach einem Klick mit der rechten Maustaste auf eine Webseite in den Projekten wird ein Kontextmenü geöffnet, das Ihnen hilft, Ihre Webseiten zu bearbeiten, anzuschauen oder zu durchsuchen.
+Box.1=Sie können den Download einer Datei stoppen, wenn Sie nach einem Rechtsklick auf die Datei im Downloadstatus "Abbruch" wählen.
+Box.2=Sie können eine Website schnell herunterladen, wenn Sie die URL (wie beim Internet Explorer) in die Adressleiste schreiben oder kopieren und dann die Eingabetaste drücken oder auf den Button "Download" klicken.
+Box.3=Sie können die Downloadtiefe durch Eingabe einer Zahl neben der Adressleiste bestimmen.
+Box.4=Sie können den internen Browser (IB) von OE im Menü Ansicht | Explorerleiste | Interner Browser einschalten. Im Browser können Sie jedes beliebige Projekt durch Doppelklick anzeigen.
+Box.5=Sie können mehrere Websites herunterladen, indem Sie im Projektbereich die gewünschten URLs markieren und gleichzeitig die Shift-Taste drücken. Einzelne URLs wählen Sie mit der STRG-Taste aus. Sie können einen Ordner wählen, der eine Vielzahl von Seiten beinhaltet. Mit Klick auf START oder Drücken von F5 wird der Download eingeleitet.
+Box.6=Mit den URL-Filtereinstellungen in den Projekteigenschaften können Sie über Schlüsselwörter Server, Verzeichnisse und Dateien für den Download bestimmen. Sie können mit Schlüsselwörtern Server, Verzeichnisse oder Dateien vom Download aus- oder einschließen. In der Hilfe finden Sie weitere Einzelheiten hierzu.
+Box.7=Wenn Sie z.B. nur gif-Bilddateien herunterladen wollen, öffnen Sie das Menü Datei | Neu | Projekt (oder klicken Sie auf das Symbol Neu) und markieren Sie im Dateifilter | Bilder nur die Erweiterung gif. Am schnellsten geht das, wenn Sie zuerst "Nichts" anklicken und dann das Kästchen neben gif.
+Box.8=Sie können mit Kommandozeilen-Parametern den Zeitplaner vom Offline Explorer bearbeiten und so spezielle Aktionen ausführen, wie z.B. den PC nach dem Download herunterzufahren. In der Hilfe finden Sie hierzu eine genaue Beschreibung.
+Box.9=Um eine genaue Kopie einer Webseite herunterladen zu können, müssen Sie in den Eigenschaften | Erweiterte Einstellungen | Link-Anpassung das Kästchen "Nicht anpassen" markieren.
+Box.10=Besuchen Sie unsere Webseite immer wieder, um die neuesten Updates, News, Plugins, etc. zu finden.
+Box.11=Sie können eine heruntergeladene Webseite durchsuchen, ansehen oder bearbeiten. Hierfür können Sie auch Spezialprogramme einbinden im Menü Optionen | Tools. Diese Tools können aus dem Menü Ansicht oder über die Tabs Projekte und Baum aufgerufen werden.
+Box.12=Sie können den Fortschritt Ihres Downloads prüfen. Öffnen Sie das Fenster Ansicht | Fortschritt | Downloadstatus. Wenn Sie den Download verfolgen, anhalten, speichern oder filtern wollen, öffnen Sie das Nachrichtenfenster im gleichen Menü.
+Box.13=Sie können die URLs Ihrer Favoriten aus Ihrem Browser importieren. Öffnen Sie das Menü Datei | Importieren | MS IE Favoriten und klicken Sie auf die URL, die als Projekt in OE übernommen werden soll. OE unterstützt MSIE, Netscape und Opera.
+Box.14=Sie können Ihre eigenen Standardeinstellungen für alle Ihre Downloads einrichten. Ändern Sie im Menü Datei | Mustervorlagen die Optionen nach Ihren Wünschen.
+Box.15=Sie können einen Download zeitweilig anhalten und später wieder aufnehmen. Verwenden Sie die Befehle "Projekt in Datei zwischenspeichern" und "Fortsetzen aus Datei" im Menü Download.
+Box.16=Sie können einen Download zeitweilig anhalten und später wieder aufnehmen mit dem Befehl "Unterbrechen F9" im Download-Menü.
+Box.17=Sie können einen Zeitplan für Ihre Downloads in den Eigenschaften festlegen. Menü Datei | Neu | Projekt | Erweiterte Einstellungen | Zeitplaner.
+Box.18=Sie können ein Projekt einfach per Drag und Drop in den Zeitplaner ziehen. Geöffnet wird es im Menü Ansicht | Zeitplaner.
+Box.19=Passwörter für geschützte Seiten können Sie in den Eigenschaften | Erweiterte Einstellungen vorgeben.
+Box.20=Sie können eine Seite des internen Browsers mit Klick auf das Druckersymbol ausdrucken.
+Box.21=Mit Klick auf das Symbol Startseite (Home) im internen Browser erhalten Sie einige Projektstatistiken.
+Box.22=Sie können eine neue Mustervorlage durch Kopieren eines vorhandenen Projektes erzeugen. Klicken Sie im Menü Datei auf "Mustervorlage". Klicken Sie auf die Vorlage und kopieren Sie das Projekt mit STRG+C in die Zwischenablage: Mit STRG+V fügen Sie es in die Sammlung ein. Mit F2 können Sie den Namen ändern.
+Box.23=Sie können Projekte in einem Ordner auch sortieren. Mit einem Klick der rechten Maustaste öffnet sich das Pop-up-Menü mit der Option: "Ansicht > Sortieren". Wählen Sie die gewünschte Option.
+Box.24=Sie können Dateien mit einem einzigen Klick öffnen. Wechseln Sie in die Baum-Ansicht und rufen Sie mit einem Rechtsklick das Kontextmenü auf. Aktivieren Sie den Befehl: "Öffnen mit Einfachklick".
+Box.25=Um eine Website im internen Browser zu speichern, drücken Sie STRG+Alt+S.
+Box.26=F11 schaltet den internen Browser auf Vollbild und zurück auf Normalgröße.
+Box.27=Mit STRG-A und STRG-N können Sie alle Dateierweiterungen in den Dateifiltern der Projektoptionen auf einmal wählen und abwählen.
+Box.28=Sie finden die beim letzten Download geladenen Dateien, wenn Sie im Menü Bearbeiten den Befehl "Inhalte suchen" ausführen. Geben Sie als Suchbegriff ein Leerzeichen ein und markieren Sie nur das Kästchen "Nur zuletzt geladene Dateien".
+Box.29=Sie können definierte Suchbegriffe in den Projekteinstellungen | URL-Filter | Server mit der Tastenkombination STRG+M  ein- oder ausschließen.
+Box.30=Sie können alle Suchbegriffe in Projekteinstellungen | URL-Filter | Server gleichzeitig mit der Tastenkombination STRG+A markieren oder mit STRG+N alle Markierungen aufheben.
+Box.31=In URL-Makros können Sie auch römische Zahlen verwenden.
+Box.32=Um ein einzelnes Projekt in eine Datei zwischenzuspeichern und andere Projekte weiter herunterzuladen, klicken Sie mit der rechten Maustaste auf das gewünschte Projekt und wählen Sie Download | Projekt in Datei zwischenspeichern.
+Button1.Caption=&Schließen
+Button2.Caption=&Nächster Tipp
+
+[dlgProxyURLDetect]
+Caption=Proxyeinstellungen ermitteln
+
+Label1.Caption=Proxyeinstellungen werden ermittelt für URL:
+Label2.Caption=Folgende Proxyserver wurden ermittelt. Bitte wählen Sie einen aus und bestätigen Sie mit OK.
+lbProxies.0=Es wurden keine Proxyserver gefunden.
+btnOK.Caption=OK
+btnCancel.Caption=Abbruch
+
+[dlgSeqSchedule]
+Caption=Sequenzer-Zeitplaner
+
+Label10.Caption=Download-&Intervalle:
+Label5.Caption=Zei&tintervall:
+Label24.Caption=&Zeit:
+Label26.Caption=&Wochentag:
+Label27.Caption=Tag:
+Label28.Caption=&Monat:
+Label25.Caption=Projekt-Sammler zum angegebenen Zeitpunkt starten
+WhenBox.0=Manuell
+WhenBox.1=Täglich
+WhenBox.2=Wöchentlich
+WhenBox.3=Monatlich
+WhenBox.4=Jährlich
+WhenBox.5=Immer
+MonthBox.0=Januar
+MonthBox.1=Februar
+MonthBox.2=März
+MonthBox.3=April
+MonthBox.4=Mai
+MonthBox.5=Juni
+MonthBox.6=Juli
+MonthBox.7=August
+MonthBox.8=September
+MonthBox.9=Oktober
+MonthBox.10=November
+MonthBox.11=Dezember
+OnceBox.Caption=&Einmalig
+btnOK.Caption=OK
+btnCancel.Caption=Abbruch
+WeekdayBox.0=Sonntag
+WeekdayBox.1=Montag
+WeekdayBox.2=Dienstag
+WeekdayBox.3=Mittwoch
+WeekdayBox.4=Donnerstag
+WeekdayBox.5=Freitag
+WeekdayBox.6=Samstag
+
+[dlgShare]
+Caption=Veröffentlichen Sie Ihr Projekt!
+
+Label1.Caption=Sie können Ihre Projekteinstellungen mit anderen Personen gemeinsam benutzen.
+Label2.Caption=Wenn das Projekt erfolgreich eine Seite heruntergeladen und gut funktioniert hat, kann dieses Wissen Anderen Zeit und Arbeit ersparen.
+Label3.Caption=Bitte übermitteln Sie Kommentare, Beschreibungen usw., die hilfreich sein könnten für die Projekteinstellungen:
+Label4.Caption=Bitte nennen Sie Ihren Kurznamen, der in den Suchergebnissen angezeigt werden soll:
+Label6.Caption=Sie können ebenso von den Projekteinstellungen profitieren, die andere Nutzer zur Verfügung stellen.
+btnShare.Caption=Veröffentlichen!
+btnCancel.Caption=Abbrechen
+
+[dlgBTAll]
+Caption=BitTorrent-Downloads
+
+lvBT.0=Name
+lvBT.1=Dateien
+lvBT.2=Größe
+lvBT.3=Geladen
+lvBT.4=Verzeichnis
+btnImport.Caption=&Import von Partnern
+btnCheck.Caption=Datenintegrität &prüfen
+btnClose.Caption=Schließen
+odBT.Filter=BitTorrent Peers-Datei|BTPeers.dat|Alle Dateien|*.*
+mpCheckIntegrity.Caption=Integrität &prüfen
+mpDelete.Caption=&Löschen
+lvBT.5=Verzeichnis
+
+[dlgTorrent]
+Caption=BitTorrent-Download-Details
+
+lvFiles.0=Dateiname
+lvFiles.1=Größe
+lvFiles.2=Offset
+lvFiles.3=Teile
+lvFiles.4=Geladen
+Label1.Caption=Geladene Teile:
+Label3.Caption=von
+lvPeers.0=Partner
+lvPeers.1=Hat Teile
+lvPeers.2=Teile
+lvPeers.3=Status
+btnDownload.Caption=&Download
+btnClose.Caption=&Schließen
+mpAbort.Caption=&Abbrechen
+mpReconnect.Caption=&Wiederverbinden
+mpDMax.Caption=A&ktive Downloads
+mpUpdateTracker.Caption=&Update-Tracker
+mpCheckIntegrity.Caption=Integrität &prüfen
+mpOpenFolder.Caption=&Verzeichnis öffnen
+mpOpenFile.Caption=Datei &öffnen
+btnStop.Caption=Stopp
+lvPeers.4=Geschwindigkeit
+lblFolder.Caption=Speichern unter:
+btnBrowse.Caption=&Durchsuchen...
+mpBan.Caption=Peer abbrechen && &sperren
+miHelp.Caption=Anderem Peer &helfen
+mpPause.Caption=&Pause
+mpCheckAll.Caption=Alle Dateien &markieren
+mpUncheckAll.Caption=Alle Markierungen &entfernen
+mpCheckSelected.Caption=Ausgewählte Dateien m&arkieren
+mpUncheckSelected.Caption=Ausgewählte Markierungen ent&fernen
+mpCheckIntegrity1.Caption=&Integrität prüfen
+
+[dlgMenuSelect]
+Caption=Herzlich willkommen bei
+
+Label1.Caption=Bitte wählen Sie Ihren Stil für die Menü-Navigation:
+Label4.Caption=Sie können die MS Office 2007 nachempfundene Multifunktionsleiste verwenden, die Schaltflächen in logischen Gruppen zusammenfasst. Oder Sie verwenden die alten, klassischen Werkzeugleisten-Menüs.
+Label5.Caption=Sie können im Ansicht-Menü zwischen der alten Ansicht und der Multifunktionsleiste wählen.
+btnOK.Caption=OK
+rbRibbon.Caption=&Neue Multifunktionsleiste wie in Office 2007:
+rbMenu.Caption=&Altes Menü mit Werkzeugleisten:
+
+[dlgOffer]
+Caption=Danke schön!
+
+btnOK.Caption=Schließen
+btnBuyNow.Caption=Jetzt kaufen !
+
+[dlgProjectSummary]
+Caption=Zusammenfassung der Projekteinstellungen
+
+btnCopy.Caption=Ko&pieren
+btnClose.Caption=Schließen
+
+
+[dxBarCustomizationForm]
+Caption=Einstellungen
+
+BClose.Caption=Schließen
+TabSheet1.Caption=Symbolleisten
+LabelToobars.Caption=&Symbolleisten:
+BBarDelete.Caption=&Löschen
+BBarNew.Caption=&Neu
+BBarRename.Caption=&Umbenennen
+BBarReset.Caption=&Zurücksetzen
+TabSheet2.Caption=Befehle
+LabelCategories.Caption=&Kategorien:
+LabelCommands.Caption=&Befehle:
+LabelDescription.Caption=Beschreibung
+TabSheet3.Caption=Optionen
+LabelMenuAnimations.Caption=Übergangseffekte für Menüs:
+ComboBoxMenuAnimations.0=(Keine)
+ComboBoxMenuAnimations.1=Zufall
+ComboBoxMenuAnimations.2=Rolleffekt
+ComboBoxMenuAnimations.3=Einblenden
+CBHint1.Caption=Beschreibung für Schal&tflächen der Symbolleiste anzeigen
+CBHint2.Caption=&Hotkeys der Schaltflächen zusätzlich anzeigen
+CBLargeIcons.Caption=&Große Symbole
+Label1.Caption=Menüanimation
+Label2.Caption=Sonstiges
+Label3.Caption=Benutzerdefinierte Menüs und Symbolleisten
+ComboBoxMenuAnimationsEx.0=(Keine)
+ComboBoxMenuAnimationsEx.1=Zufall
+ComboBoxMenuAnimationsEx.2=Rolleffekt
+ComboBoxMenuAnimationsEx.3=Einblenden
+ComboBoxMenuAnimationsEx.4=Einblenden
+CBHint1Ex.Caption=&Zeigt die Beschreibung zu den Schaltflächen an
+CBHint2Ex.Caption=Zeig&t zusätzlich die Hotkeys zu den Schaltflächen an
+CBLargeIconsEx.Caption=&Große Symbole
+CBMenusShowRecentItemsFirst.Caption=M&enüs zeigen zuletzt verwendete Befehle zuerst an
+CBShowFullMenusAfterDelay.Caption=Nach k&urzer Verzögerung vollständige Menüs &anzeigen
+BResetUsageData.Caption=Be&nutzerprofil zurücksetzen
+TabSheet4.Caption= Alle Befehle
+CBShowCommandsWithShortCut.Caption=Alle über Shortcuts aufrufbaren Befehle zeigen
+GroupBox1.Caption= Gruppen
+btnGroupAdd.Caption=Hinzufügen
+btnGroupDelete.Caption=Löschen
+GroupBox2.Caption= Einträge
+btnGroupItemAdd.Caption=Hinzufügen
+btnGroupItemDelete.Caption=Löschen
+CategoriesAdd.Caption=Hinzufügen
+CategoriesAdd.Hint=Fügt hinzu
+CategoriesInsert.Caption=Einfügen
+CategoriesInsert.Hint=Fügt ein
+CategoriesRename.Caption=Umbenennen
+CategoriesRename.Hint=Umbenennen
+CategoriesVisible.Caption=Sichtbar
+CategoriesVisible.Hint=Sichtbar
+CommandsAdd.Caption=Hinzufügen
+CommandsAdd.Hint=Hinzufügen
+CommandsDelete.Caption=Löschen
+CommandsDelete.Hint=Löscht
+CommandsClear.Caption=Leeren
+CommandsClear.Hint=Inhalt löschen
+CommandsMoveUp.Caption=Nach oben
+CommandsMoveUp.Hint=Nach oben bewegen
+CommandsMoveDown.Caption=Nach unten
+CommandsMoveDown.Hint=Nach unten bewegen
+CommandsSubMenuEditor.Caption=Untermenü-Editor
+CommandsSubMenuEditor.Hint=Untermenüs bearbeiten
+CategoriesItemsVisible.Caption=Sichtbare Einträge:
+CategoriesItemsVisible.Hint=Sichtbare Einträge
+CategoriesItemsVisible.0=Nie
+CategoriesItemsVisible.1=Angepasst
+CategoriesItemsVisible.2=Immer
+CategoriesDelete.Caption=Löschen
+CategoriesDelete.Hint=Löschen
+tsToolbars.Caption= Symbolleisten
+tsItems.Caption= Befehle
+tsOptions.Caption= Optionen
+tsCommands.Caption= Alle Befehle
+tsGroups.Caption=Gruppen
+gpGroupItems.Caption= Posten
+btnAddGroupItem.Caption=Hinzufügen
+btnAddGroupItem.Hint=Element hinzufügen (Einfg)
+btnDeleteGroupItem.Caption=Entfernen
+btnDeleteGroupItem.Hint=Element entfernen (Entf)
+btnMoveUpGroupItem.Caption=Auf
+btnMoveUpGroupItem.Hint=Element nach oben verschieben
+btnMoveDownGroupItem.Caption=Ab
+btnMoveDownGroupItem.Hint=Element nach unten verschieben
+gbGroups.Caption=Gruppen
+btnAddGroup.Caption=Hinzufügen
+btnAddGroup.Hint=Gruppe hinzufügen (Einfg)
+btnDeleteGroup.Caption=Entfernen
+btnDeleteGroup.Hint=Gruppe entfernen (Entf)
+btnMoveUpGroup.Caption=Auf
+btnMoveUpGroup.Hint=Gruppe nach oben verschieben
+btnMoveDownGroup.Caption=Ab
+btnMoveDownGroup.Hint=Gruppe nach unten verschieben
+ComboBoxMenuAnimations.Caption=(Keine)
+ComboBoxMenuAnimationsEx.Caption=(Keine)
+
+[Strings]
+Standard
+Leer
+Konnte Standardbrowser nicht finden
+Fehler
+Konnte Standardbrowser nicht starten
+Wollen Sie folgenden Eintrag entfernen?
+Bestätigung
+Wollen Sie alle Projektdateien entfernen?
+Wenigstens ein Ordner sollte übrigbleiben!
+Wollen Sie alle Projekte im Ordner oder in der Auswahl entfernen?
+Fehler beim Aufruf des externen Tools
+Heruntergeladen
+Datei(en)
+Warteschlange
+Größe
+KB
+Neuer Ordner
+&Fortsetzen
+&Anhalten
+Geschwindigkeit
+Bytes/Sek
+Wollen Sie beenden?
+Standard-Projekteigenschaften
+Download stoppen?
+URLs vom Download ausschließen
+Erweiterte Projekteigenschaften
+Projektname, Adressen und Ebenen
+Passwörter für geschützte Webseiten
+Auswahl Dateierweiterung
+Server auf Suchbegriff beschränken
+Verzeichnisse auf Suchbegriff beschränken
+Dateien auf Suchbegriff beschränken
+Wann soll das Projekt gestartet werden?
+Inhalt der Kategorie bestimmen
+Einstellungen für IN und HTTP-Server
+Proxy- und Passworteinstellungen
+Speicherorte für Dateien
+Grenzwert für freien Speicherplatz bestimmen
+Spezial-Einstellungen
+Beim Durchsuchen einer Webseite eines dieser Tools anzeigen
+Browser zum Anzeigen von Webseiten
+Beim Besuch einer Webseite eine Auswahl dieser Tools anbieten
+Viewer zur Anzeige von Webseiten
+Beim Bearbeiten einer Webseite eine Auswahl dieser Tools anbieten
+Editoren für Webseiten
+MB frei
+Kann keine übereinstimmenden Daten finden.
+Download
+Fertig
+Angehalten
+Analysieren
+Suchen
+&Import
+Vollbild
+Normalgröße
+Protokolle begrenzen
+Cookies sind z. Zt. nicht zugelassen. Sollen sie zugelassen werden?
+Übertragungsmodus auswählen
+Mustervorlageneditor
+Download der Datei anhalten?
+Allgemeine Projekteigenschaften
+Verschiedene Modi zum Update des Projekts
+Ordnername und Downloadverzeichnis
+Systemintegration
+Alte Dateien vor Download sichern
+Einwahlparameter
+Abschluss einer Session
+Wollen Sie die Modemverbindung trennen?
+MB
+GB
+Seiten nach Suchbegriffen filtern
+Aktionen bestätigen
+Sekunden
+Download beendet
+Projektdownload geplant
+Projekt nicht heruntergeladen
+Adresse (URL) nicht gefunden
+Download gestoppt
+Ermittelt alle unbenutzten heruntergeladenen Dateien und Seiten. Sie können danach auswählen, welche entfernt werden sollen.
+Wollen Sie fortsetzen?
+Geladen
+Länge
+Downloadgeschwindigkeit bestimmen
+Wollen Sie alle Projekte im Ordner starten?
+Wollen Sie das vorherige Projekt stoppen?
+Wollen Sie alle Projekte im Ordner stoppen?
+Das Dokument wurde nicht gefunden.
+Diese Seite ist offline nicht verfügbar. Möglicherweise ist der Link ungültig oder die Seite kann aufgrund der Projekteinstellungen nicht heruntergeladen werden.
+Klicken Sie hier für eine Online-Verbindung.
+Information
+Bytes
+Gesamtgröße aller Dateien ist
+Dies setzt das Downloadverzeichnis für alle Unterverzeichnisse auf den obigen Eintrag.
+Möchten Sie fortfahren?
+Projekt
+Die Download-Adresse entspricht nicht der Adresse in den Projekteinstellungen:
+Soll die Adresse in den Projekteinstellungen geändert werden? Wenn die Adresse nicht geändert werden soll, dann brechen Sie diesen Vorgang bitte mit "Nein" ab."
+Verhalten nach Download
+Öffne Datei
+Ausgewählt
+Möchten Sie Informationen über gelöschte Dateien behalten, um geänderte und neue später zu laden?
+Dateiebene:
+Nicht registriert
+Benutzer / Computerlizenz
+Unbegrenzte Seitenlizenz
+Seitenlizenz
+Benutzer / Computerlizenzen
+Zeitbegrenzte Lizenz. Läuft ab nach
+Projekte
+URLs
+Unterbrochen in Datei
+Letzter Download von %s bis %s
+Kein Projekt ausgewählt
+Sie haben Ihr Projekt seit %s Tagen nicht aktualisiert.
+Tage
+Als Startseite festlegen
+Sie haben Ihr Projekt seit %s Tagen nicht aktualisiert.
+Passwort ist nicht korrekt
+Passwort ist ungültig
+Möchten Sie vorhandene Projekte überschreiben?
+Nach neuer Version suchen
+Projekte hierher ziehen und diesem Zeitplaner hinzufügen
+Projekte hierher ziehen und diesem Sequenzer hinzufügen
+Mehrfach-Links
+Neuer Browser
+Neue Vorlage
+Den fehlenden Link jetzt herunterladen und dem ausgewählten Projekt hinzufügen
+Begrüßungsseite
+Download Speed Chart. Keine Download-Aktivität innerhalb von %s Sekunden.
+Download Speed Chart. Max = %s, Avg = %s innerhalb von %s Sekunden.
+Download-Grenzen
+Erweiterte Syntaxanalyse-Einstellungen
+Eine neue Version steht bereit:
+Möchten Sie sie herunterladen und installieren?
+Sie verwenden bereits die neueste Version von
+Ebene
+Download beginnt
+läuft in der Taskleiste.
+Rechtsklicken Sie das Symbol in der Taskleiste, um Browser und Symbolleiste anzuzeigen.
+Start
+Stopp
+Wollen Sie die Download-Aufgabe und ihre heruntergeladenen Dateien löschen?
+Freier Platz
+Wird berechnet
+Wollen Sie alle heruntergeladenen Websites löschen?
+Version

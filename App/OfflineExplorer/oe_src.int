@@ -1,0 +1,1889 @@
+[Intl File 4.0]
+Language=Serbian (Cyrillic)
+Charset=1
+Font=Tahoma
+
+[MainForm]
+
+lblAddress.Caption=Адреса:
+lblLevel.Caption=Ниво:
+edtAddress.Caption=Упишите овде веб адресу да би креирали нови пројекат и преузели страницу
+btnCreate.Caption=&Преузми
+pgProjects.Caption=Пројекти
+pgWebSites.Caption=Мапа
+lblDisabledURLs.Caption=Онемогућени &URL-ови
+pgLevels.Caption=Нивои
+tbWebBrowser.0=Интерни прегледник
+btnExpandIB1.Hint=Увећај на цео екран
+tbEDOpen.Hint=Отвори датотеку за преглед
+tbEDSave.Hint=Сачувај промене датотеке
+tbEDCut.Hint=Исеци одабрани текст
+tbEDCopy.Hint=Копирај одабрани текст
+tbEDPaste.Hint=Налепи текст
+tbEDUndo.Hint=Врати на старо
+tbEDFind.Hint=Пронађи
+btnExpandIB.Hint=Увећај на цео екран
+tbWBBack.Hint=Претходна страница
+tbWBForw.Hint=Наредна страница
+tbWBStop.Hint=Заустави
+tbWBRefr.Hint=Освежи
+tbWBPrint.Hint=Штампај|Штампај текућу страницу интерног прегледника
+tbWBSettings.Hint=Својства интерног прегледника|Измените величину слова текуће странице интерног прегледника или укључите и искључите слике
+tbWBHome.Hint=На почетак|Погледајте списак пројеката и статистику
+tbWBCatchURL.Hint=Наредну кликнуту везу додај као пројекат|Наредни клик на неку адресу или дугме у обрасцу ће бити забележен као пројекат.
+tbWBAutoSave.Hint=Аутоматско чување|Преузми и додај све недостајуће странице и датотеке у пројекат аутоматски
+mpTBrowse.Caption=Прегледа&ј
+mpTBrowseNewTab.Caption=П&регледај у новом окну
+mpTEdit.Caption=Обрад&и
+mpTBrowseWith.Caption=П&регледај помоћу
+mpTTAdjust1.Caption=&Алатке за подешавање...
+mpTTAdjust1.Hint=Отвори Остало окно за додавање/брисање алатки
+mpTViewIn.Caption=П&огледај помоћу
+mpTTAdjust2.Caption=&Алатке за подешавање...
+mpTTAdjust2.Hint=Отвори Остало окно за додавање/брисање алатки
+mpTEditIn.Caption=О&брађуј помоћу
+mpTTAdjust3.Caption=&Алатке за подешавање...
+mpTTAdjust3.Hint=Отвори Остало окно за додавање/брисање алатки
+mpTSort.Caption=Поре&ђај
+mpTSName.Caption=По &називу
+mpTSTime.Caption=По &времену преузимања
+mpTSURL.Caption=По &адреси
+mpTSFolders.Caption=&Омотнице на врху по називу
+mpTCopyURL.Caption=&Запамти адресу
+mpTNProject.Caption=&Нови пројекат...
+Delete1.Caption=&Избриши
+mpTDelete.Caption=&Избриши...
+mpTDeleteFiles.Caption=Само &датотеке пројекта
+mpTDeleteFiles.Hint=Избриши преузете датотеке за одабрани пројекат
+mpTDeleteProjectOnly.Caption=Само &својства пројекта
+mpTDisable.Caption=&Онемогући учитавање
+mpDownload.Caption=&Преузимање
+mpStart.Caption=&Почни
+mpStop.Caption=&Заустави
+mpSuspendToFile.Caption=Заустави у дат&отеку...
+mpTExport.Caption=&Извоз...
+mpTMarkRead.Caption=Означи &као прочитано
+mpTMarkUnRead.Caption=Означи &као непрочитано
+mpTRefresh.Caption=&Освежи
+mpTTemplates.Caption=Примени образа&ц...
+mpTTemplates.Hint=Примени образац на одабране пројекте
+mpTDescription.Caption=Опи&с...
+mpTStatistics.Caption=Стат&истика...
+mpTProtect.Caption=За&штити...
+mpTProperties.Caption=Под&ешавање...
+mpTSingleClickMap.Caption=&Прегледање једним кликом
+mpTCloseFolders.Caption=&Затвори некоришћене омотнице
+mpTSelectFiles.Caption=&Изабери датотеке...
+mpTShow.Caption=&Прикажи
+mpTStop.Caption=&Заустави преузимање...
+mpTClipboard.Caption=&Надзири меморију
+mpTPaste.Caption=&Налепи пројекат
+mpTIntegration.Caption=&При уметању адресе
+mpTDefTemplate.Caption=&Користи основни образац
+mpTAutoStart.Caption=&Аутоматски почни преузимање
+mpTExit.Caption=&Излаз
+dlgRFromFile.Caption=Наставак према стању из датотеке
+dlgRFromFile.Filter=Обустављене датотеке|*.wdq|Све датотеке|*.*
+dlgStoFile.Caption=Упис стања у датотеку
+dlgStoFile.Filter=Обустављене датотеке|*.wdq|Све датотеке|*.*
+mpAProject.Caption=&Пројекат...
+mpAWizard.Caption=&Водич за пројекте...
+mpAFolder.Caption=&Омотница
+mpATemplate.Caption=О&бразац...
+mpASeparator.Caption=Обрасци
+mpQAbort.Caption=&Заустави
+mpQAbort.Hint=Заустави преузимање текућих URL(ова)
+mpQAbortDisable.Caption=Заустави и &Онемогући
+mpQAbortDisable.Hint=Заустави преузимање текућих URL-ова и онемогући их у подешавањима пројекта
+mpQACurrentURL.Caption=Текући &URL(ови)
+mpQACurrentURL.Hint=Искључи текући URL из преузимања
+mpQAFolder.Hint=Онемогући све линкове који су у текућој омотници
+mpQAServer.Hint=Онемогући све линкове који су на текућем серверу
+mpQCopyURL.Caption=Запамти &URL
+mpQCopyReferer.Caption=Запамти &референтну адресу
+mpQSelectProject.Caption=&Изабери пројекат
+mpQSelectConnection.Caption=Изабери &везу
+mpQSaveList.Caption=&Сачувај списак у датотеку
+mpQPause.Caption=&Паузирај преузимање пројекта
+mpQConnections.Caption=Везе и &Ограничења
+mpQCAll.Caption=&Користи све расположиве везе
+mpQC1.Caption=&1 Веза
+mpQC2.Caption=&2 Веза
+mpQC5.Caption=&5 Веза
+mpQC10.Caption=1&0 Веза
+mpQSelectAll.Caption=&Изабери све
+mpQInvertSelection.Caption=&Обрни одабрано
+mpQSelectMask.Caption=Бирај по &маски...
+mpQShowReferers.Caption=Покажи ре&ференте
+mpBSeparator.Caption=Обрасци
+mpSStop.Caption=&Заустави одабрани пројекат
+mpSStopAll.Caption=З&аустави све
+mpFSFontSize.Caption=&Величина слова
+mpFSLargest.Caption=В&еома велика
+mpFSLarger.Caption=&Велика
+mpFSMedium.Caption=&Средње велика
+mpFSSmaller.Caption=&Мала
+mpFSSmallest.Caption=Ве&ома мала
+mpFSShowImages.Caption=&Приказуј слике
+mpFSShowImages.Hint=Укључи или искључи слике у интерном прегледнику
+mpBrowseOnline.Caption=Прегледај текућу адресу на &Мрежи
+mpBrowseOnline.Hint=Прегледај текућу адресу на Мрежи
+mpBrowseOffline.Caption=Прегледај текућу адресу ван &Мреже
+mpBrowseOffline.Hint=Прегледај текућу адресу ван Мреже
+mpFSBrowsingProject.Caption=Изабери &пројекат који се прегледа
+mpFSViewSource.Caption=&Види извор странице
+odRestore.Caption=Деархивирање из датотеке
+odRestore.Filter=»Offline Explorer« архива|*.boe|Све датотеке|*.*
+odBackup.Caption=Архивирање у датотеку
+odBackup.Filter=»Offline Explorer« архива|*.boe|Све датотеке|*.*
+pmWBPrint.Caption=&Штампај...
+pmWBPreview.Caption=&Прегледај пре штампања...
+miFile.Caption=&Датотека
+miFNewProject.Caption=&Нови...
+miFNewProject.Hint=Направите нови пројекат или омотницу
+miFExport.Caption=&Извоз...
+miFExport.Hint=Копирајте преузете датотеке пројекта у други директоријум
+miFDelSelected.Caption=Уклони
+miFDelSelected.Hint=Уклоните одабрани пројекат, омотницу или датотеку
+miFProperties.Caption=&Својства...
+miFProperties.Hint=Подесите својства пројекта
+miFDProperties.Caption=О&брасци...
+miFDProperties.Hint=Основна својства за све наредне пројекте
+miFSaveChanges.Caption=&Сачувај
+miFSaveChanges.Hint=Сачувајте измене које сте направили у својствима пројекта
+miFExit.Caption=И&злаз
+miFExit.Hint=Напустите програм
+miFWizard.Caption=&Водич...
+miFWizard.Hint=Додајте нови пројекат помоћу водича
+miFPrint.Caption=&Штампај...
+miFPrint.Hint=Одштампајте све странице учитане у одабраном пројекту
+miEUndoDel.Caption=&Врати обрисано
+miEUndoDel.Hint=Вратите обрисани пројекат или омотницу
+miECut.Caption=&Исеци
+miECut.Hint=Исеците одабрани пројекат или омотицу, и унесите га у меморију
+miECopy.Caption=&Копирај
+miECopy.Hint=Копирајте одабрани пројекат или омотницу у меморију
+miEPaste.Caption=&Налепи
+miEPaste.Hint=Налепите пројекат или омотницу из меморије
+miEFindFiles.Caption=&Пронађи датотеке или омотнице...
+miEFindFiles.Hint=Пронађите пројекат, омотницу или датотеку
+miEFindContents.Caption=Пронађи у &садржају...
+miEFindContents.Hint=Пронађите кључне речи у преузетим датотекама
+miVInternalBrowser.Caption=&Интерни прегледник
+miVInternalBrowser.Hint=Прозор интерног прегледника, за разгледање преузетих датотека
+miVOptions.Caption=&Остало...
+miVOptions.Hint=Погледајте или подесите разна остала својства
+miDStart.Caption=&Почни
+miDStart.Hint=Почните са преузимањем пројекта или омотнице
+miDStop.Caption=&Заустави
+miDStop.Hint=Зауставите преузимање одабраног пројекта
+miDSuspendFile.Caption=&Заустави у датотеку...
+miDSuspendFile.Hint=Зауставите преузимање и упишите у датотеку
+miDResumeFile.Caption=&Настави из датотеке...
+miDResumeFile.Hint=Наставите преузимање према подацима из датотеке
+miDSpeed.Caption=&Брзина
+miDSpeed.Hint=Подесите брзину преузимања
+miTDatamine.Caption=&Уређивање података...
+miTDatamine.Hint=Обрадите преузете датотеке програмом »TextPipe«
+miTBrowse.Caption=Прегледање
+miTBrowse.Hint=Прегледајте одабрани пројекат или датотеку
+miVBrowseWith.Caption=П&регледај помоћу
+miTHHangup.Caption=&Прекид везе
+miTHHangup.Hint=Прекидање модемске везе по завршетку преузимања
+miTHShutdown.Caption=&Искључивање рачунара
+miTHShutdown.Hint=Искључивање рачунара по завршетку преузимања
+miHContents.Caption=Садржај &Помоћи
+miHContents.Hint=Погледајте садржај Помоћи
+miFDelete.Caption=&Избриши
+miFDProject.Caption=&Пројекат
+miFDProject.Hint=Избришите одабрани пројекат
+miFDFolder.Caption=&Омотницу
+miFDFolder.Hint=Избришите одабрану омотницу
+miEDelete.Caption=&Директоријум или датотеку
+miEDelete.Hint=Избришите одабрани директоријум или датотеку
+miFDOld.Caption=&Старе датотеке пројекта
+miFDOld.Hint=Уклоните све датотеке које су учитане са одабраним пројектом
+miFRename.Caption=П&реименуј
+miFRename.Hint=Преименујте одабрани пројекат или омотницу
+miEdit.Caption=&Уређивање
+miView.Caption=П&риказ
+Toolbars1.Caption=&Траке са алаткама
+miVTToolbar.Caption=&Уобичајена дугмад
+miVTToolbar.Hint=Уобичајена трака са алаткама, која вам омогућује да неке уобичајене задатке обављате брзо
+miVTAddressBar.Caption=&Адресно поље
+miVTAddressBar.Hint=Адресно поље којим уз својства пројекта можете брзо преузети било које веб-странице
+miVTTextLabels.Caption=&Текстуални натписи
+miVStatusBar.Caption=Статусна &трака
+miVStatusBar.Hint=Статусна трака
+miVExplorerBar.Caption=Ок&на истраживача
+miVProjects.Caption=&Пројекти
+miVProjects.Hint=Стабло пројеката
+miVMap.Caption=&Мапа
+miVMap.Hint=Мапа преузетих датотека
+miVQueue.Caption=&Редослед
+miVQueue.Hint=Управљајте редоследом преузимања
+miVMessages.Caption=Окн&а системских порука
+miVMPanel.Caption=&Радно окно
+miVMPanel.Hint=Приказ стања текућег преузимања
+miVLog.Caption=&Дневник рада
+miVLog.Hint=Приказ прозора дневника рада
+miDownload.Caption=&Преузимање
+miDStartAll.Caption=П&окрени све
+miDStartAll.Hint=Покрените преузимање свих пројеката
+miDStopAll.Caption=З&аустави све
+miDStopAll.Hint=Зауставите преузимање свих пројеката
+miPlugins.Caption=&Алатке
+miTHTMLImp.Caption=&Увези из HTML...
+miTBackupRestore.Caption=&Архивирање/деархивирање
+miTBackupProjects.Caption=&Архивирање пројеката...
+miTBackupProjects.Hint=Сачувајте подешена својства пројекта и преузете датотеке у компримовану датотеку
+miTRestoreProjects.Caption=&Деархивирање пројеката...
+miTRestoreProjects.Hint=Деархивирајте подешена својства пројекта и преузете датотеке из компримоване датотеке
+miTSequencer.Caption=&Секвенцер
+miTSResume.Caption=&Обустављен
+miTSHighlight.Caption=&Означи наредни пројекат
+miTSReset.Caption=&Врати на први пројекат
+miHelp.Caption=По&моћ
+miHRegister.Caption=&Купите одмах!
+miHRegister.Hint=Региструјте програм на Мрежи
+miHWebSite.Caption=Странице на &Мрежи
+miHWebSite.Hint=Отворите наше матичне странице
+miHTips.Caption=&Савет дана...
+miHTips.Hint=Приказивање савета дана
+miHCheck.Caption=&Пронађи нове верзије
+About1.Caption=&Основни подаци о програму...
+About1.Hint=Основни подаци о програму  »Offline Explorer«
+miVEditIn.Caption=О&бради помоћу
+miVViewIn.Caption=По&гледај помоћу
+miFNProject.Caption=&Пројекат...
+miFNProject.Hint=Пројекат
+miFNFolder.Caption=&Омотница...
+miFNFolder.Hint=Омотница
+miFNTemplate.Caption=О&бразац...
+miFNTemplate.Hint=Образац
+miFNTemplates.Caption=———— Обрасци ————
+miFNTemplates.Hint=———— Обрасци ————
+miFImport.Caption=&Увези
+miDSHigh.Caption=&Веома брзо
+miDSHigh.Hint=Веома брзо преузимање
+miDSMedium.Caption=&Брзо
+miDSMedium.Hint=Брзо преузимање
+miDSLow.Caption=&Споро
+miDSLow.Hint=Споро преузимање
+miDSBackground.Caption=&У позадини
+miDSBackground.Hint=Преузимање у позадини
+miVTCustomize.Caption=&Прилагођавање...
+miVTCustomize.Hint=Прилагођавање траке са алаткама
+miTHangupExit.Caption=&Прекид везе и искључивање
+miTHangupExit.Hint=Прекид модемске везе или искључивање рачунара по завршетку преузимања
+miTHHHangupOnce.Caption=Прекини само &сада
+miTHHHangupOnce.Hint=Прекид модемске везе када се текуће преузимање заврши
+miTHHHangupAlways.Caption=Прекини &увек
+miTHHHangupAlways.Hint=Прекид модемске везе увек када се преузимање заврши
+miTHSShutdownOnce.Caption=Гаси само &сада
+miTHSShutdownOnce.Hint=Гаси рачунар када се текуће преузимање заврши
+miTHSShutdownAlways.Caption=Гаси &увек
+miTHSShutdownAlways.Hint=Гаси рачунар увек када се преузимање заврши
+miTRemember.Caption=&Запамти страницу
+miTRemember.Hint=Запамти страницу
+miVSequencer.Caption=&Секвенцер преузимања
+miVSequencer.Hint=Секвенцер преузимања
+miVTFlatToolbar.Caption=&Равне иконе
+miVTFlatToolbar.Hint=Иконе „равног“ изгледа
+miDSuspend.Caption=Па&узирај
+miDSuspend.Hint=Завршите преузимање текућих и паузирајте са преузимањем наредних стрница
+miVSchedMan.Caption=За&казивање преузимања
+miVSchedMan.Hint=Закажи преузимање
+miVLanguages.Caption=&Језици
+miDSRestart.Caption=&Понови преузимање
+miDSRestart.Hint=Потпуно поновите преузимање одабраног пројекта
+miDSUpdate.Caption=&Обнови пројекат
+miDSUpdate.Hint=Преузмите одабрани пројекат како би преузели нове и обновили старе странице
+miDSContinue.Caption=&Преузми недостајуће датотеке
+miDSContinue.Hint=Проверава које везе недостају и настоји да их преузме
+miHForum.Caption=&Кориснички форуми
+miHForum.Hint=Пронађите одговор на питање или дискутујте на на MetaProducts корисничким форумима
+miTEdit.Caption=О&бради
+miTEdit.Hint=Обради
+miTTAdjust.Caption=&Алатке за подешавања...
+miTTAdjust.Hint=Отвори окно Остало за додавање/брисање алатки
+miEDeleteFiles.Caption=&Само датотеке пројекта
+miEDeleteFiles.Hint=Избриши преузете датотеке изабраног пројекта
+mpTSuspendNoDownload.Caption=Нема активних преузимања
+mpTSuspendNoDownload.Hint=Нема активних преузимања
+miHRegister1.Caption=&Региструј...
+miHRegister1.Hint=Региструј
+miDDCreate.Caption=&Направи нови пројекат
+miDDCreate.Hint=Додајте везу ка новом пројекту
+miDDAdd.Caption=&Додај везу ка одабраном пројекту
+miDDAdd.Hint=Додајте везу ка одабраном пројекту
+mpWBTClose.Caption=&Затвори
+mpWBTCloseAll.Caption=Затвори &све
+mpWBTNewWindow.Caption=Нови прозор &прегледника
+mpWBTNewEditWindow.Caption=Нови прозор за &уређивање
+mpWBTFixedWidth.Caption=Једнака ширина наслова за све картице
+mpWBTMultiLineTabs.Caption=Вишередна окна
+odEDLoad.Filter=Све датотеке|*.*
+MenuItem1.Caption=&Опозив радње
+MenuItem4.Caption=&Исеци
+MenuItem5.Caption=&Копирај
+MenuItem6.Caption=&Налепи
+MenuItem7.Caption=И&збриши
+MenuItem9.Caption=Изабери &све
+MenuItem10.Caption=&Аутоматски прелом реда
+odEDSave.Filter=Све датотеке|*.*
+pgQueue.Caption=На чекању
+mpFSBrowseOnline.Caption=Обради текући URL н&а мрежи
+mpFSBrowseOnline.Hint=Обради текући URL на мрежи
+mpFSBrowseOffline.Caption=Обради текући URL &ван мреже
+mpFSBrowseOffline.Hint=Обради текући URL ван мреже
+---lvSeq.0=Projects
+---PList.0=Channel
+---PList.1=Loaded - %
+---PList.2=Length
+---PList.3=Status
+---PList.4=URL
+---Log4.0=Source
+---Log4.1=Time
+---Log4.2=Information
+---miVIcons.Caption=Project &Icons
+---miDSPreview.Caption=Site Map
+---miDSPreview.Hint=Site Map|Generate site map preview
+---miESelectAll.Caption=&Select All
+---miESelectAll.Hint=Select All
+---miHNewFeature.Caption=Request New &Feature
+---miHNewFeature.Hint=Request New Feature
+---mpTCopyURL.Hint=Copy URL
+---mpSuspendToFile.Hint=Suspend Project to file
+---mpTBrowseNewTab.Hint=Browse in a new tab
+---mpTMarkRead.Hint=Mark as read
+---mpTMarkUnRead.Hint=Mark as unread
+---mpTDescription.Hint=Description
+---mpTStatistics.Hint=Statistics
+---mpTProtect.Hint=Protect
+---mpTDisable.Hint=Disable from loading
+---mpTSingleClickMap.Hint=Single click browsing
+---mpTCloseFolders.Hint=Close unused folders
+---mpTSelectFiles.Hint=Select Files
+---mpTSName.Hint=By name
+---mpTSTime.Hint=By download time
+---mpTSURL.Hint=By URL
+---mpTSFolders.Hint=Top-level folders by name
+---mpTRefresh.Hint=Refresh
+---pmiCancel.Caption=&Abort
+---pmiCancel.Hint=Cancel downloading the selected file
+---pmiRestart.Caption=&Restart
+---pmiRestart.Hint=Stop and start from beginning the selected file download
+---pmiFinalize.Caption=&Finalize
+---pmiFinalize.Hint=Save downloaded media stream fragment
+---pmiPlay.Caption=Play
+---pmiCopy.Caption=Copy &URL
+---pmiCopy.Hint=Copy URL of the selected file
+---pmiReferer.Caption=Copy &Referer URL
+---pmiReferer.Hint=Copy referer of the selected file
+---pmiSelectProject.Caption=Select &Project
+---pmiSelectProject.Hint=Highlight the Project, which loads the selected file
+---pmiConnsHighlight.Caption=&Highlight Active Connections
+---dxBarStatic1.Caption=Download Progress
+---dxBarStatic1.Hint=Download Progress
+---pmiDown.Caption=Show/Hide Connections Panel
+---pmiDown.Hint=Open/Close Connections Panel (Ctrl+P)
+---btnExpandIB2.Caption=Maximize/Restore
+---btnExpandIB2.Hint=Maximize Internal Browser to full screen
+---tbWBBack2.Caption=Back
+---tbWBBack2.Hint=Back
+---tbWBForw2.Caption=Forward
+---tbWBForw2.Hint=Forward
+---tbWBStop2.Caption=Stop
+---tbWBStop2.Hint=Stop
+---tbWBRefr2.Caption=Refresh
+---tbWBRefr2.Hint=Refresh
+---tbWBPrint2.Caption=Print
+---tbWBPrint2.Hint=Print|Print the current Internal Browser page
+---tbWBHome2.Caption=Home
+---tbWBHome2.Hint=Go Home|View Projects list and statistics in browser
+---tbWBCatchURL2.Caption=Add the next clicked link
+---tbWBCatchURL2.Hint=Add the next clicked link as a Project|Next click on a URL or a form button will be recorded as a Project to download at any time.
+---tbWBAutoSave2.Caption=AutoSave
+---tbWBAutoSave2.Hint=AutoSave|Download and add all missing pages and files to the Project automatically
+---edtWBURL2.Caption=Address:
+---edtWBURL2.Hint=Address:
+---tbWBSettings2.Hint=Settings|Internal Browser settings|Change font size of the current Internal Browser page or enable/disable images
+---mpFSFontSize2.Caption=&Font size
+---mpFSLargest2.Caption=Lar&gest
+---mpFSLarger2.Caption=&Larger
+---mpFSMedium2.Caption=&Medium
+---mpFSSmaller2.Caption=&Smaller
+---mpFSSmallest2.Caption=Sm&allest
+---mpFSShowImages2.Caption=&Show images
+---mpFSShowImages2.Hint=Enable or disable images in the Internal browser
+---mpFSBrowseOnline2.Caption=Browse current URL O&nline
+---mpFSBrowseOnline2.Hint=Browse current URL Online
+---mpFSBrowseOffline2.Caption=Browse current URL &Offline
+---mpFSBrowseOffline2.Hint=Browse current URL Offline
+---mpFSBrowsingProject2.Caption=Select the &Project you are browsing
+---mpFSViewSource2.Caption=&View page source
+---tbEDOpen2.Caption=Open
+---tbEDOpen2.Hint=Open|Open file to edit
+---tbEDSave2.Caption=Save
+---tbEDSave2.Hint=Save|Save changes to the file
+---tbEDCut2.Caption=Cut
+---tbEDCut2.Hint=Cut|Cut the selected text to clipboard
+---tbEDCopy2.Caption=Copy
+---tbEDCopy2.Hint=Copy|Copy the selected text to clipboard
+---tbEDPaste2.Caption=Paste
+---tbEDPaste2.Hint=Paste|Paste from clipboard
+---tbEDUndo2.Caption=Undo
+---tbEDUndo2.Hint=Undo|Undo changes
+---tbEDFind2.Caption=Find
+---tbEDFind2.Hint=Find|Find text
+---pmLCaption.Caption=Messages Log
+---pmLCaption.Hint=Messages Log
+---pmLLogMessages.Caption=Start &Logging
+---pmLLogMessages.Hint=Start Logging
+---pmLClear.Caption=&Clear
+---pmLClear.Hint=Clear
+---pmLTrack.Caption=&Track Log
+---pmLTrack.Hint=Track Log
+---pmLCopy.Caption=Co&py to Clipboard
+---pmLCopy.Hint=Copy to Clipboard
+---pmLSave.Caption=&Save Log to a File
+---pmLSave.Hint=Save Log to a File
+---pmLFind.Caption=&Find
+---pmLFind.Hint=Find
+---pmLClose.Caption=Cl&ose Log
+---pmLClose.Hint=Close Log
+---pmLFilter.Caption=Fil&ter
+---pmLFilter.Hint=Filter Messages
+---pmLFConnect.Caption=&Connect Status
+---pmLFConnect.Hint=Connect Status
+---pmLFDownload.Caption=&Download Progress
+---pmLFDownload.Hint=Download Progress
+---pmLFDisconnect.Caption=D&isconnect status
+---pmLFDisconnect.Hint=Disconnect status
+---pmLFDetails.Caption=Detai&ls
+---pmLFDetails.Hint=Details
+---pmLFQueue.Caption=&Queue messages
+---pmLFQueue.Hint=Queue messages
+---pmLFRejectedURLs.Caption=&Rejected URLs
+---pmLFRejectedURLs.Hint=Rejected URLs
+---pmLFInternalWebSrv.Caption=Requests to Internal &Web server
+---pmLFInternalWebSrv.Hint=Requests to Internal Web server
+---dxbSScheduler.Caption=Scheduler
+---dxbSScheduler.Hint=Scheduler
+---dxbSSequencer.Caption=Sequencer
+---dxbSSequencer.Hint=Sequencer
+---dxbSSeqRun.Caption=Start Sequencer now
+---dxbSSeqRun.Hint=Start Sequencer now
+---dxbSSeqStartAt.Caption=Start Sequencer at...
+---dxbSSeqStartAt.Hint=Start Sequencer at...
+---dxbSeqLoop.Caption=Loop the Sequence
+---dxbSeqLoop.Hint=Loop the Sequence
+---miSSelect.Caption=Select &Project
+---miSSkip.Caption=&Set sequencer to this Project
+---miSRemove.Caption=&Remove
+---miSRemoveAll.Caption=Remove &all
+---miSLoad.Caption=&Load Sequence...
+---miSLoad.Hint=Load Sequence...
+---miSSave.Caption=Sa&ve Sequence...
+---miSSave.Hint=Save Sequence...
+---dxbSClose.Caption=&Close
+---dxbSClose.Hint=Close Schedule Manager
+---mpQAFolder1.Hint=Disable all links that are in the folder
+---mpQAFolder2.Hint=Disable all links that are in the folder
+---mpQSaveList.Hint=Save to text file
+---mpQMoveToTop.Caption=Move to &Top
+---mpQMoveToBottom.Caption=Move to &Bottom
+---mpQColorize.Caption=C&olorize
+---mpQCoServer.Caption=By &server name
+---mpQCoExtension.Caption=By file &type
+---mpQCoNone.Caption=&None
+---mpDownload2.Caption=Down&load
+---mpQCopyPOST.Caption=Copy POST re&quest
+---mpQCopyPOST.Hint=Copy POST request
+---miVView.Caption=&View
+---miPI1.Caption=&Standard
+---miPI1.Hint=Standard
+---mpTDeleteProjectOnly.Hint=Only Project Settings
+---miPI2.Caption=&Important
+---miPI2.Hint=Important
+---miPI3.Caption=&Review
+---miPI3.Hint=Review
+---miPI4.Caption=&Do not delete
+---miPI4.Hint=Do not delete
+---miPI5.Caption=R&eference
+---miPI5.Hint=Reference
+---miPI6.Caption=&Live
+---miPI6.Hint=Live
+---miPI7.Caption=&News
+---miPI7.Hint=News
+---miPI8.Caption=Favori&te
+---miPI8.Hint=Favorite
+---miPI9.Caption=&Article
+---miPI9.Hint=Article
+---miPI10.Caption=&Company
+---miPI10.Hint=Company
+---miPI11.Caption=&Financial
+---miPI11.Hint=Financial
+---miPI12.Caption=&Usergroup
+---miPI12.Hint=Usergroup
+---miPI13.Caption=S&pecial
+---miPI13.Hint=Special
+---miPI14.Caption=S&hared
+---miPI14.Hint=Shared
+---miPI15.Caption=Pri&vate
+---miPI15.Hint=Private
+---miPI16.Caption=Pers&onal
+---miPI16.Hint=Personal
+---miPI17.Caption=Hi&gh Priority
+---miPI17.Hint=High Priority
+---miPI18.Caption=Lo&w Priority
+---miPI18.Hint=Low Priority
+---miPI19.Caption=&Questionable
+---miPI19.Hint=Questionable
+---dxbSeqRemove.Caption=&Remove downloaded Projects from the sequence
+---dxbSeqRemove.Hint=Remove downloaded Projects from the sequence
+---mpEDeleteProjectOnly.Caption=O&nly Project Settings
+---mpEDeleteProjectOnly.Hint=Only Project Settings
+---miTPublish.Caption=P&ublish...
+---miTPublish.Hint=Share Project settings with other users
+---miTPublishedProjects.Caption=Publis&hed Projects
+---miTPublishedProjects.Hint=Published Projects
+---miTTextPipe.Caption=TextP&ipe...
+---miTTextPipe.Hint=Run DataMystic TextPipe
+---odSeqLoad.Filter=Offline Explorer Sequence|*.soe|All files|*.*
+---odSeqSave.Filter=Offline Explorer Sequence|*.soe|All files|*.*
+---sdLog.Caption=Save Messages Log
+---sdLog.Filter=Log Files|*.log|All Files|*.*
+---sdQueue.Filter=Text Files|*.txt|All Files|*.*
+
+[dlgInstall]
+
+btnCancel.Caption=Откажи
+Label2.Caption=Строго се препоручује да напустите све програме прије него што наставите са инсталацијом.
+Label3.Caption=Кликните на „Откажи“ ако желите да напустите инсталацију и затворите све покренуте програме, или на „Даље“ ако желите да наставите са инсталацијом.
+Label4.Caption=УПОЗОРЕЊЕ: Овај програм је заштићен законом о ауторском праву и међународним споразумима.
+Label5.Caption=Неовлашћено умножавање или растурање овог програма, или било ког његовог дијела, могу довести до строгих кривичних казни, а преступници ће бити судски тјерани колико год је то законом дозвољено.
+Label14.Caption=Споразум о употреби програма
+rbAccept.Caption=&Прихватам споразум
+rbDontAccept.Caption=&Не прихватам споразум
+Label6.Caption=»%s« ће бити инсталисан у доњи директоријум.
+Label7.Caption=Ако желите да инсталишете програм у неки други директоријум, кликните на дугме „Потражи“, а затим одаберите неки други директоријум.
+Label8.Caption=Ако не желите да инсталишете »%s« кликните на „Откажи“ како бисте напустили инсталацију.
+Label16.Caption=Инсталациони директоријум
+Label22.Caption=&Одредишни директоријум
+btnBrowse.Caption=&Потражи ...
+Label9.Caption=»%s« је сада спреман за употребу.
+Label10.Caption=Кликните на дугме „Даље“ како бисте покренули инсталацију или „Назад“ како бисте измијенили податке за инсталисање.
+Label17.Caption=Програмске пречице
+cbDesktop.Caption=Додај пречицу на Радну површину
+cbQuickLaunch.Caption=Додај пречицу у &траку „Брзо покретање“
+Label18.Caption=Копирање датотека...
+lblFile.Caption=Нема датотека за распакивање.
+Label11.Caption=Копирање датотеке:
+Label12.Caption=»%s« је успјешно инсталисан.
+Label13.Caption=Кликните на дугме „Заврши“ како бисте напустили инсталацију.
+Label19.Caption=Инсталација је завршена!
+cbRun.Caption=Покрени »%s« одмах
+btnBack.Caption=< &Назад
+dlgBrowse.Caption=Одаберите одредишни директоријум
+---Label23.Caption=Integration...
+---Label24.Caption=You can set up %s integration for some installed browsers
+---Label25.Caption=Please check the corresponding boxes to install integration with the following browsers:
+---lvBrowsers.0=Name
+---lvBrowsers.1=Path
+---lvBrowsers.2=Browse
+---Label26.Caption=The program can perodically check for newer versions of %s. You can also do this manually using the program menu Help | Check for new version item.
+---cbNVCheck.Caption=&Enable automatic periodic check for new versions
+
+[LogWindow]
+Caption=Прозор за поруке
+
+miSettings.Caption=&Својства
+miSTrack.Caption=&Прати рад
+miSPause.Caption=&Заустави праћење
+miLFilter.Caption=&Филтер
+miLFConnect.Caption=&Повезивање
+miLFDownload.Caption=&Напредовање преузимања
+miLFDisconnect.Caption=&Прекид везе
+miLFDetails.Caption=&Појединости
+miLFQueue.Caption=&Поруке редоследа
+miLFRejectedURLs.Caption=&Одбачене адресе
+miLFInternalWebSrv.Caption=Захтеви ка интерном &веб-серверу
+miSRecordTime.Caption=&Бележење времена
+miSClear.Caption=&Избриши све
+miSCopy.Caption=&Запамти у меморију
+miSSaveToFile.Caption=&Сачувај у датотеку...
+miLFind.Caption=&Пронађи...
+miLFindNext.Caption=&Нађи наредно
+pmiDock.Caption=&Споји уз
+pmiDock.Hint=Споји уз једну од области на екрану
+pmiDScreen.Caption=&Дно екрана
+pmiDIB.Caption=&Интерни прегледник
+pmiUnDock.Caption=&Одвоји од
+pmiUnDock.Hint=Одвојите Радно окно тако да слободно плута изнад главног екрана
+miSClose.Caption=&Затвори
+SaveDialog.Caption=Сачувај дневник рада
+SaveDialog.Filter=Датотеке дневнка|*.log|Све датотеке|*.*
+
+[WndProgress]
+Caption=Напредовање преузимања
+
+List.0=Канал
+List.1=Учитано - %
+List.2=Дужина
+List.3=Стање
+List.4=URL
+pmiCancel.Caption=&Заустави
+pmiCancel.Hint=Зауставите преузимање одабране датотеке
+pmiRestart.Caption=&Поново покрени
+pmiRestart.Hint=Зауставите преузимање одабране датотеке, а затим почните наново
+pmiFinalize.Caption=&Окончај
+pmiFinalize.Hint=Сачувајте део преузете медијске датотеке
+pmiPlay.Caption=Покрени
+pmiCopy.Caption=Запамти &URL
+pmiCopy.Hint=Запамтите адресу одабране датотеке
+pmiReferer.Caption=Запамти &референтни URL
+pmiReferer.Hint=Запамтите референтну адресу одабране датотеке
+pmiSelectProject.Caption=Изабери &Пројекат
+pmiSelectProject.Hint=Означите пројекат који учитава одабрану датотеку
+pmiDock.Caption=&Споји уз
+pmiDock.Hint=Спојите уз неку од области на екрану
+pmiDBottom.Caption=&Дно екрана
+pmiDIB.Caption=Интерни &Прегледник
+pmiUnDock.Caption=&Одвоји од
+pmiUnDock.Hint=Одвојите Радно окно тако да слободно плута изнад главног екрана
+pmiConnsHighlight.Caption=&Нагласи активне везе
+
+[dlgAbout]
+Caption=Основни подаци о програму »Offline Explorer«
+
+lblOnDay1.Caption=Да бисте открили како да региструјете Вашу копију Offline Explorer-а, притисните дугме за Наручивање.
+lblOnDay2.Caption=Када добијете податке за регистрацију, притисните дугме Регистрација. На овај начин ћете откључати опције програма које су обезбеђене само регистрованим корисницима.
+lblOnEnd1.Caption=Истекао Вам је пробни период коришћења програма у трајању од 30 дана.
+lblOnEnd2.Caption=Надамо се да сте уживали користећи програм Offline Explorer.
+btnOK.Caption=У реду
+TabSheet1.Caption=Општи подаци
+Label3.Caption=Власник:
+lblReg.Caption=НИЈЕ РЕГИСТРОВАН
+lblDescr.Caption=»Offline Explorer« вам омогућује да брзо копирате веб-странице, а затим да их помоћу интерног прегледника разгледате док нисте спојени на Мрежу, или да их поставите на свој веб-сервер.
+lblLatestInfo.Caption=»Offline Explorer« није бесплатан. Можете га пробати током 30 дана. По истеку тог рока морате га регистровати.
+lblTrial.Caption=За најсвежије информације о програму »Offline Explorer«, посетите наше странице на адреси: http://www.metaproducts.com
+btnEMail.Caption=&Пишите
+btnWebSite.Caption=&Посетите
+btnOrdering.Caption=&Наручите
+btnRegister.Caption=&Региструјте
+TabSheet2.Caption=Информације о верзији
+TabSheet3.Caption=Споразум о дозволи
+btnHelp.Caption=&Помоћ
+btnCancel.Caption=Откажи
+---lblSiteInfo.Caption=For the latest information, visit our Web site at:
+---Label4.Caption=Please feel free to write us if you have questions:
+---btnClose.Caption=Close
+---btnReleaseNotes.Caption=Release &Notes
+---btnLicense.Caption=&License
+
+[dlgOptions]
+Caption=Остала својства
+
+Label1.Caption=&Категорија:
+OptionsTree.0=Интернет
+OptionsTree.1=Веза
+OptionsTree.2=Брзина
+OptionsTree.3=Повезивање
+OptionsTree.4=Прекид и излаз
+OptionsTree.5=Прокси-сервер
+OptionsTree.6=Програми
+OptionsTree.7=За прегледање
+OptionsTree.8=За гледање
+OptionsTree.9=За обраду
+OptionsTree.10=Напредно
+OptionsTree.11=Директоријуми
+OptionsTree.12=Интегрисање
+OptionsTree.13=Потврђивање
+OptionsTree.14=Завршетак
+btnOK.Caption=У реду
+btnCancel.Caption=Откажи
+Label32.Caption=&Својства везе са Интернетом
+Label4.Caption=&Број истовремених веза:
+Label5.Caption=&Рок истицања везе (у секундама):
+Label16.Caption=&Предах између преузимања:
+Label30.Caption=Интерни &HTTP сервер
+Label11.Caption=Представљање
+cbRetries.Caption=&Ограничи број покушаја на:
+cbIECookies.Caption=&Користи колачиће Мајкрософтовог програма »Internet Explorer«
+cbHTTPStart.Caption=Укључи га, на &улазу:
+cbOHTTPLocal.Caption=Само &локални приступ
+rbUA1.Caption=Представљај се &као:
+rbUA2.Caption=Представљај се &овако:
+Label7.Caption=&Адреса прокси-сервера:
+Label8.Caption=&Улаз прокси-сервера:
+Label15.Caption=Врста прокси-сервера
+Label31.Caption=Својства прокси-сервера
+Label33.Caption=Овера прокси-сервера (оставити празно ако није неопходно)
+btnPrxADetect.Caption=&Ауто-детект
+rbHProxy1.Caption=&Без проксија
+rbHProxy2.Caption=&HTTP прокси
+rbHProxy3.Caption=&SOCKS4
+rbHProxy4.Caption=S&OCKS5
+Label9.Caption=&Корисничко име:
+Label10.Caption=&Лозинка:
+cbNTLMProxy.Caption=&Користи NTLM оверу
+Label60.Caption=Врста прокси-сервера
+Label61.Caption=Својства прокси-сервера
+Label62.Caption=&Адреса прокси-сервера:
+Label63.Caption=&Улаз прокси-сервера:
+rbRProxy1.Caption=&Без
+rbRProxy2.Caption=&HTTP
+rbRProxy3.Caption=&SOCKS4
+rbRProxy4.Caption=&RTSP
+rbRProxy5.Caption=S&OCKS5
+Label6.Caption=&Адреса прокси-сервера:
+Label17.Caption=&Улаз прокси-сервера:
+Label34.Caption=Врста прокси-сервера
+Label35.Caption=Својства прокси-сервера
+Label36.Caption=Овера прокси-сервера (оставити празно ако није неопходно)
+cbPPASV.Caption=PASV &мод за FTP преузимања
+rbFProxy1.Caption=&Без
+rbFProxy2.Caption=&HTTP
+rbFProxy3.Caption=&SOCKS4
+rbFProxy4.Caption=&User@Site
+rbFProxy5.Caption=S&OCKS5
+Label26.Caption=&Корисничко име:
+Label27.Caption=&Лозинка:
+Label37.Caption=&Директоријум за преузимање
+Label38.Caption=&Простор на диску
+Label13.Caption=Слободан простор на тврдом диску:
+Label12.Caption=&Граница слободног простора:
+Label39.Caption=Одржавање
+Label29.Caption=Кликните на „Очисти“ да би из директоријума за преузимање уклонили некоришћене веб-странице и датотеке
+Label40.Caption=&Директоријум за пројекте, обрасце и мапе
+Label73.Caption=&Привремени директоријум:
+btnBrowse.Caption=&Пронађи...
+btnClean.Caption=&Очисти...
+btnBrowse1.Caption=&Пронађи...
+cbDirOverload.Caption=&Спречи претрпавање директоријума за преузимање
+Button1.Caption=&Пронађи...
+lblTools.Caption=&При гледању веб-страница понуди избор једне од ових алатки
+Label20.Caption=&Назив:
+Label21.Caption=&Датотека:
+Label43.Caption=&Прозор покренутог програма
+Label57.Caption=&Пречица:
+btnADetect.Caption=&Пронађи сам
+btnOBrAdd.Caption=<<  &Додај
+btnOBrRemove.Caption=>> &Уклони
+cbShowMode.0=Уобичајене величине
+cbShowMode.1=Потпуно раширен
+cbShowMode.2=Смањен на најмање
+Label2.Caption=Изаберите под-категорију за приказ
+lblSMTP.Caption=&Адреса SMTP сервера:
+Label41.Caption=&Мапа
+Label42.Caption=Аутоматско уписивање преузетог
+lblAutoSave.Caption=минута
+Label44.Caption=П&риказ
+Label45.Caption=&Двоструки клик на пројекат
+rbAMap1.Caption=Мапа приказује само &веб-странице које припадају одабраном пројекту
+rbAMap2.Caption=Мапа приказује &све преузете веб-странице
+bxAutoSave.Caption=&Сачувај измене сваких
+cbTray.Caption=Само у системској &траци
+cbASplash.Caption=&Уводни екран по покретању
+rbODblClick1.Caption=Отвара &пројекат у прегледнику
+rbODblClick2.Caption=Отвара &својства пројекта
+Label64.Caption=Поређај датотеке по:
+rbAMapSort1.Caption=&Називу
+rbAMapSort2.Caption=&Екстензији
+Label46.Caption=&Систем
+Label47.Caption=&Када се додаје URL
+Label55.Caption=&Филтер за адресе из меморије
+Label56.Caption=&Адресе које завршавају са (раздвојити зарезима):
+cbOIClipboard.Caption=&Надзири меморију
+cbIIECtxMenu.Caption=Користи &приручни мени Мајкрософтовог програма »Internet Explorer«
+cbOIDefaults.Caption=&Користи основни образац
+cbIPFolder.Caption=Смести пројекте у &омотницу:
+cbOIAutoStart.Caption=&Аутоматски почни са преузимањем
+cbICFilter.0=Не прихватај
+cbICFilter.1=Прихватај само
+cbIOperaCtxMenu.Caption=Користи &Opera контекст мени
+Label48.Caption=&Аутоматско повезивање пред почетак преузимања
+cbDialUp.Caption=&Дозволи повезивање
+Label14.Caption=&Повежи се на:
+Label18.Caption=&Корисничко име:
+Label19.Caption=&Лозинка:
+Label22.Caption=К&од прекида, покушавај поново:
+Label23.Caption=пута
+Label24.Caption=Предах &између покушаја:
+Label25.Caption=секунда
+Label49.Caption=Прекидање везе
+Label50.Caption=Напуштање програма и Искључивање рачунара
+cbHangUp.Caption=&Прекини модемску везу када су сва преузимања завршена
+cbHangUpAt.Caption=&Прекини везу у
+cbClose.Caption=&Напусти програм када су сва преузимања завршена
+cbCloseAt.Caption=&Напусти у
+cbShutdown.Caption=&Искључи рачунар по напуштању програма
+cbHibernate.Caption=&Хибернирај систем без изласка из програма
+Label51.Caption=Потврде неопходне пред
+cbACDelete.Caption=Брисање &датотека
+cbACDelPFiles.Caption=Брисање &пројекта
+cbACHangup.Caption=Прекидање &везе
+cbACExit.Caption=&Излаз из програма
+cbACURLMoved.Caption=Промену &адресе пројекта
+cbACFolderStart.Caption=Почетак преузимања пројекта неке &омотнице
+Label52.Caption=Контрола брзине
+Label53.Caption=B/sec.
+Label54.Caption=Овде измените количину килобајта по секунди за одабрану брзину
+Label58.Caption=Проток RTSP
+Label59.Caption=Највиши проток &RTSP:
+cbSetSpeedLimit.Caption=&Ограничи брзину на
+brHigh.Caption=&Веома брзо
+rbMedium.Caption=&Брзо
+rbLow.Caption=&Споро
+rbBackground.Caption=&У позадини
+cbRTSPBandwidth.0=14.4K Модем
+cbRTSPBandwidth.1=19.2K Веза
+cbRTSPBandwidth.2=28.8K Модем
+cbRTSPBandwidth.3=33.6K Модем
+cbRTSPBandwidth.4=56K Модем
+cbRTSPBandwidth.5=112K Dual ISDN
+cbRTSPBandwidth.6=256Kbps DSL/кабловска веза
+cbRTSPBandwidth.7=384Kbps DSL/кабловска веза
+cbRTSPBandwidth.8=512Kbps DSL/кабловска веза
+cbRTSPBandwidth.9=T1 / LAN
+cbRTSPBandwidth.10=10Mbps LAN
+cbACPReport.Caption=Обавести о завршетку преузимања пројекта од
+btnHelp.Caption=Помоћ
+dlgOBrowse.Caption=Пронађи датотеку
+dlgOBrowse.Filter=Извршне датотеке|*.exe;*.com|Све датотеке|*.*
+bdDD.Caption=Директоријум за преузето
+bdDD.Hint=Изаберите директоријум за преузете датотеке:
+bdProjects.Caption=Директоријум за пројекте
+bdProjects.Hint=Изаберите директоријум за датотеке пројеката:
+OptionsTree.14=Завршавање
+rbDial2.Caption=&Омогући интерно позивање
+rbDial3.Caption=&Користи спољно позивање
+rbDial1.Caption=&Не позивај аутоматски
+Label65.Caption=&Командна линија за позивање:
+Label66.Caption=Командна линија за прекид &везе:
+cbShutdown2.Caption=Посебна &компатибилност при напуштању програма (крајња нужда)
+Label69.Caption=Прокси овера (оставити празно ако није неопходно)
+Label67.Caption=&Корисничко име:
+Label68.Caption=&Лозинка:
+cbXButton.Caption=Дугме „X“ &умањује главни прозор
+Label70.Caption=Завршетак преузимања
+Label71.Caption=Адреса &SMTP сервера:
+Label72.Caption=Сервер за одлазећу пошту (SMTP)
+cbACPReport.Caption=О завршетку преузимања пројекта обавести
+rbACPReport1.Caption=&Звуком:
+rbACPReport2.Caption=&На адресу:
+rbACPReport3.Caption=На IC&Q UIN:
+odCSound.Caption=Отвори звучну датотеку
+odCSound.Filter=Wave датотеке (*.wav)|*.wav|Све датотеке|*.*
+---Label76.Caption=&Proxy servers list
+---Label77.Caption=Connection settings
+---lvProxies.0=Type
+---lvProxies.1=Server
+---lvProxies.2=Port
+---lvProxies.3=User
+---btnPAdd.Caption=&Add...
+---btnPRemove.Caption=&Remove
+---btnPLoad.Caption=&Load...
+---btnPSave.Caption=&Save...
+---btnPAutoDetect.Caption=Auto &Detect
+---cbNTLM.Caption=Use alternative connection method (for NTL&M authentication, etc.)
+---cbPASV.Caption=PAS&V mode for FTP downloads
+---btnPEdit.Caption=&Edit...
+---Label74.Caption=FireFox and Mozilla context menu:
+---btnFireFox.Caption=In&stall
+---rbACMAsk.Caption=&Ask for confirmation
+---rbACMDownload.Caption=&Start downloading the new URL
+---rbACMStop.Caption=S&top the download
+---cbACExitDownload.Caption=&Only when there are active downloads
+---cbACRestore.Caption=Whe&n restoring Projects with the same names
+---lblRMore.Caption=new or updated files downloaded
+---cbRMore.Caption=&When more than
+---Label75.Caption=Check for new versions automatically
+---cbNVCheck.Caption=&Every
+---btnNVCheck.Caption=&Check now
+---OptionsTree.15=New Versions
+---odProxyList.Filter=Text files|*.txt|All files|*.*
+---sdProxyList.Filter=Text files|*.txt|All files|*.*
+
+[dlgFolderProp]
+Caption=Својства омотнице
+
+Label1.Caption=&Категорија:
+FolderTree.0=Омотница
+btnCancel.Caption=Откажи
+btnOK.Caption=У реду
+Label32.Caption=Општа својства
+Label2.Caption=&Назив омотнице:
+Label6.Caption=Директоријум за преузимање за ову омотницу
+Label3.Caption=За сваку од омотница пројеката можете одредити други директоријум. Сви пројекти који се налазе у овој омотници ће користити овај директоријум за чување преузетих веб-страница.
+Label5.Caption=Ако наведени директоријум не постоји, биће аутоматски направљен.
+btnDefaults.Caption=&Основна својства омотнице
+btnFromTemplate.Caption=&Подеси својства према образцу
+cbFDD.Caption=&Овај -->
+btnBrowse.Caption=&Пронађи...
+btnApplyFDD.Caption=&И за све под-омотнице
+bdDD.Caption=Директоријум за преузимање
+bdDD.Hint=Изаберите директоријум за преузете ствари:
+
+[dlgDataMine]
+Caption=Уређивање података
+
+Label1.Caption=Уређивање података вам омогућује да обрађујете преузете веб-странице и да из њих узимате податке у складу са одређеним правилима.
+Label2.Caption=Поступак обраде података је заснован на алатки под називом »TextPipe« фирме »DataMystic Corporation«. То је алатка за измену текста у раду са више датотека.
+Label3.Caption=Нажалост, »TextPipe« није инсталиран на вашем рачунару. Кликните на доње дугме да би посетили веб странице програма »TextPipe«.
+btnTextPipe.Caption=»TextPipe« на Мрежи
+Label4.Caption=Уређивање података вам омогућује да обрађујете преузете веб-странице и да из њих узимате податке у складу са одређеним правилима. Тај поступак се ради помоћу алатке »TextPipe« фирме »DataMystic Corporation«.
+Label6.Caption=»TextPipe« филтери
+Label7.Caption=»TextPipe« извршавање
+cbTextOnly.Caption=Уређивање података само за &текстуалне и HTML датотеке
+cbRun.Caption=&Покрени филтер када се »TextPipe« учита
+cbQuit.Caption=&Напусти »TextPipe« по извршавању филтера
+rbFilter1.Caption=Покрени »TextPipe« са &новим филтером
+rbFilter2.Caption=Користи »TextPipe« &филтере (*.fll) за обраду одабраног пројекта:
+cbPassFiles.Caption=&Проследи преузете пројекте у »TextPipe«
+btnStart.Caption=&Почни
+btnCancel.Caption=Откажи
+btnHelp.Caption=Помоћ
+dlgOpenFilter.Caption=Отвори датотеку филтера
+dlgOpenFilter.Filter=»TextPipe« филтери|*.fll|Све датотеке|*.*
+
+[dlgCustomizeContents]
+Caption=Прилагођавање датотеке садржаја
+
+Label1.Caption=Заглавље датотеке садржаја:
+Label2.Caption=Једна ставка у датотеци садржаја:
+Label3.Caption=Подножје датотеке садржаја:
+Label4.Caption=Помоћ: Макро %URL% мења путању ка извеженим страницама, %Caption% - мења назив пројекта, какав је у стаблу пројеката.
+btnOK.Caption=У реду
+btnCancel.Caption=Откажи
+---Button1.Caption=&Reset
+
+[dlgProgress]
+Caption=Напредовање
+
+Button1.Caption=Заустави
+
+[dlgPDescr]
+Caption=Опис пројекта
+
+ToolButton1.Caption=&Нови
+ToolButton1.Hint=Примените измене
+SaveButton.Caption=&Сачувај
+SaveButton.Hint=Поништите измене
+PrintButton.Caption=&Штампај
+PrintButton.Hint=Штампајте текућу датотеку
+CutButton.Caption=&Исеци
+CutButton.Hint=Избришите одабрану ставку
+CopyButton.Caption=&Запамти
+CopyButton.Hint=Памти одабрану ставку у меморију
+PasteButton.Caption=&Налепи
+PasteButton.Hint=Уметање садржаја меморије
+UndoButton.Caption=&Уназад
+UndoButton.Hint=Поништавање последње извршене радње
+FontName.Hint=Врста слова|Одабир врсте слова
+FontSize.Hint=Величина слова|Одабир величине слова
+BoldButton.Hint=Задебљана
+ItalicButton.Hint=Коса
+UnderlineButton.Hint=Подвучена
+LeftAlign.Hint=Поравнање на лево
+CenterAlign.Hint=Поравнање у средини
+RightAlign.Hint=Поравнање на десно
+BulletsButton.Hint=Списак|Списак по тачкама
+mpUndo.Caption=&Уназад
+mpUndo.Hint=Поништавање последње извршене радње
+mpCut.Caption=&Исеци
+mpCut.Hint=Избришите одабрану ставку
+mpCopy.Caption=&Запамти
+mpCopy.Hint=Памти одабрану ставку у меморију
+mpPaste.Caption=&Налепи
+mpPaste.Hint=Уметање садржаја меморије
+mpSelectAll.Caption=Означи &све
+
+[dlgPrint]
+Caption=Штампај...
+
+Label1.Caption=Странице пројекта се управо штампају. Сачекајте тренутак...
+btnCancel.Caption=Откажи
+
+[dlgApplyTemplate]
+Caption=Примена обрасца на пројекат
+
+Label1.Caption=&Изаберите делове који ће бити примењени
+Label2.Caption=&Образац:
+Label3.Caption=Кључне речи Филтера адреса и екстензије Филтера датотека
+btnOK.Caption=У реду
+btnCancel.Caption=Откажи
+rbReplace.Caption=Замени кључним речима и екстензијама из обрасца
+rbJoin.Caption=Споји са кључним речима и екстензијама из обрасца
+
+[dlgOldFiles]
+Caption=Брисање старе датотеке пројекта
+
+List.0=Датотеке
+btnClose.Caption=&затвори
+btnDeleteAll.Caption=Избриши &све
+btnDelete.Caption=Избриши &одабрано
+
+[dlgImgDimensions]
+Caption=Филтер за димензије слика
+
+Label19.Caption=Прескочи слике које су мање од
+lblLowWidth.Caption=пиксела
+lblLowHeight.Caption=пиксела
+Label1.Caption=Прескочи слике које су веће од
+lblHighWidth.Caption=пиксела
+lblHighHeight.Caption=пиксела
+Label4.Caption=Пажња: ова верзија програма подржава само следеће врсте датотека
+Label2.Caption=Прескочи слике које су &ове величине (раздвојити зарезима)
+btnOK.Caption=У реду
+btnCancel.Caption=Откажи
+cbLowWidth.Caption=&Ширина
+cbLowHeight.Caption=&Висина
+cbHighWidth.Caption=&Ширина
+cbHighHeight.Caption=&Висина
+
+[dlgMapSelect]
+Caption=Одабир датотека мапе
+
+List.0=URL
+List.1=Величина
+dxbeMask.Caption=Унесите &маску за одабир датотека и притисните ENTER:
+dxbeMask.Hint=Унесите маску за одабир датотека
+btnDelete.Caption=&Избриши
+btnDelete.Hint=Избришите одабране датотеке
+btnClose.Caption=&Затвори
+btnClose.Hint=Затворите прозор
+btnBrowse.Caption=&Прегледај
+btnBrowse.Hint=Прегледај
+
+[dlgSelectMask]
+Caption=Изабери URL-ове у редослед
+
+Label1.Caption=Унесите &шаблон за одабир URL-ова и притисните тастер „Enter“:
+btnOK.Caption=У реду
+btnCancel.Caption=Откажи
+
+[dlgSubst]
+Caption=URL замена
+
+Label1.Caption=Пажња: ако желите да правила замене URL-ова важе само за преузете датотеке, искључите ставку. Односно, URL-ови ће бити преузети онакви какви и јесу, али називи датотека ван Мреже, као и везе, ће бити замењени у складу са правилима замене.
+Label2.Caption=&URL:
+Label3.Caption=&Заменити ово:
+Label4.Caption=&Заменити овим:
+List.0=URL
+List.1=Заменити ово
+List.2=Заменити овим
+btnOK.Caption=У реду
+btnCancel.Caption=Откажи
+btnHelp.Caption=&Помоћ
+btnAdd.Caption=&Додај
+btnRemove.Caption=&Уклони
+btnClear.Caption=Уклони &све
+cbApplyAll.Caption=&Примени сва одговарајућа правила
+mpMoveUp.Caption=Ка &горе
+mpMoveDown.Caption=Ка &доле
+mpDuplicate.Caption=&Дупликат
+lblURL.Caption=&URL:
+lblReplace.Caption=&Замени Ово:
+lblWith.Caption=&Замени овим:
+---btnTest.Caption=&Test
+
+[dlgStatistics]
+Caption=Статистика пројекта
+
+btnClose.Caption=&Затвори
+List.0=Параметар
+List.1=Вредност
+btnClean.Caption=Чист&е датотеке пројекта...
+cbValues.0=Назив пројекта:
+cbValues.1=URL:
+cbValues.2=Мапа назива датотеке:
+cbValues.3=Број улаза мапе:
+cbValues.4=Почетак последњег преузимања:
+cbValues.5=Завршетак:
+cbValues.6=Време преузимања:
+cbValues.7=Просечна брзина:
+cbValues.8=Преузимање у току...
+cbValues.9=Пројекат није преузет.
+cbValues.10=Статистика последњег преузимања:
+cbValues.11=Број преузетих датотека:
+cbValues.12=Непромењених:
+cbValues.13=Парсиране датотеке:
+cbValues.14=Непронађене:
+cbValues.15=Са грешком код преузимања:
+cbValues.16=Стопираних/Ограничених:
+cbValues.17=Величина преузетих датотека:
+cbValues.18=Збирна статистика пројекта:
+cbValues.19=Укупно датотека:
+cbValues.20=Укупна величина:
+cbValues.21=Текстуалне датотеке:
+cbValues.22=Величина текстуалних датотека:
+cbValues.23=Датотеке слика:
+cbValues.24=Величина датотека слика:
+cbValues.25=Остале датотеке:
+cbValues.26=Величина осталих датотека:
+---btnCopy.Caption=Co&py
+
+[dlgProtect]
+Caption=Заштити подешавања пројекта лозинком
+
+Label1.Caption=&Лозинка:
+Label2.Caption=Молимо напишите &поново:
+btnOK.Caption=У реду
+btnCancel.Caption=Откажи
+
+[dlgPassword]
+Caption=Молимо унесите лозинку
+
+Label1.Caption=&Лозинка:
+btnOK.Caption=У реду
+btnCancel.Caption=Откажи
+
+[dlgSetProxy]
+---Caption=Proxy Server settings
+
+---Label34.Caption=Server type
+---Label35.Caption=Proxy server settings
+---Label6.Caption=&Address:
+---Label17.Caption=&Port:
+---Label36.Caption=Proxy authentication (leave blank if not required)
+---btnOK.Caption=OK
+---btnCancel.Caption=Cancel
+---rbFProxy1.Caption=&HTTP proxy
+---rbFProxy2.Caption=&SOCKS4
+---rbFProxy3.Caption=S&OCKS5
+---rbFProxy4.Caption=User@Si&te
+---rbFProxy5.Caption=&RTSP Proxy
+---Label26.Caption=User&name:
+---Label27.Caption=Pass&word:
+
+[dlgAddR]
+Caption=Додавање кључних речи
+
+btnOK.Caption=У реду
+btnCancel.Caption=Откажи
+
+[dlgTemplates]
+Caption=Својства новог преузимања
+
+lblCustom.Caption=Прилагођени обрасци
+btnClose.Caption=Затвори
+btnCancel.Caption=Откажи
+btnOK.Caption=У реду
+pgNew.Caption=Уобичајени обрасци
+pgTemplates.Caption=Обрасци
+btnAdd.Caption=&Нови...
+btnRemove.Caption=&Уклони
+btnProp.Caption=&Својства
+btnDef.Caption=&Основни
+btnReset.Caption=&Поништи
+cbSmallIcons.Caption=Прикажи мале &иконе
+btnHelp.Caption=&Помоћ
+pmTCut.Caption=&Исеци
+pmTCut.Hint=Исеци одабрани пројекат или омотницу у меморију
+pmTCopy.Caption=&Копирај
+pmTCopy.Hint=Запамти одабрани пројекат или омотницу у меморију
+pmTPaste.Caption=&Налепи
+pmTPaste.Hint=Уметање пројекта или омотнице из меморије
+---pmTSort.Caption=&Sort by name
+
+[dlgAskPwd]
+Caption=Овера
+
+Label1.Caption=Унесите корисничко име и лозинку
+Label2.Caption=&Site:
+Label3.Caption=&Realm:
+Label5.Caption=&Корисничко име:
+Label6.Caption=&Лозинка:
+Button1.Caption=У реду
+Button2.Caption=Откажи
+
+[dlgExport]
+Caption=Извожење
+
+lblFNFormat.Caption=&Облик назива датотека:
+Label32.Caption=&Одредишни директоријум за копирање преузетих веб-страница
+Label1.Caption=Називи датотека
+Label3.Caption=Датотека садржаја
+lblPutFiles.Caption=&Смести датотеке у:
+btnClose.Caption=Откажи
+btnExport.Caption=&Извоз
+btnBrowse.Caption=&Пронађи...
+cbStandardExt.Caption=Користи уобичајене &екстензије за познате врсте датотека
+cbPreserveOnline.Caption=&Сачувај мрежне везе
+btnHelp.Caption=&Помоћ
+cbShortFileNames.0=Задржи називе какви и јесу
+cbShortFileNames.1=8+3 - према MS DOS-у
+cbShortFileNames.2=Joliet - CD-R 64 симболи
+cbAutorunCD.Caption=Аутоматски покретан &компакт-диск
+cbContents.Caption=Направи датотеку са &садржајем
+btnCustomize.Caption=&Прилагоди...
+cbPlainDir.Caption=Не прави &под-директоријуме
+cbPutTo.0=Горњи директоријум
+cbPutTo.1=ZIP архиву
+cbPutTo.2=MHT архиву
+cbPutTo.3=MS Internet Explorer кеш
+cbPutTo.4=HTML помоћ (CHM датотека)
+cbPutTo.5=Компримован EXE прегледник
+cbFastExport.Caption=&Брже извожење
+cbOriginalURL.Caption=Додај ори&гинални URL у HTML датотеку
+brdExport.Caption=Одредишно место за извожење
+brdExport.Hint=Изаберите директоријум за извожење пројекта:
+---cbRecentFiles.Caption=Export rece&ntly loaded files only
+
+[dlgReg]
+Caption=Регистровање
+
+Label1.Caption=Хвала вам што сте се одлучили за регистровање.
+Label2.Caption=Регистровање нам омогућује да и убудуће улажемо у развој овог и осталих производа.
+Label3.Caption=Ако нисте сигурни како да се региструјете, или желите да сазнате о разним начинима да извршите уплату, кликните на дугме „Наручите“.
+Label4.Caption=Када ваша уплата буде потврђена, аутоматски ћете добити податке о регистровању које ћете унети у доње поље.
+Label5.Caption=Производ:
+Label7.Caption=Регистарски кључ:
+btnOK.Caption=У реду
+btnCancel.Caption=Откажи
+btnOrder.Caption=Наручите
+
+[dlgWizard]
+Caption=Водич за нове пројекте
+
+Label1.Caption=Пројекат је задатак за преузимање. Као почетну адресу он користи неки URL. Када се страница учита, »Offline Explorer« установи све везе у њој и учитава их у складу са својствима пројекта.
+Label2.Caption=URL &пројекта:
+Label3.Caption=&Назив пројекта:
+Label4.Caption=Уместо URL-a можете унети назив пројекта који ће бити наведен у стаблу пројеката.
+Label5.Caption=URL изгледа, на пример, овако: http://www.metaproducts.com/ ftp://ftp.microsoft.com/data/ http://www.skrebic.net/offlineexplorer.htm
+Label7.Caption=Добродошли у водич за нове пројекте
+Label8.Caption=Ограничење према дубини повезаности
+Label10.Caption=&Гранични ниво:
+Label11.Caption=Гранични ниво вам омогућава да брзо одредите колико се страница треба преузети. Простим речима, то је број веза од почетне до најудаљеније странице.
+Label15.Caption=Да би се учитала само прва страница са свим припадајућим сликама, поставите гранични ниво на 0. Ниво=1 учитава прву страницу и све странице које су повезане непосредно на њу.
+Label17.Caption=Не обележавајте кутију за ограничавање Нивоа да би преузимали неограничени број нивоа (целу веб презентацију).
+Label18.Caption=Ако тако и урадите, строго препоручујемо да користите "Преузми само са почетног URL-а" или "Преузми само са почетног сервера" подешавања на једној од следећих страница водича. Овако ризикујете да преузмете цео Интернет!
+Label6.Caption=Изаберите врсте датотека које ће се преузети
+rbDAll.Caption=Преузми &све датотеке које су повезане са почетном страницом
+rbDSkip.Caption=Немој преузети датотеке следећих &врста:
+cbImages.Caption=&Графичке (слике)
+cbAudio.Caption=&Звучне (звуке, музику)
+cbVideo.Caption=&Видео
+cbArchive.Caption=Архиве (&ZIP, RAR итд.)
+Label9.Caption=Место где ће датотеке бити преузете
+Label16.Caption=Када, на пример, »Offline Explorer« пронађе везу ка адреси „http://www.server.rs.ba/dir1/dir2/datoteka.htm“, он ће покушати да затражи и садржај из /dir1/ и /dir2/. Ако сервер дозвољава излиставање директоријума, »Offline Explorer« ће преузети више датотека.
+rbURL.Caption=Учитај само у оквиру почетног &URL-а:
+rbSrv.Caption=Учитај само из почетног &сервера:
+rbAny.Caption=Учитај са &било ког места
+cbAllImages.Caption=&Слике учитај са било ког места
+cbExploreDirs.Caption=&Настој да испиташ све могуће под-директоријуме
+Label12.Caption=Честитамо!
+Label13.Caption=Управо сте направили нов »Offline Explorer« пројекат.
+Label14.Caption=Шта бисте желели сада:
+rbDNow.Caption=&Одмах преузети овај пројекат
+rbProperties.Caption=&Подесити напредна својства овог пројекта
+rbDLater.Caption=&Касније преузети овај пројекат
+btnBack.Caption=< &Назад
+btnNext.Caption=&Даље >
+btnCancel.Caption=Откажи
+cbShow.Caption=&Отвори Водич по покретању програма
+---Label19.Caption=Offline Explorer downloads Web pages on the site to get links to other pages and files. This information is used to build the site map without downloading the whole site.
+---rbDSiteMap.Caption=Generate site map
+
+[dlgBR]
+Caption=Напредовање
+
+btnCancel.Caption=Откажи
+btnOK.Caption=У реду
+List.0=Директоријум за преузимање
+List.1=Омотнице
+mpDDBrowse.Caption=&Пронађи...
+
+[dlgProp]
+Caption=Својства пројекта
+
+Label4.Caption=&Категорија:
+btnOK.Caption=У реду
+btnCancel.Caption=Откажи
+btnHelp.Caption=Помоћ
+ItemTree.0=Пројекат
+ItemTree.1=Филтери датотека
+ItemTree.2=Текст
+ItemTree.3=Слике
+ItemTree.4=Видео
+ItemTree.5=Звук
+ItemTree.6=Архиве
+ItemTree.7=Разно
+ItemTree.8=Све остало
+ItemTree.9=Филтери адреса
+ItemTree.11=Протокол
+ItemTree.12=Сервер
+ItemTree.13=Директоријум
+ItemTree.14=Име датотеке
+ItemTree.15=Филтери садржаја
+ItemTree.16=Напредно
+ItemTree.19=Превођење веза
+ItemTree.20=Заказивање
+ItemTree.21=Лозинке
+ItemTree.22=Копије датотека
+lblTCaption.Caption=Назив &обрасца:
+lblCaption.Caption=Назив &пројекта:
+lblURLs.Caption=Адрес&а (URL):
+lblProjectID.Caption=Ознака пројекта:
+Label15.Caption=Измењене &датотеке
+Label16.Caption=Адреса и ниво
+lblURL.Caption=Адрес&а (URL):
+cbFMSkipMedia.Caption=Прескочи постојеће &медијске датотеке
+cbLevel.Caption=Гранични &ниво:
+rbFM1.Caption=Преузми само &измењене датотеке
+rbFM2.Caption=Преузми &све датотеке
+rbFM3.Caption=Н&емој преузимати постојеће датотеке
+rbFM4.Caption=П&рескочи постојеће датотеке на нивоима већим од
+cbFMCheckSize.Caption=Провери &величину датотека
+lblExecBefore.Caption=Изврши &пре преузимања:
+lblExecAfter.Caption=Изврши &након преузимања:
+lblSLTime.Caption=минута
+lblSLTSize.Caption=килобајта
+Label17.Caption=&Заустављање преузимања
+Label18.Caption=&Парсирање
+bxSLTSize.Caption=Ако укупна &величина прелази
+bxSLNumber.Caption=Ако укупан &број датотека прелази
+bxSLTime.Caption=Ако преузимање &траје дуже од
+bxLJavaScript.Caption=Дозволи обраду &скрипта
+cbCheckFiles.Caption=&Провери интегритет HTML датотека
+bxLJavaClass.Caption=Дозволи обраду »&Java« класа
+bxLPrimary.Caption=Увек &задржи „*.primary“ датотеке
+btnSubst.Caption=&Замена URL-ова ...
+cbExploreDirs.Caption=&Испитај све могуће под-директоријуме
+cbIgnoreErrors.Caption=&Занемари грешке на страницама
+Label19.Caption=Од&акле се датотеке учитавају
+Label20.Caption=В&еличине датотека
+Label21.Caption=Ек&стензије
+cbFTLocation.0=Према својствима филтера за URL-ове
+cbFTLocation.1=Само из почетног сервера
+cbFTLocation.2=Само из почетног директоријума
+cbFTLocation.3=Са било ког мјеста
+rbFTS1.Caption=Учитај датотеке &свих величина
+rbFTS2.Caption=Учитај само &оволике датотеке:
+cbFTSHigh.Caption=Горња &граница
+cbFTSLow.Caption=Доња г&раница
+cbFTSMD.Caption=Учитај &помоћу »Mass Donwloader«-а
+btnFTAdd.Caption=<<  Додај
+btnFTDel.Caption=>> Уклони
+btnSelAll.Caption=Означи све
+btnSelNone.Caption=Ниједну
+btnImageSize.Caption=&Димензије слика...
+Label22.Caption=Заштићена места и области на Мрежи
+Label23.Caption=Пажња: за NTLM оверу, у поље за корисничко име упишите ДОМЕН\Корисник.
+rbSPsw0.Caption=&Користи ово корисничко име и лозинку, и то:
+lblSUserName.Caption=Корисничко &име:
+lblSPassword.Caption=&Лозинка:
+rbSPsw1.Caption=за &приступ заштићеним страницама и FTP-местима
+rbSPsw5.Caption=у HTML &обрасцима
+rbSPsw2.Caption=&Тражи име и лозинку од корисника
+rbSPsw3.Caption=&Занемари заштићене странице и настави преузимање
+rbSPsw4.Caption=&Заустави преузимање ако су странице заштићене
+Label42.Caption=Прескочи следеће &адресе при преузимању
+Label29.Caption=Учитај датотеке из следећих протокола
+Label30.Caption=Кориснички одређени протоколи
+rbUFProt1.Caption=Учитај датотеке из &свих протокола
+rbUFProt2.Caption=Учитај само датотеке из &почетног протокола
+rbUFProt3.Caption=Учитај из &кориснички одређених протокола
+cbUP0.Caption=Учитај из &веб-места (HTTP протокол)
+cbUP1.Caption=Учитај из &FTP-места (FTP протокол)
+cbUP3.Caption=Учитај из &безбедних веб-места (HTTPS протокол)
+cbUP2.Caption=Учитај из локалних &датотека (адресе као „file://“)
+cbUP4.Caption=Учитај из »Media Player« &токова (MMS протокол)
+cbUP5.Caption=Учитај из »&Real« токова (RTSP протокол)
+Label40.Caption=Учитај датотеке са следећих сервера
+Label41.Caption=Кориснички одређене &кључне речи
+Label46.Caption=Неке категорије филтера датотека не користе URL подешавања филтера у својим кутијама Места.
+Label45.Caption=Напомена:
+Label6.Caption=&Кључна реч:
+Label51.Caption=(F11 за проширење)
+cbLSrvs.0=Речи које се искључују
+cbLSrvs.1=Речи које се укључују
+btnLSAdd.Caption=&Додај  >>
+btnLSDel.Caption=&Уклони <<
+btnLSUp.Caption=Помери &горе
+btnLSDown.Caption=Помери &доле
+lblOtherSrvLev.Caption=веза са других сервера
+rbSPro4.Caption=Учитај датотеке само у оквиру почетног &сервера
+rbSPro5.Caption=Учитај датотеке само у оквиру почетног &домена
+cbOtherSrvLev.Caption=Учитај &до
+rbSPro1.Caption=Учитај датотеке са &свих сервера
+rbSPro2.Caption=Учитај датотеке само са &почетног
+rbSPro3.Caption=Учитај датотеке са &кориснички одређеног сервера
+rbSProSrv.Caption=&сервера
+rbSProDmn.Caption=&домена
+Label36.Caption=Учитај датотеке из следећих директоријума
+Label37.Caption=Кориснички одређене &кључне речи
+Label47.Caption=Напомена:
+Label48.Caption=Неке категорије филтера датотека не користе URL подешавања филтера у својим кутијама Места.
+Label7.Caption=&Кључна реч:
+Label52.Caption=(F11 за проширење)
+cbLDirs.0=Речи које се искључују
+cbLDirs.1=Речи које се укључују
+btnLPAdd.Caption=&Додај  >>
+btnLPDel.Caption=&Уклони <<
+btnLPUp.Caption=Помери &горе
+btnLPDown.Caption=Помери &доле
+rbUFDir1.Caption=Учитај датотеке из &свих директоријума
+rbUFDir2.Caption=Учитај датотеке само од &почетног директоријума па надаље
+rbUFDir3.Caption=Учитај датотеке из &кориснички одређеног директоријума
+Label38.Caption=Учитај датотеке следећих имена
+Label39.Caption=Кориснички одређене &кључне речи
+Label50.Caption=Неке категорије филтера датотека не користе URL подешавања филтера у својим кутијама Места.
+Label49.Caption=Напомена:
+rbUFFile1.Caption=Учитај датотеке &свих имена
+rbUFFile2.Caption=Учитај само датотеке са &почетним именом
+rbUFFile3.Caption=Кориснички подешена &имена датотека
+Label8.Caption=&Кључна реч:
+Label53.Caption=(F11 за проширење)
+cbLFiles.0=Речи које се искључују
+cbLFiles.1=Речи које се укључују
+btnLFAdd.Caption=&Додај  >>
+btnLFDel.Caption=&Уклони <<
+btnLFUp.Caption=Помери &горе
+btnLFDown.Caption=Помери &доле
+Label9.Caption=Изаберите под-категорију за приказ
+Label10.Caption=&Учесталост преузимања:
+Label5.Caption=&Временски интервал:
+Label26.Caption=&Дан у седмици:
+Label27.Caption=&Датум у месецу:
+Label28.Caption=&Месец:
+Label25.Caption=&Аутоматско преузимање пројекта у заказано време
+Label24.Caption=&Час:
+WhenBox.0=Ручно
+WhenBox.1=Свакодневно
+WhenBox.2=Седмично
+WhenBox.3=Месечно
+WhenBox.4=Годишње
+WhenBox.5=Више пута дневно
+WeekdayBox.0=Недеља
+WeekdayBox.1=Понедељак
+WeekdayBox.2=Уторак
+WeekdayBox.3=Среда
+WeekdayBox.4=Четвртак
+WeekdayBox.5=Петак
+WeekdayBox.6=Субота
+MonthBox.0=Јануар
+MonthBox.1=Фебруар
+MonthBox.2=Март
+MonthBox.3=Април
+MonthBox.4=Мај
+MonthBox.5=Јун
+MonthBox.6=Јул
+MonthBox.7=Август
+MonthBox.8=Септембар
+MonthBox.9=Октобар
+MonthBox.10=Новембар
+MonthBox.11=Децембар
+OnceBox.Caption=&Само једном
+Label2.Caption=На овај начин све везе ће да буду преведене у односу на локацију која није на Мрежи.
+Label11.Caption=На овај начин све везе ће да буду преведене у односу на локацију која се налази на Мрежи.
+Label1.Caption=На овај начин све везе ћете да преузмете „огледало“ копију веб-страница, са свим изворним везама. (Упозорење: У овом случају може бити немогуће прегледати странице ван Мреже.)
+Label31.Caption=&Преводи везе при парсирању датотека
+rbLOffline.Caption=&Ван Мреже
+rbLOnline.Caption=&На Мрежи
+rbNotTranslate.Caption=&Без превођења
+Label32.Caption=Задржавање старих датотека
+lblLKeepCopies.Caption=примерака
+Label33.Caption=Облик назива за копије старих датотека
+bxLKeepCopies.Caption=&Задржи старе датотеке:
+cbMSIECache.Caption=&Копирај датотеке у »Internet Explorer« кеш
+cbFCZeros.Caption=&Додај почетне нуле
+cbFCUseDate.Caption=Користи &датум/време у следећем облику:
+Label34.Caption=&Текстуалне кључне речи
+Label12.Caption=&Кључне речи:
+Label35.Caption=&обавештавање
+Label3.Caption=Обавести &поштом (раздвојити зарезима или размацима):
+Label13.Caption=&Предмет:
+cbSearchForAll.Caption=Тражи &све кључне речи
+cbSaveNoKw.Caption=&Сачувај странице које немају кључне речи у тексту
+cbGraphNoKw.Caption=Преузми &графику датотека које немају кључне речи у тексту
+odImportKeywords.Caption=Учитај кључне речи из текстуалне датотеке
+odImportKeywords.Filter=Текстуалне датотеке|*.txt|Све датотеке|*.*
+Label44.Caption=(F12 за списак наредби)
+Label43.Caption=(F11 за проширивање)
+cbExploreForms.Caption=Истражи HT&ML формуларе
+cbExploreSSMaps.Caption=Учитај серверске &мапе слика
+cbComplexScripts.Caption=&Процени прорачуне скрипте
+cbStopOnKw.Caption=&Заустави преузимање када се наиђе на кључне речи
+cbNoSaveKw.Caption=Немој &сачувати датотеке које у тексту садрже кључне речи
+cbSearchInTags.Caption=Тражи унутар HTML &документа
+MenuItem1.Caption=&Опозив радње
+MenuItem3.Caption=&Исеци
+MenuItem4.Caption=&Копирај
+MenuItem5.Caption=&Налепи
+MenuItem6.Caption=&Избриши
+MenuItem8.Caption=Изабери &све
+mpCut.Caption=И&сеци
+mpCopy.Caption=&Копирај
+mpPaste.Caption=&Налепи
+mpEdit.Caption=&Прегледај
+---Label56.Caption=Test a URL against UR&L Filters
+---btnUFTest.Caption=&Test
+---cbUP6.Caption=Load from R&eal streams (PNM protocol)
+---cbConvertRSS.Caption=Convert &RSS feeds to HTML
+---Label54.Caption=TextPipe Filters
+---Label55.Caption=TextPipe Execution Options
+---rbFilter1.Caption=Run TextPipe with a &new filter
+---rbFilter2.Caption=Use the TextPipe &filter file (*.fll) to process downloaded files:
+---cbPassFiles.Caption=&Pass downloaded Project files to TextPipe
+---cbTextOnly.Caption=Data mine only &Text and HTML files
+---cbRun.Caption=&Run filter when TextPipe loads
+---cbQuit.Caption=&Quit TextPipe after running the filter
+---cbDMNew.Caption=&Data mine only new and updated files
+---ItemTree.23=Data Mining
+---dlgOpenFilter.Caption=Open filter file
+---dlgOpenFilter.Filter=TextPipe Filter files|*.fll|All Files|*.*
+
+[wndSchedMan]
+Caption=Организатор преузимања
+
+lvSeq.0=Пројекти
+lblPrj.Caption=Назив пројекта:
+lblSch.Caption=Заказан за:
+cbWhen.0=Дневни распоред
+cbWhen.1=Седмични распоред
+cbWhen.2=Месечни распоред
+cbWhen.3=Годишњи распоред
+cbWhen.4=Секвенцер
+cbSuspend.Caption=&Заустави секвенцер
+cbLoop.Caption=&Кружи
+miSSelect.Caption=&Изабери пројекат
+miSSkip.Caption=&Постави секвенцер на овај пројекат
+miSRemove.Caption=&Уклони
+miSRemoveAll.Caption=Уклони &све
+
+[dlgCSearch]
+Caption=Претраживање садржаја
+
+btnFind.Caption=&Пронађи
+btnCancel.Caption=Откажи
+btnBrowse.Caption=&Прикажи
+btnSave.Caption=&Сачувај
+Label1.Caption=Шта пронаћи:
+cbSearchForAll.Caption=&Све кључне речи
+cbTextOnly.Caption=Само у &тексту
+cbRecent.Caption=Само у &недавним датотекама
+sdSave.Caption=Сачувај резултате претраге
+sdSave.Filter=HTML files - offline links|*.htm|HTML files - online links|*.htm|Text files|*.txt|All files|*.*
+btnAbort.Caption=&Прекини
+btnDelete.Caption=&Избриши
+---cbSearchInTags.Caption=Search inside HTML &tags
+
+[dlgCleanUp]
+Caption=Чишћење преузетих места
+
+btnAbort.Caption=&Заустави
+btnDelSel.Caption=Избриши &одабрано
+btnDelAll.Caption=Избриши &све
+btnClose.Caption=&Затвори
+btnMaps.Caption=Некоришћене датотеке &мапе
+miCUOpen.Caption=&Отвори датотеку или директоријум
+miCUDelete.Caption=&Избриши
+
+[DialerForm]
+Caption=Повезивање
+
+Label3.Caption=Стање:
+Label4.Caption=Последња грешка:
+CancelButton.Caption=Откажи
+
+[TipForm]
+Caption=Савет дана
+
+Label2.Caption=Да ли сте знали...
+cbShowOnStart.Caption=&Приказуј Савет дана по покретању
+Box.0=Ако кликнете десним тастером миша на неку веб-страницу у картицама „Пројекти“ или „Мапа“, добићете приручни мени који ће вам помоћи при обради, гледању или прегледању ваших веб-страница.
+Box.1=Да бисте зауставили преузимање датотеке, у окну порука изнад те датотеке кликните десним тастером миша и одаберите „Заустави“.
+Box.2=Веб-странице можете преузети брзо тако што ћете адресу само унети у Адресно поље и притиснути тастер ENTER, баш као што би урадили у Мајкрософтовом програму »Internet Explorer«. Такође, можете кликнути и на дугме „Преузимање“.
+Box.3=Ако желите изменити дубину преузимања, то можете учинити и на одговарајућем месту десно од Адресног поља.
+Box.4=Интерни прегледник програма »Offline Explorer« можете укључити или искључити и у менију „Приказ | Окна истраживача | Интерни прегледник“. Једном када је прозор прегледника отворен можете два пута брзо кликнути на било који пројекат и он ће бити приказан у окну прегледника.
+Box.5=Више веб-страница можете преузети тако што сваку од њих означите у картици пројекта, а затим кликнете на дугме за почетак преузимања (стрелица окренута на доле). Исто можете добити ако означите омотницу која садржи више веб-страница и кликнете на њу. Тада ће почети преузимање свих веб-страница из те омотнице.
+Box.6=Филтери за URL-ове, у одељку Својства, омогућава вам да према кључним речима селективно преузмете било који сервер, директоријум или датотеку коју желите. Сваки сервер, директоријум или датотека може према тим кључним речима бити укључен или искључен из преузимања. За више појединости погледајте датотеку Помоћи.
+Box.7=Ако желите да преузмете само GIF слике, идите на „Својства | Филтери за датотеке | Слике“ и одаберите одговарајућу екстензију, односно испразните квадратић поред свих осталих екстензија за слике.
+Box.8=Преко параметара из командне линије »Offline Explorer« можете интегрисати са другим алаткама за заказивање преузимања, те на тај начин можете подесити извршавање посебних радњи, као што је Искључивање рачунара по завршетку преузимања. За потпун опис таквих параметара погледајте датотеку Помоћи.
+Box.9=Да бисте преузели сасвим истоветну копију неког места на Мрежи, укључите „Без превођења“ у „Својства | Напредно | Превођење веза“.
+Box.10=Ако желите бити обавештени о најновијим верзијама програма, о новостима, о прикључцима и сличном, посећујте често наше странице на Мрежи.
+Box.11=Било коју страницу или датотеку можете прегледати, погледати или уређивати и на тај начин што ћете у одељку „Приказ | Остало | Програми“ додати посебне програме за ту намену. Тим додатим алаткама можете затим приступити из менија „Алатке“.
+Box.12=Увек можете погледати и дневник рада за ваша преузимања, кликом на „Приказ | Окна системских порука | Радно окно“ или „Дневник рада“.  Ако одаберете „Радно окно“ одмах изнад статусне траке ће се појавити окно са порукама (које је, иначе, по инсталирању програма већ укључено). Ако одаберете „Дневник рада“ отвориће се плутајући прозор у ком можете пратити рад, заустављати преузимања, брисати, сачувати, филтрирати или претраживати дневник рада.
+Box.13=Своја омиљена места на Мрежи (Favourites) можете преузети и увожењем тих адреса из подразумеваног прегледника. »Offline Explorer« може увести адресе из програма као што су »MSIE«, »Netscape«, или »Opera«. Да би неку адресу увезли, идите на „Датотека | Увези“.
+Box.14=Ако измените подешавања у „Датотека | Обрасци“, можете поставити подразумеване особине за сва ваша преузимања.
+Box.15=Ако у менију „Преузимање“ одаберете „Заустави у датотеку“ и „Настави из датотеке“ можете привремено обуставити, а затим некада касније наставити преузимање.
+Box.16=Преузимање можете на тренутак зауставити, а затим наставити ако из менија „Преузимање“ одаберете „Паузирај“.
+Box.17=Преузимање можете заказати за тачно одређено време или распоредити на тачно одређене интервале, ако у „Својствима“ пројекта у одељку „Непредно“ одаберете и подесите „Заказивање“.
+Box.18=Заказивање преузимања пројекта можете подесити и ако отворите „Приказ | Организатор преузимања“, а затим пројекат само превучете у њега, на одговарајуће мјесто у временској љествици.
+Box.19=»Offline Explorer« вам омогућује да преузмете и места на Мрежи која су заштићена лозинком. Идите на „Својства | Напредно | Лозинке“.
+Box.20=Странице које прегледате интерним прегледником можете и одштампати, преко дугмета „Штампај“.
+Box.21=Да бисте погледали статистичке податке о неком пројекту који сте преузели, кликните на дугме „На почетак“ у интерном прегледнику.
+Box.22=Да бисте на основу већ постојећег вашег пројекта направили нов образац, копирајте тај пројекат у меморију, отворите мени „Датотека | Обрасци“ и налепите тај пројекат пречицом CTRL+V са тастатуре.
+Box.23=Пројекте у омотници можете и поређати неким редоследом; кликните десним тастером миша на жељену омотницу и из одговарајућег менија одаберите „Поређај“.
+Box.24=Преузете датотеке можете прегледати и из Мапе места, и то само једним кликом на тастер миша. Да би укључили ову могућност, кликните десним тастером миша у области мапе и означите „Прегледање једним кликом“.
+Box.25=Да бисте страницу гледану интерним прегледником сачували, притисните тастере CTRL+ALT+S.
+Box.26=Као и »Internet Explorer«, притиском на функцијски тастер F11 интерни прегледник ће се раширити преко целог екрана.
+Box.27=Да бисте у Филтеру датотека одједном означили или поништили све екстензије притисните на CTR+A, односно на CTRL+N.
+Box.28=Списак датотека које су учитане током последњег преузимања можете погледати и на „Уређивање | Пронађи у садржају“. У пољу за кључне речи унесите само један размак и означите „Само у недавним датотекама“.
+Box.29=Да бисте све кључне речи које се искључују преместили у поље за речи које се укључују, или обрнуто, у својствима пројекта, у одељку Филтери адреса, притисните CTRL+M на тастатури.
+Box.30=Да бисте означили све кључне речи у „Филтерима адреса“  при подешавању својстава пројекта, притисните тастере CTRL+A на тастатури. CTRL+N поништава све одабрано.
+Box.31=У макроима за адресе сада можете користити и римске бројеве.
+Box.32=Да бисте један пројекат обуставили у датотеку, а наставили са преузимањем осталих пројеката, кликните десним тастером миша на жељени пројекат и одаберите „Преузимање | Заустави у датотеку“.
+Box.33=»Offline Explorer« је одлична алатка, која дозвољава да је прилагодите и преведете на свој матерњи језик. Подржавајте коришћење српског језика и ћирилице на рачунарима.
+Box.34=Превођење интерфејса овог програма на српки језик (и ћирилично и латинично) је урадио Дејан Шкребић <dejan@skrebic.net>. Ако вас занимају преводи и неких других програма, посетите његове странице на http://www.skrebic.net
+Button1.Caption=&Затвори
+Button2.Caption=&Наредни
+
+[dlgProxyURLDetect]
+Caption=Откривање својстава прокси-сервера
+
+Label1.Caption=Откриј својства из адресе:
+Label2.Caption=Откривени су следећи прокси-сервери. Изаберите један од њих и кликните на дугме „У реду“.
+lbProxies.0=Није откривено ниједно својство прокси-сервера.
+btnOK.Caption=У реду
+btnCancel.Caption=Откажи
+
+[dlgSeqSchedule]
+Caption=Заказивање редоследа
+
+Label10.Caption=&Интервали преузимања:
+Label5.Caption=&Временски интервали:
+Label24.Caption=&Време:
+Label26.Caption=&Дан у седмици:
+Label27.Caption=&Дан у месецу:
+Label28.Caption=&Месец:
+Label25.Caption=Покрени заказивач према датом распореду
+WhenBox.0=Ручно
+WhenBox.1=Свакодневно
+WhenBox.2=Седмично
+WhenBox.3=Месечно
+WhenBox.4=Годишње
+WhenBox.5=Сваког
+WeekdayBox.0=недеље
+WeekdayBox.1=понедељка
+WeekdayBox.2=уторка
+WeekdayBox.3=среде
+WeekdayBox.4=четвртка
+WeekdayBox.5=петка
+WeekdayBox.6=суботе
+MonthBox.0=јануара
+MonthBox.1=фебруара
+MonthBox.2=марта
+MonthBox.3=априла
+MonthBox.4=маја
+MonthBox.5=јуна
+MonthBox.6=јула
+MonthBox.7=августа
+MonthBox.8=септембра
+MonthBox.9=октобра
+MonthBox.10=новембра
+MonthBox.11=децембра
+OnceBox.Caption=&Само једном
+btnOK.Caption=У реду
+btnCancel.Caption=Откажи
+
+[dxBarCustomizationForm]
+Caption=Прилагођавање
+
+BClose.Caption=Затвори
+TabSheet1.Caption=Траке са алаткама
+LabelToobars.Caption=&Расположиве траке са алаткама:
+BBarDelete.Caption=&Уклони
+BBarNew.Caption=&Нова...
+BBarRename.Caption=&Преименуј...
+BBarReset.Caption=&Поништи...
+TabSheet2.Caption=Наредбе
+LabelCategories.Caption=&Категорије:
+LabelCommands.Caption=&Наредбе:
+LabelDescription.Caption=Опис
+TabSheet3.Caption=Остало
+LabelMenuAnimations.Caption=&Анимација менија:
+ComboBoxMenuAnimations.0=(ништа)
+ComboBoxMenuAnimations.1=Насумично
+ComboBoxMenuAnimations.2=Одмотавање
+ComboBoxMenuAnimations.3=Извлачење
+CBHint1.Caption=Приказуј &кратке савете на тракама са алаткама
+CBHint2.Caption=Приказуј &пречице у кратким саветима
+CBLargeIcons.Caption=&Велике иконе
+Label1.Caption=&Анимација менија:
+Label2.Caption=Остало
+Label3.Caption=Прилагођени менији и траке са алаткама
+ComboBoxMenuAnimationsEx.0=(Ништа)
+ComboBoxMenuAnimationsEx.1=Насумично
+ComboBoxMenuAnimationsEx.2=Одмотавање
+ComboBoxMenuAnimationsEx.3=Извлачење
+CBHint1Ex.Caption=Приказуј &кратке савете на тракама са алаткама
+CBHint2Ex.Caption=Приказуј &пречице у кратким саветима
+CBLargeIconsEx.Caption=&Велике иконе
+CBMenusShowRecentItemsFirst.Caption=&Менији прво приказују најскорије коришћене наредбе
+CBShowFullMenusAfterDelay.Caption=&Након кратке паузе прикажи потпуне меније
+BResetUsageData.Caption=&Поништи податке о коришћењу
+---ComboBoxMenuAnimationsEx.4=Fade
+---TabSheet4.Caption= All commands
+---CBShowCommandsWithShortCut.Caption=Show commands that may have a shortcut
+---GroupBox1.Caption= Groups
+---btnGroupAdd.Caption=Add
+---btnGroupDelete.Caption=Delete
+---GroupBox2.Caption= Items
+---btnGroupItemAdd.Caption=&Add...
+---btnGroupItemDelete.Caption=Delete
+---CategoriesAdd.Caption=Add...
+---CategoriesAdd.Hint=Add
+---CategoriesInsert.Caption=Insert...
+---CategoriesInsert.Hint=Insert
+---CategoriesRename.Caption=Rename...
+---CategoriesRename.Hint=Rename
+---CategoriesVisible.Caption=Visible
+---CategoriesVisible.Hint=Visible
+---CommandsAdd.Caption=Add...
+---CommandsAdd.Hint=Add
+---CommandsDelete.Caption=Delete
+---CommandsDelete.Hint=Delete
+---CommandsClear.Caption=Clear
+---CommandsClear.Hint=Clear
+---CommandsMoveUp.Caption=Move Up
+---CommandsMoveUp.Hint=Move Up
+---CommandsMoveDown.Caption=Move Down
+---CommandsMoveDown.Hint=Move Down
+---CommandsSubMenuEditor.Caption=SubMenu Editor...
+---CommandsSubMenuEditor.Hint=SubMenu Editor
+---CategoriesItemsVisible.Caption=Items Visible:
+---CategoriesItemsVisible.Hint=Items Visible:
+---CategoriesDelete.Caption=Delete
+---CategoriesDelete.Hint=Delete
+
+[Strings]
+Основно
+Празно
+Подразумевани прегледник није пронађен
+Грешка
+Подразумевани прегледник није покренут
+Желите ли да уклоните
+Потребна потврда
+Желите ли да уклоните све датотеке пројекта
+Неопходно је да преостане најмање једна омотница.
+Желите ли да уклоните све пројекте у омотници
+Дошло је до грешке при покретању спољне алатке
+Преузето
+датотека
+На чекању
+Величина
+килобајта
+Нова омотница
+&Настави
+&Заустави
+Брзина
+b/sec
+Желите ли да напустите програм
+Основна својства пројекта
+Зауставити преузимање?
+Филтрирање према серверу, директоријуму или називу
+Напредна својства пројекта
+Назив, адреса и ниво пројекта
+Лозинке за заштићене веб-странице
+Одабир врсте датотека
+Ограничите сервере кључним речима
+Ограничите директоријуме кључним речима
+Ограничите датотеке кључним речима
+Када ће се извршити преузимање пројекта
+Постављање категорије садржаја
+Веза са Интернетом и својства HTTP сервера
+Врста прокси-сервера и подешавање лозинке
+Место за преузете датотеке
+Постављање ограничења слободног простора на диску
+Посебна својства која утичу на цео програм
+При прегледању веб-страница, понуди избор једног од ових алата
+Списак програма за прегледање веб-датотека
+При гледању веб-страница, понуди избор једног од ових алата
+Списак програма за гледање веб-датотека
+При обради веб-страница, понуди избор једног од ових алата
+Списак програма за обраду веб-датотека
+MB слободно
+Не могу се пронаћи одговарајући подаци.
+Преузимање
+Спреман
+Обустава
+Парсирање
+Претрага
+&Увези
+Увећај преко целог екрана
+Смањи на уобичајену величину
+Ограничење протокола
+У вашем систему су „колачићи“ тренутно онемогућени. Желите ли да их омогућите?
+Одабир начина превођења веза
+Уређивање образаца
+Желите ли да зауставите учитавање датотеке?
+Општа својства пројекта
+Разни начини занављања пројекта
+Назив омотнице и директоријум за преузимање
+Интегрисање програма у систем
+Задржавање старих датотека
+Успостављање везе при преузимању са Мреже
+Прекидање везе, излаз и искључивање рачунара
+Желите ли да прекинете модемску везу?
+мегабајта
+гигабајта
+Филтрирање преузетих страница према кључним речима
+Неопходне потврде корисника
+секунда
+Завршен
+Заказан
+Није преузет
+Адреса (URL) није пронађена
+Заустављен
+Овим ће се извршити претрага за свим некоришћеним, а преузетим, датотекама и местима, и биће вам понуђено да их уклоните.
+Желите ли да наставите?
+Учитано
+Дужина
+Ограничење брзине преузимања
+Желите ли да покренете све пројекте у омотници?
+Желите ли да зауставите претходни пројекат?
+Желите ли да зауставите све пројекте у омотници?
+Документ није пронађен
+Овој страници се не може приступити ван Мреже. Могући разлози: веза ка њој је била неисправна, или својства пројекта не дозвољавају њено учитавање. У неким случајевима може помоћи повећавање граничног нивоа пројекта.
+Кликните овде да би прешли на Мрежу
+Подаци
+бајтова
+Укупна величина датотеке је
+Овим ћете директоријум преузимања сваке подомотнице подесити на горњу вредност.
+Желите ли да наставите?
+Пројекат
+Сервер јавља да је почетни URL премештен на нову адресу:
+Желите ли да поновите преузимање са новим URL-ом пројекта (кликом на „Откажи“ задржаћете стари URL)?
+Понашање по завршетку преузимања пројекта
+Отвори датотеку
+Изабрано
+Желите ли да сачувате информације о избрисаним датотекама да би касније могли да преузмете измењене и нове датотеке?
+Дубина датотеке:
+Нерегистровано
+Корисник / Рачунар Лиценца
+Неограничена Лиценца места
+Лиценца места
+Корисници / Рачунари Лиценца
+Привремена лиценца. Истиче након
+Пројеката
+URL-ова
+Паузирај код датотеке
+Последње преузимање од %s до %s
+Нема изабраних пројеката
+Користите програм %s. дан од 30 дана пробног периода.
+дана
+Постави као Насловну страницу
+Нисте ажурирали пројекат %s дана
+Лозинке се не подударају
+Неисправна лозинка
+Do you want to overwrite existing Projects?
+Check for new version
+Drag Projects to add to the Scheduler
+Drag Projects to add to the Sequencer
+Multiple links
+New browser
+New Template
+Download the missing link now and add it to the selected Project
+Welcome Page
+Download Speed Chart. No download activity within %s seconds.
+Download Speed Chart. Max = %s, Avg = %s within %s seconds.
+Download limits
+Advanced parsing settings
+New version detected:
+Do you want to download and install it?
+You have the most recent version of

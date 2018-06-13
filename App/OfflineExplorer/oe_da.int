@@ -1,0 +1,1746 @@
+[Intl File 4.0]
+Language=Danish (Dansk)
+Charset=1
+Font=Tahoma
+
+[MainForm]
+
+lblAddress.Caption=&Adresse:
+lblLevel.Caption=&Niveau:
+btnCreate.Caption=&Hent
+pgProjects.Caption=Projekter
+lvSeq.0=Projekter
+pgWebSites.Caption=Oversigt
+lblDisabledURLs.Caption=Deaktiverede &URL-adresser
+pgLevels.Caption=Niveauer
+PList.0=Kanal
+PList.1=Indlæst - %
+PList.2=Længde
+PList.3=Status
+PList.4=URL-adresse
+Log4.0=Kilde
+Log4.1=Tid
+Log4.2=Information
+tbWebBrowser.0=Interne Browser
+btnExpandIB1.Hint=Maksimer Intern Editor til fuld skærm
+tbEDOpen.Hint=Åbn fil for at redigere
+tbEDSave.Hint=Gem ændringer i filen
+tbEDCut.Hint=Klip den markerede tekst til udklipsholder
+tbEDCopy.Hint=Kopier den markerede tekst til udklipsholder
+tbEDPaste.Hint=Indsæt tekst fra udklipsholder
+tbEDUndo.Hint=Fortryd ændringer
+tbEDFind.Hint=Søg
+tbWBBack.Hint=Tilbage
+tbWBForw.Hint=Frem
+tbWBStop.Hint=Stop
+tbWBRefr.Hint=Opdater (Ctrl+R)
+tbWBPrint.Hint=Udskriv|Udskriv den aktive side i den Interne Browser
+tbWBSettings.Hint=Indstillinger for Interne Browser|Skift skriftstørrelsen på siden i den aktive Interne Browser eller aktiver/deaktiver billeder
+tbWBHome.Hint=Gå til start|Vis oversigt og statistikker over projekter i browser
+tbWBCatchURL.Hint=Tilføj den næste klikkede link som et projekt|Næste klik på en URL-adresse eller en formular knap vil blive optaget som et projekt, der til enhver tid kan hentes.
+tbWBAutoSave.Hint=Gem automatisk|Hent og tilføj automatisk alle manglende sider og filer til projektet
+mpTShow.Caption=&Vis
+mpTStop.Caption=Stop &hentning...
+mpTClipboard.Caption=&Overvåg udklipsholder
+mpTPaste.Caption=&Indsæt projekt
+mpTIntegration.Caption=&&Ved indsættelse af en URL-adresse
+mpTDefTemplate.Caption=Br&ug standard skabelon
+mpTAutoStart.Caption=Start &automatisk overførsel
+mpTExit.Caption=L&uk
+dlgRFromFile.Caption=Genoptag fra fil
+dlgRFromFile.Filter=Kø filer|*.wdq|Alle filer|*.*
+dlgStoFile.Caption=Afbryd til fil
+dlgStoFile.Filter=Kø filer|*.wdq|Alle filer|*.*
+mpAProject.Caption=&Projekt...
+mpAWizard.Caption=Projekt&guide...
+mpAFolder.Caption=&Mappe
+mpATemplate.Caption=&Skabelon...
+mpASeparator.Caption=Skabeloner
+mpBSeparator.Caption=Skabeloner
+mpSStop.Caption=&Stop valgte projekt
+mpSStopAll.Caption=Stop &Alt
+mpFSFontSize.Caption=&Skriftstørrelse
+mpFSLargest.Caption=S&tørste
+mpFSLarger.Caption=&Større
+mpFSMedium.Caption=&Medium
+mpFSSmaller.Caption=&Mindre
+mpFSSmallest.Caption=M&indst
+mpFSShowImages.Caption=&Vis billeder
+mpFSShowImages.Hint=Aktiver eller deaktiver billeder i den interne browser
+mpFSBrowseOnline.Caption=Gennemse aktuelle URL-adresse o&nline
+mpFSBrowseOnline.Hint=Gennemse aktuelle URL-adresse online
+mpFSBrowseOffline.Caption=Gennemse aktuelle URL-adresse &offline
+mpFSBrowseOffline.Hint=Gennemse aktuelle URL-adresse offline
+mpFSBrowsingProject.Caption=Vælg &projektet du søger i
+mpFSViewSource.Caption=&Vis kilde
+odRestore.Caption=Gendan fra fil
+odRestore.Filter=Offline Explorer backup|*.boe|Alle filer|*.*
+odBackup.Caption=Backup til fil
+odBackup.Filter=Offline Explorer backup|*.boe|Alle filer|*.*
+pmWBPrint.Caption=&Udskriv...
+pmWBPreview.Caption=Vi&s...
+miFile.Caption=&Filer
+miFNewProject.Caption=&Ny...
+miFNewProject.Hint=Opret nyt projekt eller ny mappe
+miFExport.Caption=&Eksporter...
+miFExport.Hint=Kopier hentede projektfiler til en anden mappe
+miFDelSelected.Caption=&Slet
+miFDelSelected.Hint=Slet valgte projekt, mappe eller fil
+miFProperties.Caption=E&genskaber...
+miFProperties.Hint=Egenskaber for valgte projekt
+miFDProperties.Caption=S&kabeloner...
+miFDProperties.Hint=Standard egenskaber for alle nyligt oprettede projekter
+miFSaveChanges.Caption=Ge&m ændringer
+miFSaveChanges.Hint=Gem de ændringer, der blev foretaget i indstillinger eller projekter
+miFExit.Caption=&Luk
+miFExit.Hint=Luk program
+miFWizard.Caption=&Guide...
+miFWizard.Hint=Tilføj nyt projekt ved hjælp af Guide
+miFPrint.Caption=&Udskriv...
+miFPrint.Hint=Udskriv alle hjemmesider indlæst af det valgte projekt
+miEUndoDel.Caption=F&ortryd Slet
+miEUndoDel.Hint=Gendan slettede projekt eller mappe
+miECut.Caption=Kli&p
+miECut.Hint=Klip det valgte projekt eller mappe til udklipsholder
+miECopy.Caption=&Kopier
+miECopy.Hint=Kopier det valgte projekt eller mappe til udklipsholder
+miEPaste.Caption=&Indsæt
+miEPaste.Hint=Indsæt projekt eller mappe fra udklipsholder
+miEFindFiles.Caption=Søg &Filer eller Mapper...
+miEFindFiles.Hint=Søg projekt, mappe eller fil
+miEFindContents.Caption=&Søg indhold...
+miEFindContents.Hint=Søg efter nøgleord indeni hentede filer
+miVInternalBrowser.Caption=&Interne Browser
+miVInternalBrowser.Hint=Intern browser vindue til hurtigt at vise hentede hjemmesider
+miVOptions.Caption=&Indstillinger...
+miVOptions.Hint=Vis eller rediger forskellige programindstillinger
+miDStart.Caption=&Start
+miDStart.Hint=Hent projekt eller mappe
+miDStop.Caption=Sto&p
+miDStop.Hint=Stop hentning af det valgte projekt
+miDSuspendFile.Caption=Afbryd til &fil...
+miDSuspendFile.Hint=Gem køen af overførsler til en fil
+miDResumeFile.Caption=Genoptag fra f&il...
+miDResumeFile.Hint=Gendan køen af overførsler fra fil
+miDSpeed.Caption=&Hastighed
+miDSpeed.Hint=Hastighed
+miTDatamine.Caption=&Data mining...
+miTDatamine.Hint=behandle hentede projektfiler med TextPipe
+miTBrowse.Caption=&Gennemse
+miTBrowse.Hint=Gennemse det valgte projekt eller fil
+miVBrowseWith.Caption=Gennemse &med
+miTHHangup.Caption=&Læg på
+miTHHangup.Hint=Læg modem forbindelse på når hentning er afsluttet
+miTHShutdown.Caption=&Systemlukning
+miTHShutdown.Hint=Luk computeren når hentning er afsluttet
+miHContents.Caption=&Indhold
+miHContents.Hint=Vis indhold i hjækp
+miFDelete.Caption=&Slet
+miFDProject.Caption=&Projekt
+miFDProject.Hint=Slet det valgte projekt
+miFDFolder.Caption=&Mappe
+miFDFolder.Hint=Slet den valgte mappe
+miEDelete.Caption=M&appe eller fil
+miEDelete.Hint=Slet den valgte mappe eller fil
+miFDOld.Caption=Gam&le projektfiler
+miFDOld.Hint=Fjern alle filer der blev indlæst med det valgte projekt
+miFRename.Caption=&Omdøb
+miFRename.Hint=Omdøb valgte projekt eller mappe
+miEdit.Caption=&Rediger
+miView.Caption=&Vis
+Toolbars1.Caption=&Værktøjslinjer
+miVTToolbar.Caption=&Standard knapper
+miVTToolbar.Hint=Standard værktøjslinje, giver mulighed for hurtig udførsel af almindelige opgaver
+miVTAddressBar.Caption=&Adresselinje
+miVTAddressBar.Hint=Adresselinje, der kan anvendes til hurtig hentning af enhver hjemmeside, ved hjælp af egenskaber for standard projekt
+miVTTextLabels.Caption=&Tekstetiketter
+miVStatusBar.Caption=S&tatuslinje
+miVStatusBar.Hint=Statuslinje
+miVExplorerBar.Caption=&Panel
+miVProjects.Caption=&Projekter
+miVProjects.Hint=Projekttræ
+miVMap.Caption=&Oversigt
+miVMap.Hint=Oversigt over hentede filer
+miVQueue.Caption=&Kø
+miVQueue.Hint=Køhåndtering af hentning
+miVMessages.Caption=&Meddelelser
+miVMPanel.Caption=&Panel
+miVMPanel.Hint=Vis status for den aktuelle hentning
+miVLog.Caption=Log&vindue
+miVLog.Hint=Vis logvinduet
+miDownload.Caption=H&ent
+miDStartAll.Caption=Start A&lle
+miDStartAll.Hint=Start hentning af alle projekter
+miDStopAll.Caption=Stop &Alle
+miDStopAll.Hint=Stop hentning af alle projekter
+miPlugins.Caption=F&unktioner
+miTHTMLImp.Caption=&Importer fra HTML...
+miTBackupRestore.Caption=&Backup/Gendan
+miTBackupProjects.Caption=&Backup projekt(er)...
+miTBackupProjects.Hint=Gem indstillinger for projekt og hentede filer i en komprimeret fil
+miTRestoreProjects.Caption=&Gendan projekt(er)...
+miTRestoreProjects.Hint=Gendan indstillinger for projekt og hentede filer en komprimeret fil
+miTSequencer.Caption=&Sequencer
+miTSResume.Caption=&Afbrudt
+miTSHighlight.Caption=&Marker det næste projekt
+miTSReset.Caption=Nu&lstil til det første projekt
+miHelp.Caption=&Hjælp
+miHRegister.Caption=&Køb nu!
+miHRegister.Hint=Registrer program online
+miHWebSite.Caption=&Hjemmeside
+miHWebSite.Hint=Åbn vor hjemmeside
+miHTips.Caption=&Vis Tips...
+miHTips.Hint=Vis nyttige tips
+miHCheck.Caption=Kontroller for &Opdateringer
+About1.Caption=&Om Offline Explorer...
+About1.Hint=Om programmet
+miVEditIn.Caption=R&ediger i
+miVViewIn.Caption=&Vis i
+miFNProject.Caption=&Projekt...
+miFNProject.Hint=Projekt
+miFNFolder.Caption=&Mappe
+miFNFolder.Hint=Mappe
+miFNTemplate.Caption=&Skabelon...
+miFNTemplate.Hint=Skabelon
+miFNTemplates.Caption=———— Skabeloner ————
+miFNTemplates.Hint=———— Skabeloner ————
+miFImport.Caption=&Importer
+miDSHigh.Caption=&Høj
+miDSHigh.Hint=Høj
+miDSMedium.Caption=&Medium
+miDSMedium.Hint=Medium
+miDSLow.Caption=&Lav
+miDSLow.Hint=Lav
+miDSBackground.Caption=&Baggrund
+miDSBackground.Hint=Baggrund
+miVTCustomize.Caption=T&ilpas...
+miVTCustomize.Hint=Tilpas værktøjslinje
+miTHangupExit.Caption=&Læg på && luk
+miTHangupExit.Hint=Læg modem forbindelse på eller luk computer når hentning er afsluttet
+miTHHHangupOnce.Caption=Læg på en &gang
+miTHHHangupOnce.Hint=Læg modem forbindelse på en gang når den aktuelle hentning er afsluttet
+miTHHHangupAlways.Caption=Læg &altid på
+miTHHHangupAlways.Hint=Læg modem forbindelse på hver gang hentning er afsluttet
+miTHSShutdownOnce.Caption=Luk en &gang
+miTHSShutdownOnce.Hint=Luk computer  en gang når den aktuelle hentning er afsluttet
+miTHSShutdownAlways.Caption=Luk &altid
+miTHSShutdownAlways.Hint=Luk computer hver gang hentning er afsluttet
+miTRemember.Caption=&Husk side
+miTRemember.Hint=Husk side
+miVSequencer.Caption=Se&quencer
+miVSequencer.Hint=Sequencer
+miVTFlatToolbar.Caption=&Fladt format
+miVTFlatToolbar.Hint=Flad format
+miVIcons.Caption=Projekt &ikoner
+miDSuspend.Caption=Af&bryd
+miDSuspend.Hint=Fuldfør aktuelle hentning af filer og afbryd midlertidigt andre URL-adresser
+miVSchedMan.Caption=Planlagte &opgaver
+miVSchedMan.Hint=Håndter planlagte hentninger
+miVLanguages.Caption=&Sprog
+miDSRestart.Caption=&Genstart hentning
+miDSRestart.Hint=Fuldstændig genhentning af valgte projekt(er)
+miDSUpdate.Caption=&Opdater projekt
+miDSUpdate.Hint=Hent valgte projekt(er) for at modtage nye eller ændrede filer
+miDSContinue.Caption=&Hent manglende filer
+miDSContinue.Hint=Kontroller hvilke links der mangler og prøv at hente dem
+miHForum.Caption=&Brugerfora
+miHForum.Hint=Find svar på dine spørgsmål eller diskuter dine foreslag på MetaProducts brugerfora
+miDSPreview.Caption=Oversigts&kort
+miDSPreview.Hint=Oversigtskort|Generer visning af oversigtskort
+miTTAdjust.Caption=&Konfigurer værktøjer...
+miTTAdjust.Hint=Åbn dialogboksen Indstillinger for at tilføje/fjerne værktøjer
+miTEdit.Caption=&Rediger
+miTEdit.Hint=Rediger
+mpTSuspendNoDownload.Caption=Der er ingen aktive overførsler
+mpTSuspendNoDownload.Hint=Der er ingen aktive overførsler
+miHRegister1.Caption=&Registrer...
+miHRegister1.Hint=Registrer
+miESelectAll.Caption=Vælg &Alt
+miESelectAll.Hint=Vælg Alt
+miHNewFeature.Caption=Anmod om nye &funktioner
+miHNewFeature.Hint=Anmod om nye funktioner
+mpTCopyURL.Caption=Kopier &URL-adresse
+mpTCopyURL.Hint=Kopier URL-adresse
+mpSuspendToFile.Caption=Af&bryder projekt til fil...
+mpSuspendToFile.Hint=Afbryd projekt til fil
+mpTBrowseNewTab.Caption=Ge&nnemse i en ny fane
+mpTBrowseNewTab.Hint=Gennemse i en ny fane
+mpTMarkRead.Caption=Mar&ker som læst
+mpTMarkRead.Hint=Marker som læst
+mpTMarkUnRead.Caption=Mar&ker som ulæst
+mpTMarkUnRead.Hint=Marker som ulæst
+mpTTemplates.Caption=Til&føjer skabelon...
+mpTTemplates.Hint=Tilføj skabelon
+mpTDescription.Caption=Beskri&velse...
+mpTDescription.Hint=Beskrivelse
+mpTStatistics.Caption=Stat&istikker...
+mpTStatistics.Hint=Statistikker
+mpTProtect.Caption=Besk&yt...
+mpTProtect.Hint=Beskyt
+mpTDisable.Caption=De&aktiver fra indlæsning
+mpTDisable.Hint=Deaktiver fra indlæsning
+mpTSingleClickMap.Caption=Enkelt&klik gennemsyn
+mpTSingleClickMap.Hint=Enkeltklik gennemsyn
+mpTCloseFolders.Caption=Luk ubrugte &mapper
+mpTCloseFolders.Hint=Luk ubrugte mapper
+mpTSelectFiles.Caption=Marker F&iler...
+mpTSelectFiles.Hint=Marker Filer
+mpTSort.Caption=So&rter
+mpTSName.Caption=Efter &navn
+mpTSName.Hint=Efter navn
+mpTSTime.Caption=Efter &overførselstid
+mpTSTime.Hint=Efter overførselstid
+mpTSURL.Caption=Efter &URL-adresse
+mpTSURL.Hint=Efter URL-adresse
+mpTSFolders.Caption=Ma&pper på øverste niveau efter navn
+mpTSFolders.Hint=Mapper på øverste niveau efter navn
+mpTRefresh.Caption=&Opdater
+mpTRefresh.Hint=Opdater
+pmiCancel.Caption=&Abryd
+pmiCancel.Hint=Annuller hentning af den valgte fil
+pmiRestart.Caption=&Genstart
+pmiRestart.Hint=Stop og start fra begyndelsen af hentning af den valgte fil
+pmiFinalize.Caption=&Fuldfør
+pmiFinalize.Hint=Gem hentede mediastream fragment
+pmiPlay.Caption=Afspil
+pmiCopy.Caption=Kopier &URL-adresse
+pmiCopy.Hint=Kopier URL-adresse på den valgte fil
+pmiReferer.Caption=Kopier &Henvist fra URL-adresse
+pmiReferer.Hint=Kopier henvist fra på den valgte fil
+pmiSelectProject.Caption=Vælg &Projekt
+pmiSelectProject.Hint=Marker projektet, der indlæser den valgte fil
+pmiConnsHighlight.Caption=&Marker Aktive Forbindelser
+dxBarStatic1.Caption=Status for overførsel
+dxBarStatic1.Hint=Status for overførsel
+pmiDown.Caption=Vis/skjul forbindelsespanel
+pmiDown.Hint=Åbn/Luk forbindelsespanel (Ctrl+P)
+pmiDownloadedN.Hint=Oveførsel fuldført - 6 fil(er)
+btnExpandIB2.Caption=Maksimer/Gendan
+btnExpandIB2.Hint=Maksimer Interne Browser til fuld skærm
+tbWBBack2.Caption=Tilbage
+tbWBBack2.Hint=Tilbage
+tbWBForw2.Caption=Fremad
+tbWBForw2.Hint=Fremad
+tbWBStop2.Caption=Stop
+tbWBStop2.Hint=Stop
+tbWBRefr2.Caption=Opdater
+tbWBRefr2.Hint=Opdater
+tbWBPrint2.Caption=Udskriv
+tbWBPrint2.Hint=Udskriv|Udskriv den aktuelle side i den Interne Browser
+tbWBHome2.Caption=Gå til start
+tbWBHome2.Hint=Gå til start|Vis oversigt og statistikker over projekter i browser
+tbWBCatchURL2.Caption=Tilføj den næste klikkede link
+tbWBCatchURL2.Hint=Tilføj den næste klikkede link som et projekt|Næste klik på en URL-adresse eller en formular knap vil blive optaget som et projekt, der til enhver tid kan hentes.
+tbWBAutoSave2.Caption=Gem automatisk
+tbWBAutoSave2.Hint=Gem automatisk|Hent og tilføj automatisk alle manglende sider og filer til projektet
+edtWBURL2.Caption=Adresse:
+edtWBURL2.Hint=Adresse:
+tbWBSettings2.Hint=Indstillinger|Indstillinger for Interne Browser|Skift skriftstørrelsen på siden i den aktive Interne Browser eller aktiver/deaktiver billeder
+mpFSFontSize2.Caption=&Skriftstørrelse
+mpFSLargest2.Caption=&Størst
+mpFSLarger2.Caption=&Større
+mpFSMedium2.Caption=&Medium
+mpFSSmaller2.Caption=&Mindre
+mpFSSmallest2.Caption=M&indst
+mpFSShowImages2.Caption=Vi&s billeder
+mpFSShowImages2.Hint=Aktiver eller deaktiver billeder i den Interne Browser
+mpFSBrowseOnline2.Caption=Gennemse aktuelle URL-adresse O&nline
+mpFSBrowseOnline2.Hint=Gennemse aktuelle URL-adresse Online
+mpFSBrowseOffline2.Caption=Gennemse aktuelle URL-adresse &Offline
+mpFSBrowseOffline2.Hint=Gennemse aktuelle URL-adresse Offline
+mpFSBrowsingProject2.Caption=Vælg projektet du søger i
+mpFSViewSource2.Caption=&Vis kilde
+tbEDOpen2.Caption=Åbn
+tbEDOpen2.Hint=Åbn|Åbn fil for at redigere
+tbEDSave2.Caption=Gem
+tbEDSave2.Hint=Gem|Gem ændringer i filen
+tbEDCut2.Caption=Klip
+tbEDCut2.Hint=Klip|Klip den markerede tekst til udklipsholder
+tbEDCopy2.Caption=Kopier
+tbEDCopy2.Hint=Kopier|Kopier den markerede tekst til udklipsholder
+tbEDPaste2.Caption=Indsæt
+tbEDPaste2.Hint=Indsæt|Indsæt fra udklipsholder
+tbEDUndo2.Caption=Fortryd
+tbEDUndo2.Hint=Fortryd|Fortryd ændringer
+tbEDFind2.Caption=Søg
+tbEDFind2.Hint=Søg|Søg tekst
+pmLCaption.Caption=Meddelelseslog
+pmLCaption.Hint=Meddelelseslog
+pmLLogMessages.Caption=Start &logføring
+pmLLogMessages.Hint=Start logføring
+pmLClear.Caption=&Ryd
+pmLClear.Hint=Ryd
+pmLTrack.Caption=&Spor Log
+pmLTrack.Hint=Spor Log
+pmLCopy.Caption=Ko&pier til udklipsholder
+pmLCopy.Hint=Kopier til udklipsholder
+pmLSave.Caption=&Gem Log to a File
+pmLSave.Hint=Gem Log to a File
+pmLFind.Caption=&Søg
+pmLFind.Hint=Søg
+pmLClose.Caption=&Luk Log
+pmLClose.Hint=Luk Log
+pmLFilter.Caption=Fil&trer
+pmLFilter.Hint=Filtrer Meddelelser
+pmLFConnect.Caption=&Status for forbindelse
+pmLFConnect.Hint=Status for forbindelse
+pmLFDownload.Caption=&Status for overførsel
+pmLFDownload.Hint=Status for overførsel
+pmLFDisconnect.Caption=Status for afbryd forb&indelser
+pmLFDisconnect.Hint=Status for afbryd forbindelser
+pmLFDetails.Caption=Deta&ljer
+pmLFDetails.Hint=Detaljer
+pmLFQueue.Caption=&Kø meddelelser
+pmLFQueue.Hint=Kø meddelelser
+pmLFRejectedURLs.Caption=&Afviste URL-adresser
+pmLFRejectedURLs.Hint=Afviste URL-adresser
+pmLFInternalWebSrv.Caption=Anmodninger til Interne &Webserver
+pmLFInternalWebSrv.Hint=Anmodninger til Interne Webserver
+dxbSScheduler.Caption=Planlægger
+dxbSScheduler.Hint=Planlægger
+dxbSSequencer.Caption=Sequencer
+dxbSSequencer.Hint=Sequencer
+dxbSSeqRun.Caption=Start sequencer nu
+dxbSSeqRun.Hint=Start sequencer nu
+dxbSSeqStartAt.Caption=Start sequencer ved...
+dxbSSeqStartAt.Hint=Start Sequencer ved...
+dxbSeqLoop.Caption=Gentag sequencen
+dxbSeqLoop.Hint=Gentag sequencen
+miSSelect.Caption=Vælg &Projekt
+miSSkip.Caption=&Angiv sequencer til dette projekt
+miSRemove.Caption=&Fjern
+miSRemoveAll.Caption=Fjern &alt
+miSLoad.Caption=Ind&læs sekvens...
+miSLoad.Hint=Indlæs sekvens...
+miSSave.Caption=Sa&ve sekvens...
+miSSave.Hint=Gem sekvens...
+dxbSClose.Caption=&Luk
+dxbSClose.Hint=Luk Planlagte opgaver
+mpQAbort.Caption=&Afbryd
+mpQAbort.Hint=Afbryd hentning af aktuelle URL-adresse(r)
+mpQAbortDisable.Caption=Afbryd && &Deaktiver
+mpQAbortDisable.Hint=Afbryd downloading the aktuelle URL-adresser og deaktiver them in projektet indstillinger
+mpQACurrentURL.Caption=Aktuelle URL-adresse(r)
+mpQACurrentURL.Hint=Udelad aktuelle URL-adresse fra overførslen
+mpQAFolder.Hint=Deaktiver alle links der er i den aktuelle mappe
+mpQAFolder1.Hint=Deaktiver alle links der er i den aktuelle mappe
+mpQAFolder2.Hint=Deaktiver alle links der er i den aktuelle mappe
+mpQAServer.Hint=Deaktiver alle links der er på den aktuelle server
+mpQCopyURL.Caption=Kopier &URL-adresse
+mpQCopyReferer.Caption=Kopier &Henvist fra
+mpQSelectProject.Caption=Vælg pr&ojekt
+mpQSelectConnection.Caption=Vælg &forbindelse
+mpQSaveList.Caption=&Gem til tekstfil...
+mpQSaveList.Hint=Gem til tekstfil
+mpQPause.Caption=&Stop hentning af projekt midlertidigt
+mpQConnections.Caption=Tidsgrænse for &forbindelse
+mpQCAll.Caption=Br&ug alle tilgængelige forbindelser
+mpQC1.Caption=&1 forbindelse
+mpQC2.Caption=&2 forbindelser
+mpQC5.Caption=&5 forbindelser
+mpQC10.Caption=1&0 forbindelser
+mpQSelectAll.Caption=&Marker Alt
+mpQInvertSelection.Caption=&Inverter markering
+mpQSelectMask.Caption=Vælg efter &maske...
+mpQMoveToTop.Caption=Placer ø&verst
+mpQMoveToBottom.Caption=Placer &nederst
+mpQShowReferers.Caption=Vis &henvisere
+mpQColorize.Caption=&Farvelæg
+mpQCoServer.Caption=efter &servernavn
+mpQCoExtension.Caption=efter fil&type
+mpQCoNone.Caption=&Ingen
+mpDownload2.Caption=&Hent
+mpQCopyPOST.Caption=Kopier POST anmod&ning
+mpQCopyPOST.Hint=Kopier POST anmodning
+miVView.Caption=&Vis
+miPI1.Caption=&Standard
+miPI1.Hint=Standard
+mpTDeleteProjectOnly.Caption=Ku&n projektindstillinger
+mpTDeleteProjectOnly.Hint=Kun projektindstillinger
+miPI2.Caption=&Vigtigt
+miPI2.Hint=Vigtigt
+miPI3.Caption=&Gennemse
+miPI3.Hint=Gennemse
+miPI4.Caption=S&let ikke
+miPI4.Hint=Slet ikke
+miPI5.Caption=R&eference
+miPI5.Hint=Reference
+miPI6.Caption=D&irekte
+miPI6.Hint=Direkte
+miPI7.Caption=&Nyheder
+miPI7.Hint=Nyheder
+miPI8.Caption=Fore&trukne
+miPI8.Hint=Foretrukne
+miPI9.Caption=&Artikel
+miPI9.Hint=Article
+miPI10.Caption=Vir&ksomhed
+miPI10.Hint=Virksomhed
+miPI11.Caption=&Finansiel
+miPI11.Hint=Finansiel
+miPI12.Caption=Br&ugergruppe
+miPI12.Hint=Brugergruppe
+miPI13.Caption=Spe&ciel
+miPI13.Hint=Speciel
+miPI14.Caption=&Delt
+miPI14.Hint=Delt
+miPI15.Caption=P&rivat
+miPI15.Hint=Privat
+miPI16.Caption=Pers&onlig
+miPI16.Hint=Personlig
+miPI17.Caption=Hø&j prioritet
+miPI17.Hint=Høj prioritet
+miPI18.Caption=Lav &prioritet
+miPI18.Hint=Lav prioritet
+miPI19.Caption=Pro&blematisk
+miPI19.Hint=Problematisk
+dxbSeqRemove.Caption=&Fjern hentede projekter fra sekvencen
+dxbSeqRemove.Hint=Fjern hentede projekter fra sekvencen
+miEDeleteFiles.Caption=&Kun projektfiler
+miEDeleteFiles.Hint=Slet hentede filer for det valgte projekt
+miDEW1.Hint=DEW 1
+miDEW2.Hint=DEW 2
+miDEW3.Hint=DEW 3
+miDEW4.Hint=DEW 4
+mpEDeleteProjectOnly.Caption=Ku&n projektindstillinger
+mpEDeleteProjectOnly.Hint=Kun projektindstillinger
+miTPublish.Caption=&Udgiv...
+miTPublish.Hint=Del projektindstillinger med andre brugere
+miTPublishedProjects.Caption=Udgivne &projekter
+miTPublishedProjects.Hint=Udgivne projekter
+miTTextPipe.Caption=TextP&ipe...
+miTTextPipe.Hint=Kør DataMystic TextPipe
+miDDCreate.Caption=&Opret et nyt projekt
+miDDCreate.Hint=Tilføj link som et nyt projekt
+miDDAdd.Caption=&Tilføj link til det valgte projekt
+miDDAdd.Hint=Tilføj link til det valgte projekt
+miDDAddUS.Caption=Tilføj link (anvend &URL-adresse erstatninger)
+mpWBTClose.Caption=&Luk
+mpWBTCloseAll.Caption=Luk &Alle
+mpWBTNewWindow.Caption=Nyt &Browser vindue
+mpWBTNewEditWindow.Caption=Nyt Re&diger vindue
+mpWBTFixedWidth.Caption=Fast titelbredde
+mpWBTMultiLineTabs.Caption=Faner med flere linjer
+odEDLoad.Filter=Alle filer|*.*
+MenuItem1.Caption=&Fortryd
+MenuItem4.Caption=Kli&p
+MenuItem5.Caption=&Kopier
+MenuItem6.Caption=&Indsæt
+MenuItem7.Caption=&Slet
+MenuItem9.Caption=Marker &alt
+MenuItem10.Caption=&Tekstombrydning
+odEDSave.Filter=Alle filer|*.*
+odSeqLoad.Filter=Offline Explorer Sekvens|*.soe|Alle filer|*.*
+odSeqSave.Filter=Offline Explorer Sekvens|*.soe|Alle filer|*.*
+sdLog.Caption=Gem meddelelseslog
+sdLog.Filter=Logfiler|*.log|Alle filer|*.*
+sdQueue.Filter=Tekstfiler|*.txt|Alle filer|*.*
+pgQueue.Caption=Kø
+
+[dlgAbout]
+Caption=Om Offline Explorer
+
+lblDescr.Caption=Offline Explorer giver dig mulighed for hurtigt at kopiere hjemmesider og siden gennemse dem offline ved hjælp af en intern eller ekstern browser, eller til at udgive dem på din Webserver.
+lblOnDay1.Caption=Klik på knappen Bestilling for at finde ud af, hvordan man registrerer sin kopi af Offline Explorer.
+lblOnDay2.Caption=Tryk på knappen Registrer, når man først har modtaget sine registreringsdetaljer. Dette vil åbne for alle programmets funktioner, der kun er tilgængelig for registrerede brugere.
+lblOnEnd1.Caption=Du har nået slutningen af de 30 dages evalueringsperiode.
+lblOnEnd2.Caption=Vi håber at du har haft fornøjelse af at bruge Offline Explorer.
+Label3.Caption=Givet i licens til:
+lblReg.Caption=IKKE REGISTRERET
+lblLatestInfo.Caption=Offline Explorer er ikke freeware. Man kan evaluere det i 30 dage. Efter den tid skal man registrere.
+lblSiteInfo.Caption=For de nyeste oplysninger, besøg vor hjemmeside på:
+Label4.Caption=Man er velkommen til at skrive til os, hvis man har spørgsmål:
+btnClose.Caption=Luk
+btnCancel.Caption=Annuller
+btnReleaseNotes.Caption=&Produktbemærkninger
+btnLicense.Caption=&Licens
+btnOrdering.Caption=&Bestilling
+btnRegister.Caption=&Registrer...
+
+[dlgOptions]
+Caption=Indstillinger
+
+Label1.Caption=Kategor&i:
+btnOK.Caption=OK
+btnCancel.Caption=Annuller
+Label32.Caption=Indstillinger for Internet forbindelse
+Label4.Caption=A&ntal forbindelser:
+Label5.Caption=&Timeout (sekunder):
+Label16.Caption=&Forsinkelse mellem overførsler:
+Label30.Caption=Intern HTTP server
+Label11.Caption=Agent identificering
+cbRetries.Caption=&Begræns antal af forsøg til:
+cbIECookies.Caption=Br&ug Microsoft Internet Explorer cookies
+cbHTTPStart.Caption=Aktiver på &port:
+cbOHTTPLocal.Caption=Tillad kun lokal &adgang
+rbUA1.Caption=&Identificer som:
+rbUA2.Caption=B&rug denne identificering:
+Label52.Caption=Hastighedstyring
+Label53.Caption=bytes/sek.
+Label54.Caption=Brug denne indstilling til at ændre Kilobytes per sekund data overførselssats for den valgte hastighedsindstilling.
+Label58.Caption=Båndbredde for RTSP-stream
+Label59.Caption=Maksimal båndbredde for &RTSP:
+cbSetSpeedLimit.Caption=Begræns &overførselshastighed
+brHigh.Caption=&Høj
+rbMedium.Caption=&Medium
+rbLow.Caption=&Lav
+rbBackground.Caption=&Baggrund
+cbRTSPBandwidth.0=14.4K Modem
+cbRTSPBandwidth.1=19.2K Forbindelse
+cbRTSPBandwidth.2=28.8K Modem
+cbRTSPBandwidth.3=33.6K Modem
+cbRTSPBandwidth.4=56K Modem
+cbRTSPBandwidth.5=112K Dual ISDN
+cbRTSPBandwidth.6=256Kbps ADSL/kabel
+cbRTSPBandwidth.7=384Kbps ADSL/kabel
+cbRTSPBandwidth.8=512Kbps ADSL/kabel
+cbRTSPBandwidth.9=T1 / LAN
+cbRTSPBandwidth.10=10Mbps LAN
+Label48.Caption=Opkald ved hentning af websteder
+Label14.Caption=&Vælg forbindelse:
+Label18.Caption=Login &navn:
+Label19.Caption=A&dgangskode:
+Label22.Caption=&Genopkald afbrudt forbindelse:
+Label23.Caption=gange
+Label24.Caption=&Interval mellem forsøg:
+Label25.Caption=sek.
+rbDial2.Caption=&Aktiver internt opkald
+rbDial3.Caption=Br&ug eksternt opkald
+rbDial1.Caption=&Brug ikke automatisk opkald
+Label65.Caption=&kommandolinje til opkald:
+Label66.Caption=kommandolinje til &læg på:
+Label49.Caption=Afbryd
+Label50.Caption=Program- og systemlukning
+cbHangUp.Caption=&Afbryd modem forbindelse når alle overførsler er fuldførte
+cbHangUpAt.Caption=Stop &hentning og afbryd ved
+cbClose.Caption=&Luk program når alle overførsler er fuldførte
+cbCloseAt.Caption=L&uk ved
+cbShutdown.Caption=&Systemlukning efter programlukning
+cbShutdown2.Caption=&Ekstra lukning kompatibilitetstilstand (anvend kun når standard metoden fejler)
+cbHibernate.Caption=&Gå i dvale uden at afbryde programmet
+Label76.Caption=&Proxyserver lister
+Label77.Caption=Indstillinger for forbindelse
+lvProxies.0=Indtast
+lvProxies.1=Server
+lvProxies.2=Port
+lvProxies.3=Bruger
+btnPAdd.Caption=&Tilføj...
+btnPRemove.Caption=&Fjern
+btnPLoad.Caption=&Indlæs...
+btnPSave.Caption=&Gem...
+btnPAutoDetect.Caption=&AutoSøg
+cbNTLM.Caption=&Brug alternativ forbindelsesmetode (for NTLM godkendelse, osv.)
+cbPASV.Caption=PA&SV tilstand for FTP overførsler
+btnPEdit.Caption=&Rediger...
+Label7.Caption=Proxy&adresse:
+Label8.Caption=Proxy&port:
+Label15.Caption=Proxytype
+Label31.Caption=Indstillinger for proxyserver
+Label33.Caption=Proxygodkendelse (lad være tomt hvis ikke påkrævet)
+btnPrxADetect.Caption=&AutoSøg
+rbHProxy1.Caption=Ingen pro&xy
+rbHProxy2.Caption=&HTTP Proxy
+rbHProxy3.Caption=&SOCKS4
+rbHProxy4.Caption=S&OCKS5
+Label9.Caption=Bruger&navn:
+Label10.Caption=&Adgangskode:
+cbNTLMProxy.Caption=Bruge NTL&M godkendelse
+Label60.Caption=Proxytype
+Label61.Caption=Indstillinger for proxyserver
+Label62.Caption=Proxy&adresse:
+Label63.Caption=Proxy &port:
+Label69.Caption=Proxy godkendelse (leave blank if not required)
+rbRProxy1.Caption=Ingen pro&xy
+rbRProxy2.Caption=&HTTP proxy
+rbRProxy3.Caption=&SOCKS4
+rbRProxy4.Caption=&RTSP proxy
+rbRProxy5.Caption=S&OCKS5
+Label67.Caption=Bruger&navn:
+Label68.Caption=&Adgangskode:
+Label6.Caption=Proxy&adresse:
+Label17.Caption=Proxy&port:
+Label34.Caption=Proxytype
+Label35.Caption=Indstillinger for proxyserver
+Label36.Caption=Proxy godkendelse (leave blank if not required)
+cbPPASV.Caption=PAS&V tilstand for FTP overførsler
+rbFProxy1.Caption=Ingen pro&xy
+rbFProxy2.Caption=&HTTP proxy
+rbFProxy3.Caption=&SOCKS4
+rbFProxy4.Caption=User@Si&te
+rbFProxy5.Caption=S&OCKS5
+Label26.Caption=Bruger&navn:
+Label27.Caption=&Adgangskode:
+lblTools.Caption=&Vis et valg mellem et af disse værktøjer, under gennemsyn af en hjemmeside
+Label20.Caption=&Titel:
+Label21.Caption=&Fil:
+Label43.Caption=&Værktøjsvindue
+Label57.Caption=&Genvejstast:
+btnADetect.Caption=&AutoSøg
+btnOBrAdd.Caption=<<       T&ilføj
+btnOBrRemove.Caption=>> F&jern
+cbShowMode.0=Normal
+cbShowMode.1=Maksimeret
+cbShowMode.2=Minimeret
+Label41.Caption=Oversigt
+Label42.Caption=Gem automatisk
+lblAutoSave.Caption=minutter
+Label44.Caption=Fremtoning
+Label45.Caption=Dobbeltklik et projekt for at
+rbAMap1.Caption=Oversigt viser kun &hjemmesider der tilhører det valgte projekt
+rbAMap2.Caption=Oversigt viser &alle hentede hjemmesider
+bxAutoSave.Caption=&Gem ændringer hver
+cbTray.Caption=Kør i &systembakken
+cbASplash.Caption=Vis velkomst&billede ved start
+rbODblClick1.Caption=&Vis projektet i browser
+rbODblClick2.Caption=&Åbn egenskaber for projektet
+Label64.Caption=Sorter filer efter:
+rbAMapSort1.Caption=&Navn
+rbAMapSort2.Caption=&Filtypenavn
+cbXButton.Caption="X" knap minime&rer vindue
+Label37.Caption=&Overførselsmappe
+Label13.Caption=Tilgængelig plads på harddisk:
+Label12.Caption=&Begrænsning af tilgængelig plads:
+Label39.Caption=Vedligeholdelse
+Label29.Caption=Klik på knappen Rens for at fjerne ubrugte hjemmesider og filer fra overførselsmappen
+Label40.Caption=&Projekter, skabeloner og oversigtsmapper
+Label73.Caption=&Midlertidig mappe:
+btnBrowse.Caption=&Gennemse...
+btnClean.Caption=&Rens...
+btnBrowse1.Caption=Ge&nnemse...
+cbDirOverload.Caption=For&hindre overførselsmapper fra at overbelastes
+Button1.Caption=G&ennemse...
+Label46.Caption=System
+Label47.Caption=Handling, når en URL-adresse føjes til
+Label55.Caption=Udk&lipsholder URL-adressefilter
+Label56.Caption=&URL-adresser der ender med (komma-adskilt liste):
+Label74.Caption=FireFox og Mozilla genvejsmenu:
+cbOIClipboard.Caption=O&vervåg udklipsholder
+cbIIECtxMenu.Caption=Brug &MS Internet Explorer genvejsmenu
+cbOIDefaults.Caption=Brug &standard skabelon
+cbIPFolder.Caption=Placer &Projekter i mappen:
+cbOIAutoStart.Caption=Start &Automatisk overførsel
+cbICFilter.0=Accepter ikke
+cbICFilter.1=Accepter kun
+cbIOperaCtxMenu.Caption=Brug &Opera genvejsmenu
+btnFireFox.Caption=&Installer
+Label51.Caption=Bekræftelser
+cbACURLMoved.Caption=Når projektets URL-adresse bliver flyttet
+cbACDelete.Caption=Ved sletning af &filer
+cbACDelPFiles.Caption=Ved sletning af &projektfiler
+cbACHangup.Caption=Ved &afbrydelse af en forbindelse
+cbACExit.Caption=Ved &lukning af program
+cbACFolderStart.Caption=Når en &mappe er ved at starte hentning af dets projekter
+rbACMAsk.Caption=&Spørg for bekræftelse
+rbACMDownload.Caption=Start &overførsel af den nye URL-adresse
+rbACMStop.Caption=S&top overførslen
+cbACExitDownload.Caption=&Kun når der er aktive overførsler
+cbACRestore.Caption=&Ved gendannelse af projekter med de samme navne
+Label70.Caption=Fuldførelse af overførsel
+Label71.Caption=&SMTP serveradresse:
+Label72.Caption=Udgående mailserver (SMTP)
+Label38.Caption=Bemærk: man kan angive sin SMTP servers brugernavn og port: bruger:adgangskode@smtp_host:port
+lblRMore.Caption=nye eller opdaterede filer overført
+cbACPReport.Caption=&Rapporter om fuldførelse af overførsel ved
+rbACPReport1.Caption=&Lyd:
+rbACPReport2.Caption=&E-mail:
+rbACPReport3.Caption=IC&Q UIN:
+cbACPEDetailed.Caption=Send en &detaljeret liste over alle nye og opdaterede filer
+cbRMore.Caption=&Ved mere end
+Label75.Caption=Kontroller automatisk efter nye versioner
+cbNVCheck.Caption=&Hver
+btnNVCheck.Caption=&Kontroller nu
+Label2.Caption=Vælg en underkategori der skal vises
+btnHelp.Caption=Hjælp
+OptionsTree.0=Internet
+OptionsTree.1=Forbindelse
+OptionsTree.2=Hastighed
+OptionsTree.3=Opkald
+OptionsTree.4=Afbryd && Luk
+OptionsTree.5=Proxyserver
+OptionsTree.6=Værktøjer
+OptionsTree.7=Eksterne Browsere
+OptionsTree.8=Fremvisere
+OptionsTree.9=Editorer
+OptionsTree.10=Avanceret
+OptionsTree.11=Filplacering
+OptionsTree.12=Integrering
+OptionsTree.13=Bekræftelser
+OptionsTree.14=Fuldførelser
+OptionsTree.15=Nye Versioner
+dlgOBrowse.Caption=Søg efter fil
+dlgOBrowse.Filter=Eksekverbare filer|*.exe;*.com|Alle filer|*.*
+odCSound.Caption=Åbn lydfil
+odCSound.Filter=Wave filer (*.wav)|*.wav|Alle filer|*.*
+odProxyList.Filter=Tekstfiler|*.txt|Alle filer|*.*
+sdProxyList.Filter=Tekstfiler|*.txt|Alle filer|*.*
+Label78.Caption=Komprimering
+cbGZIP.Caption=Forøg hastighed ved hjælp af &GZIP kodning
+
+[dlgFolderProp]
+Caption=Egenskaber for mappe
+
+Label1.Caption=&Kategory:
+FolderTree.0=Mappe
+btnCancel.Caption=Annuller
+btnOK.Caption=OK
+Label32.Caption=Generelt
+Label2.Caption=&Mappenavn:
+Label6.Caption=Destination for overførsel
+Label3.Caption=Du kan tildele et andet bibliotek til hver af dine projektmapper.  Alle projekter placeret i denne mappe vil bruge dette bibliotek til at gemme hentede hjemmesider.
+Label5.Caption=Hvis det angivne bibliotek ikke eksisterer, vil det automatisk blive oprettet.
+btnDefaults.Caption=&Mappe standarder
+btnFromTemplate.Caption=&Nulstil standarder fra skabelon
+cbFDD.Caption=A&ktiver
+btnBrowse.Caption=&Gennemse...
+btnApplyFDD.Caption=&Anvend på alle undermapper
+
+[dlgDataMine]
+Caption=Data mining
+
+Label1.Caption=Data mining giver dig mulighed for at behandle hentede hjemmesider og uddrage information eller konvertere det ifølge de angivne regler.
+Label2.Caption=Data mining processen er baseret på TextPipe værktøjet fra DataMystic Corporation. TextPipe er en fler filers tekst transformation workbench.
+Label3.Caption=Beklager, du har ikke TextPipe installeret på din computer. Klik på knappen nedenfor for at åbne TextPipe hjemmesiden.
+btnTextPipe.Caption=TextPipe hjemmeside
+Label4.Caption=Data mining giver dig mulighed for at behandle hentede hjemmesider og uddrage information eller konvertere det ifølge de angivne regler. Dette gøres ved hjælp af TextPipe værktøjet fra DataMystic Corporation.
+Label6.Caption=TextPipe Filtre
+Label7.Caption=TextPipe kørselsindstillinger
+cbTextOnly.Caption=Data mine kun &Tekst- og HTML filer
+cbRun.Caption=&Kør filter når TextPipe indlæses
+cbQuit.Caption=&Afslut TextPipe efter kørsel af filter
+rbFilter1.Caption=Kør TextPipe med et &nyt filter
+rbFilter2.Caption=Brug TextPipe &filter filen (*.fll) til at behandle det valgte projekt:
+cbPassFiles.Caption=&Overfør hentede projektfiler til TextPipe
+btnStart.Caption=&Start
+btnCancel.Caption=Annuller
+btnHelp.Caption=Hjælp
+dlgOpenFilter.Caption=Åbn filterfil
+dlgOpenFilter.Filter=TextPipe filterfiler|*.fll|Alle filer|*.*
+
+[dlgCustomizeContents]
+Caption=Tilpas indholdsfil
+
+Label1.Caption=Indholdsfil sidehoved:
+Label2.Caption=Indholdsfil post:
+Label3.Caption=Indholdsfil sidefod:
+Label4.Caption=Hint: Brug %URL% makro til at udskifte med stien til det eksporterede websted, %Caption% - med Projektet navn, som det ser ud i projektets træ. Andre makroer: %Description%, %DownloadStart%, %DownloadEnd%, %OriginalURL%.
+btnOK.Caption=OK
+btnCancel.Caption=Annuller
+Button1.Caption=&Nulstil
+
+[dlgProgress]
+Caption=Status
+
+Button1.Caption=Afbryd
+
+[dlgPDescr]
+Caption=Projektbeskrivelse
+
+ToolButton1.Caption=&Ny
+ToolButton1.Hint=Tilføj ændringer
+SaveButton.Caption=&Gem
+SaveButton.Hint=Annuller ændringer
+PrintButton.Caption=&Udskriv
+PrintButton.Hint=Udskriv aktuelle fil
+CutButton.Caption=&Klip
+CutButton.Hint=Slet valgte element
+CopyButton.Caption=&Kopier
+CopyButton.Hint=Kopier valgte element til udklipsholder
+PasteButton.Caption=&Indsæt
+PasteButton.Hint=Indsæt indholdet af udklipsholder
+UndoButton.Caption=&Fortryd
+UndoButton.Hint=Fortryd den sidste handling
+FontName.Hint=Skrifttypenavn|Vælg skrifttypenavn
+FontSize.Hint=Skriftstørrelsen|Vælg skriftstørrelsen
+BoldButton.Hint=Fed
+ItalicButton.Hint=Kursiv
+UnderlineButton.Hint=Understreg
+LeftAlign.Hint=Juster til venstre
+CenterAlign.Hint=Centreret
+RightAlign.Hint=Juster til højre
+BulletsButton.Hint=Punkttegn|Angiv Punktopstilling
+mpUndo.Caption=&Fortryd
+mpUndo.Hint=Fortryd den sidste handling
+mpCut.Caption=&Klip
+mpCut.Hint=Slet valgte element
+mpCopy.Caption=&Kopier
+mpCopy.Hint=Kopier valgte element til udklipsholder
+mpPaste.Caption=&Indsæt
+mpPaste.Hint=Indsæt indholdet af udklipsholder
+mpSelectAll.Caption=Vælg &alle
+
+[dlgPrint]
+Caption=Udskriver...
+
+Label1.Caption=Udskriver Projektets sider. Vent et øjeblik...
+btnCancel.Caption=Annuller
+
+[dlgApplyTemplate]
+Caption=Anvend skabelon til Projektet
+
+Label1.Caption=&Vælg skabelonsdele der skal tilføjes til projektet:
+Label2.Caption=&Skabelon:
+Label3.Caption=Projekt URL-adresse filtres nøgleord og fil filtres filtypenavne
+btnOK.Caption=OK
+btnCancel.Caption=Annuller
+rbReplace.Caption=Erstat med nøgleord og filtypenavne fra skabelon
+rbJoin.Caption=Foren med nøgleord og filtypenavne fra skabelon
+
+[dlgOldFiles]
+Caption=Slet gamle projektfiler
+
+List.0=Filer
+btnClose.Caption=&Luk
+btnDeleteAll.Caption=Slet &Alt
+btnDelete.Caption=&Slet markerede
+
+[dlgImgDimensions]
+Caption=Billedstørrelser filter
+
+Label19.Caption=Udelad billedfiler hvis deres størrelse er mindre end
+lblLowWidth.Caption=pixel
+lblLowHeight.Caption=pixel
+Label1.Caption=Udelad billedfiler hvis deres størrelse er større end
+lblHighWidth.Caption=pixel
+lblHighHeight.Caption=pixel
+Label4.Caption=Bemærk: denne version understøtter kun følgende filtyper:
+Label2.Caption=Udelad billedfiler med følgende dime&nsioner (komma-adskilte)
+btnOK.Caption=OK
+btnCancel.Caption=Annuller
+cbLowWidth.Caption=&Bredde
+cbLowHeight.Caption=&Højde
+cbHighWidth.Caption=Bred&de
+cbHighHeight.Caption=Hø&jde
+
+[dlgMapSelect]
+Caption=Vælg Oversigt Filer
+
+List.0=URL-adresse
+List.1=Størrelse
+dxbeMask.Caption=Indtast &masken til at vælge filer og tryk på tasten Enter:
+dxbeMask.Hint=Indskriv maske til at vælge filer
+btnDelete.Caption=&Slet
+btnDelete.Hint=Slet markerede filer
+btnClose.Caption=&Luk
+btnClose.Hint=Luk vindue
+btnBrowse.Caption=&Gennemse
+btnBrowse.Hint=Gennemse
+
+[dlgSelectMask]
+Caption=Vælg URL-adresser i køen
+
+Label1.Caption=Indtast &masken for at vælge URL-adresser og tryk Enter:
+btnOK.Caption=OK
+btnCancel.Caption=Annuller
+
+[dlgSubst]
+Caption=URL-adresse erstatninger
+
+Label1.Caption=Bemærk: fjern mærke i et element, hvis du ønsker at URL-adresse erstatningsreglen kun skal tilføjes hentede filer. I.e., URL-adresser vil blive hentet som de er, men offline filnavne og links vil be changed according to the substitution rule.
+btnOK.Caption=OK
+btnCancel.Caption=Annuller
+btnHelp.Caption=&Hjælp
+Label2.Caption=&URL-adresse:
+btnTest.Caption=&Test
+List.0=URL-adresse
+List.1=Erstat
+List.2=Med
+lblURL.Caption=&URL-adresse:
+lblReplace.Caption=&Erstat:
+lblWith.Caption=&Med:
+btnAdd.Caption=&Tilføj
+btnRemove.Caption=&Fjern
+btnClear.Caption=Fjern a&lt
+cbApplyAll.Caption=&Tilføj alle regler der stemmer overens
+mpMoveUp.Caption=Flyt &opad
+mpMoveDown.Caption=Flyt &nedad
+mpDuplicate.Caption=Dupli&ker
+
+[dlgStatistics]
+Caption=Projektstatistikker
+
+List.0=Parameter
+List.1=Værdi
+btnClean.Caption=Re&ns projektfiler...
+cbValues.0=Projektnavn:
+cbValues.1=URL-adresse:
+cbValues.2=Oversigt filnavn:
+cbValues.3=Oversigt poster:
+cbValues.4=Sidste start af overførsel:
+cbValues.5=Afsluttet:
+cbValues.6=Førløbet tid:
+cbValues.7=Gennemsnitshastighed:
+cbValues.8=Overfører stadig...
+cbValues.9=Projekt blev ikke hentet.
+cbValues.10=Seneste overførselsstatistikker:
+cbValues.11=Hentede filer:
+cbValues.12=Ikke ændret:
+cbValues.13=Analyserede filer:
+cbValues.14=Ikke fundet:
+cbValues.15=Fejl under hentning af:
+cbValues.16=Afbrudt/Begrænset:
+cbValues.17=Hentede filers størrelse:
+cbValues.18=Samlede projektstatistikker:
+cbValues.19=Samlede filer:
+cbValues.20=Samlet størrelse:
+cbValues.21=Tekstfiler:
+cbValues.22=Tekstfilers størrelse:
+cbValues.23=Billedfiler:
+cbValues.24=Billedfilers størrelse:
+cbValues.25=Andre filer:
+cbValues.26=Andre filers størrelse:
+btnCopy.Caption=Ko&pier
+btnClose.Caption=&Luk
+
+[dlgProtect]
+Caption=Beskyt projektindstillinger med en adgangskode
+
+Label1.Caption=&Adgangskode:
+Label2.Caption=&Indtast igen:
+btnOK.Caption=OK
+btnCancel.Caption=Annuller
+
+[dlgPassword]
+Caption=Angiv en adgangskoden
+
+Label1.Caption=&Adgangskode:
+btnOK.Caption=OK
+btnCancel.Caption=Annuller
+
+[dlgMultipleImport]
+---Caption=Import multiple Bookmarks/Favorites
+
+---Label1.Caption=&Select the links to add as Projects and click the OK button
+---Label2.Caption=&Template:
+---btnOK.Caption=OK
+---btnCancel.Caption=Cancel
+
+[dlgSetProxy]
+Caption=Indstillinger for proxyserver
+
+Label34.Caption=Servertype
+Label35.Caption=Indstillinger for proxyserver
+Label6.Caption=&Adresse:
+Label17.Caption=&Port:
+Label36.Caption=Proxy godkendelse (lad være tomt hvis ikke påkrævet)
+btnOK.Caption=OK
+btnCancel.Caption=Annuller
+rbFProxy1.Caption=&HTTP proxy
+rbFProxy2.Caption=&SOCKS4
+rbFProxy3.Caption=S&OCKS5
+rbFProxy4.Caption=User@Si&te
+rbFProxy5.Caption=&RTSP Proxy
+Label26.Caption=Bruger&navn:
+Label27.Caption=&Adgangskode:
+
+[dlgAddR]
+Caption=Tilføj nøgleord
+
+btnOK.Caption=OK
+btnCancel.Caption=Annuller
+
+[dlgTemplates]
+Caption=Ny
+
+lblCustom.Caption=Brugerdefineret
+btnClose.Caption=Luk
+btnCancel.Caption=Annuller
+btnOK.Caption=OK
+pgNew.Caption=Standard
+pgTemplates.Caption=Skabeloner
+btnAdd.Caption=&Ny...
+btnRemove.Caption=&Fjern
+btnProp.Caption=&Egenskaber...
+btnDef.Caption=&Standard
+btnReset.Caption=N&ulstil
+cbSmallIcons.Caption=&Vis små ikoner
+btnHelp.Caption=&Hjælp
+pmTCut.Caption=&Klip
+pmTCut.Hint=Klip valgte projekt eller mappe til udklipsholder
+pmTCopy.Caption=&Kopier
+pmTCopy.Hint=Kopier valgte projekt eller mappe til udklipsholder
+pmTPaste.Caption=&Indsæt
+pmTPaste.Hint=Indsæt projekt eller mappe fra udklipsholder
+pmTSort.Caption=&Sorter efter navn
+
+[dlgAskPwd]
+Caption=Godkendelse
+
+Label1.Caption=Angiv et brugernavn og en adgangskode
+Label2.Caption=&Websted:
+Label3.Caption=&Realm:
+Label5.Caption=&Brugernavn:
+Label6.Caption=&Adgangskode:
+Button1.Caption=OK
+Button2.Caption=Annuller
+
+[dlgExport]
+Caption=Eksporter
+
+lblFNFormat.Caption=&Format på filnavne:
+Label32.Caption=&Destinationsmappe til kopier af hentede hjemmesider
+Label1.Caption=Filnavne
+Label3.Caption=Indholdsfil
+lblPutFiles.Caption=&Placer filer til:
+btnClose.Caption=Annuller
+btnExport.Caption=&Eksporter
+btnBrowse.Caption=&Gennemse...
+cbStandardExt.Caption=Brug &standard filtypenavne til filer med kendte filtyper
+cbPreserveOnline.Caption=&Bevar online links
+btnHelp.Caption=&Hjælp
+cbShortFileNames.0=Behold som-er
+cbShortFileNames.1=8+3 - MS DOS kompatibel
+cbShortFileNames.2=Joliet - CD-R 64 symboler
+cbAutorunCD.Caption=Opret Autorun &CD
+cbContents.Caption=Opret &indholdsfil
+btnCustomize.Caption=&Tilpas...
+cbPlainDir.Caption=Opret ikke &undermapper
+cbPutTo.0=Ovenstående mappe
+cbPutTo.1=ZIP arkiv
+cbPutTo.2=MHT arkiv
+cbPutTo.3=MS Internet Explorer cache
+cbPutTo.4=HTML Hjælp (CHM fil)
+cbPutTo.5=Komprimeret EXE fremviser
+cbFastExport.Caption=Hur&tigere Eksport
+cbOriginalURL.Caption=Tilføj &original URL-adresse til HTML filer
+cbRecentFiles.Caption=E&xporter kun seneste indlæste filer
+
+[dlgReg]
+Caption=Registrering
+
+Label1.Caption=Tak fordi du registerede
+Label2.Caption=Sådan registreringer giver os mulighed for at investere i den videre udvikling af dette og andre produkter i fremtiden.
+Label3.Caption=Klik på knappen Bestilling, hvis du ikke er sikker på hvordan man registrerer, eller hvis du vil vide mere om de forskellige tilgængelige betalingsmetoder.
+Label4.Caption=Når betalingen er blevet bekræftet, vil du automatisk modtage dine registreringsdetaljer som skal indtastes i boksen nedenfor.
+Label5.Caption=Produkt:
+Label7.Caption=Registreringsnøgle:
+btnOK.Caption=OK
+btnCancel.Caption=Annuller
+btnOrder.Caption=Bestilling
+
+[dlgWizard]
+Caption=Ny Projektguide
+
+Label1.Caption=Et Projekt er en overførselsopgave. Det bruger URL-adressen som startadressen. Når den side er indlæst, fastslår Offline Explorer alle links fra den og indlæser dem ifølge projektets indstillinger.
+Label2.Caption=Projekt &URL-adresse:
+Label3.Caption=Projektn&avn:
+Label4.Caption=Man kan tildele et projektnavn, der vil vises i projekttræet i stedet for URL-adressen.
+Label5.Caption=URL-adresse kan f.eks. være: http://www.metaproducts.com/ ftp://ftp.microsoft.com/data/
+Label7.Caption=Velkommen til den Ny Projektguide
+Label8.Caption=Begræns sider til overførsel efter dybdeniveauet
+Label11.Caption=Med Niveau kan du hurtig angive hvor mange hjemmesider der skal blive indlæst. Sagt mere simpelt, det er antallet af links væk fra den første side til den dybeste.
+Label15.Caption=Til kun at indlæse den første side med alle dets billeder, angiv Niveau=0. Niveau=1 indlæser den første side og alle sider der er direkte sammenkædet til den.
+Label17.Caption=Fjern mærke fra niveaubegrænsningboksen for at indlæse et ubegrænset antal miveauer (hele hjemmesiden).
+Label18.Caption=Hvis du gør det, anbefales det at anvende "Indlæs kun indefra start URL-adressen" eller "Indlæs kun indefra startserveren" indstillingerne på en af de næste Guide sider. Ellers risikerer man at hente hele Internettet!
+Label10.Caption=&Niveaubegrænsning:
+Label6.Caption=Vælg filtyper der skal hentes
+rbDAll.Caption=Hent a&lle filer der er sammenkædet med den første side
+rbDSkip.Caption=Udelad indlæsning af &følgende filtyper:
+cbImages.Caption=&Grafik (billeder)
+cbAudio.Caption=&Audio (lyd, musik)
+cbVideo.Caption=&Video
+cbArchive.Caption=Arkiv (&ZIP, RAR, osv.)
+Label9.Caption=Placering af hentede filer
+Label16.Caption=For eksempel, når Offline Explorer finder en link til http://www.srv.com/dir1/dir2/somefile.htm, vil det prøve at anmode om /dir1/ og /dir2/ indholdet. Hvis serveren tillader mappevisning, vil Offline Explorer være i stand til at hente flere filer.
+rbURL.Caption=Indlæs kun indefra start &URL-adressen:
+rbSrv.Caption=Indlæs kun fra start &serveren:
+rbAny.Caption=Indlæs fra &enhver placering
+cbAllImages.Caption=Indlæs &billeder fra enhver placering
+cbExploreDirs.Caption=Prøv at &gennemse alle mulige undermapper
+Label12.Caption=Tillykke !
+Label13.Caption=Du har lige oprettet et nyt Offline Explorer Projekt.
+Label14.Caption=Hvad vil du foretage dig nu:
+Label19.Caption=Offline Explorer henter hjemmesider fra webstedet for at få links til andre sider og filer. Disse oplysninger bliver brugt til til at opbygge oversigten uden at hente hele webstedet.
+rbDNow.Caption=&Hent det nye projekt nu
+rbProperties.Caption=Opsæt &avancerede indstillinger
+rbDLater.Caption=Hent &Projektet senere
+rbDSiteMap.Caption=Generer oversigt
+btnBack.Caption=< &Tilbage
+btnNext.Caption=&Næste >
+btnCancel.Caption=Annuller
+cbShow.Caption=&Vis når Offline Explorer starter
+
+[dlgBR]
+Caption=Status
+
+btnCancel.Caption=Annuller
+btnOK.Caption=OK
+List.0=Overførselsmappe
+List.1=Gemte mapper
+mpDDBrowse.Caption=&Gennemse...
+
+[dlgProp]
+Caption=Egenskaber for projekt
+
+Label4.Caption=Kategor&i:
+btnOK.Caption=OK
+btnCancel.Caption=Annuller
+btnHelp.Caption=Hjælp
+Label44.Caption=(F12 for at opstille kommandoer)
+lblTCaption.Caption=&Skabelonnavn:
+lblCaption.Caption=&Projektnavn:
+lblURLs.Caption=Adresser (&URL-adresser):
+Label15.Caption=Kontrol af filændring
+Label16.Caption=Adresse og niveau
+lblURL.Caption=Adresse (&URL-adresse):
+Label43.Caption=(F11 for at udvide)
+lblProjectID.Caption=Projekt ID:
+rbFM1.Caption=&Hent kun ændrede og nye filer
+cbFMCheckSize.Caption=&Kontroller filstørrelse
+cbFMSkipMedia.Caption=Udelad eksisterende &mediefiler
+rbFM2.Caption=Hent &alle filer
+rbFM3.Caption=Hent &ikke eksisterende filer
+rbFM4.Caption=Udelad &eksisterende filer på niveauer højere end
+cbLevel.Caption=&Niveaubegrænsning:
+Label19.Caption=Pla&cering
+Label20.Caption=Filstørrelser
+Label21.Caption=&Filtypenavne
+cbFTLocation.0=Indlæs ved at bruge indstillinger for URL-adresse filtre
+cbFTLocation.1=Indlæs kun fra startserveren
+cbFTLocation.2=Indlæs kun fra startmappen
+cbFTLocation.3=Indlæs fra enhvert websted
+cbFTSHigh.Caption=Ma&ksimal størrelse
+cbFTSLow.Caption=M&inimal størrelse
+cbFTSMD.Caption=Indlæs med &Massedownloader
+btnFTAdd.Caption=<<        &Tilføj
+btnFTDel.Caption=>> &Fjern
+btnSelAll.Caption=&Alle
+btnSelNone.Caption=&Ingen
+btnImageSize.Caption=Billed&størrelser...
+Label42.Caption=Udelad følgende &URL-adresser under hentning af
+Label56.Caption=Test en URL-adresse mod URL &Filtre
+btnUFTest.Caption=&Test
+Label29.Caption=Indlæs filer fra følgende protokoller
+Label30.Caption=Brugerdefinerede protokoller
+rbUFProt1.Caption=Indlæs &alle protokoller
+rbUFProt2.Caption=Indlæs kun den s&tartende protokol
+rbUFProt3.Caption=Konfiguration af &brugerdefinerede protokoller
+cbUP0.Caption=Indlæs fra &hjemmesider (HTTP protokol)
+cbUP1.Caption=Indlæs fra &FTP websteder (FTP protokol)
+cbUP3.Caption=Indlæs fra &Sikre hjemmesider (HTTPS protokol)
+cbUP2.Caption=Indlæs fra &lokale filer (fil:// URL-adresser)
+cbUP4.Caption=Indlæs fra &MS Media Player streams (MMS protokol)
+cbUP5.Caption=Indlæs fra Real streams (&RTSP protokol)
+cbUP6.Caption=Indlæs fra Real streams (&PNM protokol)
+Label40.Caption=Indlæs filer fra følgende servere
+Label41.Caption=Brugerdefinerede konfigurationsnøgleord
+Label46.Caption=Nogle filfilterkategorier bruger ikke URL-adresse filterindstillinger i deres placeringsboks.
+Label45.Caption=Bemærk:
+Label6.Caption=Nøg&leord:
+Label51.Caption=(F11 for at udvide)
+cbLSrvs.0=Vis udelukkede servernøgleord
+cbLSrvs.1=Vis inkluderede servernøgleord
+btnLSAdd.Caption=&Tilføj        >>
+btnLSDel.Caption=&Fjern <<
+btnLSUp.Caption=Flyt &opad
+btnLSDown.Caption=Flyt &nedad
+lblOtherSrvLev.Caption=links på andre servere
+rbSPro4.Caption=Indlæs kun filer indefor startserveren
+rbSPro5.Caption=Indlæs kun filer indefor start&domænet
+cbOtherSrvLev.Caption=Indlæs o&p til
+rbSPro1.Caption=Indlæs filer fra &alle servere
+rbSPro2.Caption=Indlæs &kun filer indefor start
+rbSPro3.Caption=&Brugerdefinerede serverkonfigurationer
+rbSProSrv.Caption=&Server
+rbSProDmn.Caption=&Domæne
+Label36.Caption=Indlæs filer fra følgende mapper
+Label37.Caption=Brugerdefinerede konfigurationsnøgleord
+Label47.Caption=Bemærk:
+Label48.Caption=Nogle filfilterkategorier bruger ikke URL-adresse filterindstillinger i deres placeringsboks.
+Label7.Caption=Nøg&leord:
+Label52.Caption=(F11 for at udvide)
+cbLDirs.0=Vis udelukkede mappers nøgleord
+cbLDirs.1=Vis inkluderede mappers nøgleord
+btnLPAdd.Caption=&Tilføj        >>
+btnLPDel.Caption=&Fjern <<
+btnLPUp.Caption=Flyt &opad
+btnLPDown.Caption=Flyt &nedad
+rbUFDir1.Caption=Indlæs filer fra &alle mapper
+rbUFDir2.Caption=Indlæs &kun filer indefor startsmappen og under
+rbUFDir3.Caption=&Brugerdefinerede mappekonfigurationer
+Label38.Caption=Indlæs filer med følgende filnavne
+Label39.Caption=Brugerdefinerede konfigurationsnøgleord
+Label50.Caption=Nogle filfilterkategorier bruger ikke URL-adresse filterindstillinger i deres placeringsboks.
+Label49.Caption=Bemærk:
+rbUFFile1.Caption=Indlæs &alle filnavne
+rbUFFile2.Caption=Indlæs &kun filer med start filnavnet
+rbUFFile3.Caption=&Brugerdefineret filnavnkonfiguration
+Label8.Caption=Nøg&leord:
+Label53.Caption=(F11 for at udvide)
+cbLFiles.0=Vis udelukkede filers nøgleord
+cbLFiles.1=Vis inkluderede filers nøgleord
+btnLFAdd.Caption=&Tilføj        >>
+btnLFDel.Caption=&Fjern <<
+btnLFUp.Caption=Flyt &opad
+btnLFDown.Caption=Flyt &nedad
+lblExecBefore.Caption=Kør &før hentning af:
+lblExecAfter.Caption=Kør &efter hentning af:
+lblSLTime.Caption=minutter
+lblSLTSize.Caption=KBytes
+Label17.Caption=Begrænsninger
+Label18.Caption=Analyse
+bxSLTSize.Caption=Stop indlæsning af en hjemmeside hvis dets samlede &størrelse overskrider
+bxSLNumber.Caption=Stop indlæsning hvis det samlede antal &filer overskrider
+bxSLTime.Caption=Stop indlæsning hvis &overførselstiden overskrider
+btnSubst.Caption=URL-adresse &erstatninger...
+cbExploreDirs.Caption=&Gennemse alle mulige undermapper
+cbIgnoreErrors.Caption=&Undertryk hjemmesidefejl
+cbExploreForms.Caption=Gennemse &HTML formularer
+cbExploreSSMaps.Caption=&Indlæs serverside klikbare objekter
+cbComplexScripts.Caption=E&valuer scriptberegninger
+cbCheckFiles.Caption=&Kontroller filers integritet
+cbConvertRSS.Caption=Konverter &RSS feeds til HTML
+Label2.Caption=Alle links i hentede filer peger mod offline placeringer, uanset om de blev hentet eller ej.
+Label11.Caption=Kun de links der er tilladt at hente vil pege mod offline placeringer. Begrænsede links (grundet utilstrækkelig niveauindstilling, URL-adresse filterbegrænsninger, osv.) vil pege mod deres originale online dokumenter og filer.
+Label1.Caption=Opret en spejlkopi af en hjemmeside med alle dets originale links. (Advarsel: Det er måske umuligt at gennemse et projekt offline, hvis den blev hentet på denne måde.)
+Label31.Caption=Ændre links i hentede filer
+rbLOffline.Caption=&Offline oversættelse
+rbLOnline.Caption=On&line oversættelse
+rbNotTranslate.Caption=I&ngen oversættelse
+Label10.Caption=&Overførselsintervaller:
+Label5.Caption=&Tidsinterval:
+Label26.Caption=&Ugedag:
+Label27.Caption=&Dag:
+Label28.Caption=&Måned:
+Label25.Caption=Automatisk projektoverførsel ifølge den angivne planlægning
+Label24.Caption=&Tid:
+WhenBox.0=Manuelt
+WhenBox.1=Daglig
+WhenBox.2=Ugentlig
+WhenBox.3=Månedlig
+WhenBox.4=Årlig
+WhenBox.5=Hver
+MonthBox.0=Januar
+MonthBox.1=Februar
+MonthBox.2=Marts
+MonthBox.3=April
+MonthBox.4=Maj
+MonthBox.5=Juni
+MonthBox.6=Juli
+MonthBox.7=August
+MonthBox.8=September
+MonthBox.9=Oktober
+MonthBox.10=November
+MonthBox.11=December
+OnceBox.Caption=&Kun en gang
+WeekdayBox.0=Søndag
+WeekdayBox.1=Mandag
+WeekdayBox.2=Tirsdag
+WeekdayBox.3=Onsdag
+WeekdayBox.4=Torsdag
+WeekdayBox.5=Fredag
+WeekdayBox.6=Lørdag
+Label22.Caption=Beskyttede websteder og webstedsområder
+Label23.Caption=Bemærk: til NTLM godkendelse, indtast DOMÆNE\Bruger i brugernavn feltet.
+rbSPsw0.Caption=Br&ug dette brugernavn og adgangskode
+lblSUserName.Caption=&Brugernavn:
+lblSPassword.Caption=&Adgangskode:
+rbSPsw1.Caption= til at &logge på beskyttede Web og FTP websteder
+rbSPsw5.Caption=i &HTML formularer
+rbSPsw2.Caption=&Spørg om brugernavn og adgangskode på beskyttede websteder
+rbSPsw3.Caption=&Ignorer beskyttede websteder og fortsæt hentning af
+rbSPsw4.Caption=Stop &overførsel hvis websted er beskyttet
+Label32.Caption=Opret kopier af ældre filer istedet for at overskrive dem
+lblLKeepCopies.Caption=Kopier
+Label33.Caption=Gamle fil kopiers filnavnformat
+bxLKeepCopies.Caption=&Behold gamle filer:
+cbMSIECache.Caption=&Kopier filer til MS Internet Explorer cache
+cbFCZeros.Caption=&Tilføj foranstillet nul
+cbFCUseDate.Caption=Brug &fildato/tid i følgende format:
+Label34.Caption=Tekstnøgleord
+Label12.Caption=&Nøgleord:
+Label35.Caption=Meddelelse
+Label3.Caption=Meddel via &E-mail (komma eller mellemrum adskilte adresser):
+Label13.Caption=&Emne:
+cbSearchForAll.Caption=Søg efter &alle nøgleord
+cbSaveNoKw.Caption=&Gem alle sider der ikke indeholder ovenstående nøgleord
+cbGraphNoKw.Caption=Hent alle &grafikfiler på sider der ikke indeholder ovenstående nøgleord
+cbStopOnKw.Caption=&Stop hentning af sider når nøgleord bliver fundet
+cbNoSaveKw.Caption=Gem &ikke de sider der indeholder ovenstående nøgleord
+cbSearchInTags.Caption=Søg indeni &HTML koder
+Label54.Caption=TextPipe Filtre
+Label55.Caption=Indstillinger for TextPipe udførelse
+rbFilter1.Caption=Kør TextPipe med et &nyt filter
+rbFilter2.Caption=Brug TextPipe &filterfilen (*.fll) til at behandle hentede filer:
+cbPassFiles.Caption=&Overfør hentede projektfiler til TextPipe
+cbTextOnly.Caption=Data mine kun &Tekst- og HTML filer
+cbRun.Caption=&Kør filter når TextPipe indlæses
+cbQuit.Caption=&Afslut TextPipe efter kørsel af filteret
+cbDMNew.Caption=&Data mine kun nye og opdaterede filer
+Label9.Caption=Vælg en underkategori der skal vises
+ItemTree.0=Projekt
+ItemTree.1=Filfiltre
+ItemTree.2=Tekst
+ItemTree.3=Billeder
+ItemTree.4=Video
+ItemTree.5=Audio
+ItemTree.6=Arkiv
+ItemTree.7=Brugerdefineret
+ItemTree.8=Andet
+ItemTree.9=URL-adresse filtre
+ItemTree.11=Protokol
+ItemTree.12=Server
+ItemTree.13=Mappe
+ItemTree.14=Filnavn
+ItemTree.15=Indholdsfiltre
+ItemTree.16=Avanceret
+ItemTree.19=Linkoversættelse
+ItemTree.20=Planlægning
+ItemTree.21=Adgangskoder
+ItemTree.22=Filkopier
+ItemTree.23=Data Mining
+odImportKeywords.Caption=Indlæs nøgleord fra tekstfil
+odImportKeywords.Filter=Tekstfiler|*.txt|Alle filer|*.*
+MenuItem1.Caption=&Fortryd
+MenuItem3.Caption=&Klip
+MenuItem4.Caption=&Kopier
+MenuItem5.Caption=&Indsæt
+MenuItem6.Caption=&Slet
+MenuItem8.Caption=&Marker Alt
+mpCut.Caption=&Klip
+mpCopy.Caption=&Kopier
+mpPaste.Caption=&Indsæt
+mpEdit.Caption=&Rediger
+dlgOpenFilter.Caption=Åbn filterfil
+dlgOpenFilter.Filter=TextPipe filterfiler|*.fll|Alle filer|*.*
+
+[dlgCSearch]
+Caption=Søg Indhold
+
+btnFind.Caption=&Søg
+btnCancel.Caption=&Luk
+btnAbort.Caption=&Afbryd
+btnBrowse.Caption=&Gennemse
+btnSave.Caption=Ge&m
+btnDelete.Caption=Sl&et
+Label1.Caption=&Søg efter nøgleord:
+cbSearchForAll.Caption=Søg efter &alle nøgleord
+cbTextOnly.Caption=Søg kun i &tekstfiler
+cbRecent.Caption=K&un seneste indlæste filer
+cbSearchInTags.Caption=Søg i HTML &koder
+sdSave.Caption=Gem søgeresultater
+sdSave.Filter=HTML filer - offline links|*.htm|HTML filer - online links|*.htm|Tekstfiler|*.txt|Alle filer|*.*
+btnEdit.Caption=&Rediger
+
+[dlgCleanUp]
+Caption=Rens hentede websteder
+
+btnAbort.Caption=&Afbryd
+btnDelSel.Caption=Slet &markerede
+btnDelAll.Caption=Slet &Alle
+btnClose.Caption=&Luk
+btnMaps.Caption=Ubrugte &oversigt filer
+miCUOpen.Caption=&Åbn fil eller mappe
+miCUDelete.Caption=&Slet
+
+[DialerForm]
+Caption=DialerForm
+
+Label3.Caption=Status:
+Label4.Caption=Seneste fejl:
+CancelButton.Caption=Annuller
+
+[TipForm]
+Caption=Dagens tip
+
+Label2.Caption=Vidste du...
+cbShowOnStart.Caption=&Vis tip ved start
+Box.0=Når man højreklikker en hjemmeside under fanen Projekter eller fanen Oversigt, vil en genvejsmenu forekomme, som kan hjælpe en med at redigere, visning eller gennemsyn af ens hjemmesider.
+Box.1=For at stoppe hentning af a fil, højreklikker man på en fil i Meddelelser Panelet og vælger "Afbryd".
+Box.2=Man kan hurtigt hente en hjemmeside ved bare at indtaste webaddressen på adresselinjen og trykke Enter, lige som man ville i Microsoft Internet Explorer. Man kan også klikke på knappen Hent.
+Box.3=Hvis man vil ændre på dybdesøgningen, kan man ændre på dybden ved at indtaste antallet af niveauer til højre for adresselinjen.
+Box.4=Man kan starte OE's Interne Browser (IB) ved at slå Vis | Panel | Interne Browser  til. Når først den Interne Browser bliver vist, kan man dobbeltklikke på ethvert projekt og det vil blive vist i den Interne Browser.
+Box.5=Man kan hente flere hjemmesider, ved at vælge ethvert af dem, seperat under fanen Projekter og klikke på start knappen (lyn icon), eller man kan vælge at klikke på en mappe der indeholder et antal hjemmesider. Alle hjemmesider i mappen vil så blive hentet.
+Box.6=URL-adresse filtrene i sektionen Egenskaber giver en mulighed for selektivt at overføre fra enhver server, mappe eller fil man ønsker ved hjælp af nøgleord. Hver server, mappe eller fil kan enten blive inkluderet eller udelukket fra en overførsel ifølge disse nøgleord. Se Hjælp for flere detaljer.
+Box.7=Hvis man kun vil hente gif billeder, gå til Egenskaber | Filtyper | Billed sektion og vælg "Indlæs kun de valgte filtyper". Dernæste, fjern mærke i alle Billed filtyper undtaget gif filtypenavnet og alle filtyper undtaget Billeder i Kategoritræet og start overførslen.
+Box.8=Brug kommandolinje parametre til at integrere Offline Explorer med tredjeparts opgavestyringer og for at udføre nogle bestemte handlinger, såsom nedlukning af computeren efter overførsler. Se Hjælp for komplet beskrivelse.
+Box.9=For at hente en nøjagtig kopi af en Hjemmeside, marker "Oversæt ikke links" radioknappen i Egenskaber | Avanceret sektionen.
+Box.10=Besøg ofte vor hjemmeside for at informeres om nylige opdateringer, nyheder, plugins, osv.
+Box.11=Man kan gennemse, vise eller redigere enhver hentet hjemmeside eller fil ved at tilføje specielprogrammer til dialogboksen indstillinger | Værktøjer sektionen. Adgang til disse værktøjer kan opnås fra menuen Vis eller fra Projekter eller Oversigt højreklik genvejsmenuen.
+Box.12=Man kan vise en log over sine overførsler ved at vælge Vis | Meddelelser | Panel eller Log vinduet.  Hvis man vælger Meddelelser | Panel vil et tilpasseligt panel vise sig lige over statuslinjen. Hvis man vælger Meddelelser | logvindue bliver et tilpasseligt vindue oprettet, hvor man kan Spore, Pause, Ryde, Gemme, Filtrere eller søge sin log igennem.
+Box.13=Hent en af dine fortrukne hjemmesider ved at importere en URL-adresse fra en browser.  OE kan importere URL-adresser fra MSIE, Netscape, og Opera.  For at importere en URL-adresse, klik på Filer | Importer Foretrukne.
+Box.14=Man kan opsætte Standard Egenskaber for alle sine nye projekter ved at redigere standard skabelonen i Filer | Skabeloner dialogen.
+Box.15=Man kan midlertidigt afbryde og genoptage en overførsel på et senere tidspunkt ved hjælp af funktionerne "Afbryd til fil" / "Genoptag fra fil" i menuen Hent.
+Box.16=Man kan midlertidigt afbryde en overførsel og siden genoptage den ved hjælp af Hent | Afbryd i menuen.
+Box.17=Man kan planlægge sine overførsler til ethvert fastsat tidspunkt ved hjælp af vor Opgavestyringspanel under Egenskaber | Avanceret | Opgavestyring sektion.
+Box.18=Man kan bruge Vis | Opgavestyring ved at trække et projekt til det.
+Box.19=Hent adgangskode beskyttet websted ved hjælp af vort Adgangskode panel under Egenskaber | Avanceret Adgangskode sektion.
+Box.20=Man kan udskrive en side fra Interne Browser ved hjælp af knappen Udskriv.
+Box.21=Klik på knappen Gå til start i den Interne Browser, for at vise projekt overførselsstatistikker.
+Box.22=For at oprette en ny skabelon baseret på et eksisterende projekt, kopier dette projekt til udklipsholder, åben skabelon dialogboksen og indsæt ved hjælp af tast kombinationen Ctrl-V.
+Box.23=For at sortere projekter i en mappe, højreklik den aktuelle mappe og vælg Sorter fra genvejsmenuen.
+Box.24=Man kan gennemse filer ved at enkeltklikke på Oversigtskortet. For at aktivere dette, højreklik i Oversigtskort området og check klikke på "Enkeltklik gennemsyn" menuen.
+Box.25=For at gemme en hjemmeside i den Interne Browser, tryk Ctrl-Alt-S.
+Box.26=F11 slår Fuld skærm til og fra for den Interne browser.
+Box.27=Brug Ctrl-A og Ctrl-N for at markere eller fjerne markering for alle filtypenavne på en gang i Projekt Egenskaber | Filfiltre.
+Box.28=Man kan vise listen over filer, der er blevet indlæst under den sidste overførselssession ved hjælp af Rediger | Søg Indhold vinduet. Indtast mellemrum symbolet i nøgleord feltet og sæt mærke i "Kun nyligt indlæste filer" boksen.
+Box.29=For at flytte alle nøgleord fra Udelad listen for at Inkludere og vice versa i Projektegenskaber | URL-adresse Filtre, tryk Ctrl-M taste på tasteturet.
+Box.30=For at markere alle nøgleord i Projektegenskaber | URL-adresse Filters, tryk Ctrl-A taste på tasteturet. Ctrl-N fjerner markering for dem alle.
+Box.31=Man kan bruge Romertal i URL-adresse makroer.
+Box.32=For at afbryde et enkelt projekt til en fil og bibevare andre projekter, højreklik på det aktuelle projekt og vælg Hent | Afbryd projekt til fil fra genvejsmenu.
+Button1.Caption=&Luk
+Button2.Caption=&Næste Tip
+
+[dlgProxyURLDetect]
+Caption=Søg Proxy indstillinger
+
+Label1.Caption=Søg proxy indstillinger fra URL:
+Label2.Caption=Følgende proxyservere blev fundet. Vælg en og klik på knappen OK.
+lbProxies.0=Ingen proxy server indstillinger blev fundet.
+btnOK.Caption=OK
+btnCancel.Caption=Annuller
+
+[dlgSeqSchedule]
+Caption=Sequencer Planlægning
+
+Label10.Caption=Overførsels&intervaller:
+Label5.Caption=&Tidsinterval:
+Label24.Caption=&Tid:
+Label26.Caption=&Ugedag:
+Label27.Caption=&Dag:
+Label28.Caption=&Måned:
+Label25.Caption=Start sequencer efter den angivne planlægning
+WhenBox.0=Manuelt
+WhenBox.1=Daglig
+WhenBox.2=Ugentlig
+WhenBox.3=Månedlig
+WhenBox.4=Årlig
+WhenBox.5=Hver
+MonthBox.0=Januar
+MonthBox.1=Februar
+MonthBox.2=Marts
+MonthBox.3=April
+MonthBox.4=Maj
+MonthBox.5=Juni
+MonthBox.6=Juli
+MonthBox.7=August
+MonthBox.8=September
+MonthBox.9=Oktober
+MonthBox.10=November
+MonthBox.11=December
+OnceBox.Caption=Kun en gang
+btnOK.Caption=OK
+btnCancel.Caption=Annuller
+WeekdayBox.0=Søndag
+WeekdayBox.1=Mandag
+WeekdayBox.2=Tirsdag
+WeekdayBox.3=Onsdag
+WeekdayBox.4=Torsdag
+WeekdayBox.5=Fredag
+WeekdayBox.6=Lørdag
+
+[dlgShare]
+---Caption=Publish your Project !
+
+---Label1.Caption=You can share your Project settings with other people.
+---Label2.Caption=If the Project successfully downloaded some site and it worked well for you, this knowledge may help many people to save time and efforts.
+---Label3.Caption=Please supply comments, description, etc. that might be helpful when using the Project settings:
+---Label4.Caption=Please provide your nickname to display in the search results:
+---Label6.Caption=You will also benefit from using the Projects shared by other Offline Explorer users.
+---btnShare.Caption=Publish !
+---btnCancel.Caption=Cancel
+
+[dxBarCustomizationForm]
+Caption=Tilpas
+
+BClose.Caption=Luk
+TabSheet1.Caption= Værktøjslinjer
+LabelToobars.Caption=&Værktøjslinjer:
+BBarDelete.Caption=Slet
+BBarNew.Caption=&Ny...
+BBarRename.Caption=O&mdøb...
+BBarReset.Caption=N&ulstil...
+TabSheet2.Caption=Kommandoer
+LabelCategories.Caption=&Kategorier:
+LabelCommands.Caption=Ko&mmandoer:
+LabelDescription.Caption=Beskrivelse
+TabSheet3.Caption= Indstillinger
+LabelMenuAnimations.Caption=&Menu animationer:
+ComboBoxMenuAnimations.0=(Ingen)
+ComboBoxMenuAnimations.1=Vilkårlig
+ComboBoxMenuAnimations.2=Fold ud
+ComboBoxMenuAnimations.3=Glid
+CBHint1.Caption=Vis værktøjs&tips på værktøjslinjer
+CBHint2.Caption=Vis genvejstaster i værktøjs&tips
+CBLargeIcons.Caption=&Store ikoner
+Label1.Caption=&Menu animationer:
+Label2.Caption=Andet
+Label3.Caption=Tilpas Menuer og Værktøjslinier
+ComboBoxMenuAnimationsEx.0=(Ingen)
+ComboBoxMenuAnimationsEx.1=Vilkårlig
+ComboBoxMenuAnimationsEx.2=Fold ud
+ComboBoxMenuAnimationsEx.3=Skyd
+ComboBoxMenuAnimationsEx.4=Udton
+CBHint1Ex.Caption=&Vis værktøjstips på værktøjslinier
+CBHint2Ex.Caption=Vis &genvejstaster i værktøjstips
+CBLargeIconsEx.Caption=&Store ikoner
+CBMenusShowRecentItemsFirst.Caption=Menuer viser nyligt brugte &kommandoer først
+CBShowFullMenusAfterDelay.Caption=Vis &fulde menuer efter et kort ophold
+BResetUsageData.Caption=&Nulstil mine brugte data
+TabSheet4.Caption= Alle kommandoer
+CBShowCommandsWithShortCut.Caption=Vis kommandoer der kan have en genvej
+GroupBox1.Caption= Grupper
+btnGroupAdd.Caption=Tilføj
+btnGroupDelete.Caption=Slet
+GroupBox2.Caption= Elementer
+btnGroupItemAdd.Caption=&Tilføj...
+btnGroupItemDelete.Caption=Slet
+CategoriesAdd.Caption=Tilføj...
+CategoriesAdd.Hint=Tilføj
+CategoriesInsert.Caption=Indsæt...
+CategoriesInsert.Hint=Indsæt
+CategoriesRename.Caption=Omdøb...
+CategoriesRename.Hint=Omdøb
+CategoriesVisible.Caption=Synlig
+CategoriesVisible.Hint=Synlig
+CommandsAdd.Caption=Tilføj...
+CommandsAdd.Hint=Tilføj
+CommandsDelete.Caption=Slet
+CommandsDelete.Hint=Slet
+CommandsClear.Caption=Ryd
+CommandsClear.Hint=Ryd
+CommandsMoveUp.Caption=Flyt Op
+CommandsMoveUp.Hint=Flyt Op
+CommandsMoveDown.Caption=Flyt Ned
+CommandsMoveDown.Hint=Flyt Ned
+CommandsSubMenuEditor.Caption=Undermenu Editor...
+CommandsSubMenuEditor.Hint=Undermenu Editor
+CategoriesItemsVisible.Caption=Synlige elementer:
+CategoriesItemsVisible.Hint=Synlige elementer:
+CategoriesDelete.Caption=Slet
+CategoriesDelete.Hint=Slet
+
+[Strings]
+Standard
+Tom
+Kan ikke finde standard Browser
+Fejl
+Kan ikke starte standard Browser
+Vil du fjerne
+Bekræftelse
+Vil du fjerne alle projekt(er) filer
+Mindst en mappe skal blive tilbage.
+Vil du fjerne alle projekter i mappen eller markering
+Fejl ved start af eksterne værktøj
+Overført
+fil(er)
+Kø
+Størrelse
+Kb
+Ny mappe
+&Genoptag
+&Afbryd
+Hastighed
+bytes/s
+Vil du afslutte
+Standard projektegenskaber
+Stop overførsel?
+Deaktiver overførsel af URL-adresser
+Avancerede indstillinger for projekt
+Projektnavn, adresse og niveauer
+Adgangskode brugt til beskyttede hjemmesider
+Filtyper udvalg
+Begræns servere ved hjælp af nøgleord
+Begræns mapper ved hjælp af nøgleord
+Begræns filer ved hjælp af nøgleord
+Når Projektet skulle blive hentet
+Angiv indhold af kategori
+Internet forbindelse og indstillinger for HTTP server
+Proxyservertype og indstillinger for adgangskode
+Placering af hentede filer
+Angiv begrænsning af fri disk plads
+Specielle indstillinger der påvirker hele programmet
+Vis et valg mellem disse værktøjer ved gennemgang af en hjemmeside,
+Browsere brugt til at gennemse hjemmesider
+Vis et valg mellem en af disse værktøjer ved visning af en hjemmeside
+Fremvisere brugt til at vise webfiler
+Vis et valg mellem en af disse værktøjer ved redigering af en hjemmeside
+Editorer brugt til at redigere webfiler
+MB Fri
+Kan ikke finde tilsvarende data.
+Henter
+Klar
+Afbryder
+Fortolker
+Søger
+&Importer
+Maksimer Interne Browser til fuld skærm
+Gendan Interne Browser til normal størrelse
+Begræns protokoller
+Cookies er deaktiverede i øjeblikket på dit system. Vil du aktivere dem?
+Vælg link oversættelsestilstand
+Skabelon Editor
+Stop indlæsning af filen?
+Generelle projektegenskaber
+Forskellige tilstande til at opdatere projektet
+Mappenavn og overførselsmappe
+Systemintegrering
+Behold gamle filer ved hentning af nyere versioner
+Opkald ved overførsel fra Internet websteder
+Afbryd, luk && sluk computeren
+Vil du afbryde modemforbindelse?
+Mb
+Gb
+Filter hentede sider ved hjælp af indhold nøgleord
+Bekræft bestemte handlinger
+sekunder
+Oveførsel fuldført
+Projektoveførsel planlagt
+Projekt ikke hentet
+Adresse (URL-adresse) ikke fundet
+Oveførsel stoppet
+Dette vil søge efter alle ubrugte hentede filer og websteder og tilbyde at fjerne dem selektivt.
+Vil du fortsætte?
+Indlæst
+Længde
+Begræns overførselshastighed
+Vil du starte alle projekter i mappen?
+Vil du stoppe det forrige projekt?
+Vil du stop alle projekter i mappen?
+Dokument ikke fundet
+Denne side er ikke tilgængelig offline. Mulige årsager: enten var det en ugyldig link på serveren eller projektindstillinger tillader ikke siden at blive hentet. I nogle tilfælde, vil forøgelse af Projekt niveau indstilling hjælpe.
+Klik her for at gå online
+Information
+bytes
+Samlede filers størrelse er
+Dette vil angive overførselsmappen for hver undermappe til den ovenstående værdi
+Vil du fortsætte?
+Projekt
+Serveren rapporterer at den startende URL-adresse er blevet flyttet til en ny adresse:
+Vil du genstarte overførsel af den nye projekt URL-adresse (klik Annuller for at beholde den gamle URL-adresse)?
+Funktionsmåde når projektoverførsel er fuldført
+Åbn fil
+Markeret
+Vil du beholde de fjernedes filers information for at hente ændrede og nye filer senere?
+Filniveau:
+Ikke Registreret
+Bruger / Computer Licens
+Ubegrænset Websted License
+Websted License
+Brugere / Computer Licenser
+Midlertidig license. Udløber efter
+Projekter
+URL-adresser
+Afbryd til fil
+Sidste overførsel fra %s til %s
+Intet projekt valgt
+Du er nu på dag %s af din 30 dages evalueringsperiode.
+dage
+Angiv som Hjemmeside
+Du har ikke opdateret projektet i %s dage
+Adgangskode stemmer ikke overens
+Adgangskode er ugyldig
+Vil du overskrive eksisterende projekter?
+Kontroller efter ny version
+Træk projekter for at tilføje til Planlæggeren
+Træk projekter for at tilføje til Sequenceren
+Flere links
+New browser
+New Template
+Download the missing link now and add it to the selected Project
+Welcome Page
+Download Speed Chart. No download activity within %s seconds.
+Download Speed Chart. Max = %s, Avg = %s within %s seconds.
+Download limits
+Advanced parsing settings
+New version detected:
+Do you want to download and install it?
+You have the most recent version of

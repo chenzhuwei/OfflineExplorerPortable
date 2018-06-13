@@ -1,0 +1,42 @@
+<SCRIPT TYPE="text/javascript" LANGUAGE="JavaScript1.2">
+// Copyright (c) 1999-2000 by Metaproducts corp.
+
+var OfflineEx = new ActiveXObject("oe.OfflineExplorerAddUrl.1");
+
+if(OfflineEx)
+{
+ var srcEvent = external.menuArguments.event;
+ var srcDoc = external.menuArguments.document;
+ var srcElement = window.external.menuArguments.event.srcElement;
+ //var srcElement = srcDoc.elementFromPoint(srcEvent.clientX, srcEvent.clientY);
+ var srcAnchor = srcElement;
+ var sURL = "";
+ var sComment = "";
+
+while(srcAnchor.tagName!="A" && srcAnchor.tagName!="AREA" && srcAnchor.tagName!="HTML")
+  {
+    srcAnchor=srcAnchor.parentElement;
+ }
+// die with error on badformed document
+
+
+if(srcEvent.type=="MenuExtUnknown" || srcEvent.type=="MenuExtImage" || srcEvent.type=="MenuExtAnchor")
+{
+ if(srcAnchor.tagName=="A") {sComment=srcAnchor.innerText;}
+ if(srcAnchor.tagName=="AREA") {sComment=srcAnchor.alt;}
+ if(srcElement.tagName=="IMG" && sComment=="") {sComment=srcElement.alt;}
+ if(srcAnchor.tagName=="A" || srcAnchor.tagName=="AREA") {sURL = srcAnchor.href;}
+ if(srcAnchor.tagName=="HTML" && srcElement.tagName=="IMG") {sURL = srcElement.src;}
+ if(sComment=="") {sComment=sURL;}
+}
+
+if(sURL!="")
+{
+ OfflineEx.AddUrl(sURL, sComment, srcDoc.location);
+}
+}
+else
+{
+ alert("OE.dll is not registered. Please run `regsvr32.exe OE.dll`");
+}
+</SCRIPT>

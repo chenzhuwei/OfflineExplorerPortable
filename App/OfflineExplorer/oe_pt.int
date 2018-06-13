@@ -1,0 +1,2431 @@
+[Intl File 4.0]
+Language=Portuguese
+Charset=1
+Font=Tahoma
+;comment
+
+[MainForm]
+
+lblAddress.Caption=&Endereço:
+lblLevel.Caption=&Nível:
+edtAddress.Caption=Introduza aqui o endereço web para criar um novo Projecto e transferir o site
+btnCreate.Caption=Transfer&ir
+pgProjects.Caption=Projectos
+lvSeq.0=Projectos
+pgWebSites.Caption=Mapa
+lblDisabledURLs.Caption=&URLs Desactivados
+pgLevels.Caption=Níveis
+PList.0=Canal
+PList.1=Carregado - %
+PList.2=Comprimento
+PList.3=Estado
+PList.4=URL
+cbTemplateNames.0=Descarregar apenas uma página
+cbTemplateNames.1=Descarregar apenas imagens numa página
+cbTemplateNames.2=Descarregar apenas imagens do site
+cbTemplateNames.3=Descarregar apenas ficheiros Flash do site
+cbTemplateNames.4=Descarregar apenas ficheiros multimédia do site
+cbTemplateNames.5=Descarregar do site inicial apenas
+cbTemplateNames.6=Descarregar apenas uma página com imagens e scripts
+cbTemplateNames.7=Descarregar apenas páginas, imagens e scripts do site
+Log4.0=Fonte
+Log4.1=Tempo
+Log4.2=Informação
+Ribbon.0=Início
+Ribbon.1=Propriedades
+Ribbon.2=Transferir
+Ribbon.4=Vista
+Ribbon.6=Internet
+Ribbon.7=Ferramentas
+Ribbon.8=Avançadas
+Ribbon.9=Ajuda
+mpTShow.Caption=&Mostrar
+mpTStop.Caption=Parar &transferências...
+mpTClipboard.Caption=&Área de transferência de monitorização
+mpTPaste.Caption=&Colar Projecto
+mpTIntegration.Caption=&Ao colar um URL
+mpTDefTemplate.Caption=&Usar modelo predefinido
+mpTAutoStart.Caption=&Iniciar transferência automaticamente
+mpTExit.Caption=S&air
+dlgRFromFile.Caption=Retomar de ficheiro
+dlgRFromFile.Filter=Colocar Ficheiros em Lista de Espera|*.wdq|Todos os ficheiros|*.*
+dlgStoFile.Caption=Suspender para ficheiro
+dlgStoFile.Filter=Colocar Ficheiros em Lista de Espera|*.wdq|Todos os ficheiros|*.*
+mpAProject.Caption=&Projecto...
+mpAWizard.Caption=Assistente de &Projectos...
+mpAFolder.Caption=&Pasta
+mpATemplate.Caption=&Modelo...
+mpASeparator.Caption=Modelos
+mpBSeparator.Caption=Modelos
+mpSStop.Caption=&Parar Projecto seleccionado
+mpSStopAll.Caption=Parar &Todos
+mpFSFontSize.Caption=&Tamanho do tipo de letra
+mpFSLargest.Caption=Ma&ior
+mpFSLarger.Caption=&Grande
+mpFSMedium.Caption=&Médio
+mpFSSmaller.Caption=&Pequeno
+mpFSSmallest.Caption=Mais Pe&queno
+mpFSShowImages.Caption=&Mostrar imagens
+mpFSShowImages.Hint=Activar ou desactivar imagens no navegador Interno
+mpFSBrowseOnline.Caption=Navegar O&nline no URL actual
+mpFSBrowseOnline.Hint=Navegar Online no URL actual
+mpFSBrowseOffline.Caption=Navegar &Offline no URL actual
+mpFSBrowseOffline.Hint=Navegar Offline no URL actual
+mpFSBrowsingProject.Caption=Seleccione o &Projecto em que está a navegar
+mpFSViewSource.Caption=&Ver página de origem
+odRestore.Caption=Restaurar de ficheiro
+odRestore.Filter=Cópia de segurança do Offline Explorer|*.boe|Todos os ficheiros|*.*
+odBackup.Caption=Fazer cópia de segurança para ficheiro
+odBackup.Filter=Cópia de segurança do Offline Explorer|*.boe|Todos os ficheiros|*.*
+pmWBPrint.Caption=&Imprimir...
+pmWBPreview.Caption=P&ré-visualizar...
+dxbManager.0=Menu Principal
+dxbManager.1=Barra de Ferramentas
+dxbManager.2=Barra de Ferramentas de Progresso
+dxbManager.3=Barra de Ferramentas do Navegador
+dxbManager.4=Barra de Ferramentas do Editor
+dxbManager.5=Registo de Mensagens
+dxbManager.6=Barra de Ferramentas do Agendador
+dxbManager.7=Extracção de Dados
+dxbManager.8=Navegar &e Editar
+dxbManager.9=Interface de Utilizador
+dxbManager.10=Parar
+dxbManager.11=Ferramentas
+dxbManager.12=Ajuda
+dxbManager.13=Gerir
+dxbManager.14=Criar
+dxbManager.15=Vista de Projectos
+dxbManager.16=Transferir
+dxbManager.17=Personalizada 1
+dxbManager.18=Barra de Ferramentas do Friso
+dxbManager.19=Ligações
+dxbManager.19.Hint=Definições da Internet
+dxbManager.20=Ficheiros
+dxbManager.21=Filtros do Ficheiro
+dxbManager.22=Filtros do URL
+dxbManager.23=Definições Avançadas
+dxbManager.24=Registo &e Licença
+dxbManager.26=Proxy
+dxbManager.26.Hint=Servidor Proxy
+dxbManager.27=Mostrar/Esconder
+dxbManager.28=Conteúdo
+dxbManager.29=Agendamento
+dxbManager.30=Velocidade
+dxbManager.31=Acesso Telefónico
+dxbManager.32=Encerrar
+dxbManager.33=Fazer Cópia de Segurança de/Restaurar Projectos
+dxbManager.34=Navegar/Editar
+dxbManager.35=Iniciar
+dxbManager.36=Integração
+dxbManager.37=Confirmações
+dxbManager.38=Conclusão
+dxbManager.39=Novas Versões
+dxbManager.40=Mapa
+dxbManager.41=Aparência
+dxbManager.42=Reiniciar &e Actualizar
+dxbManager.43=Mapa do Site
+dxbManager.44=Suspender &e Retomar
+dxbManager.45=Extracção de Dados
+dxbManager.46=Imprimir
+dxbManager.47=Modelos
+dxbManager.48=Mapas
+dxbManager.49=Importar &e Exportar
+dxbManager.50=Publicação
+dxbManager.51=Informação sobre a Versão
+dxbManager.52=Modelos
+dxbManager.53=Importar
+dxbManager.54=Exportar
+dxbManager.55=Administração
+miFNewProject.Caption=No&vo...
+miFNewProject.Hint=Criar novo Projecto ou Pasta
+miFDelSelected.Caption=&Eliminar
+miFDelSelected.Hint=Eliminar Projecto, pasta ou ficheiro seleccionado
+miFProperties.Caption=&Propriedades...
+miFProperties.Hint=Propriedades do Projecto Seleccionado
+miFDProperties.Caption=Exibir &Modelos...
+miFDProperties.Hint=Propriedades Predefinidas para todos os Projectos recentemente criados
+miFSaveChanges.Caption=&Guardar Alterações
+miFSaveChanges.Hint=Guardar as alterações que efectuou em Opções ou Projectos
+miFExit.Caption=S&air
+miFExit.Hint=Sair do programa
+miFWizard.Caption=Assistente de &Projecto...
+miFWizard.Hint=Adicionar novo Projecto usando o Assistente
+miFPrint.Caption=Imp&rimir...
+miFPrint.Hint=Imprimir todas as páginas web carregadas pelo Projecto seleccionado
+miEUndoDel.Caption=&Anular Eliminar
+miEUndoDel.Hint=Restaurar Projecto ou Pasta eliminada
+miECut.Caption=Cor&tar
+miECut.Hint=Cortar o Projecto ou pasta seleccionada para a área de transferência
+miECopy.Caption=&Copiar
+miECopy.Hint=Copiar o Projecto ou pasta seleccionada para a área de transferência
+miEPaste.Caption=&Colar
+miEPaste.Hint=Colar o Projecto ou pasta seleccionada a partir da área de transferência
+miEFindFiles.Caption=&Encontrar Ficheiros ou Pastas...
+miEFindFiles.Hint=Encontrar Projecto, pasta ou ficheiro
+miEFindContents.Caption=Encontrar C&onteúdos...
+miEFindContents.Hint=Pesquisar Palavras-Chave dentro dos ficheiros transferidos
+miVInternalBrowser.Caption=&Navegador Interno
+miVInternalBrowser.Hint=Janela do navegador interno para rapidamente ver os websites transferidos
+miVOptions.Caption=&Opções...
+miVOptions.Hint=Ver ou definir várias opções do programa
+miDStart.Caption=&Iniciar
+miDStart.Hint=Transferir Projecto ou pasta
+miDStop.Caption=Par&ar
+miDStop.Hint=Parar a transferência do Projecto seleccionado
+miDSuspendFile.Caption=Suspender para &Ficheiro...
+miDSuspendFile.Hint=Guardar a lista de espera de transferências num ficheiro
+miDResumeFile.Caption=Retomar de F&icheiro...
+miDResumeFile.Hint=Restaurar lista de espera de transferências a partir de um ficheiro
+miDSpeed.Caption=Ve&locidade
+miDSpeed.Hint=Velocidade
+miTDatamine.Caption=&Extrair dados...
+miTDatamine.Hint=Processar ficheiros do Projecto transferido com o TextPipe
+miTBrowse.Caption=N&avegar
+miTBrowse.Hint=Navegar no Projecto ou ficheiro seleccionado
+miVBrowseWith.Caption=Na&vegar com
+miHContents.Caption=&Conteúdos
+miHContents.Hint=Ver conteúdos de Ajuda
+miDSuspend.Caption=S&uspender
+miDSuspend.Hint=Concluir a transferência dos ficheiros actuais e suspender temporariamente outros URLs
+miVSchedMan.Caption=Ges&tor de Agenda
+miVSchedMan.Hint=Gerir transferências agendadas
+miVSequencer.Caption=Sequenci&ador
+miVSequencer.Hint=Sequenciador
+miVLanguages.Caption=&Idiomas
+miDSRestart.Caption=&Reiniciar Transferência
+miDSRestart.Hint=Transferir de novo completamente o(s) Projecto(s) seleccionado(s)
+miDSUpdate.Caption=&Actualizar Projecto
+miDSUpdate.Hint=Transferir o(s) Projecto(s) seleccionado(s) para obter ficheiros novos ou modificados
+miDSContinue.Caption=&Transferir ficheiros em falta
+miDSContinue.Hint=Verificar quais as ligações em falta e tentar transferi-las
+miDSPreview.Caption=Mapa do Site
+miDSPreview.Hint=Mapa do Site|Gerar pré-visualização do mapa do site
+miTEdit.Caption=E&ditar
+miTEdit.Hint=Editar
+miEDeleteFiles.Caption=&Apenas ficheiros do Projecto
+miEDeleteFiles.Hint=Eliminar ficheiros transferidos para o Projecto seleccionado
+mpEDeleteProjectOnly.Caption=A&penas Definições do Projecto
+mpEDeleteProjectOnly.Hint=Apenas Definições do Projecto
+miTPublish.Caption=P&ublicar Projecto...
+miTPublish.Hint=Partilhar definições do projecto com outros utilizadores
+miTPublishedProjects.Caption=&Modelos Web
+miTPublishedProjects.Hint=Exibir página web com a lista de Projectos Publicados
+miTTextPipe.Caption=TextP&ipe...
+miTTextPipe.Hint=Executar TextPipe da DataMystic
+miTCustom1.Caption=Menu 1
+miTCustom2.Caption=Menu 2
+miTCustom3.Caption=Menu 3
+tbSOld.Caption=Mostrar Menu Antigo
+tbSOld.Hint=Mudar para o menu e barra de ferramentas de estilo antigo
+tbVRibbon.Caption=Mostrar Menu em Friso
+tbVRibbon.Hint=Mudar para a interface com novo estilo tipo Office 2010
+miFExport5.Caption=&Exportar Ficheiros...
+miFExport5.Hint=Copiar ficheiros do Projecto transferidos para outro directório, Ajuda HTML ou outro formato
+tbHITorrent.Caption=Ficheiro Torrent...
+tbHITorrent.Hint=Criar novo Projecto a partir de Ficheiro BitTorrent
+miFVisualWizard.Caption=Assistente Visual
+miFVisualWizard.Hint=Criar um novo projecto visualmente
+miVLog.Caption=Janela de &Registo
+miVLog.Hint=Mostrar a janela de registo
+miFDelete.Caption=&Eliminar
+miFDProject.Caption=&Projecto
+miFDProject.Hint=Eliminar o Projecto seleccionado
+miFDFolder.Caption=&Pasta
+miFDFolder.Hint=Eliminar a pasta ou directório seleccionado
+miEDelete.Caption=&Directório ou ficheiro
+miEDelete.Hint=Eliminar o directório ou ficheiro seleccionado
+miFDOld.Caption=F&icheiros de Projectos Antigos
+miFDOld.Hint=Remover todos os ficheiros que foram carregados com o Projecto seleccionado
+miFRename.Caption=&Renomear
+miFRename.Hint=Renomear o Projecto ou pasta seleccionada
+miFNProject.Caption=&Projecto...
+miFNProject.Hint=Projecto
+miFNFolder.Caption=&Pasta
+miFNFolder.Hint=Pasta
+miFNTemplate.Caption=&Modelo...
+miFNTemplate.Hint=Modelo
+miFNTemplates.Caption=óóóó Modelos óóóó
+miFNTemplates.Hint=óóóó Modelos óóóó
+miFImport5.Caption=Fa&voritos
+miFImport5.Hint=Criar Projecto a partir de ligação existente nos seus Favoritos/Marcadores
+miFSiteMap.Caption=Fazer um Sitemap para o &Google...
+miFSiteMap.Hint=Fazer um Sitemap para o Google
+tbFProjectSettings.Caption=Defi&nições do Projecto
+Toolbars1.Caption=&Barras de Ferramentas
+miVTToolbar.Caption=&Botões Padrão
+miVTToolbar.Hint=Barra de ferramentas padrão que permite executar rapidamente algumas tarefas comuns
+miVTAddressBar.Caption=&Barra de Endereço
+miVTAddressBar.Hint=Barra de endereço que pode ser usada para transferir rapidamente qualquer website, usando as Propriedades de Projecto padrão
+miVTTextLabels.Caption=&Etiquetas de Texto
+miVStatusBar.Caption=&Barra de Estado
+miVStatusBar.Hint=Barra de estado
+miVExplorerBar.Caption=&Barra do Explorador
+miVProjects.Caption=&Projectos
+miVProjects.Hint=Árvore de projectos
+miVMap.Caption=&Mapa
+miVMap.Hint=Mapa dos ficheiros transferidos
+miVQueue.Caption=&Lista de Espera
+miVQueue.Hint=Gestor da lista de espera das transferência
+miVMessages.Caption=&Mensagens
+miVMPanel.Caption=&Painel
+miVMPanel.Hint=Mostrar estado das transferências actuais
+miVTCustomize.Caption=&Personalizar...
+miVTCustomize.Hint=Personalizar barra de ferramentas
+miVTFlatToolbar.Caption=&Estilo Plano
+miVTFlatToolbar.Hint=Estilo plano
+miVIcons.Caption=Ícones do &Projecto
+miVStyle.Caption=&Esquema de Cores
+miVStyle.Hint=Alterar cor da interface de utilizador
+miVSBlue.Caption=&Azul
+miVSBlue.Hint=Azul
+miVSSilver.Caption=&Prateado
+miVSSilver.Hint=Prateado
+miVSBlack.Caption=Pr&eto
+miVSBlack.Hint=Preto
+miSMPanel.Caption=&Progresso da Transferência
+miSMPanel.Hint=Mostrar estado da transferência actual
+miVLevels.Caption=&Níveis
+miVLevels.Hint=Níveis
+tbVSBTAll.Caption=&Transferências BitTorrent
+tbVSBTAll.Hint=Transferências BitTorrent
+miVSCaramel.Caption=&Caramelo
+miVSCaramel.Hint=Caramelo
+miVSCoffee.Caption=C&afé
+miVSCoffee.Hint=Café
+miVSPink.Caption=&Cor-de-rosa
+miVSPink.Hint=Cor-de-rosa
+miVSGreen.Caption=&Verde
+miVSGreen.Hint=Verde
+miVSSeven.Caption=Windows 7
+miVSSeven.Hint=Windows 7
+tbVRecentDownloads.Caption=Transferências Recentes
+miESelectAll.Caption=&Seleccionar Tudo
+miESelectAll.Hint=Seleccionar Tudo
+mpTCopyURL.Caption=Copiar &URL
+mpTCopyURL.Hint=Copiar URL
+miDStartAll.Caption=Iniciar T&odas
+miDStartAll.Hint=Iniciar transferência de todos os Projectos
+miDStopAll.Caption=Parar &Todas
+miDStopAll.Hint=Parar transferência de todos os Projectos
+mpTSuspendNoDownload.Caption=Não existem transferências activas
+mpTSuspendNoDownload.Hint=Não existem transferências activas
+tbDStart.Caption=Iniciar
+tbDStart.Hint=Iniciar transferência com as definições padrão de verificação de modificação de ficheiro
+miDRSRestart.Caption=&Reiniciar Transferência
+miDRSRestart.Hint=Transferir de novo completamente o(s) Projecto(s) seleccionado(s)
+miDRSUpdate.Caption=&Actualizar Projecto
+miDRSUpdate.Hint=Transferir o(s) Projecto(s) seleccionado(s) para obter ficheiros novos ou modificados
+miDRSContinue.Caption=&Transferir ficheiros em falta
+miDRSContinue.Hint=Verificar quais as ligações em falta e tentar transferi-las
+miDRSCheckLinks.Caption=Verificar ligações do site
+miDRSCheckLinks.Hint=Transferir o projecto e fazer um relatório detalhado sobre as ligações e erros do site
+tbEDOpen2.Caption=Abrir
+tbEDOpen2.Hint=Abrir|Abrir ficheiro para editar
+tbEDSave2.Caption=Guardar
+tbEDSave2.Hint=Guardar|Guardar alterações ao ficheiro
+tbEDCut2.Caption=Cortar
+tbEDCut2.Hint=Cortar|Cortar o texto seleccionado para a área de transferência
+tbEDCopy2.Caption=Copiar
+tbEDCopy2.Hint=Copiar|Copiar o texto seleccionado para a área de transferência
+tbEDPaste2.Caption=Colar
+tbEDPaste2.Hint=Colar|Colar a partir da área de transferência
+tbEDUndo2.Caption=Anular
+tbEDUndo2.Hint=Anular|Anular alterações
+tbEDFind2.Caption=Localizar
+tbEDFind2.Hint=Localizar|Localizar texto
+miTHTMLImp.Caption=&Importar de HTML...
+miTBackupRestore.Caption=&Fazer Cópia de Segurança/Restaurar
+miTBackupProjects.Caption=&Fazer Cópia de Segurança...
+miTBackupProjects.Hint=Guardar as definições do Projecto e ficheiros transferidos num ficheiro comprimido
+miTRestoreProjects.Caption=&Restaurar...
+miTRestoreProjects.Hint=Restaurar definições do Projecto e ficheiros transferidos a partir de um ficheiro comprimido
+miTSequencer.Caption=&Sequenciador
+miTSResume.Caption=&Suspendido
+miTSHighlight.Caption=&Destacar o Projecto seguinte
+miTSReset.Caption=R&epor para o primeiro Projecto
+miVEditIn.Caption=&Editar em
+miVViewIn.Caption=&Ver em
+miTHangupExit.Caption=Des&ligar &e Encerrar
+miTHangupExit.Hint=Desligar a ligação ao modem ou encerrar o computador quando a transferência terminar
+miTHHHangupOnce.Caption=Desligar &uma vez
+miTHHHangupOnce.Hint=Desligar a ligação ao modem uma vez quando a transferência actual terminar
+miTHHHangupAlways.Caption=Desligar &sempre
+miTHHHangupAlways.Hint=Desligar a ligação ao modem sempre que uma transferência terminar
+miTHSShutdownOnce.Caption=Encerrar &uma vez
+miTHSShutdownOnce.Hint=Encerrar o computador uma vez quando a transferência actual terminar
+miTHSShutdownAlways.Caption=Encerrar &sempre
+miTHSShutdownAlways.Hint=Encerrar o computador sempre que uma transferência terminar
+miTRemember.Caption=&Lembrar página
+miTRemember.Hint=Lembrar página
+miTTAdjust.Caption=&Configurar Ferramentas...
+miTTAdjust.Hint=Abrir o diálogo de Opções para adicionar/remover ferramentas
+miTRestoreMap.Caption=Restaurar &Mapa do Projecto
+miTRestoreMap.Hint=Processar ficheiros transferidos para restaurar Mapa do Projecto
+tbHDTools.Caption=Ferramentas
+tbTTCreate.Caption=Novo Modelo...
+tbTTCreate.Hint=Criar novo Modelo
+tbTDeletedProjects.Caption=Projectos Eliminados
+tbTDeletedProjects.Hint=Exibir lista de projectos eliminados com possibilidade de restauro
+miHRegister.Caption=&Comprar Agora!
+miHRegister.Hint=Registar programa online
+miHWebSite.Caption=&Website
+miHWebSite.Hint=Abrir a nossa Página Inicial
+miHTips.Caption=&Mostrar Sugestões...
+miHTips.Hint=Ver sugestões úteis
+miHCheck.Caption=Procurar &Nova Versão
+miHCheck.Hint=Procurar Nova Versão
+About1.Caption=&Acerca do Offline Explorer...
+About1.Hint=Acerca do programa
+miHForum.Caption=&Fóruns de Utilizadores
+miHForum.Hint=Encontre respostas para a sua pergunta ou discuta outras sugestões nos Fóruns de Utilizadores da MetaProducts
+miHRegister1.Caption=&Registar...
+miHRegister1.Hint=Introduza o código de registo para desbloquear todas as funcionalidades do programa
+miHNewFeature.Caption=Pedir Nova &Funcionalidade
+miHNewFeature.Hint=Pedir Nova Funcionalidade
+tbHLicense.Caption=Contrat&o de Licença...
+tbHLicense.Hint=Ler texto do Contrato de Licença
+tbHRelease.Caption=Notas de &Lançamento...
+tbHRelease.Hint=Ler Notas de Lançamento e lista de alterações
+tbHReportProblem.Caption=Reportar um Prob&lema
+tbHReportProblem.Hint=Submeter problema no site da empresa
+btnExpandIB2.Caption=Maximizar/Restaurar
+btnExpandIB2.Hint=Maximizar o Navegador Interno para ecrã inteiro
+tbWBBack2.Caption=Retroceder
+tbWBBack2.Hint=Retroceder
+tbWBForw2.Caption=Avançar
+tbWBForw2.Hint=Avançar
+tbWBStop2.Caption=Parar
+tbWBStop2.Hint=Parar
+tbWBRefr2.Caption=Actualizar
+tbWBRefr2.Hint=Actualizar
+tbWBPrint2.Caption=Imprimir
+tbWBPrint2.Hint=Imprimir|Imprimir a página actual do Navegador Interno
+tbWBHome2.Caption=Página Inicial
+tbWBHome2.Hint=Ir para Página Inicial|Ver Projectos e estatísticas no navegador
+tbWBCatchURL2.Caption=Adicionar a próxima ligação clicada
+tbWBCatchURL2.Hint=Adicionar a próxima ligação clicada como um Projecto|Próximo clique num URL ou botão de formulário será gravado como um Projecto para transferir a qualquer momento.
+tbWBAutoSave2.Caption=Guardar Automaticamente
+tbWBAutoSave2.Hint=Guardar Automaticamente|Transferir e adicionar automaticamente ao Projecto todas as páginas e ficheiros
+edtWBURL2.Caption=Endereço:
+edtWBURL2.Hint=Endereço para navegar no navegador interno
+tbWBSettings2.Hint=Definições|Definições do Navegador Interno|Alterar tamanho do tipo de letra da página actual do Navegador Interno ou activar/desactivar imagens
+edtWBURL.Hint=Endereço para navegar no navegador interno
+miFile.Caption=&Ficheiro
+miEdit.Caption=&Editar
+miView.Caption=&Ver
+miDownload.Caption=&Transferir
+miPlugins.Caption=&Ferramentas
+miHelp.Caption=&Ajuda
+mpDownload2.Caption=Trans&ferir
+miDSHigh.Caption=&Elevado
+miDSHigh.Hint=Elevado
+miDSMedium.Caption=&Médio
+miDSMedium.Hint=Médio
+miDSLow.Caption=&Baixo
+miDSLow.Hint=Baixo
+miDSBackground.Caption=&Fundo
+miDSBackground.Hint=Fundo
+mpSuspendToFile.Caption=S&uspender Projecto para ficheiro...
+mpSuspendToFile.Hint=Suspender Projecto para ficheiro
+mpTBrowseNewTab.Caption=N&avegar num novo separador
+mpTBrowseNewTab.Hint=Navegar num novo separador
+mpTMarkRead.Caption=Mar&car como lido
+mpTMarkRead.Hint=Marcar como lido
+mpTMarkUnRead.Caption=Mar&car como não lido
+mpTMarkUnRead.Hint=Marcar como não lido
+mpTTemplates.Caption=Apli&car Modelo...
+mpTTemplates.Hint=Aplicar Modelo
+mpTDescription.Caption=Des&crição...
+mpTDescription.Hint=Descrição
+mpTStatistics.Caption=Estatí&sticas...
+mpTStatistics.Hint=Estatísticas
+mpTProtect.Caption=Pr&oteger...
+mpTProtect.Hint=Proteger
+mpTDisable.Caption=Imp&edir carregamento
+mpTDisable.Hint=Impedir carregamento
+mpTSingleClickMap.Caption=Navegação com &clique único
+mpTSingleClickMap.Hint=Navegação com clique único
+mpTCloseFolders.Caption=Fechar &pastas não utilizadas
+mpTCloseFolders.Hint=Fechar pastas não utilizadas
+mpTSelectFiles.Caption=Seleccionar F&icheiros...
+mpTSelectFiles.Hint=Seleccionar Ficheiros
+mpTSort.Caption=&Ordenar
+mpTSName.Caption=Por &nome
+mpTSName.Hint=Por nome
+mpTSTime.Caption=Por &hora da transferência
+mpTSTime.Hint=Por hora da transferência
+mpTSURL.Caption=Por &URL
+mpTSURL.Hint=Por URL
+mpTSFolders.Caption=Pas&tas de nível superior por nome
+mpTSFolders.Hint=Pastas de nível superior por nome
+mpTRefresh.Caption=Actualiza&r
+mpTRefresh.Hint=Actualizar
+miVView.Caption=&Ver
+mpTDeleteProjectOnly.Caption=A&penas Definições do Projecto
+mpTDeleteProjectOnly.Hint=Apenas Definições do Projecto
+mpAddToSeq.Caption=Adicionar ao Se&quenciador
+mpAddToSeq.Hint=Adicionar Projectos ao Sequenciador
+mpPColor.Caption=&Cor
+mpPColor.Hint=Cor
+tbProjectState.Caption=E&stado do Projecto
+tbPSStopped.Caption=&Parado
+tbPSStopped.Hint=Parado
+tbPSNormal.Caption=&Normal
+tbPSNormal.Hint=Normal
+pmiCancel.Caption=&Abortar
+pmiCancel.Hint=Cancelar transferência do ficheiro seleccionado
+pmiRestart.Caption=&Reiniciar
+pmiRestart.Hint=Parar e começar de início a transferência do ficheiro seleccionado
+pmiFinalize.Caption=&Finalizar
+pmiFinalize.Hint=Guardar fragmento da sequência multimédia transferida
+pmiPlay.Caption=Rep&roduzir
+pmiPlay.Hint=Reproduzir
+pmiCopy.Caption=Copiar &URL
+pmiCopy.Hint=Copiar URL do ficheiro seleccionado
+pmiReferer.Caption=Copiar URL do R&eferenciador
+pmiReferer.Hint=Copiar referenciador do ficheiro seleccionado
+pmiSelectProject.Caption=Seleccionar &Projecto
+pmiSelectProject.Hint=Destacar o Projecto que carrega o ficheiro seleccionado
+pmiConnsHighlight.Caption=&Destacar Ligações Activas
+tbsDP.Caption=Progresso das Transferências
+tbsDP.Hint=Progresso das Transferências
+pmiDown.Caption=Mostrar/Esconder Painel de Ligações
+pmiDown.Hint=Abrir/Fechar Painel de Ligações (Ctrl+P)
+pmiConnectionsCnt.Caption=&Ligações
+pmiConnectionsCnt.Hint=Alterar número de ligações
+pmiMassDown.Caption=&Carregar com o Mass Downloader
+pmiMassDown.Hint=Carregar com o Mass Downloader
+pmiDownloadedC.Caption=Transferido
+pmiDownloadedC.Hint=Transferido
+pmiQueueC.Caption=Lista de Espera
+pmiQueueC.Hint=Lista de Espera
+pmiSizeC.Caption=Tamanho
+pmiSizeC.Hint=Tamanho
+tbSchedMan.Caption=Gestor da Agenda
+tbSchedMan.Hint=Mostra os Projectos agendados - arraste um Projecto na linha cronológica para o agendar
+tbDPProgress.Caption=Progresso das Transferências
+tbDPProgress.Hint=Mostrar os ficheiros que estão a ser transferidos
+mpFSFontSize2.Caption=&Tamanho do tipo de letra
+mpFSLargest2.Caption=Mai&or
+mpFSLarger2.Caption=&Grande
+mpFSMedium2.Caption=&Médio
+mpFSSmaller2.Caption=&Pequeno
+mpFSSmallest2.Caption=Mais Pe&queno
+mpFSShowImages2.Caption=&Mostrar imagens
+mpFSShowImages2.Hint=Activar ou desactivar imagens no navegador interno
+mpFSBrowseOnline2.Caption=Navegar O&nline no URL actual
+mpFSBrowseOnline2.Hint=Navegar Online no URL actual
+mpFSBrowseOffline2.Caption=Navegar &Offline no URL actual
+mpFSBrowseOffline2.Hint=Navegar Offline no URL actual
+mpFSBrowsingProject2.Caption=Seleccionar o &Projecto em que está a navegar
+mpFSViewSource2.Caption=&Ver página de origem
+mpFSAddSelLinks.Caption=Adicionar ligações seleccionadas ao Projecto a&ctual
+mpFSAddSelLinks.Hint=Adicionar ligações seleccionadas ao Projecto actual
+mpFSShowSearch.Caption=Mostrar campo de pesqu&isa
+mpFSShowSearch.Hint=Mostrar campo de pesquisa
+mpFSBrowserPopups.Caption=Pop-ups do Navegador
+mpFSPNewTab.Caption=Abrir num Novo &Separador
+mpFSPNewTab.Hint=Abrir num Novo Separador
+mpFSPSameTab.Caption=Abrir no &Mesmo Separador
+mpFSPSameTab.Hint=Abrir no Mesmo Separador
+mpFSPNewWin.Caption=Abrir numa &Janela Pop-up
+mpFSPNewWin.Hint=Abrir numa Janela Pop-up
+pmLCaption.Caption=Registo de Mensagens
+pmLCaption.Hint=Registo de Mensagens
+pmLLogMessages.Caption=Iniciar &Registo
+pmLLogMessages.Hint=Iniciar Registo
+pmLClear.Caption=&Limpar
+pmLClear.Hint=Limpar
+pmLTrack.Caption=&Monitorizar Registo
+pmLTrack.Hint=Monitorizar Registo
+pmLCopy.Caption=Co&piar para a Área de Transferência
+pmLCopy.Hint=Copiar para a Área de Transferência
+pmLSave.Caption=&Guardar Registo num Ficheiro
+pmLSave.Hint=Guardar Registo num Ficheiro
+pmLFind.Caption=&Localizar
+pmLFind.Hint=Localizar
+pmLClose.Caption=Fe&char Registo
+pmLClose.Hint=Fechar Registo
+pmLFilter.Caption=Fil&trar
+pmLFilter.Hint=Filtrar Mensagens
+pmLFConnect.Caption=&Estado Ligado
+pmLFConnect.Hint=Estado Ligado
+pmLFDownload.Caption=&Progresso das Transferências
+pmLFDownload.Hint=Progresso das Transferências
+pmLFDisconnect.Caption=E&stado Desligado
+pmLFDisconnect.Hint=Estado Desligado
+pmLFDetails.Caption=Detal&hes
+pmLFDetails.Hint=Detalhes
+pmLFQueue.Caption=&Mensagens da lista de espera
+pmLFQueue.Hint=Mensagens da lista de espera
+pmLFRejectedURLs.Caption=&URLs Rejeitados
+pmLFRejectedURLs.Hint=URLs Rejeitados
+pmLFInternalWebSrv.Caption=Pedidos para o servidor &web interno
+pmLFInternalWebSrv.Hint=Pedidos para o servidor web interno
+pmLFCheckAll.Caption=M&arcar Tudo
+pmLFCheckAll.Hint=Marcar tudo
+pmLFUnCheckAll.Caption=&Desmarcar Tudo
+pmLFUnCheckAll.Hint=Desmarcar tudo
+pmLFLimit.Caption=Limi&te de Registo
+miLFL5000.Caption=5.000 linhas
+miLFL5000.Hint=5.000 linhas
+miLFL50000.Caption=50.000 linhas
+miLFL50000.Hint=50.000 linhas
+miLFL500000.Caption=500.000 linhas
+miLFL500000.Hint=500.000 linhas
+miLCopyURL.Caption=Copiar &URL
+miLCopyURL.Hint=Copiar URL da linha de registo seleccionada
+dxcSSelect.0=Agenda diária
+dxcSSelect.1=Agenda semanal
+dxcSSelect.2=Agenda mensal
+dxcSSelect.3=Agenda anual
+dxbSScheduler.Caption=Agendador
+dxbSScheduler.Hint=Agendador
+dxbSSequencer.Caption=Sequenciador
+dxbSSequencer.Hint=Sequenciador
+dxbSSeqRun.Caption=Iniciar Sequenciador agora
+dxbSSeqRun.Hint=Iniciar Sequenciador agora
+dxbSSeqStartAt.Caption=Iniciar Sequenciador em...
+dxbSSeqStartAt.Hint=Iniciar Sequenciador em...
+dxbSeqLoop.Caption=Repetir a Sequência
+dxbSeqLoop.Hint=Repetir a Sequência
+dxbSClose.Caption=&Fechar
+dxbSClose.Hint=Fechar Gestor da Agenda
+dxbSeqRemove.Caption=&Remover Projectos transferidos da sequência
+dxbSeqRemove.Hint=Remover Projectos transferidos da sequência
+miSSelect.Caption=Seleccionar &Projecto
+miSSkip.Caption=&Definir sequenciador para este Projecto
+miSRemove.Caption=&Remover
+miSRemoveAll.Caption=Remover &tudo
+miSLoad.Caption=&Carregar Sequência...
+miSLoad.Hint=Carregar Sequência...
+miSSave.Caption=Gu&ardar Sequência...
+miSSave.Hint=Guardar Sequência...
+miDEW5.Caption=Extrair célula da tabela
+miDEW5.Hint=Extrair célula da tabela
+tbIB2DEW.Caption=Extracção de Dados
+edtIB2Search.Caption=Pesquisar no Google:
+edtIB2Search.Hint=Pesquisar no Google:
+tbIBWStart.Caption=Iniciar Gravação
+tbIBWStart.Hint=Iniciar a gravação das suas acções para seleccionar as áreas do site para transferência
+tbIBWStop.Caption=Cancelar Gravação
+tbIBWStop.Hint=Cancelar Gravação
+tbIBVWizard.Caption=Assistente Visual:
+tbIBVWizard.Hint=Criar um novo projecto visualmente
+tbIBWDone.Caption=Concluído
+tbIBWDone.Hint=Terminar selecção visual e criar um novo projecto
+mpQAbort.Caption=&Abortar
+mpQAbort.Hint=Abortar transferência do(s) URL(s) actual(is)
+mpQAbortDisable.Caption=Abortar &e &Desactivar
+mpQAbortDisable.Hint=Abortar a transferência do(s) URL(s) actual(is) e desactivá-los nas definições do Projecto
+mpQACurrentURL.Caption=O(s) &URL(s) Actual(is)
+mpQACurrentURL.Hint=Excluir da transferência o URL actual
+mpQAFolder.Hint=Desactivar todas as ligações que estão na pasta actual
+mpQAFolder1.Hint=Desactivar todas as ligações que estão na pasta
+mpQAFolder2.Hint=Desactivar todas as ligações que estão na pasta
+mpQAServer.Hint=Desactivar todas as ligações que estão no servidor actual
+mpQCopyURL.Caption=Copiar &URL
+mpQCopyReferer.Caption=Copiar &Referenciador
+mpQSelectProject.Caption=Seleccionar Pr&ojecto
+mpQSelectConnection.Caption=Seleccionar &Ligação
+mpQSaveList.Caption=&Guardar num ficheiro de texto...
+mpQSaveList.Hint=Guardar num ficheiro de texto
+mpQPause.Caption=&Pausar transferência do Projecto
+mpQConnections.Caption=&Limite de Ligações
+mpQCAll.Caption=&Usar todas as ligações disponíveis
+mpQC1.Caption=&1 Ligação
+mpQC2.Caption=&2 Ligações
+mpQC5.Caption=&5 Ligações
+mpQC10.Caption=1&0 Ligações
+mpQSelectAll.Caption=S&eleccionar Todas
+mpQInvertSelection.Caption=&Inverter Selecção
+mpQSelectMask.Caption=Seleccionar por &máscara...
+mpQMoveToTop.Caption=Mover para o &Topo
+mpQMoveToBottom.Caption=Mover para o &Fundo
+mpQShowReferers.Caption=Mostrar Re&ferenciadores
+mpQColorize.Caption=C&olorir
+mpQCoServer.Caption=Por nome de &servidor
+mpQCoExtension.Caption=Por &tipo de ficheiro
+mpQCoNone.Caption=&Nenhum
+mpQCopyPOST.Caption=Copiar pe&dido de MENSAGEM
+mpQCopyPOST.Hint=Copiar pedido de MENSAGEM
+miPI1.Caption=&Padrão
+miPI1.Hint=Padrão
+miPI2.Caption=&Importante
+miPI2.Hint=Importante
+miPI3.Caption=&Rever
+miPI3.Hint=Rever
+miPI4.Caption=&Não eliminar
+miPI4.Hint=Não eliminar
+miPI5.Caption=R&eferência
+miPI5.Hint=Referência
+miPI6.Caption=&Ao Vivo
+miPI6.Hint=Ao Vivo
+miPI7.Caption=&Novidades
+miPI7.Hint=Novidades
+miPI8.Caption=Favori&to
+miPI8.Hint=Favorito
+miPI9.Caption=&Artigo
+miPI9.Hint=Artigo
+miPI10.Caption=&Empresa
+miPI10.Hint=Empresa
+miPI11.Caption=&Financeiro
+miPI11.Hint=Financeiro
+miPI12.Caption=&Grupo de Utilizador
+miPI12.Hint=Grupo de Utilizador
+miPI13.Caption=Es&pecial
+miPI13.Hint=Especial
+miPI14.Caption=P&artilhado
+miPI14.Hint=Partilhado
+miPI15.Caption=Pri&vado
+miPI15.Hint=Privado
+miPI16.Caption=Pes&soal
+miPI16.Hint=Pessoal
+miPI17.Caption=Pr&ioridade Elevada
+miPI17.Hint=Prioridade Elevada
+miPI18.Caption=Prioridade Bai&xa
+miPI18.Hint=Prioridade Baixa
+miPI19.Caption=&Questionável
+miPI19.Hint=Questionável
+miPC1.Caption=&1 Ligação
+miPC1.Hint=1 Ligação
+miPC2.Caption=&2 Ligações
+miPC2.Hint=2 Ligações
+miPC3.Caption=&3 Ligações
+miPC3.Hint=3 Ligações
+miPC5.Caption=&5 Ligações
+miPC5.Hint=5 Ligações
+miPC10.Caption=1&0 Ligações
+miPC10.Hint=10 Ligações
+miPC20.Caption=20 &Ligações
+miPC20.Hint=20 Ligações
+miPCSetup.Caption=&Configurar...
+miPCSetup.Hint=Configurar
+tbSIDelay.Caption=Atraso entre transferências:
+tbSIDelay.Hint=Atraso entre transferências
+tbSIRetries.Caption=Número de tentativas:
+tbSIRetries.Hint=Número de tentativas
+tbSICookies.Caption=Usar cookies do MS Internet Explorer
+tbSICookies.Hint=Usar cookies do MS Internet Explorer
+tbSIUAgent.Caption=Identificar como:
+tbSIUAgent.Hint=Identificar como
+tbSIConns.Caption=Número de ligações:
+tbSIConns.Hint=Número de ligações
+tbSITimeout.Caption=Tempo Limite (segundos):
+tbSITimeout.Hint=Tempo Limite (segundos)
+tbIOGZIP.Caption=Aumentar velocidade usando codificação GZIP
+tbIOGZIP.Hint=Aumentar velocidade usando codificação GZIP
+tbIONTLM.Caption=Usar método de ligação alternativo
+tbIONTLM.Hint=Usar método de ligação alternativo
+tbIOPASV.Caption=Modo PASV para transferências por FTP
+tbIOPASV.Hint=Modo PASV para transferências por FTP
+tbISDialup.Caption=Acesso telefónico...
+tbISDialup.Hint=Acesso telefónico
+tbISSpeedCust.Caption=&Personalizar...
+tbISSpeedCust.Hint=Personalizar
+tbISHSCust.Caption=&Personalizar...
+tbISHSCust.Hint=Personalizar
+tbIPProxy.Caption=Proxy...
+tbIPProxy.Hint=Proxy
+tbAFiles.Caption=Ficheiros...
+tbAFiles.Hint=Localizações dos ficheiros
+tbAIntegration.Caption=Integração...
+tbAIntegration.Hint=Integração
+tbAConfirm.Caption=Confirmações...
+tbAConfirm.Hint=Confirmações
+tbACompletion.Caption=Notificação de Transferência...
+tbACompletion.Hint=Notificação de Transferência
+tbAVersions.Caption=Novas Versões...
+tbAVersions.Hint=Novas Versões
+tbAMap.Caption=Mapa...
+tbAMap.Hint=Definições do separador Mapa
+tbAAppearance.Caption=Aparência...
+tbAAppearance.Hint=Definições do interface de utilizador
+tbAOptimizeIndex.Caption=&Optimizar Índice de Pesquisa
+tbAOptimizeIndex.Hint=Executa um programa especial que reindexa a base de dados de pesquisa. Esta aplicação corre silenciosamente e pára automaticamente quando a reindexação estiver concluída.
+tbAdministration.Caption=Administração...
+tbAdministration.Hint=Proteger por palavra-passe determinadas funcionalidades
+tbPFFText.Caption=Texto
+tbPFFText.Hint=Texto
+tbPFFImages.Caption=Imagens
+tbPFFImages.Hint=Imagens
+tbPFFVideo.Caption=Vídeo
+tbPFFVideo.Hint=Vídeo
+tbPFFAudio.Caption=Áudio
+tbPFFAudio.Hint=Áudio
+tbPFFArchive.Caption=Arquivo
+tbPFFArchive.Hint=Arquivo
+tbPFFUDef.Caption=Definida pelo Utilizador
+tbPFFUDef.Hint=Definida pelo Utilizador
+tbPFFOther.Caption=Outra
+tbPFFOther.Hint=Outra
+tbPFFLocation.Caption=&Localização
+tbPFFLUF.Caption=Carregar usando definições dos filtros do &URL
+tbPFFLUF.Hint=Carregar usando definições dos filtros do URL
+tbPFFLServer.Caption=Carregar apenas a partir do servidor inicial
+tbPFFLServer.Hint=Carregar apenas a partir do servidor inicial
+tbPFFLDir.Caption=Carregar apenas a partir do directório inicial
+tbPFFLDir.Hint=Carregar apenas a partir do directório inicial
+tbPFFLAny.Caption=Carregar a partir de qualquer site
+tbPFFLAny.Hint=Carregar a partir de qualquer site
+tbPFFLDomain.Caption=Carregar apenas a partir do domínio inicial
+tbPFFLDomain.Hint=Carregar apenas a partir do domínio inicial
+tbPFFCustomize.Caption=&Personalizar...
+tbPFFCustomize.Hint=Personalizar
+tbPUFProtocol.Caption=Protocolo...
+tbPUFProtocol.Hint=Protocolo
+tbPUFServer.Caption=Servidor...
+tbPUFServer.Hint=Servidor
+tbPUFDir.Caption=Directório...
+tbPUFDir.Hint=Directório
+tbPUFFile.Caption=Nome de Ficheiro...
+tbPUFFile.Hint=Nome de Ficheiro
+tbPASchedule.Caption=Agenda...
+tbPASchedule.Hint=Agenda
+tbPAPassword.Caption=Palavra-passe...
+tbPAPassword.Hint=Palavra-passe
+tbPACopies.Caption=Cópias do Ficheiro...
+tbPACopies.Hint=Cópias do Ficheiro
+tbPALinks.Caption=Tradução das Ligações
+tbPALOffline.Caption=O&ffline
+tbPALOffline.Hint=Offline
+tbPALOnline.Caption=O&nline
+tbPALOnline.Hint=Online
+tbPALNo.Caption=S&em tradução
+tbPALNo.Hint=Sem tradução
+tbPAContent.Caption=Filtros de Conteúdo...
+tbPAContent.Hint=Filtros de Conteúdo
+tbPALimits.Caption=Limites...
+tbPALimits.Hint=Limitar transferência por tamanho, ficheiros ou tempo
+tbPAParsing.Caption=Análise...
+tbPAParsing.Hint=Opções de análise
+tbHNewProject.Caption=Novo Projecto...
+tbHNewProject.Hint=Criar novo Projecto para transferir websites
+tbHNewFolder.Caption=Nova Pasta
+tbHNewFolder.Hint=Criar nova Pasta para agrupar Projectos
+tbHPrjTemplate.Caption=Projecto a partir de Modelo
+tbHIProjectSettings.Caption=Definições do Projecto
+tbHEProjectSettings.Caption=Definições do Projecto
+tbHITextFile.Caption=Carregar a partir de Ficheiro de &Texto...
+tbHITextFile.Hint=Carregar definições do Projecto a partir de um ficheiro de texto
+tbHETextFile.Caption=Guardar para Ficheiro de &Texto...
+tbHETextFile.Hint=Guardar definições do Projecto num ficheiro de texto
+tbHCMyTemplates.Caption=Os &Meus Modelos
+tbHCMyTemplates.Hint=Modelos (Projectos pré-definidos) para criar um novo Projecto. Usar o separador Ferramentas para editar a lista de Modelos.
+tbHEBurn.Caption=Gravar Ficheiros do Projecto
+tbHEBurn.Hint=Exportar ficheiros transferidos para um CD/DVD.
+tbClose.Caption=Fechar
+tbClose.Hint=Fechar
+miDDCreate.Caption=&Criar um novo Projecto
+miDDCreate.Hint=Adicionar ligação como um novo Projecto
+miDDAdd.Caption=&Adicionar ligação ao Projecto seleccionado
+miDDAdd.Hint=Adicionar ligação ao Projecto seleccionado
+miDDAddUS.Caption=Adicionar ligação (aplicar Substitutos do &URL)
+mpWBTClose.Caption=&Fechar
+mpWBTCloseAll.Caption=Fechar &Tudo
+mpWBTNewWindow.Caption=Nova Janela do &Navegador
+mpWBTNewEditWindow.Caption=Nova Janela de &Edição
+mpWBTFixedWidth.Caption=Largura do Título da Página &Fixa
+mpWBTMultiLineTabs.Caption=&Separadores de Várias Linhas
+mpWBBrowserPopups.Caption=&Pop-ups do Navegador
+mpWBNewTab.Caption=Abrir num Novo &Separador
+mpWBSameTab.Caption=Abrir no &Mesmo Separador
+mpWBPopup.Caption=Abrir numa &Janela Pop-up
+odEDLoad.Filter=Todos os ficheiros|*.*
+MenuItem1.Caption=&Anular
+MenuItem4.Caption=Co&rtar
+MenuItem5.Caption=&Copiar
+MenuItem6.Caption=C&olar
+MenuItem7.Caption=&Eliminar
+MenuItem9.Caption=Se&leccionar Tudo
+MenuItem10.Caption=&Moldagem do texto
+odEDSave.Filter=Todos os ficheiros|*.*
+odSeqLoad.Filter=Sequência do Offline Explorer|*.soe|Todos os ficheiros|*.*
+odSeqSave.Filter=Sequência do Offline Explorer|*.soe|Todos os ficheiros|*.*
+sdLog.Caption=Guardar Registo de Mensagens
+sdLog.Filter=Ficheiros de registo|*.log|Todos os ficheiros|*.*
+sdQueue.Filter=Ficheiros de texto|*.txt|Todos os ficheiros|*.*
+odTorrent.Caption=Abrir ficheiro BitTorrent
+odTorrent.Filter=Ficheiros BitTorrent|*.torrent|Todos os ficheiros|*.*
+odText.Caption=Carregar Projecto a partir de ficheiro de texto
+odText.Filter=Ficheiros de texto|*.txt|Todos os ficheiros|*.*
+sdText.Caption=Guardar Projecto num ficheiro de texto
+sdText.Filter=Ficheiros de texto|*.txt|Todos os ficheiros|*.*
+pgQueue.Caption=Lista de Espera
+
+[dlgDXImages]
+
+
+[dlgFM]
+Caption=dlgFM
+
+lblLevel2.Caption=Nível:
+lblLevel.Caption=Nível:
+btnPlus.Hint=Maximizar/minimizar a janela do Offline Explorer
+btnX.Hint=Fechar o Offline Explorer
+btnDownload.Caption=Transferir
+btnDownload.Hint=Clicar para transferir a página actual para visualização offline posterior
+btnHomeList.Caption=LISTA WEB
+btnHomeList.Hint=Lista dos websites transferidos
+btnHomeWizard.Caption=ASSISTENTE
+btnHomeWizard.Hint=Criar novo projecto
+btnHomeOptions.Caption=OPÇÕES
+btnHomeOptions.Hint=Preferências do programa
+btnHomeAbout.Caption=ACERCA
+btnHomeAbout.Hint=Acerca do Lexar Offline Browser
+btnHomeTools.Caption=FERRAMENTAS
+btnHomeTools.Hint=Gestão de memória e outras ferramentas
+btnHomeHelp.Caption=AJUDA
+btnHomeHelp.Hint=Manual do programa e opções de actualização
+spSkinShadowLabel21.Caption=LISTA WEB
+btnLBrowse.Caption=Navegar
+btnLStart.Caption=Iniciar
+btnLProperties.Caption=Propriedades
+btnLDelete.Caption=Eliminar
+spSkinShadowLabel20.Caption=ACERCA - LEXAR OFFLINE BROWSER
+spSkinShadowLabel1.Caption=O software Lexar Offline Browserô é distribuído exclusivamente pela Lexar Media, Inc. sob licença da MetaProducts Corporation.  A sua utilização deste software está sujeita ao contrato de licença do utilizador final exibido durante a execução inicial e aqui contido. Versões optimizadas do software Offline Explorer estão disponíveis para compra através da MetaProducts Corporation.
+spSkinShadowLabel4.Caption=Para actualizar a Lexar Offline Browser para uma versão avançada, clique simplesmente no ícone AJUDA existente no ecrã principal e depois clique na opção Procurar Actualizações.
+spSkinShadowLabel61.Caption=Direitos de Autor 1997-2011, MetaProducts Corporation.  Todos os Direitos Reservados.  Lexarô, o logótipo Lexar e When Memory Mattersô são marcas comerciais da Lexar Media, Inc. utilizadas sob licença.
+btnLexarSite.Caption=CLICAR PARA VISITAR O WEBSITE DA LEXAR
+btnConfirmOK.Caption=Sim
+spSkinShadowLabel22.Caption=PROPRIEDADES
+btnProp1.Caption=URL e Nível
+btnProp2.Caption=Tipos de Ficheiro
+btnProp3.Caption=Palavra-passe do Site
+btnProp4.Caption=Agendador
+btnProp5.Caption=Restrição do Endereço Web
+spSkinShadowLabel23.Caption=OPÇÕES
+btnOptionsUI.Caption=Interface de Utilizador
+btnOptionsInternet.Caption=Definições da Internet
+Label5.Caption=URL Inicial:
+Label6.Caption=A tarefa de transferência usa o URL como um endereço inicial. Quando essa página é carregada, o Offline Explorer determina todas as ligações existentes na página e carrega-as de acordo com as definições da tarefa.
+Label18.Caption=Exemplos de URL são: http://www.metaproducts.com/ ftp://ftp.microsoft.com/data/
+Label19.Caption=Nome da tarefa:
+Label20.Caption=Pode fornecer o nome que aparecerá na Lista Web em vez do URL.
+Label25.Caption=Nome de Utilizador do Site:
+Label26.Caption=Palavra-passe do Site:
+spSkinShadowLabel24.Caption=ASSISTENTE - PASSO 1 de 3
+btnWizardNext1.Caption=SEGUINTE
+btnWizardBack1.Caption=ANTERIOR
+Label21.Caption=O nível permite-lhe definir rapidamente quantas páginas web devem ser carregadas. Ou seja, é um número de ligações desde a primeiríssima página até à mais recôndita.
+Label22.Caption=Para carregar apenas a primeira página com todas as suas imagens, defina Nível=0. Nível=1 carrega a primeira página e todas as páginas que estão directamente ligadas a ela.
+spSkinShadowLabel25.Caption=ASSISTENTE - PASSO 2 de 3
+cbLevel.Caption=Limite dos níveis:
+btnWizardBack2.Caption=ANTERIOR
+btnWizardNext2.Caption=SEGUINTE
+spSkinShadowLabel2.Caption=Restrição do endereço web:
+spSkinShadowLabel60.Caption=Carrega as páginas web dentro do website seleccionado e páginas web referentes a outros websites
+rbURL.Caption=Carregar apenas dentro do URL inicial:
+rbAny.Caption=Carregar sem restrições
+spSkinShadowLabel26.Caption=ASSISTENTE - PASSO 3 de 3
+spSkinShadowLabel59.Caption=Transferir os tipos de ficheiro seguintes:
+cbImages.Caption=&Gráficos (imagens)
+cbAudio.Caption=&Áudio (som, música)
+cbVideo.Caption=&Vídeo
+cbArchive.Caption=Arquivo (&ZIP, RAR, etc.)
+btnWizardBack3.Caption=ANTERIOR
+btnWizardFinish.Caption=TERMINAR
+cbAllImages.Caption=Carregar &imagens de qualquer endereço
+spSkinShadowLabel27.Caption=FERRAMENTAS - GESTÃO DE MEMÓRIA
+spSkinShadowLabel42.Caption=Capacidade:
+spSkinShadowLabel43.Caption=Espaço utilizado:
+spSkinShadowLabel44.Caption=Espaço livre:
+spSkinShadowLabel45.Caption=DADOS DE WEBSITES GUARDADOS
+spSkinShadowLabel46.Caption=Websites:
+spSkinShadowLabel47.Caption=Total:
+spSkinShadowLabel48.Caption=Páginas web:
+spSkinShadowLabel49.Caption=Imagens:
+spSkinShadowLabel50.Caption=Áudios:
+spSkinShadowLabel51.Caption=Outro:
+spSkinShadowLabel41.Caption=Vídeos:
+btnMMDelete.Caption=ELIMINAR TODOS OS WEBSITES TRANSFERIDOS
+spSkinShadowLabel28.Caption=FERRAMENTAS
+btnToolsMemory.Caption=Gestão de Memória
+spSkinShadowLabel29.Caption=A PROCURAR NOVA VERSÃO
+spSkinShadowLabel30.Caption=PROPRIEDADES - URL E NÍVEL
+Label11.Caption=URL:
+Label12.Caption=Nome:
+Label13.Caption=Nível:
+btnPropApply1.Caption=Aplicar
+spSkinShadowLabel31.Caption=PROPRIEDADES - TIPOS DE FICHEIRO
+lblPFF.Caption=Transferir tipos de ficheiro:
+btnPropApply2.Caption=Aplicar
+cbPFFImages.Caption=&Gráficos (imagens)
+cbPFFAudio.Caption=&Áudio (som, música)
+cbPFFVideo.Caption=&Vídeo
+cbPFFArchive.Caption=Arquivo (&ZIP, RAR, etc.)
+spSkinShadowLabel32.Caption=PROPRIEDADES - PALAVRA-PASSE DO SITE
+spSkinShadowLabel6.Caption=Nome de Utilizador:
+spSkinShadowLabel7.Caption=Palavra-passe:
+btnPropApply3.Caption=Aplicar
+spSkinShadowLabel33.Caption=PROPRIEDADES - AGENDADOR
+Label10.Caption=Intervalos de transferência:
+Label1.Caption=Começar às (hora:minuto):
+Label2.Caption=Dia da semana:
+Label27.Caption=Dia:
+Label28.Caption=Mês:
+btnPropApply4.Caption=Aplicar
+WhenBox.0=Sem Agenda
+WhenBox.1=Diariamente
+WhenBox.2=Semanalmente
+WhenBox.3=Mensalmente
+WhenBox.4=Anualmente
+WhenBox.5=Em cada
+WeekdayBox.0=Domingo
+WeekdayBox.1=Segunda
+WeekdayBox.2=Terça
+WeekdayBox.3=Quarta
+WeekdayBox.4=Quinta
+WeekdayBox.5=Sexta
+WeekdayBox.6=Sábado
+MonthBox.0=Janeiro
+MonthBox.1=Fevereiro
+MonthBox.2=Março
+MonthBox.3=Abril
+MonthBox.4=Maio
+MonthBox.5=Junho
+MonthBox.6=Julho
+MonthBox.7=Agosto
+MonthBox.8=Setembro
+MonthBox.9=Outubro
+MonthBox.10=Novembro
+MonthBox.11=Dezembro
+OnceBox.Caption=Apenas uma vez
+spSkinShadowLabel34.Caption=OPÇÕES - INTERFACE DE UTILIZADOR
+spSkinShadowLabel8.Caption=Interface de Utilizador
+spSkinShadowLabel9.Caption=Criação de Nova Tarefa de Transferência
+Label9.Caption=Definição do Nível Predefinido:
+lblOUILanguage.Caption=Idioma:
+btnOptionsApply1.Caption=Aplicar
+cbDrag.Caption=Permitir arrastamento da barra de ferramentas
+cbAlpha.Caption=Janela transparente
+cbBrowseMin.Caption=Navegar offline no website minimiza o programa
+cbAutoRun2.Caption=Auto-executar o programa quando o Windows inicia
+cbOpenWebList.Caption=Abrir o ecrã da LISTA WEB quando começa uma nova transferência
+spSkinShadowLabel35.Caption=OPÇÕES - INTERNET
+spSkinShadowLabel10.Caption=Definições da Internet
+spSkinShadowLabel11.Caption=Número de Ligações:
+spSkinShadowLabel14.Caption=Tempo Limite (segundos):
+spSkinShadowLabel15.Caption=Atraso entre transferências (segundos):
+spSkinShadowLabel16.Caption=Número de tentativas:
+btnOptionsApply2.Caption=Aplicar
+spSkinShadowLabel36.Caption=BEM-VINDO(A)
+spSkinShadowLabel37.Caption=Por favor analise e concorde com o contrato de licença para continuar:
+spSkinShadowLabel38.Caption=Ao clicar no botão Concordo confirmo que li e aceitei os termos do contrato acima.
+spSkinShadowLabel39.Caption=Seleccionar idioma:
+btnWelcomeAgree.Caption=Concordo
+btnWelcomeCancel.Caption=Cancelar
+cbAutoRun.Caption=Auto-executar o programa quando o Windows inicia
+spSkinShadowLabel52.Caption=PROPRIEDADES - RESTRIÇÃO DO ENDEREÇO WEB
+cbPServerDir.Caption=Carregar apenas dentro do URL inicial (servidor e directório)
+cbPAny.Caption=Carregar sem restrições
+cbPImages.Caption=Transferir imagens de qualquer site
+btnPropApply5.Caption=Aplicar
+spSkinShadowLabel53.Caption=ACERCA
+spSkinButton2.Caption=Licença
+spSkinButton3.Caption=Notas de Lançamento
+spSkinButton4.Caption=MetaProducts Corporation
+spSkinShadowLabel54.Caption=ACERCA - LICENÇA
+spSkinShadowLabel55.Caption=ACERCA - NOTAS DE LANÇAMENTO
+spSkinShadowLabel56.Caption=ACERCA - METAPRODUCTS CORPORATION
+spSkinShadowLabel57.Caption=MetaProducts Corporation é uma empresa de desenvolvimento de software especializada em várias tecnologias de transferência de dados. Fundada em 1997 com a missão de projectar, desenvolver e comercializar software para Internet de elevada qualidade, a MetaProducts Corporation é detentora de dezenas de prémios e tornou-se uma líder reconhecida na tecnologia de spidering e transferência de ficheiros - um sucesso baseado no seu compromisso com a elevada qualidade de desenvolvimento, aplicações de classe mundial e incomparável apoio ao cliente.
+spSkinButton7.Caption=CLIQUE PARA VISITAR O WEBSITE DA METAPRODUCTS
+spSkinShadowLabel58.Caption=AJUDA
+spSkinButton5.Caption=Conteúdos
+spSkinButton6.Caption=Procurar Novas Actualizações
+btnToolsUpdates.Caption=Actualizar para Produto Avançado
+btnBack.Hint=Voltar ao ecrã anterior
+btnOptions.Hint=Preferências do programa
+btnHome.Hint=Ir para o menu principal
+imgSI.Hint=Estado das transferências
+lblRunningW.Hint=Transferências activas
+imgRunning.Hint=Estado das transferências
+lblAllDownloads.Hint=Transferências totais na Lista Web
+
+[dlgAbout]
+Caption=Acerca
+
+lblDescr.Caption=O Offline Explorer permite-lhe copiar rapidamente os websites e depois vê-los offline usando um navegador interno ou externo, ou publicá-los no seu servidor web.
+lblSiteInfo.Caption=Para a mais recente informação, visite o nosso website em:
+lblOnDay1.Caption=Para saber mais sobre como registar a sua cópia do Offline Explorer pressione no botão Encomendar.
+lblOnEnd2.Caption=Esperamos que tenha gostado de usar o Offline Explorer.
+lblOnDay2.Caption=Assim que obtiver os detalhes de registo pressione o botão Registar. Isso desbloqueará as funcionalidades da aplicação que apenas estão disponíveis para os utilizadores registados.
+lblOnEnd1.Caption=Atingiu o fim do período de avaliação de 30 dias.
+Label4.Caption=Por favor, sinta-se à vontade para nos escrever se tiver perguntas:
+lblRegistered.Caption=Registado para:
+lblReg.Caption=NÃO REGISTADO
+btnLicense.Caption=&Licença...
+btnClose.Caption=Fechar
+btnReleaseNotes.Caption=&Notas de Lançamento
+btnRegister.Caption=&Registar...
+
+[dlgOptions]
+Caption=Opções
+
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+Label4.Caption=Número de &ligações:
+Label5.Caption=&Tempo Limite (segundos):
+Label16.Caption=&Atraso entre transferências:
+cbRetries.Caption=Limitar número de &tentativas para:
+Label32.Caption=Definições da ligação à internet
+Label30.Caption=Servidor HTTP interno
+Label11.Caption=Identificação do agente
+cbIECookies.Caption=&Usar cookies do Microsoft Internet Explorer
+cbHTTPStart.Caption=Activar na &porta:
+cbOHTTPLocal.Caption=Permitir apenas &acesso local
+rbUA1.Caption=Ide&ntificar como:
+rbUA2.Caption=Usar esta identi&ficação:
+Label53.Caption=bytes/seg
+Label54.Caption=Usar esta definição para alterar a taxa de transferência de dados em quilobytes por segundo para a definição de velocidade seleccionada.
+Label59.Caption=Largura de banda &RTSP máxima:
+Label9.Caption=&Número de ligações predefinidas:
+Label52.Caption=Controlo da velocidade
+Label58.Caption=Largura de banda de sequências RTSP
+cbSetSpeedLimit.Caption=Limitar &velocidade de transferência
+brHigh.Caption=&Elevada
+rbMedium.Caption=&Média
+rbLow.Caption=&Baixa
+rbBackground.Caption=&Fundo
+cbRTSPBandwidth.0=Modem 14.4K
+cbRTSPBandwidth.1=Ligação 19.2K
+cbRTSPBandwidth.2=Modem 28.8K
+cbRTSPBandwidth.3=Modem 33.6K
+cbRTSPBandwidth.4=Modem 56K
+cbRTSPBandwidth.5=Dual ISDN 112K
+cbRTSPBandwidth.6=DSL/Cabo 256Kbps
+cbRTSPBandwidth.7=DSL/Cabo 384Kbps
+cbRTSPBandwidth.8=DSL/Cabo 512Kbps
+cbRTSPBandwidth.9=T1 / LAN
+cbRTSPBandwidth.10=LAN 10Mbps
+cbGZIP.Caption=Aumentar velocidade usando codificação &GZIP
+Label79.Caption=BitTorrent
+Label48.Caption=Acesso telefónico na transferência de sites
+Label14.Caption=&Seleccionar ligação:
+Label18.Caption=&Nome de início de sessão:
+Label19.Caption=&Palavra-passe:
+Label22.Caption=&Repetir ligação interrompida:
+Label23.Caption=vezes
+Label24.Caption=&Intervalo entre tentativas:
+Label25.Caption=segs
+rbDial2.Caption=&Activar marcador interno
+rbDial3.Caption=&Usar marcador externo
+rbDial1.Caption=&Não marcar automaticamente
+Label65.Caption=Linha de &comando para marcar:
+Label66.Caption=Linha de comando para &desligar:
+Label49.Caption=Desconectar
+Label50.Caption=Saída do programa e encerramento do sistema
+cbHangUp.Caption=&Desconectar ligação ao modem quando todas as transferências estiverem concluídas
+cbHangUpAt.Caption=Parar a transferência e d&esconectar em
+cbClose.Caption=&Sair do programa quando todas as transferências estiverem  concluídas
+cbCloseAt.Caption=S&air em
+cbShutdown.Caption=&Encerrar o sistema depois do programa fechar
+cbShutdown2.Caption=Modo de encerramento de &compatibilidade extra (usar apenas quando o método padrão falhar)
+cbHibernate.Caption=&Hibernar o sistema sem sair do programa
+Label76.Caption=Lista de servidores &proxy
+Label77.Caption=Definições da ligação
+lvProxies.0=Tipo
+lvProxies.1=Servidor
+lvProxies.2=Porta
+lvProxies.3=Utilizador
+btnPAdd.Caption=&Adicionar...
+btnPRemove.Caption=&Remover
+btnPLoad.Caption=&Carregar...
+btnPSave.Caption=&Guardar...
+btnPAutoDetect.Caption=&Detectar Automaticamente
+cbNTLM.Caption=Usar método de ligação alternativo (para autenticação NTL&M, etc.)
+cbPASV.Caption=Modo PAS&V para transferências por FTP
+btnPEdit.Caption=&Editar...
+Label20.Caption=&Legenda:
+Label21.Caption=&Ficheiro:
+Label57.Caption=&Tecla de Atalho:
+lblTools.Caption=Na visualização de um website, exibe uma opção de escolha entre uma destas ferramentas
+Label43.Caption=Janela de ferramentas
+btnADetect.Caption=&Detectar Automaticamente
+btnOBrAdd.Caption=<<       &Adicionar
+btnOBrRemove.Caption=>> &Remover
+cbShowMode.0=Normal
+cbShowMode.1=Maximizada
+cbShowMode.2=Minimizada
+Label1.Caption=&Esconder janela principal quando se usar a chave:
+Label44.Caption=Aparência
+Label45.Caption=Fazer duplo clique num Projecto para
+cbTray.Caption=Correr no &tabuleiro do sistema
+cbASplash.Caption=Exibir e&crã inicial no arranque
+rbODblClick1.Caption=&Ver o Projecto no navegador
+rbODblClick2.Caption=&Abrir as Propriedades do Projecto
+cbXButton.Caption=O botão "X" minimi&za a janela principal
+cbAMinimize.Caption=&Minimizar no início
+cbATrayBalloon.Caption=Mostrar balão do tabuleiro quando a transferência do projecto estiver completa
+Label13.Caption=Espaço livre no disco rígido:
+Label12.Caption=E&spaço livre no disco rígido:
+Label29.Caption=Clicar no botão Limpar para remover websites e ficheiros não utilizados do seu directório de transferências
+Label73.Caption=Directório &temporário:
+lblAutoSave.Caption=minutos
+lblDDWarning.Caption=Nota: não é recomendado usar um caminho com mais de 60 símbolos.
+Label37.Caption=Directório de transferências
+Label39.Caption=Manutenção
+Label40.Caption=Directório de projectos, modelos e mapas
+btnBrowse.Caption=&Procurar...
+btnClean.Caption=&Limpar...
+btnBrowse1.Caption=Proc&urar...
+cbDirOverload.Caption=Pre&venir sobrecarregamento dos directórios de transferências
+Button1.Caption=&Procurar...
+bxAutoSave.Caption=&Guardar alterações a cada
+Label56.Caption=&URLs que terminem com (lista separada por vírgulas):
+Label74.Caption=Menu de contexto do FireFox e Mozilla:
+Label46.Caption=Sistema
+Label47.Caption=Ao adicionar um URL
+Label55.Caption=Filtro dos URLs da área de transferência
+cbOIClipboard.Caption=Monitorizar &área de transferência
+cbIIECtxMenu.Caption=Usar menu de contexto do MS Internet &Explorer
+cbOIDefaults.Caption=&Usar modelo predefinido
+cbIPFolder.Caption=Colocar Projectos na &pasta:
+cbOIAutoStart.Caption=Iniciar &automaticamente a transferência
+cbICFilter.0=Não aceitar
+cbICFilter.1=Aceitar apenas
+cbIOperaCtxMenu.Caption=Usar menu de contexto do &Opera
+btnFireFox.Caption=In&stalar
+Label51.Caption=Confirmações
+cbACURLMoved.Caption=Quando o URL do Projecto é movido
+cbACDelete.Caption=Ao &eliminar ficheiros
+cbACDelPFiles.Caption=Ao &eliminar ficheiros do &Projecto
+cbACHangup.Caption=Ao &desligar uma ligação
+cbACExit.Caption=Ao &sair do programa
+cbACFolderStart.Caption=Quando uma &pasta está prestes a iniciar a transferência dos seus Projectos
+rbACMAsk.Caption=&Pedir confirmação
+rbACMDownload.Caption=&Iniciar a transferência do novo URL
+rbACMStop.Caption=P&arar a transferência
+cbACExitDownload.Caption=&Apenas quando não existem transferências activas
+cbACRestore.Caption=A&o restaurar Projectos com o mesmo nome
+Label71.Caption=Endereço do servidor SMT&P:
+Label38.Caption=Nota: quando especifica o nome de utilizador e porta do servidor SMTP: utilizador:password@smtp_host:porta
+lblRMore.Caption=ficheiros transferidos novos ou actualizados
+Label70.Caption=Conclusão da transferência
+Label72.Caption=Servidor de correio a enviar (SMTP)
+cbACPReport.Caption=Reportar a conclusão da transferência do Projecto por
+rbACPReport1.Caption=&Som:
+rbACPReport2.Caption=&Email:
+rbACPReport3.Caption=UIN do IC&Q:
+cbACPEDetailed.Caption=Enviar a lista &detalhada de todos os ficheiros novos e actualizados
+cbACPEStats.Caption=Enviar estatísticas da t&ransferência
+cbRMore.Caption=&Quando maior que
+Label75.Caption=Procurar novas versões automaticamente
+cbNVCheck.Caption=&A cada
+btnNVCheck.Caption=&Procurar agora
+Label41.Caption=Mapa
+rbAMap1.Caption=O mapa exibe apenas &websites pertencentes ao Projecto seleccionado
+rbAMap2.Caption=O mapa exibe &todos os websites transferidos
+Label64.Caption=Ordenar ficheiros por:
+rbAMapSort1.Caption=&Nome
+rbAMapSort2.Caption=&Extensão
+lblAPsw1.Caption=Palavra-passe:
+lblAPsw2.Caption=Por favor, &volte a escrever:
+Label8.Caption=Palavras-passe não coincidem
+lblAdmin.Caption=Funcionalidades protegidas por palavra-passe
+cbPPOptions.Caption=Proteger o diálogo de &Opções
+cbPPAdd.Caption=Proteger a &adição de novos Projectos e pastas
+Label2.Caption=Seleccionar uma subcategoria para exibir
+btnHelp.Caption=Ajuda
+OptionsTree.0=Internet
+OptionsTree.1=Ligação
+OptionsTree.2=Velocidade
+OptionsTree.3=Acesso telefónico
+OptionsTree.4=Encerramento
+OptionsTree.5=Servidor Proxy
+OptionsTree.6=Ferramentas
+OptionsTree.7=Navegadores Externos
+OptionsTree.8=Visualizador
+OptionsTree.9=Editores
+OptionsTree.10=Avançadas
+OptionsTree.11=Ficheiros
+OptionsTree.12=Integração
+OptionsTree.13=Confirmações
+OptionsTree.14=Conclusão
+OptionsTree.15=Novas Versões
+OptionsTree.16=Mapa
+OptionsTree.17=Aparência
+OptionsTree.18=Administração
+Button2.Caption=A&plicar
+dlgOBrowse.Caption=Procurar por Ficheiro
+dlgOBrowse.Filter=Ficheiros Executáveis|*.exe;*.com|Todos os ficheiros|*.*
+odCSound.Caption=Abrir ficheiro de som
+odCSound.Filter=Ficheiros wave (*.wav)|*.wav|Todos os ficheiros|*.*
+odProxyList.Filter=Ficheiros de texto|*.txt|Todos os ficheiros|*.*
+sdProxyList.Filter=Ficheiros de texto|*.txt|Todos os ficheiros|*.*
+
+[dlgFolderProp]
+Caption=Propriedade da Pasta
+
+FolderTree.0=Pasta
+btnCancel.Caption=Cancelar
+btnOK.Caption=OK
+Label2.Caption=&Nome da pasta:
+Label3.Caption=Pode atribuir um diferente directório a cada uma das pastas do seu Projecto. Todos os projectos localizados nesta pasta usarão este directório para armazenar websites transferidos.
+Label5.Caption=Se o directório especificado não existir, será criado automaticamente.
+lblDDWarning.Caption=Nota: não é recomendado usar um caminho com mais de 60 símbolos.
+Label32.Caption=Geral
+Label6.Caption=Directório da pasta de transferência
+btnDefaults.Caption=Predefinições da &Pasta
+btnFromTemplate.Caption=&Repor predefinições do modelo
+cbFDD.Caption=&Activar
+btnBrowse.Caption=&Procurar...
+btnApplyFDD.Caption=&Aplicar a todas as subpastas
+btnHelp.Caption=&Ajuda
+
+[dlgDataMine]
+Caption=Extracção de Dados
+
+Label1.Caption=A extracção de dados permite-lhe processar os websites transferidos e extrair informação ou convertê-la de acordo com as regras especificadas.
+Label2.Caption=O processo de extracção de dados é baseado na ferramenta TextPipe da DataMystic Corporation. TextPipe é um workbench para transformação de texto de vários ficheiros.
+Label3.Caption=Lamentamos, não tem o TextPipe instalado no seu computador. Clique no botão abaixo para abrir a página web do TextPipe.
+btnTextPipe.Caption=Website do TextPipe
+Label4.Caption=A extracção de dados permite-lhe processar os websites transferidos e extrair informação ou convertê-la de acordo com as regras especificadas. Isto é feito usando a ferramenta TextPipe da DataMystic.
+Label6.Caption=Filtros do TextPipe
+Label7.Caption=Opções de Execução do TextPipe
+cbTextOnly.Caption=Extrair dados apenas de &Texto e ficheiros HTML
+cbRun.Caption=&Executar o filtro quando o TextPipe carregar
+cbQuit.Caption=&Sair do TextPipe depois de executar o filtro
+rbFilter1.Caption=Executar o TextPipe com um &novo filtro
+rbFilter2.Caption=Usar o ficheiro de &filtro do TextPipe (*.fll) para processar o Projecto seguinte:
+cbPassFiles.Caption=&Passar os ficheiros do Projecto transferido para o TextPipe
+btnStart.Caption=&Iniciar
+btnCancel.Caption=Cancelar
+btnHelp.Caption=Ajuda
+dlgOpenFilter.Caption=Abrir ficheiro de filtro
+dlgOpenFilter.Filter=Ficheiros de Filtro do TextPipe|*.fll|Todos os ficheiros|*.*
+
+[dlgCustomizeContents]
+Caption=Personalizar Ficheiro de Conteúdos
+
+Label1.Caption=&Cabeçalho do ficheiro de conteúdos:
+Label2.Caption=&Entrada do ficheiro de conteúdos:
+Label3.Caption=&Rodapé do ficheiro de conteúdos:
+Label4.Caption=Sugestão: Usar a macro %URL% para substituir pelo caminho para o site exportado, %Legenda% - com o nome do Projecto como aparece na árvore de Projectos. Outras macros: %Descrição%, %InícioTransferência%, %FimTransferência%, %URLOriginal%, %Pasta%.
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+Button1.Caption=&Repor
+
+[dlgProgress]
+Caption=Progresso
+
+Button1.Caption=Abortar
+
+[dlgPDescr]
+Caption=Descrição do Projecto
+
+ToolButton1.Caption=&Novo
+ToolButton1.Hint=Aplicar alterações
+SaveButton.Caption=&Guardar
+SaveButton.Hint=Cancelar alterações
+PrintButton.Caption=&Imprimir
+PrintButton.Hint=Imprimir ficheiro actual
+CutButton.Caption=Cor&tar
+CutButton.Hint=Eliminar item seleccionado
+CopyButton.Caption=&Copiar
+CopyButton.Hint=Copiar item seleccionado para a área de transferência
+PasteButton.Caption=&Colar
+PasteButton.Hint=Colar conteúdos da área de transferência
+UndoButton.Caption=&Anular
+UndoButton.Hint=Anular a última acção
+FontName.Hint=Nome do tipo de letra|Seleccionar nome do tipo de letra
+FontSize.Hint=Tamanho do tipo de letra|Seleccionar tamanho do tipo de letra
+BoldButton.Hint=Negrito
+ItalicButton.Hint=Itálico
+UnderlineButton.Hint=Sublinhado
+LeftAlign.Hint=Alinhar à Esquerda
+CenterAlign.Hint=Centrar
+RightAlign.Hint=Alinhar à Direita
+BulletsButton.Hint=Marcas|Introduzir modo das marcas
+mpUndo.Caption=&Anular
+mpUndo.Hint=Anular a última acção
+mpCut.Caption=Cor&tar
+mpCut.Hint=Eliminar item seleccionado
+mpCopy.Caption=&Copiar
+mpCopy.Hint=Copiar item seleccionado para a área de transferência
+mpPaste.Caption=&Colar
+mpPaste.Hint=Colar conteúdos da área de transferência
+mpSelectAll.Caption=Seleccionar &tudo
+
+[dlgPrint]
+Caption=A Imprimir...
+
+Label1.Caption=A imprimir as páginas do Projecto. Por favor, espere...
+btnCancel.Caption=Cancelar
+
+[dlgApplyTemplate]
+Caption=Aplicar modelo ao Projecto
+
+Label1.Caption=&Seleccionar as partes do modelo a aplicar ao Projecto:
+Label2.Caption=&Modelo:
+Label3.Caption=Palavras-chave dos Filtros do URL do Projecto e extensões dos Filtros do Ficheiro
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+rbReplace.Caption=Substituir pelas palavras-chave e extensões do modelo
+rbJoin.Caption=Juntar com palavras-chave e extensões do modelo
+
+[dlgOldFiles]
+Caption=Eliminar ficheiros de Projecto antigo
+
+List.0=Ficheiros
+btnClose.Caption=&Fechar
+btnDeleteAll.Caption=Eliminar &Todos
+btnDelete.Caption=&Eliminar Seleccionados
+
+[dlgImgDimensions]
+Caption=Filtro de dimensões da imagem
+
+Label19.Caption=Ignorar ficheiros de imagem se as suas dimensões forem mais pequenas que
+lblLowWidth.Caption=pixels
+lblLowHeight.Caption=pixels
+Label1.Caption=Ignorar ficheiros de imagem se as suas dimensões forem maiores que
+lblHighWidth.Caption=pixels
+lblHighHeight.Caption=pixels
+Label4.Caption=Nota: esta versão suporta apenas os tipos de ficheiro seguintes:
+Label2.Caption=Ignorar ficheiros de imagem com as dime&nsões seguintes (separadas por vírgulas)
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+cbLowWidth.Caption=&Largura
+cbLowHeight.Caption=&Altura
+cbHighWidth.Caption=Lar&gura
+cbHighHeight.Caption=Al&tura
+
+[dlgMapSelect]
+Caption=Seleccionar Ficheiro de Mapa
+
+List.0=URL
+List.1=Tamanho
+dxBarManager1.0=Selecções
+dxbeMask.Caption=Escrever a &máscara para seleccionar os ficheiros e pressionar a tecla Enter:
+dxbeMask.Hint=Introduzir máscara para os ficheiros seleccionados
+btnDelete.Caption=&Eliminar
+btnDelete.Hint=Eliminar ficheiros seleccionados
+btnClose.Caption=&Fechar
+btnClose.Hint=Fechar janela
+btnBrowse.Caption=&Procurar
+btnBrowse.Hint=Procurar
+dxBarStatic1.Caption=Pressionar a tecla ESC duas vezes para parar
+dxBarStatic1.Hint=Pressionar a tecla ESC duas vezes para parar
+
+[dlgSelectMask]
+Caption=Seleccionar URLs na Lista de Espera
+
+Label1.Caption=Escrever a &máscara para seleccionar os URLs e pressionar a tecla Enter:
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+
+[dlgSubst]
+Caption=Substitutos do URL
+
+Label1.Caption=Nota: Aplicar aos ficheiros significa usar a regra de substituição do URL apenas para os ficheiros transferidos. Ou seja, os URLs serão transferidos na sua forma original, mas os nomes e ligações offline serão alterados de acordo com a regra de substituição.
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+btnHelp.Caption=&Ajuda
+Label2.Caption=&URL:
+btnTest.Caption=&Testar
+lblURL.Caption=&URL:
+lblReplace.Caption=&Substituir:
+lblWith.Caption=&Com:
+btnAdd.Caption=&Adicionar
+btnRemove.Caption=&Remover
+btnClear.Caption=Remover t&udo
+cbApplyAll.Caption=A&plicar todas as regras correspondentes
+mpMoveUp.Caption=Mover Para &Cima
+mpMoveDown.Caption=Mover Para &Baixo
+mpDuplicate.Caption=Dupli&car
+
+[dlgStatistics]
+Caption=Estatísticas do Projecto
+
+List.0=Parâmetro
+List.1=Valor
+btnClean.Caption=Li&mpar ficheiros do Projecto...
+cbValues.0=Nome do Projecto:
+cbValues.1=URL(s):
+cbValues.2=Nome do ficheiro do mapa:
+cbValues.3=Entradas do mapa:
+cbValues.4=Transferência da última vez iniciou:
+cbValues.5=Terminada:
+cbValues.6=Tempo decorrido:
+cbValues.7=Velocidade média:
+cbValues.8=Ainda a transferir...
+cbValues.9=O Projecto não foi transferido.
+cbValues.10=Estatísticas da última transferência:
+cbValues.11=Ficheiros transferidos:
+cbValues.12=Não modificado:
+cbValues.13=Ficheiros analisados:
+cbValues.14=Não encontrado:
+cbValues.15=Erro ao transferir:
+cbValues.16=Abortado/Limitado:
+cbValues.17=Tamanho dos ficheiros transferidos:
+cbValues.18=Estatísticas totais do Projecto:
+cbValues.19=Ficheiros totais:
+cbValues.20=Tamanho total:
+cbValues.21=Ficheiros do texto:
+cbValues.22=Tamanho dos ficheiros de texto:
+cbValues.23=Ficheiros de imagem:
+cbValues.24=Tamanho dos ficheiros de imagem:
+cbValues.25=Outros ficheiros:
+cbValues.26=Tamanho de outros ficheiros:
+cbValues.27=Transferências bem sucedidas:
+btnCopy.Caption=Co&piar
+btnClose.Caption=&Fechar
+
+[dlgProtect]
+Caption=Proteger definições do Projecto com uma palavra-passe
+
+Label1.Caption=&Palavra-passe:
+Label2.Caption=Por favor, &volte a escrever:
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+
+[dlgPassword]
+Caption=Por favor, introduza a palavra-passe
+
+Label1.Caption=&Palavra-passe:
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+
+[dlgMultipleImport]
+Caption=Importar múltiplos Marcadores/Favoritos
+
+Label1.Caption=&Seleccionar as ligações a adicionar aos Projectos e clicar no botão OK
+Label2.Caption=&Modelo:
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+
+[dlgSetProxy]
+Caption=Definições do Servidor Proxy
+
+Label34.Caption=Tipo de servidor
+Label35.Caption=Definições do servidor proxy
+Label6.Caption=&Endereço:
+Label17.Caption=&Porta:
+Label36.Caption=Autenticação da Proxy (deixar em branco se não for necessária)
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+rbFProxy1.Caption=Proxy &HTTP
+rbFProxy2.Caption=&SOCKS4
+rbFProxy3.Caption=S&OCKS5
+rbFProxy4.Caption=Utilizador@Si&te
+rbFProxy5.Caption=Proxy &RTSP
+Label26.Caption=&Nome de Utilizador:
+Label27.Caption=Pa&lavra-passe:
+
+[dlgAddR]
+Caption=Adicionar Palavra-chave
+
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+
+[dlgTemplates]
+Caption=Novo
+
+lblCustom.Caption=Personalizado
+btnClose.Caption=Fechar
+btnCancel.Caption=Cancelar
+btnOK.Caption=OK
+pgNew.Caption=Padrão
+pgTemplates.Caption=Modelos
+btnAdd.Caption=&Novo...
+btnRemove.Caption=&Remover
+btnProp.Caption=&Propriedades...
+btnDef.Caption=Pre&definido
+btnReset.Caption=Rep&or
+btnLoad.Caption=&Carregar...
+btnPaste.Caption=Col&ar
+cbSmallIcons.Caption=Mostrar &ícones pequenos
+btnHelp.Caption=&Ajuda
+pmTCut.Caption=Cor&tar
+pmTCut.Hint=Cortar Projecto ou pasta seleccionada para a área de transferência
+pmTCopy.Caption=&Copiar
+pmTCopy.Hint=Copiar Projecto ou pasta para a área de transferência
+pmTPaste.Caption=Co&lar
+pmTPaste.Hint=Colar Projecto ou pasta da área de transferência
+pmTSort.Caption=&Ordenar por nome
+odText.Caption=Carregar Projecto a partir de ficheiro de texto
+odText.Filter=Ficheiros de texto|*.txt|Todos os ficheiros|*.*
+
+[dlgAskPwd]
+Caption=Autenticação
+
+Label1.Caption=Por favor, introduza nome de utilizador e palavra-passe
+Label2.Caption=&Site:
+Label3.Caption=&Domínio:
+Label5.Caption=&Nome de Utilizador:
+Label6.Caption=&Palavra-passe:
+Button1.Caption=OK
+Button2.Caption=Cancelar
+
+[dlgExport]
+Caption=Exportar
+
+Label51.Caption=Exportar ficheiros transferidos para:
+btnClose.Caption=Cancelar
+btnExport.Caption=&Exportar
+btnHelp.Caption=&Ajuda
+cbPutTo.0=Pasta num disco
+cbPutTo.1=Arquivo ZIP
+cbPutTo.2=Arquivo MHT
+cbPutTo.3=Cache do Internet Explorer
+cbPutTo.4=Ajuda HTML (ficheiro CHM)
+cbPutTo.5=Visualizador de EXE comprimido
+cbPutTo.6=Ajuda HTML com Conteúdos
+cbPutTo.7=Carregar para site FTP
+lblFNFormat.Caption=&Formato dos nomes dos ficheiros:
+Label32.Caption=Directório de destino para copiar websites transferidos
+lblFilesLinks.Caption=Tradução de nomes de ficheiro e ligações
+btnBrowse.Caption=P&rocurar...
+cbStandardExt.Caption=Usar e&xtensões padrão para ficheiros com tipos de ficheiros conhecidos
+cbPreserveOnline.Caption=Preser&var ligações online
+cbShortFileNames.Caption=Manter inalterado
+cbShortFileNames.0=Manter inalterado
+cbShortFileNames.1=8+3 - compatível com MS DOS
+cbShortFileNames.2=Joliet - CD-R 64 símbolos
+cbAutorunCD.Caption=Fazer &CD de Execução Automática
+cbPlainDir.Caption=Não criar &subdirectórios
+cbOriginalURL.Caption=Adicionar URL ori&ginal aos ficheiros HTML
+cbRecentFiles.Caption=Exportar apenas ficheiros rece&ntemente carregados
+cbDisablePopups.Caption=D&esactivar ligações pop-up
+lblOptions.Caption=Outras opções
+cbContents.Caption=Criar ficheiro de c&onteúdos
+cbFastExport.Caption=Exportação Mais Rápi&da
+cbOpen.Caption=A&brir ficheiro quando a exportação estiver concluída
+btnCustomize.Caption=Personali&zar...
+cbReport.Caption=Cri&ar ficheiro relatório.txt
+Label42.Caption=Servidor:
+Label33.Caption=Nome de Utilizador:
+Label34.Caption=Palavra-passe:
+Label31.Caption=Servidor FTP
+cbFTPDelete.Caption=Eliminar ficheiros exportados depois de terminar o carre&gamento
+
+[dlgReg]
+Caption=Registo
+
+Label1.Caption=Obrigado por se registar
+Label2.Caption=Tais registos permitem-nos investir no desenvolvimento adicional deste e de outros produtos no futuro.
+Label3.Caption=Se não tem a certeza sobre como se registar ou quer saber mais sobre os vários métodos de pagamento disponíveis, clique no botão de informação Encomendar.
+Label4.Caption=Assim que o pagamento for confirmado receberá automaticamente os seus detalhes de registo que deverá introduzir na caixa abaixo.
+Label5.Caption=Produto:
+Label7.Caption=Chave de registo:
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+btnOrder.Caption=Encomendar
+
+[dlgWizard]
+Caption=Assistente de Novo Projecto
+
+Label7.Caption=Bem-vindo(a) ao Assistente de Novo Projecto
+Label1.Caption=Um Projecto é uma tarefa de transferência. Usa o URL como endereço inicial. Quando essa página é carregada, o Offline Explorer determina todas as ligações existentes nela e carrega-as de acordo com as definições do Projecto.
+Label2.Caption=&URL do Projecto:
+Label3.Caption=N&ome do Projecto:
+Label4.Caption=Pode fornecer um nome do Projecto que aparecerá na árvore de Projectos em vez do URL.
+Label5.Caption=Exemplos de URL são: http://www.metaproducts.com/ ftp://ftp.microsoft.com/data/ http://winfiles.cnet.com/apps/98/desktop.html
+Label8.Caption=Limite páginas para transferir por nível de profundidade.
+Label11.Caption=O nível permite-lhe definir rapidamente quantas páginas web devem ser carregadas. Ou seja, é um número de ligações desde a primeiríssima página até à mais recôndita.
+Label15.Caption=Para carregar apenas a primeira página com todas as suas imagens, defina Nível=0. Nível=1 carrega a primeira página e todas as páginas que estão directamente ligadas a ela.
+Label17.Caption=Desmarque a caixa de Limite dos Níveis para carregar um número ilimitado de níveis (todo o website).
+Label18.Caption=Se o fizer, é altamente recomendado utilizar as definições "Carregar apenas dentro do URL inicial" ou "Carregar apenas dentro do servidor inicial" numa das páginas seguintes do Assistente. De outro modo, arrisca-se a transferir toda a Internet!
+cbLevel.Caption=&Limite dos Níveis:
+Label6.Caption=Escolha os tipos de ficheiros a transferir
+rbDAll.Caption=Transferir to&dos os ficheiros que estão ligados à página inicial
+rbDSkip.Caption=Ignorar carregamento dos tipos de &ficheiro seguintes:
+cbImages.Caption=&Gráficos (imagens)
+cbAudio.Caption=&Áudio (som, música)
+cbVideo.Caption=&Vídeo
+cbArchive.Caption=Arquivo (&ZIP, RAR, etc.)
+Label9.Caption=Localização da transferência (para obter ficheiros de)
+Label16.Caption=Por exemplo, quando o Offline Explorer uma ligação para http://www.srv.com/dir1/dir2/somefile.htm, tentará pedir conteúdos /dir1/ e /dir2/. Se o servidor permitir a listagem de directórios, o Offline Explorer poderá transferir mais ficheiros.
+rbURL.Caption=Carregar apenas dentro do &URL inicial:
+rbSrv.Caption=Carregar apenas dentro do &servidor inicial:
+rbAny.Caption=Carregar de &qualquer localização
+cbAllImages.Caption=Carregar &imagens de qualquer localização
+cbExploreDirs.Caption=Tentar e&xplorar todos os subdirectórios possíveis
+Label12.Caption=Parabéns!
+Label13.Caption=Acabou de criar um novo Projecto do Offline Explorer.
+Label14.Caption=O que gostaria de fazer a seguir:
+Label19.Caption=O Offline Explorer transfere páginas web existentes no site para obter ligações para outras páginas e ficheiros. Esta informação é usada para construir o mapa do site sem haver necessidade de transferir todo o site.
+rbDNow.Caption=&Transferir o novo Projecto agora
+rbProperties.Caption=Configurar definições &avançadas
+rbDLater.Caption=Transferir o &Projecto mais tarde
+rbDSiteMap.Caption=Gerar mapa do site
+btnBack.Caption=< &Anterior
+btnNext.Caption=&Seguinte >
+btnCancel.Caption=Cancelar
+cbShow.Caption=&Mostrar quando o Offline Explorer iniciar
+
+[dlgBR]
+Caption=Progresso
+
+btnCancel.Caption=Cancelar
+btnOK.Caption=OK
+List.0=Directório da Transferência
+List.1=Pastas Armazenadas
+mpDDBrowse.Caption=&Procurar...
+
+[dlgProp]
+Caption=Propriedades do Projecto
+
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+btnHelp.Caption=Ajuda
+ItemTree.0=Projecto
+ItemTree.1=Filtros do Ficheiro
+ItemTree.2=Texto
+ItemTree.3=Imagens
+ItemTree.4=Vídeo
+ItemTree.5=Áudio
+ItemTree.6=Arquivo
+ItemTree.7=Definido pelo Utilizador
+ItemTree.8=Outro
+ItemTree.9=Filtros do URL
+ItemTree.10=Exclusões do URL
+ItemTree.11=Protocolo
+ItemTree.12=Servidor
+ItemTree.13=Directório
+ItemTree.14=Nome de Ficheiro
+ItemTree.15=Filtros de Conteúdo
+ItemTree.16=Avançada
+ItemTree.17=Limites
+ItemTree.18=Análise
+ItemTree.19=Tradução da Ligação
+ItemTree.20=Agendamento
+ItemTree.21=Palavras-passe
+ItemTree.22=Cópias do Ficheiro
+ItemTree.23=Extracção de Dados
+ItemTree.24=Extracção de Dados
+ItemTree.25=Relatórios
+ItemTree.26=Blocos Visuais
+btnApply.Caption=A&plicar
+cbIndex.Caption=Inde&xar ficheiros transferidos para pesquisa mais rápida
+Label44.Caption=(F12 para lista de comandos)
+lblTCaption.Caption=Nome do &Modelo:
+lblCaption.Caption=Nome do P&rojecto:
+lblURLs.Caption=Endereços (&URLs):
+lblURL.Caption=Endereço (&URL):
+Label43.Caption=(F11 para expandir)
+lblProjectID.Caption=ID do Projecto:
+Label16.Caption=Endereço e Nível
+rbFM1.Caption=Transferir apenas ficheiros novos e &modificados
+cbFMCheckSize.Caption=&Verificar tamanho do ficheiro
+cbFMSkipMedia.Caption=Ignorar ficheiros Multimédia &existentes
+rbFM2.Caption=Transferir &todos os ficheiros
+rbFM3.Caption=N&ão transferir ficheiros existentes
+rbFM4.Caption=&Ignorar ficheiros existentes em níveis maiores que
+cbLevel.Caption=&Limite do Nível:
+Label15.Caption=Verificação de modificação do ficheiro
+Label20.Caption=Tamanhos de ficheiro
+Label21.Caption=Extensões
+Label19.Caption=Localização
+cbFTLocation.0=Carregar usando definições de filtros URL
+cbFTLocation.1=Carregar apenas a partir do servidor inicial
+cbFTLocation.2=Carregar apenas a partir do directório inicial
+cbFTLocation.3=Carregar a partir de qualquer site
+cbFTLocation.4=Carregar apenas a partir do domínio inicial
+cbFTSHigh.Caption=Tamanho má&ximo
+cbFTSLow.Caption=Tamanho mín&imo
+cbFTSMD.Caption=Carregar com o &Mass Downloader
+btnFTAdd.Caption=<<        &Adicionar
+btnFTDel.Caption=>> &Remover
+btnSelAll.Caption=T&udo
+btnSelNone.Caption=&Nada
+btnImageSize.Caption=&Dimensões da imagem...
+cbIgnoreLogout.Caption=Ignorar ligações de e&ncerramento de sessão
+Label42.Caption=Ignorar os URLs seguintes durante a transferência
+Label56.Caption=Testar um URL em relação a Filtros do URL
+btnUFTest.Caption=&Testar
+Label29.Caption=Carregar ficheiros dos protocolos seguintes
+Label30.Caption=Protocolos personalizados
+rbUFProt1.Caption=Carregar &todos os protocolos
+rbUFProt2.Caption=Carre&gar apenas protocolo inicial
+rbUFProt3.Caption=&Configuração dos protocolos personalizados
+cbUP0.Caption=Carregar de &Websites (protocolo HTTP)
+cbUP1.Caption=Carregar de sites &FTP (protocolo FTP)
+cbUP3.Caption=Carregar de Websites &Seguros (protocolo HTTPS)
+cbUP2.Caption=Carregar de f&icheiros locais (ficheiro:// URLs)
+cbUP4.Caption=Carregar de sequências MS &Media Player (protocolo MMS)
+cbUP5.Caption=Carregar de sequências &Real (protocolo RTSP)
+cbUP6.Caption=Carregar de sequências R&eal (protocolo PNM)
+cbUP7.Caption=Carregar de protocolo &BitTorrent
+lblOtherSrvLev.Caption=Ligações noutros servidores
+Label40.Caption=Carregar ficheiros dos servidores seguintes
+Label6.Caption=Palavra-cha&ve:
+Label45.Caption=Nota:
+Label46.Caption=Algumas categorias de Filtros de Ficheiro não usam definições dos Filtros do URL na sua caixa de Localização.
+cbLSrvs.0=Palavras-chave do servidor excluídas
+cbLSrvs.1=Palavras-chave do servidor incluídas
+btnLSAdd.Caption=&Adicionar        >>
+btnLSDel.Caption=&Remover <<
+btnLSUp.Caption=Mover para ci&ma
+btnLSDown.Caption=Mover para bai&xo
+cbOtherSrvLev.Caption=Carregar &para
+rbSProSrv.Caption=&Servidor
+rbSProDmn.Caption=Do&mínio
+cbSPro2.Caption=Carregar ficheiros apenas dentr&o do primeiro
+Label36.Caption=Carregar ficheiros dos directórios seguintes
+Label7.Caption=Palavra-cha&ve:
+Label48.Caption=Algumas categorias de Filtros de Ficheiro não usam definições dos Filtros do URL na sua caixa de Localização.
+Label47.Caption=Nota:
+cbLDirs.0=Ver palavras-chave do directório excluídas
+cbLDirs.1=Ver palavras-chave do directório incluídas
+btnLPAdd.Caption=&Adicionar       >>
+btnLPDel.Caption=&Remover <<
+btnLPUp.Caption=Mover para ci&ma
+btnLPDown.Caption=Mover para bai&xo
+cbUFDir2.Caption=Carregar ficheiros apenas dentr&o do directório inicial e abaixo
+Label38.Caption=Carregar ficheiros com os nomes de ficheiro seguintes
+cbUFFile2.Caption=Carregar ficheiros apenas c&om o nome de ficheiro inicial
+Label8.Caption=Palavra-cha&ve:
+Label49.Caption=Nota:
+Label50.Caption=Algumas categorias de Filtros de Ficheiro não usam definições dos Filtros do URL na sua caixa de Localização.
+cbLFiles.0=Ver palavras-chave dos ficheiros excluídas
+cbLFiles.1=Ver palavras-chave dos ficheiros incluídas
+btnLFAdd.Caption=&Adicionar       >>
+btnLFDel.Caption=&Remover <<
+btnLFUp.Caption=Mover para ci&ma
+btnLFDown.Caption=Mover para bai&xo
+lblSLTime.Caption=minutos
+lblSLTSize.Caption=Kbytes
+bxSLTSize.Caption=Parar carregamento de um website se o seu ta&manho total exceder
+bxSLNumber.Caption=Parar carregamento se o número total de &ficheiros exceder
+bxSLTime.Caption=Parar carregamento se o &tempo de transferência exceder
+Label17.Caption=Limites
+Label2.Caption=Todas as ligações existentes nos ficheiros transferidos apontam para localizações offline independentemente de terem sido transferidas ou não.
+Label11.Caption=Apenas as ligações que têm permissão para fazer transferências apontarão para as localizações offline. Ligações restritas (devido a definição de Nível insuficiente, limitações dos Filtros do URL, etc.) apontarão para os seus documentos e ficheiros online originais.
+Label1.Caption=Criar uma cópia espelhada de um website com todas as ligações originais. (Aviso: Pode ser impossível navegar offline num Projecto se tiver sido transferido usando este modo.)
+lblLMixed.Caption=Manter todas as ligações restritas intactas. Todas as ligações transferidas apontarão para offline.
+Label31.Caption=Alterar ligações em ficheiros transferidos
+rbLOffline.Caption=Tradução &Offline
+rbLOnline.Caption=Tradução On&line
+rbNotTranslate.Caption=&Sem Tradução
+cbNoFollow.Caption=&Marcar ligações online como "semseguimento"
+rbLMixed.Caption=Misturado
+Label10.Caption=&Intervalos de transferência:
+Label5.Caption=&Temporizar intervalo:
+Label26.Caption=Dia da &Semana:
+Label27.Caption=&Dia:
+Label28.Caption=&Mês:
+Label24.Caption=&Hora:
+Label25.Caption=Transferência automática do Projecto num determinado agendamento
+WhenBox.0=Manualmente
+WhenBox.1=Diariamente
+WhenBox.2=Semanalmente
+WhenBox.3=Mensalmente
+WhenBox.4=Anualmente
+WhenBox.5=A cada
+MonthBox.0=Janeiro
+MonthBox.1=Fevereiro
+MonthBox.2=Março
+MonthBox.3=Abril
+MonthBox.4=Maio
+MonthBox.5=Junho
+MonthBox.6=Julho
+MonthBox.7=Agosto
+MonthBox.8=Setembro
+MonthBox.9=Outubro
+MonthBox.10=Novembro
+MonthBox.11=Dezembro
+OnceBox.Caption=&Apenas uma vez
+WeekdayBox.0=Domingo
+WeekdayBox.1=Segunda-Feira
+WeekdayBox.2=Terça-Feira
+WeekdayBox.3=Quarta-Feira
+WeekdayBox.4=Quinta-Feira
+WeekdayBox.5=Sexta-Feira
+WeekdayBox.6=Sábado
+Label23.Caption=Nota: para autorização NTLM, introduzir DOMÍNIO\Utilizador no campo nome de utilizador.
+Label22.Caption=Sites e áreas de site protegidos
+rbSPsw0.Caption=&Use este nome de utilizador e palavra-passe
+lblSUserName.Caption=&Nome de Utilizador:
+lblSPassword.Caption=Pala&vra-passe:
+rbSPsw1.Caption= para &iniciar sessão em sites web e ftp protegidos
+rbSPsw5.Caption=em formulários &HTML
+rbSPsw2.Caption=P&edir nome de utilizador e palavra-passe em sites protegidos
+rbSPsw3.Caption=&Ignorar sites protegidos e continuar a transferência
+rbSPsw4.Caption=&Parar transferência se o site estiver protegido
+lblLKeepCopies.Caption=Cópias
+Label32.Caption=Fazer cópias de ficheiros antigos em vez de os substituir
+Label33.Caption=Formato do nome de ficheiro de cópias do ficheiro antigo
+bxLKeepCopies.Caption=&Manter ficheiros antigos:
+cbMSIECache.Caption=&Copiar ficheiros para cache do MS Internet Explorer
+cbFCZeros.Caption=Adicionar &zeros à esquerda
+cbFCUseDate.Caption=Usar &data/hora do ficheiro no formato seguinte:
+Label121.Caption=&Palavras-chave:
+Label58.Caption=Escrever palavras-chave
+Label59.Caption=Quando as palavras-chave são encontradas numa página
+Label60.Caption=Quando as palavras-chave não são encontradas numa página
+cbSearchForAll5.Caption=Pesquisa por tod&as as palavras-chave
+cbSaveNoKw5.Caption=G&uardar estas páginas
+cbGraphNoKw5.Caption=Transferir todos os g&ráficos destas páginas
+cbStopOnKw5.Caption=Par&ar transferência das páginas quando forem encontradas palavras-chave
+cbSearchInTags5.Caption=Pesquisar dentro de eti&quetas HTML
+cbSaveOnKw5.Caption=G&uardar estas páginas
+cbGraphOnKw5.Caption=Transferir todos os g&ráficos destas páginas
+cbStopNoKw5.Caption=Par&ar transferência das páginas quando forem encontradas palavras-chave
+Label54.Caption=Filtros do TextPipe
+Label55.Caption=Opções de Execução do TextPipe
+rbFilter1.Caption=Executar o TextPipe com um &novo filtro
+rbFilter2.Caption=Usar o ficheiro de &filtro do TextPipe (*.fll) para processar ficheiros transferidos:
+cbPassFiles.Caption=P&assar os ficheiros do Projecto transferido para o TextPipe
+cbTextOnly.Caption=Extrair dados apenas de ficheiros de &Texto e HTML
+cbRun.Caption=&Executar filtro quando o TextPipe carregar
+cbQuit.Caption=&Sair do TextPipe depois de executar o filtro
+cbDMNew.Caption=Extrair &dados apenas de ficheiros novos e actualizados
+lblWPRun.Caption=ficheiros transferidos
+rbWPRun1.Caption=Executar filtro &quando a transferência estiver concluída
+rbWPRun2.Caption=Executar filtro a &cada
+Label9.Caption=Seleccionar uma subcategoria para exibir
+Label57.Caption=Extrair dados de páginas transferidas
+lvDEW.0=Modelo
+btnDEW.Caption=Modelos
+btnDEWDelete.Caption=&Eliminar
+lblExecBefore.Caption=Executar antes de &transferir:
+lblExecAfter.Caption=Executar antes de trans&ferir:
+lblDDWarning.Caption=Nota: não é recomendado usar um caminho com mais de 60 símbolos.
+lblDDExists.Caption=Se o directório especificado não existir, será criado automaticamente.
+Label18.Caption=Análise
+lblDownloadDir.Caption=Directório da Transferência
+btnSubst.Caption=Substitutos do &URL...
+cbExploreDirs.Caption=E&xplorar todos os subdirectórios possíveis
+cbIgnoreErrors.Caption=Suprimir &erros do website
+cbExploreForms.Caption=Explorar Formulários HT&ML
+cbExploreSSMaps.Caption=Carregar m&apas de imagem do lado do servidor
+cbComplexScripts.Caption=A&valiar cálculos do script
+cbCheckFiles.Caption=&Verificar integridade dos ficheiros
+cbConvertRSS.Caption=Converter feeds &RSS em HTML
+cbFDD.Caption=&Activar
+btnDDBrowse.Caption=&Procurar...
+lblNPReports.Caption=Fazer base de dados com detalhes sobre erros e ligações do site
+btnViewReport.Caption=&Ver Relatório...
+rbReportErrors1.Caption=Não gravar erros e estrutura do site
+rbReportErrors2.Caption=Gravar apenas erros
+rbReportErrors3.Caption=Gravar erros e toda a estrutura do site para encontrar todas as origens de erro
+lblVBSNo.Caption=Não foi definido nenhum bloqueio visual para este Projecto. Por favor, use a barra de ferramentas do Assistente Visual do navegador interno para criar definições visuais do Projecto.
+lblVBS.Caption=Seguir ligações dentro dos bloqueios visuais
+rbVBS1.Caption=Transferir ligações de todas as páginas
+rbVBS2.Caption=Seguir ligações apenas dentro de bloqueios visuais semelhantes
+odImportKeywords.Caption=Carregar palavras-chave a partir de ficheiro de texto
+odImportKeywords.Filter=Ficheiros de texto|*.txt|Todos os ficheiros|*.*
+MenuItem1.Caption=&Anular
+MenuItem3.Caption=Cor&tar
+MenuItem4.Caption=&Copiar
+MenuItem5.Caption=Cola&r
+MenuItem6.Caption=&Eliminar
+MenuItem8.Caption=Se&leccionar Tudo
+mpCut.Caption=Cor&tar
+mpCopy.Caption=&Copiar
+mpPaste.Caption=Cola&r
+mpEdit.Caption=&Editar
+mpMoveUp.Caption=Mover para c&ima
+mpMoveDown.Caption=Mover para &baixo
+dlgOpenFilter.Caption=Abrir ficheiro de filtro
+dlgOpenFilter.Filter=Ficheiros de Filtro do TextPipe|*.fll|Todos os ficheiros|*.*
+
+[dlgCSearch]
+Caption=Localizar Conteúdos
+
+btnFind.Caption=&Localizar
+btnCancel.Caption=&Fechar
+btnAbort.Caption=&Abortar
+btnBrowse.Caption=&Procurar
+btnSave.Caption=&Guardar
+btnDelete.Caption=E&liminar
+btnEdit.Caption=&Editar
+Label1.Caption=&Pesquisar palavras-chave:
+cbSearchForAll.Caption=Pesquisar &todas as palavras-chave:
+cbTextOnly.Caption=Pesquisar apenas em ficheiros de &texto
+cbRecent.Caption=Apenas ficheiros carregados &recentemente
+cbSearchInTags.Caption=Pesquisar dentro de eti&quetas HTML
+cbIndexed.Caption=Pesquisa Indexada
+sdSave.Caption=Guardar resultados da pesquisa
+sdSave.Filter=Ficheiros HTML - ligações offline|*.htm|Ficheiros HTML - ligações online|*.htm|Ficheiros de texto|*.txt|Todos os ficheiros|*.*
+
+[dlgCleanUp]
+Caption=Limpar sites transferidos
+
+btnAbort.Caption=&Abortar
+btnDelSel.Caption=Eliminar &Seleccionado(s)
+btnDelAll.Caption=Eliminar &Tudo
+btnClose.Caption=&Fechar
+btnMaps.Caption=Ficheiros de &Mapa não utilizados
+miCUOpen.Caption=A&brir ficheiro ou directório
+miCUDelete.Caption=&Eliminar
+
+[DialerForm]
+Caption=Formulário do Marcador
+
+Label3.Caption=Estado:
+Label4.Caption=Último erro:
+CancelButton.Caption=Cancelar
+
+[TipForm]
+Caption=Sugestão do Dia
+
+Label2.Caption=Sabia que...
+cbShowOnStart.Caption=&Mostrar sugestões no arranque
+Box.0=Ao clicar com o botão direito do seu rato num website existente no separador Projectos ou separador Mapa, irá exibir um menu de contexto que o ajudará na edição, visualização ou navegação dos seus websites.
+Box.1=Para parar a transferência de um ficheiro, clique com o botão direito do seu rato no ficheiro existente no Painel de Mensagens e seleccione "Abortar".
+Box.2=Pode transferir rapidamente um website introduzindo apenas o endereço web na Barra de Endereço e pressionado a tecla Enter, tal como faria se estivesse a utilizar o Internet Explorer da Microsoft. Também pode clicar no botão Transferir.
+Box.3=Se quiser alterar a profundidade da pesquisa, pode alterá-la introduzindo os números do nível à direita da Barra de Endereço.
+Box.4=Pode iniciar o Navegador Interno (NI) do OE accionando a opção Navegador Interno existente na Barra do Explorador no separador Ver. Assim que o NI for exibido, pode fazer duplo clique em qualquer Projecto e este será exibido no NI.
+Box.5=Pode transferir múltiplos websites seleccionando cada um deles separadamente no separador Projecto e clicando no botão iniciar (seta para baixo verde), ou pode seleccionar e clicar numa pasta que contenha vários websites. Todos os websites existentes na pasta serão então transferidos.
+Box.6=Os Filtros de URL existentes na secção Propriedades permitem-lhe transferir selectivamente qualquer servidor, directório ou ficheiro que quiser usando palavras-chave. Cada servidor, directório ou ficheiro pode ser incluído ou excluído de uma transferência de acordo com essas palavras-chave. Veja o Ficheiro de Ajuda para mais detalhes.
+Box.7=Se quiser transferir apenas imagens GIF, vá a Propriedades | Tipos de Ficheiro | Imagens, desmarque todos os tipos de ficheiro de imagem excepto a extensão GIF e todos os tipos de ficheiro excepto imagens na árvore de categorias, e inicie a sua transferência.
+Box.8=Utilize parâmetros da linha de comandos para integrar o Offline Explorer com agendadores de terceiros e para executar algumas acções específicas, como encerrar o seu computador depois da transferência. Veja o Ficheiro de Ajuda para descrição completa.
+Box.9=Para transferir uma cópia exacta de um website, marque o botão de opção "Não transferir ligações" existente em Propriedades | Avançadas.
+Box.10=Visite o nosso website regularmente para conhecer as mais recentes actualizações, novidades, plugins, etc..
+Box.11=Pode navegar, ver ou editar qualquer página web ou ficheiro transferido adicionando programas especiais à secção Ferramentas existente no diálogo de Opções. Estas ferramentas podem ser acedidas através do menu Ferramentas ou a partir de um clique com o botão direito no menu de contexto Projecto ou Mapa.
+Box.12=Pode ver um registo das suas transferências seleccionando Ver | Mensagens | Painel ou Registo. Se seleccionar Mensagens | Painel, aparecerá um painel dimensionável por cima da barra de estado. Se seleccionar Mensagens | Janela é criada uma janela, permitindo Registar, Pausar, Guardar, Filtrar ou Pesquisar no seu registo.
+Box.13=Transfira os seus websites favoritos importando um URL a partir do seu navegador. O OE consegue importar URLs do MS Internet Explorer, Netscape e Opera. Para importar um URL, clique em Ficheiro | Importar Favoritos.
+Box.14=Pode definir Propriedades Predefinidas para todos os novos Projectos alterando o modelo predefinido em Ficheiro | Modelos.
+Box.15=Pode suspender temporariamente e retomar uma transferência numa altura posterior usando as funcionalidades "Suspender para Ficheiro" / "Retomar de Ficheiro" existentes no Menu Principal | Transferir.
+Box.16=Pode suspender temporariamente uma transferência e depois retomá-la usando Transferir | Suspender existente no menu principal.
+Box.17=Pode agendar as suas transferências para qualquer momento usando o nosso painel Agendamento sob a nossa secção Propriedades | Avançadas | Agendamento.
+Box.18=Pode usar Ver | Gestor de Agenda arrastando o Projecto para lá.
+Box.19=Transfira um site protegido por palavra-passe usando o nosso painel Palavra-passe sob a secção Propriedades | Avançadas | Palavras-passe.
+Box.20=Pode imprimir uma página a partir do Navegador Interno usando o seu botão Imprimir.
+Box.21=Para ver algumas estatísticas da transferência do Projecto, clique no botão Página Inicial existente no Navegador Interno.
+Box.22=Para criar um novo Modelo baseado num Projecto existente, copie esse Projecto para a área de transferência, abra o diálogo de Modelos e cole usando a combinação de teclas Ctrl-V.
+Box.23=Para ordenar Projectos numa pasta, clique com o botão direito na pasta desejada e seleccione Ordenar a partir do menu de contexto.
+Box.24=Pode navegar em ficheiros usando um único clique no Mapa do Site. Para activar esta opção, clique com o botão direito na área Mapa do Site e marque o menu "Navegação com clique único".
+Box.25=Para guardar uma página web no Navegador Interno, pressione Ctrl-Alt-S.
+Box.26=A tecla F11 activa/desactiva o modo ecrã completo do Navegador Interno.
+Box.27=Utilize as teclas Ctrl-A e Ctrl-N para marcar ou desmarcar de uma só vez todas as extensões existentes nas Propriedades do Projecto | Filtros do Ficheiro.
+Box.28=Pode visualizar a lista de ficheiros que foram carregados durante a última sessão de transferência usando a janela Editar | Localizar Conteúdos. Pressione a tecla Space uma única vez no campo das palavras-chave e marque a caixa "Apenas ficheiros carregados recentemente".
+Box.29=Para mover todas as palavras-chave da lista de excluídas para a lista de incluídas e vice-versa existnte em Propriedades do Projecto | Filtros do URL, pressione Ctrl-M.
+Box.30=Para marcar todas as palavras-chave em Propriedades do Projecto | Filtros do URL, pressione Ctrl-A. Ao pressionar Ctrl-N desmarca todas.
+Box.31=Pode utilizar números Romanos nas macros do URL.
+Box.32=Para suspender um único Projecto para um ficheiro e manter as transferências dos outros Projectos, clique com o botão direito no Projecto desejado e seleccione Transferir | Suspender Projecto para Ficheiro a partir do menu pop-up.
+Button1.Caption=&Fechar
+Button2.Caption=&Próxima Sugestão
+
+[dlgProxyURLDetect]
+Caption=Detectar definições de Proxy
+
+Label1.Caption=Detectar definições de proxy do URL:
+Label2.Caption=Foram detectados os servidores proxy seguintes. Por favor, escolha um e clique no botão OK.
+lbProxies.0=Não foram detectadas nenhumas definições do servidor proxy.
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+
+[dlgSeqSchedule]
+Caption=Agenda do Sequenciador
+
+Label10.Caption=&Intervalos de transferência:
+Label5.Caption=&Tempo de intervalo:
+Label24.Caption=&Hora:
+Label26.Caption=Dia da &Semana:
+Label27.Caption=&Dia:
+Label28.Caption=&Mês:
+Label25.Caption=Iniciar sequenciador num dado agendamento
+WhenBox.0=Manualmente
+WhenBox.1=Diariamente
+WhenBox.2=Semanalmente
+WhenBox.3=Mensalmente
+WhenBox.4=Anualmente
+WhenBox.5=A cada
+MonthBox.0=Janeiro
+MonthBox.1=Fevereiro
+MonthBox.2=Março
+MonthBox.3=Abril
+MonthBox.4=Maio
+MonthBox.5=Junho
+MonthBox.6=Julho
+MonthBox.7=Agosto
+MonthBox.8=Setembro
+MonthBox.9=Outubro
+MonthBox.10=Novembro
+MonthBox.11=Dezembro
+OnceBox.Caption=&Apenas uma vez
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+WeekdayBox.0=Domingo
+WeekdayBox.1=Segunda-Feira
+WeekdayBox.2=Terça-Feira
+WeekdayBox.3=Quarta-Feira
+WeekdayBox.4=Quinta-Feira
+WeekdayBox.5=Sexta-Feira
+WeekdayBox.6=Sábado
+
+[dlgShare]
+Caption=Publique o seu Projecto!
+
+Label1.Caption=Pode partilhar as definições do seu Projecto com outras pessoas.
+Label2.Caption=Se o Projecto tiver transferido com sucesso algum site e se funcionou bem consigo, esse conhecimento pode ajudar muitas pessoas a poupar tempo e esforço.
+Label3.Caption=Por favor, forneça comentários, descrição, etc., que possam ser úteis aquando da utilização das definições do Projecto:
+Label4.Caption=Por favor, forneça a sua alcunha que será exibida nos resultados de pesquisa:
+Label6.Caption=Também beneficiará da utilização de Projectos partilhados por outros utilizadores do Offline Explorer.
+btnShare.Caption=Publicar!
+btnCancel.Caption=Cancelar
+
+[dlgBTAll]
+Caption=Transferências BitTorrent
+
+lvBT.0=Nome
+lvBT.1=Ficheiros
+lvBT.2=Tamanho
+lvBT.3=Carregado
+lvBT.4=Directório
+btnImport.Caption=&Importar Pares
+btnCheck.Caption=&Verificar Integridade
+btnClose.Caption=Fechar
+odBT.Filter=Ficheiro de pares de BitTorrent|BTPeers.dat|Todos os ficheiros|*.*
+mpCheckIntegrity.Caption=&Verificar Integridade
+mpDelete.Caption=&Eliminar
+
+[dlgTorrent]
+Caption=Detalhes da transferência BitTorrent
+
+lvFiles.0=Nome de Ficheiro
+lvFiles.1=Tamanho
+lvFiles.2=Desvio
+lvFiles.3=Partes
+lvFiles.4=Carregado
+Label1.Caption=Partes transferidas:
+Label3.Caption=de
+btnStop.Caption=Parar
+lvPeers.0=Par
+lvPeers.1=Tem partes
+lvPeers.2=Parte
+lvPeers.3=Estado
+lvPeers.4=Velocidade
+lblFolder.Caption=Guardar em:
+btnDownload.Caption=&Transferir
+btnClose.Caption=&Fechar
+btnBrowse.Caption=&Procurar...
+mpAbort.Caption=&Abortar
+mpBan.Caption=Abortar &e &Banir par
+mpReconnect.Caption=&Reconectar
+miHelp.Caption=A&judar outro par
+mpDMax.Caption=Transferências A&ctivas
+mpUpdateTracker.Caption=Act&ualizar tracker
+mpCheckIntegrity.Caption=&Verificar Integridade
+mpPause.Caption=&Pausar
+mpOpenFolder.Caption=Abrir &Pasta
+mpOpenFile.Caption=&Abrir Ficheiro
+mpCheckAll.Caption=&Marcar todos os ficheiros
+mpUncheckAll.Caption=&Desmarcar todos os ficheiros
+mpCheckSelected.Caption=Mar&car os ficheiros seleccionados
+mpUncheckSelected.Caption=D&esmarcar os ficheiros seleccionados
+mpCheckIntegrity1.Caption=Verificar &Integridade
+
+[dlgMenuSelect]
+Caption=Bem-vindo(a) ao
+
+Label1.Caption=Por favor, seleccione o estilo desejado para o menu de navegação:
+Label4.Caption=Pode seleccionar o novo estilo tipo Microsoft Office 2007 que agrupa de maneira lógica os botões pelas tarefas que vai executar. Ou pode escolher o menu clássico com barra de ferramentas.
+Label5.Caption=Pode alterar o estilo da interface usando o separador ou menu Ver (Alterar para o menu antigo/Alterar para comandos em Friso.)
+btnOK.Caption=OK
+rbRibbon.Caption=&Novo Friso tipo Office 2007:
+rbMenu.Caption=&Menu antigo com barra de ferramentas:
+
+[dxBarCustomizationForm]
+Caption=Personalizar
+
+CategoriesAdd.Caption=Adicionar...
+CategoriesAdd.Hint=Adicionar
+CategoriesInsert.Caption=Inserir...
+CategoriesInsert.Hint=Inserir
+CategoriesRename.Caption=Renomear...
+CategoriesRename.Hint=Renomear
+CategoriesVisible.Caption=Visível
+CategoriesVisible.Hint=Visível
+CategoriesItemsVisible.Caption=Itens Visíveis:
+CategoriesItemsVisible.Hint=Itens Visíveis:
+CategoriesItemsVisible.0=Nunca
+CategoriesItemsVisible.1=Em Personalização
+CategoriesItemsVisible.2=Sempre
+CategoriesDelete.Caption=Eliminar
+CategoriesDelete.Hint=Eliminar
+CommandsAdd.Caption=Adicionar...
+CommandsAdd.Hint=Adicionar
+CommandsDelete.Caption=Eliminar
+CommandsDelete.Hint=Eliminar
+CommandsClear.Caption=Limpar
+CommandsClear.Hint=Limpar
+CommandsMoveUp.Caption=Mover para Cima
+CommandsMoveUp.Hint=Mover para Cima
+CommandsMoveDown.Caption=Mover para baixo
+CommandsMoveDown.Hint=Mover para Baixo
+CommandsSubMenuEditor.Caption=Editor do Submenu...
+CommandsSubMenuEditor.Hint=Editor do Submenu
+BClose.Caption=Fechar
+tsToolbars.Caption=Barras de Ferramentas
+LabelToobars.Caption=B&arras de Ferramentas
+BBarDelete.Caption=&Eliminar
+BBarNew.Caption=&Novo...
+BBarRename.Caption=R&enomear...
+BBarReset.Caption=&Repor...
+tsItems.Caption=Comandos
+LabelCategories.Caption=Cate&gorias:
+LabelCommands.Caption=Coman&dos:
+LabelDescription.Caption=Descrição
+tsOptions.Caption=Opções
+LabelMenuAnimations.Caption=Animações do &menu:
+ComboBoxMenuAnimations.Caption=(Nenhuma)
+ComboBoxMenuAnimations.0=(Nenhuma)
+ComboBoxMenuAnimations.1=Aleatória
+ComboBoxMenuAnimations.2=Desdobrar
+ComboBoxMenuAnimations.3=Deslizar
+CBHint1.Caption=Mostrar &descrições nas barras de ferramentas
+CBHint2.Caption=Mostrar teclas de a&talho nas descrições
+CBLargeIcons.Caption=Ícones &grandes
+Label1.Caption=Animações do &menu:
+Label2.Caption=Outra
+Label3.Caption=Menus e Barras de Ferramentas Personalizadas
+ComboBoxMenuAnimationsEx.Caption=(Nenhuma)
+ComboBoxMenuAnimationsEx.0=(Nenhuma)
+ComboBoxMenuAnimationsEx.1=Aleatória
+ComboBoxMenuAnimationsEx.2=Desdobrar
+ComboBoxMenuAnimationsEx.3=Deslizar
+ComboBoxMenuAnimationsEx.4=Desvanecer
+CBHint1Ex.Caption=Mostrar &descrições nas barras de ferramentas
+CBHint2Ex.Caption=Mostrar teclas de a&talho nas descrições
+CBLargeIconsEx.Caption=Ícones &grandes
+CBMenusShowRecentItemsFirst.Caption=Me&nus mostram primeiro comandos recentemente usados
+CBShowFullMenusAfterDelay.Caption=Mostrar menus c&ompletos depois de um pequeno atraso
+BResetUsageData.Caption=&Repor os meus dados de utilização
+tsCommands.Caption=Todos os comandos
+CBShowCommandsWithShortCut.Caption=Mostrar comandos que possam ter um atalho
+tsGroups.Caption=Grupos
+gpGroupItems.Caption= Itens
+btnAddGroupItem.Caption=&Adicionar...
+btnDeleteGroupItem.Caption=Eliminar
+btnMoveUpGroupItem.Caption=Move Item para Cima
+btnMoveDownGroupItem.Caption=aMoverParaBaixoItemGrupo
+gbGroups.Caption= Grupos
+btnAddGroup.Caption=Adicionar Grupo
+btnAddGroup.Hint=Adicionar Grupo (Ins)
+btnDeleteGroup.Caption=Eliminar Grupo
+btnDeleteGroup.Hint=Eliminar Grupo (Elim)
+btnMoveUpGroup.Caption=Move Grupo para Cima
+btnMoveUpGroup.Hint=Move Grupo para Cima
+btnMoveDownGroup.Caption=Move Grupo para Baixo
+btnMoveDownGroup.Hint=Move Grupo para Baixo
+TabSheet1.Caption=Sugestões Chave
+
+[dlgInstall]
+Caption=Bem-vindo(a)
+
+btnCancel.Caption=Cancelar
+btnNext.Caption=&Seguinte >
+Label2.Caption=É altamente recomendado que saia de todos os programas do Windows antes de executar este Programa de Instalação.
+Label3.Caption=Clique em Cancelar para sair da Instalação e feche todos os programas que estiver a executar. Clique em Seguinte para continuar o programa de instalação.
+Label4.Caption=AVISO: Este programa está protegido por leis de direito de autor e tratados internacionais.
+Label5.Caption=A reprodução e distribuição sem autorização deste programa ou de qualquer parte dele podem dar lugar à aplicação de severas sanções civis e criminais e serão perseguidas até ao limite máximo permitido pela lei.
+Label14.Caption=Licença de Software
+rbAccept.Caption=&Aceito este contrato
+rbDontAccept.Caption=&Não aceito este contrato
+Label6.Caption=O %s será instalado na pasta seguinte.
+Label7.Caption=Para instalar numa pasta diferente, clique em Procurar e seleccione outra pasta.
+Label8.Caption=Pode escolher não instalar o %s clicando em Cancelar para sair da Instalação.
+Label16.Caption=Pasta de Instalação
+btnBrowse.Caption=Proc&urar...
+Label9.Caption=Está pronto a instalar o %s.
+Label10.Caption=Pressione o botão Seguinte para iniciar a instalação ou o botão Anterior para voltar a introduzir a informação sobre a instalação.
+Label17.Caption=Atalhos do Programa
+cbDesktop.Caption=Adicionar atalho no Am&biente de Trabalho
+cbQuickLaunch.Caption=Adicionar atalho na Barra de &Iniciação Rápida.
+cbAutostart.Caption=&Carregar no arranque do Windows
+Label18.Caption=A Copiar Ficheiros...
+lblFile.Caption=Nada para descompactar.
+Label11.Caption=A copiar ficheiro:
+Label23.Caption=Integração...
+Label24.Caption=Pode definir a integração do %s com os navegadores instalados
+Label25.Caption=Por favor, marque as caixas correspondentes para instalar a integração com os seguintes navegadores:
+lvBrowsers.0=Nome
+lvBrowsers.1=Caminho
+lvBrowsers.2=Procurar
+Label12.Caption=O %s foi instalado com sucesso.
+Label13.Caption=Pressione o botão Terminar para sair desta instalação.
+Label19.Caption=Instalação Completa
+cbRun.Caption=Executa&r o %s agora
+cbNVCheck.Caption=Acti&var procura periódica automática de novas versões
+cbTutorial.Caption=Abrir &tutorial do %s
+ilReboot.Caption=É necessário reiniciar o seu computador de modo a terminar a instalação. Reiniciar agora?
+ilSetupCapt.Caption=Instalação do %s
+ilWelcome.Caption=Bem-vindo(a)
+ilLicenseAgreement.Caption=Contrato de Licença
+ilDestination.Caption=Escolher Localização de Destino
+ilStartInstall.Caption=Iniciar Instalação
+ilInstalling.Caption=A Instalar
+ilInstComplete.Caption=Instalação Completa
+ilFinish.Caption=Terminar
+ilNext.Caption=Seguinte
+ilInstProblem.Caption=Ocorreu um problema durante a instalação. Por favor, certifique-se que tem espaço livre suficiente, que o disco não está protegido contra escrita ou que a aplicação actualizada não está actualmente carregada e execute a instalação novamente.
+ilPreparing.Caption=A Preparar...
+ilNothingToUnpack.Caption=Nada para descompactar.
+ilDone.Caption=Concluído.
+ilInstCancel.Caption=A instalação não está completa. Se sair do programa de instalação agora, o programa não será instalado.%sPoderá executar o programa de instalação mais tarde para concluir a instalação.%sDeseja mesmo cancelar a instalação?
+ilWebSite.Caption=Website
+ilBuyNow.Caption=Comprar AGORA!
+ilTechSupp.Caption=Apoio Técnico
+ilUninstall.Caption=Desinstalar o %s
+ilUninstCapt.Caption=Desinstalar o %s
+ilRemoveQ.Caption=Tem a certeza que quer remover o %s completamente?
+ilRemoved.Caption=O %s foi removido completamente do seu computador.
+ilRebootQ.Caption=É necessário reiniciar o seu computador de modo a terminar o processo de desinstalação. Reiniciar agora?
+ilRebootRun.Caption=Por favor, reinicie o sistema antes de executar o %s
+ilInstRunQ1.Caption=O %s está a ser executado no seu sistema.
+ilInstRunQ2.Caption=Não pode continuar a instalação enquanto %s estiver a ser executado.
+ilInstRunQ3.Caption=Quer mesmo fechar %s?
+ilInstRunQ4.Caption=Outro utilizador está a executar %s.%sPrecisa de sair de todas as instâncias de %s e executar a instalação novamente.
+ilUninstRunQ1.Caption=Não pode continuar a desinstalação enquanto %s estiver a ser executado.
+ilUninstRunQ2.Caption=Outro utilizador está a executar %s.%sPrecisa de sair de todas as instâncias de %s e executar o programa de desinstalação novamente.
+ilAllFiles.Caption=Todos os ficheiros
+ilBrowsers.Caption=Integração de navegadores
+ilInstalled.Caption=(Integração já instalada)
+ilNotDetected.Caption=- (não detectada)
+ilBrowseExec.Caption=Procurar ficheiro executável de %s
+ilNoEnoughRights.Caption=Lamentamos, mas não possui direitos suficientes para concluir esta operação.\nPor favor, peça ao seu administrador para executar a operação.
+ilIntro.Caption=Introdução
+btnBack.Caption=< &Anterior
+ilRebootInst.Caption=Por favor, reinicie o sistema antes de instalar o %s
+
+[Strings]
+Predefinido
+Vazio
+Não é possível localizar o navegador predefinido
+Erro
+Não é possível iniciar o navegador predefinido
+Quer remover
+Confirmação
+Quer remover todos os ficheiros do(s) Projecto(s)
+Deve manter-se pelo menos uma pasta.
+Quer remover todos os Projectos existentes na pasta ou selecção
+Erro ao Iniciar a Ferramenta Externa
+Transferido
+ficheiro(s)
+Lista de Espera
+Tamanho
+Kb
+Nova Pasta
+&Retomar
+&Suspender
+Velocidade
+bytes/s
+Quer sair
+Propriedades Padrão do Projecto
+Parar Transferência?
+Desactivar transferências dos URLs
+Definições avançadas do Projecto
+Nome, endereço e níveis do Projecto
+Palavras-passe usadas para proteger websites
+Selecção dos tipos de ficheiro
+Limitar servidores usando palavras-chave
+Limitar directórios usando palavras-chave
+Limitar ficheiros usando palavras-chave
+Quando devem ser transferidos os Projectos
+Definir conteúdos da categoria
+Definições da ligação à internet e servidor HTTP
+Definições do tipo de servidor proxy e palavra-passe
+A localização onde os ficheiros transferidos serão guardados
+Definir limite de espaço livre no disco
+Definições especiais que afectam todo o programa
+Ao navegar num website, exibe uma opção de escolha entre uma destas ferramentas
+Uma lista dos navegadores utilizados para navegar nos websites
+Ao navegar num website, exibe uma opção de escolha entre uma destas ferramentas
+Uma lista dos visualizadores usados para ver ficheiros web
+Ao navegar num website, exibe uma opção de escolha entre uma destas ferramentas
+Uma lista de editores usados para editar ficheiros web
+MB Livres
+Não é possível encontrar dados correspondentes.
+A transferir
+Pronto
+A suspender
+A analisar
+A pesquisar
+&Importar
+Maximizar navegador interno para ecrã completo
+Restaurar navegador interno para o tamanho normal
+Limitar protocolos
+Os cookies estão actualmente desactivados no seu sistema. Quer activá-los?
+Seleccionar modo de tradução da ligação
+Editor de Modelos
+Parar carregamento do ficheiro?
+Propriedades Gerais do Projecto
+Vários modos para actualizar o Projecto
+Nome da pasta e directório da transferência
+Integração do sistema
+Manter ficheiros antigos quando se transferir novas versões
+Acesso telefónico na transferência de sites da internet
+Desconectar, sair &e encerrar o sistema
+Quer desligar a ligação ao modem?
+Mb
+Gb
+Filtrar páginas transferidas usando palavras-chave dos conteúdos
+Confirmar determinadas acções
+segundos
+Transferência completa
+Transferência do Projecto agendada
+Projecto não transferido
+Endereço (URL) não encontrado
+Transferência parada
+Isto irá pesquisar por todos os sites e ficheiros transferidos e não utilizados e propor a sua remoção selectiva.
+Quer continuar?
+Carregado
+Extensão
+Limitar velocidade de transferência
+Quer iniciar todos os Projectos existentes na pasta?
+Quer parar o Projecto anterior?
+Quer parar todos os Projectos existentes na pasta?
+Documento não encontrado
+Esta página não está disponível offline. Pode não ter sido transferida ou foi removida por um utilizador. Razões possíveis para não ter sido transferida: o URL foi excluído devido às definições do Projecto, o documento não esteve disponível online durante a transferência do Projecto ou a transferência foi interrompida antes de estar concluída.
+Clique aqui para ficar online
+Informação
+bytes
+Tamanho total dos ficheiro é
+Isto definirá o directório de transferência de cada subpasta para o indicado acima.
+Quer continuar?
+Projecto
+O servidor reporta que o URL inicial foi movido para um novo endereço:
+Quer reiniciar a transferência com o novo URL do Projecto (clique em Cancelar para manter o URL antigo)?
+Comportamento quando a transferência do Projecto estiver concluída
+Abrir ficheiro
+Seleccionado
+Quer manter a informação dos ficheiros removidos para transferir ficheiros novos e alterados mais tarde?
+Nível do Ficheiro:
+Não Registado
+Licença de Utilizador / Computador
+Licença de Site Ilimitada
+Licença de Site
+Licença de Utilizadores / Computadores
+Licença temporária. Expira após
+Projectos
+URLs
+Suspender para ficheiro
+Última transferência desde %s a %s
+Nenhum Projecto seleccionado
+Está agora no dia %s do seu período de avaliação de 30 dias.
+dias
+Definir como Página Inicial
+Não actualiza o Projecto há %s dias
+Palavras-chave não coincidem
+Palavra-chave é inválida
+Quer substituir os Projectos existentes?
+Procurar nova versão
+Arrastar Projectos para adicionar ao Agendador
+Arrastar Projectos para adicionar ao Agendador
+Ligações múltiplas
+Novo Navegador
+Novo Modelo
+Transferir a ligação em falta e adicioná-la ao Projecto seleccionado
+Página de Boas-vindas
+Gráfico de Velocidade de Tranferência. Sem actividade nas transferências há %s segundos.
+Gráfico de Velocidade de Tranferência. Máx = %s, Méd = %s em %s segundos.
+Limites das transferências
+Definições de análise avançadas
+Nova versão detectada:
+Quer transferir e instalá-la?
+Possui a versão mais recente do
+Nível
+Transferência começa
+está a correr no tabuleiro do sistema.
+Clique com o botão direito no ícone do tabuleiro para exibir o navegador e barra de ferramentas.
+Iniciar
+Parar
+Quer eliminar a tarefa de transferência e os seus ficheiros transferidos?
+Espaço livre
+A Calcular
+Quer eliminar todos os websites transferidos?
+Versão

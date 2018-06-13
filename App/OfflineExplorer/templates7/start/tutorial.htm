@@ -1,0 +1,85 @@
+<!DOCTYPE>
+<%
+      set Obj = folders.ExtObject
+        on error resume next
+        num = CInt(request("num"))
+        tp = request("tp")
+%>
+<html>
+<head>
+    <script src="functions.js" type="text/javascript"> </script>
+    <title><%=Obj.AppName%> <%=Obj.AppEdition%></title>
+    <link rel="stylesheet" type="text/css" href="<%=Obj.UIColor%>.css" />
+    <script type="text/javascript">
+                tips = <%=Obj.TipsCount %>;
+    </script>
+</head>
+<body>
+    <%
+      header = "header"
+        if Obj.AppCompany <> "MetaProducts" then header="header-no-logo"
+    %>
+
+    <div class="<%=header%>">
+        <div class="wrapper">
+			<div class="product-logo">
+	            <%=Obj.AppName%><span><%=Obj.AppEdition%></span></div>
+			<a href="https://www.metaproducts.com" class="mp-logo"></a>
+        </div>
+    </div>
+    <div class="menu">
+        <table class="wrapper" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+	            <td><a href="./">Home</a></td>
+            	<td class="space"></td>
+            	<td><a href="tutorials.htm" class="active">Tutorials</a></td>
+            	<td><a href="/report.csv">Report</a></td>
+            	<td><a href="projects.htm">Projects</a></td>
+            	<td><a href="wizard.htm">Wizard</a></td>
+			</tr>
+        </table>
+    </div>
+    <div class="content">
+        <div class="wrapper">
+            <div class="tips">
+                <table class="nav" cellpadding="0" cellspacing="0" border="0">
+					<tr>
+                    	<td><a class="prev" onclick="nextTip(0)">&lt;</a></td>
+                    	<td class="space">Did you know...</td>
+                    	<td><a class="next" onclick="nextTip(1)">&gt;</a></td>
+					</tr>
+                </table>
+                <div id="tip"></div>
+            </div>
+            <div id="text">
+                <!--Projects heading-->
+                <%
+      Set doc = folders.CreateObject("Microsoft.XMLDOM")
+        doc.async = false
+        doc.load (folders.TemplatesPath & "start\tutorial.xml" )
+        set root = doc.documentElement
+        cnt = 1
+        for i = 0 to root.childNodes.length - 1
+                set node = root.childNodes(i)
+                name = node.attributes(0).text
+                t = node.attributes(1).text
+                if t=tp then
+                        for j = 0 to node.childNodes.length - 1
+                                set t = node.childNodes(j)
+                                if cnt = num then
+                                        text = replace(t.text, "%OENAME%", Obj.AppName & " " & Obj.AppEdition)
+                                        Response.writeln("<h2>" & t.attributes(0).text & "</h2>")
+                                        Response.writeln("<div id='tutorial'>" & text & "</div>")
+                                end if
+                                cnt = cnt + 1
+                        next
+                end if
+        next
+                %>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+        <script type="text/javascript">nextTip(0)</script>
+    </div>
+</body>
+</html>

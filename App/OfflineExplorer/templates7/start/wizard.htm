@@ -1,0 +1,201 @@
+<!doctype>
+<%      set Obj = folders.ExtObject %>
+<html>
+<head>
+
+    <script src="functions.js" type="text/javascript"> </script>
+
+    <title><%=Obj.AppName%> <%=Obj.AppEdition%></title>
+    <link rel="stylesheet" type="text/css" href="<%=Obj.UIColor%>.css" />
+
+    <script type="text/javascript">
+                tips = <%=Obj.TipsCount %>;
+    </script>
+
+</head>
+<body>
+  <%
+      header = "header"
+        if Obj.AppCompany <> "MetaProducts" then header="header-no-logo"
+    %>
+
+    <div class="<%=header%>">
+        <div class="wrapper">
+			<div class="product-logo">
+	            <%=Obj.AppName%><span><%=Obj.AppEdition%></span></div>
+			<a href="https://www.metaproducts.com" class="mp-logo"></a>
+        </div>
+    </div>
+    <div class="menu">
+        <table class="wrapper" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+	            <td><a href="./">Home</a></td>
+            	<td class="space"></td>
+            	<td><a href="tutorials.htm">Tutorials</a></td>
+            	<td><a href="/report.csv">Report</a></td>
+            	<td><a href="projects.htm">Projects</a></td>
+            	<td><a href="wizard.htm" class="active">Wizard</a></td>
+			</tr>
+        </table>
+	</div>
+    <div class="content">
+        <div class="wrapper">
+            <div class="tips">
+                <table class="nav" cellpadding="0" cellspacing="0" border="0">
+					<tr>
+                    	<td><a class="prev" onclick="nextTip(0)">&lt;</a></td>
+                    	<td class="space">Did you know...</td>
+                    	<td><a class="next" onclick="nextTip(1)">&gt;</a></td>
+					</tr>
+                </table>
+                <div id="tip"></div>
+            </div>
+            <div id="text">
+                <!--Projects heading-->
+                <h2>
+                    New project
+                </h2>
+                <form id="form" action="wizard-done.htm" method="post">
+                    <input type="hidden" name="folder" value="0" id="prj-folder" />
+                    <input type="hidden" name="location-url" value="" id="prj-location-url-hidden" />
+                    <input type="hidden" name="location-server" value="" id="prj-location-server-hidden" />
+                    <div id="page1">
+                        <h3>
+                            Choose destination folder
+                        </h3>
+                        <div id="folders" class="block">
+                            <div id="f-0">
+                            </div>
+                        </div>
+                        <p class="right">
+                            <input type="button" id="prj-next" class="input-button" value="Next step &gt;&gt;"
+                                   disabled="disabled" onclick="nextStep()" />
+                        </p>
+                    </div>
+                    <div id="page2" style="display: none">
+                        <h3>
+                            Project details
+                        </h3>
+                        <p>
+                            <label for="url">
+                                Project URL:
+                            </label><br />
+                            <input type="text" name="url" class="input-text" id="prj-url" onclick="checkControls()"
+                                   onkeyup="checkControls()" value="http://" onblur="copyProjectName()" />
+                        </p>
+                        <p>
+                            <label for="name">
+                                Project name:
+                            </label><br />
+                            <input type="text" name="caption" class="input-text" id="prj-name" />
+                        </p>
+                        <p class="block">
+                            <input type="checkbox" name="levels" id="prj-levels" onclick="checkControls()" checked="checked" /><label for="levels" onclick="checkBox('prj-levels');checkControls();">Levels limit:</label>
+                            <input type="text" value="1" name="level" size="3" id="prj-level" />
+                        </p>
+                        <table class="block">
+                            <tr>
+                                <td width="1%">
+                                    <input type="radio" id="prj-download-all" name="filetype" onclick="checkControls()"
+                                           checked="checked" value="all" />
+                                </td>
+                                <td colspan="2">
+                                    <label for="filetype" onclick="checkRadio('prj-download-all');checkControls();">
+                                        Download all files that a linked to the starting page
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="radio" id="prj-download-skip" name="filetype" value="skip" onclick="checkControls()" />
+                                </td>
+                                <td colspan="2">
+                                    <label for="filetype" onclick="checkRadio('prj-download-skip');checkControls();">
+                                        Skip loading the following file types:
+                                    </label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <input type="checkbox" name="filter-graphics" id="prj-graphics" value="on" /><label for="filter-graphics" onclick="checkBox('prj-graphics')">Graphics (images)</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="filter-video" id="prj-video" checked="checked" value="on" /><label for="filter-video" onclick="checkBox('prj-video')">Video</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>
+                                    <input type="checkbox" name="filter-audio" id="prj-audio" value="on" /><label for="filter-audio"
+                                                                                                                  onclick="checkBox('prj-audio')">Audio (sound, misic)</label>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="filter-archive" id="prj-archive" checked="checked" value="on" /><label for="filter-archive" onclick="checkBox('prj-archive')">Archive (ZIP, RAR, etc.)</label>
+                                </td>
+                            </tr>
+                        </table>
+                        <table>
+                            <tr>
+                                <td width="1%">
+                                    <input type="radio" id="prj-location-url" name="location" checked="checked" value="url"
+                                           onclick="checkControls()" />
+                                </td>
+                                <td colspan="2">
+                                    <label for="location" onclick="checkRadio('prj-location-url');checkControls();">
+                                        Load only within the starting URL:
+                                    </label><br />
+                                    <div id="prj-location-url-note">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="radio" id="prj-location-server" name="location" value="server" onclick="checkControls()" />
+                                </td>
+                                <td colspan="2">
+                                    <label for="location" onclick="checkRadio('prj-location-server');checkControls();">
+                                        Load only within the starting server:
+                                    </label><br />
+                                    <div id="prj-location-server-note">
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="radio" id="prj-location-any" name="location" value="any" onclick="checkControls()" />
+                                </td>
+                                <td colspan="2">
+                                    <label for="location" onclick="checkRadio('prj-location-any');checkControls();">
+                                        Load from any location.
+                                    </label>
+                                </td>
+                            </tr>
+                        </table>
+                        <p>
+                            <input type="checkbox" name="load-images" id="prj-images-any-location" checked="checked"
+                                   value="on" /><label for="load-images" onclick="checkBox('prj-images-any-location')">
+                                Load
+                                images from any location
+                            </label>
+                        </p>
+                        <p>
+                            <input type="button" value="&lt;&lt; Back" id="prj-back" onclick="prevStep()" class="input-button" />
+                            <input type="submit" value="Create project" id="prj-submit" class="input-button" />
+                        </p>
+                    </div>
+                </form>
+                <!-- End of the Projects placeholder -->
+                <div id="footer">
+                </div>
+            </div>
+            <div style="clear: both">
+            </div>
+        </div>
+
+        <script type="text/javascript">loadFolders(0);nextTip(0);checkControls();</script>
+
+    </div>
+
+</body>
+</html>

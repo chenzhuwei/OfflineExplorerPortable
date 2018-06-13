@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<title>Search results</title>
+	<link rel="stylesheet" type="text/css" href="main.css" />
+
+	<%
+	id  = request("id")
+	sid = request("sid")
+	function getBoolean( value )
+		getBoolean = "false"
+		if ( value ) then getBoolean = "true"
+	end function
+
+	if not isNumeric(id) then
+		response.write("</head><body>")
+		response.write("Project id is missing")
+	else
+		if isNumeric(id) then
+			set Obj = folders.ProjectByIID(id)
+			SComplete = Obj.SearchResultComplete(sid)
+			if SComplete < 101 then
+				response.write("<META HTTP-EQUIV=""Refresh"" CONTENT=""2; URL=searchr.htm?id=" & id & "&sid=" & sid & """></HEAD><BODY>")
+				response.write("Search complete: " & SComplete & "%")
+			else
+				response.write("</head><body><div id=""search-results"">")
+				cnt = Obj.SearchResultCount(sid)
+			    response.write("<h1>Found pages: " & cnt & "</h1><ol>")
+				for i = 0 to cnt - 1
+					SRes = Obj.SearchResult(sid, i)
+					response.write(SRes)
+				next
+				response.write("</ol></div>")
+			end if
+		end if 
+	end if%>
+</body>
+</html>

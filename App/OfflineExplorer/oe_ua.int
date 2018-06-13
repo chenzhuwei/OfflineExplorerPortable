@@ -1,0 +1,1535 @@
+; #(c) Translated by: Andriy Slezenko, andriy@slezenko.com
+; Web-site: http://slezenko.com.
+
+[Intl File 4.0]
+Language=Ukrainian
+Charset=1
+Font=Tahoma
+
+[MainForm]
+
+lblAddress.Caption=Адреса:
+lblLevel.Caption=Рівень:
+btnCreate.Caption=&Завантажити
+pgProjects.Caption=Проекти
+pgWebSites.Caption=Карта
+lblDisabledURLs.Caption=Заборонені &URL
+pgLevels.Caption=Рівні
+tbWebBrowser.0=Вбудований браузер
+btnExpandIB.Hint=Розгорнути на повний екран
+tbWBBack.Hint=Назад
+tbWBForw.Hint=Вперед
+tbWBStop.Hint=Зупинити
+tbWBRefr.Hint=Оновити
+tbWBPrint.Hint=Друк|Друкувати поточну сторінку
+tbWBSettings.Hint=Настроювання вбудованого браузера|Зміна шрифту і дозвіл/заборона показу малюнків
+tbWBHome.Hint=Початкова сторінка|Перегляд списку проектів і статистики
+tbWBCatchURL.Hint=Додати наступне натиснуте посилання як проект|Натискання на посилання чи відправлення форми буде записане як проект для завантаження у будь-який час.
+tbEDOpen.Hint=Відкрити файл для редагування
+tbEDSave.Hint=Зберегти зміни у файл
+tbEDCut.Hint=Вирізати позначений текст у буфер обміну
+tbEDCopy.Hint=Копіювати позначений текст у буфер обміну
+tbEDPaste.Hint=Вставити текст з буфера обміну
+tbEDUndo.Hint=Скасувати зміни
+tbEDFind.Hint=Пошук
+mpTBrowse.Caption=&Огляд
+mpTBrowseNewTab.Caption=&Огляд у новій вкладці
+mpTEdit.Caption=&Редагування
+mpTBrowseWith.Caption=О&глянути з
+mpTTAdjust1.Caption=&Настроїти панелі...
+mpTTAdjust1.Hint=Відкрити вікно для додавання/видалення інструментів
+mpTViewIn.Caption=&Переглянути в
+mpTTAdjust2.Caption=&Настроїти панелі...
+mpTTAdjust2.Hint=Відкрити вікно для додавання/видалення інструментів
+mpTEditIn.Caption=&Редагувати в
+mpTTAdjust3.Caption=&Настроїти панелі...
+mpTTAdjust3.Hint=Відкрити вікно для додавання/видалення інструментів
+mpTSort.Caption=С&ортувати
+mpTSName.Caption=За &ім`ям
+mpTSTime.Caption=За &часом завантаження
+mpTSURL.Caption=За &URL
+mpTSFolders.Caption=&Вищерозташовані папки за ім`ям
+mpTCopyURL.Caption=Копіювати &URL
+mpTNProject.Caption=&Проект...
+Delete1.Caption=&Видалити
+mpTDelete.Caption=&Видалити...
+mpTDeleteFiles.Caption=&Тільки файли проекту
+mpTDeleteFiles.Hint=Видалити файли, завантажені вибраним проектом
+mpTDeleteProjectOnly.Caption=&Тільки настроювання проекту
+mpTDisable.Caption=За&боронити завантаження
+mpDownload.Caption=&Завантаження
+mpStart.Caption=&Почати
+mpStop.Caption=&Зупинити
+mpSuspendToFile.Caption=&Призупинити проект у файл...
+mpTExport.Caption=&Експорт...
+mpTMarkRead.Caption=Позначити як &переглянутий
+mpTMarkUnRead.Caption=Позначити як &непереглянутий
+mpTRefresh.Caption=&Оновити
+mpTTemplates.Caption=Застосувати &шаблон...
+mpTTemplates.Hint=Застосувати шаблон до позначених проектів
+mpTDescription.Caption=&Опис...
+mpTStatistics.Caption=&Статистика...
+mpTProperties.Caption=В&ластивості...
+mpTSingleClickMap.Caption=Відкривати &одним клацанням
+mpTCloseFolders.Caption=Закривати &непотрібні папки
+mpTSelectFiles.Caption=Вибір фа&йлів...
+mpTShow.Caption=&Показати
+mpTStop.Caption=&Зупинити завантаження...
+mpTClipboard.Caption=&Стеження за буфером обміну
+mpTPaste.Caption=&Вставити проект
+mpTIntegration.Caption=&При вставці адреси URL
+mpTDefTemplate.Caption=&Використовувати шаблон за замовчуванням
+mpTAutoStart.Caption=&Автоматично завантажувати
+mpTExit.Caption=В&ихід
+dlgRFromFile.Caption=Відновити з файлу
+dlgRFromFile.Filter=Файли черги|*.wdq|Усі файли|*.*
+dlgStoFile.Caption=Призупинити у файл
+dlgStoFile.Filter=Файли черги|*.wdq|Усі файли|*.*
+mpAProject.Caption=&Проект...
+mpAWizard.Caption=&Майстер проектів...
+mpAFolder.Caption=&Папка
+mpATemplate.Caption=&Шаблон...
+mpASeparator.Caption=Шаблони
+mpQAbort.Caption=&Зупинити
+mpQAbort.Hint=Зупинити завантаження позначених адрес
+mpQAbortDisable.Caption=Зупинити і за&боронити
+mpQAbortDisable.Hint=Зупинити завантаження позначених адрес і заборонити у Властивостях проекту їх завантаження
+mpQACurrentURL.Caption=Позначені &адреси
+mpQACurrentURL.Hint=Виключити позначену адресу зі списку завантаження
+mpQAFolder.Hint=Заборонити усі посилання в позначеному каталозі
+mpQAServer.Hint=Заборонити усі посилання на позначеному сервері
+mpQCopyURL.Caption=Скопіювати &URL
+mpQCopyReferer.Caption=Копіювати &Referer-посилання
+mpQSelectProject.Caption=Вибрати &Проект
+mpQSelectConnection.Caption=Вибір &з`єднання
+mpQSaveList.Caption=&Зберегти список у файлі
+mpQPause.Caption=&Призупинити завантаження проекту
+mpQConnections.Caption=&Обмеження з`єднань
+mpQCAll.Caption=&Усі доступні з`єднання
+mpQC1.Caption=&1 з`єднання
+mpQC2.Caption=&2 з`єднання
+mpQC5.Caption=&5 з`єднань
+mpQC10.Caption=1&0 з`єднань
+mpQSelectAll.Caption=Позначити &усе
+mpQInvertSelection.Caption=&Інвертувати позначення
+mpQSelectMask.Caption=Вибрати за &маскою...
+mpQShowReferers.Caption=Показати Re&ferer-посилання
+mpBSeparator.Caption=Шаблони
+mpSStop.Caption=Зупинити &позначений проект
+mpSStopAll.Caption=Зупинити &усе
+mpFSFontSize.Caption=&Розмір шрифту
+mpFSLargest.Caption=&Максимальний
+mpFSLarger.Caption=&Більше
+mpFSMedium.Caption=&Середній
+mpFSSmaller.Caption=Ме&нше
+mpFSSmallest.Caption=Н&айменший
+mpFSShowImages.Caption=&Показувати малюнки
+mpFSShowImages.Hint=Дозволити чи заборонити показ малюнків у вбудованому браузері
+mpFSBrowseOnline.Caption=Відкрити поточний URL у O&nline
+mpFSBrowseOnline.Hint=Відкрити поточний URL у Online
+mpFSBrowseOffline.Caption=Відкрити поточний URL у &Offline
+mpFSBrowseOffline.Hint=Відкрити поточний URL у Offline
+mpFSBrowsingProject.Caption=Вибір &проекту, що зараз відкритий
+mpFSViewSource.Caption=Пере&гляд вихідного коду сторінки
+odRestore.Caption=Відновити з файлу
+odRestore.Filter=Offline Explorer backup|*.boe|Усі файли|*.*
+odBackup.Caption=Зберегти у файл
+odBackup.Filter=Offline Explorer backup|*.boe|Усі файли|*.*
+pmWBPrint.Caption=&Друк...
+pmWBPreview.Caption=Попередній п&ерегляд...
+miFile.Caption=&Файл
+miFNewProject.Caption=С&творити...
+miFNewProject.Hint=Створити новий проект чи папку
+miFExport.Caption=&Експорт...
+miFExport.Hint=Копіювати завантажені файли проекту в інший каталог
+miFDelSelected.Caption=Видалити
+miFDelSelected.Hint=Видалити позначений проект, папку чи файл
+miFProperties.Caption=В&ластивості...
+miFProperties.Hint=Властивості позначеного проекту
+miFDProperties.Caption=&Шаблони...
+miFDProperties.Hint=Шаблони для усіх заново створюваних проектів
+miFSaveChanges.Caption=&Зберегти зміни
+miFSaveChanges.Hint=Зберегти зміни у настроюванні і проектах
+miFExit.Caption=В&ихід
+miFExit.Hint=Вийти з програми
+miFWizard.Caption=&Майстер...
+miFWizard.Hint=Додати новий проект за допомогою Майстра
+miFPrint.Caption=&Друк...
+miFPrint.Hint=Роздрукувати усі сторінки, завантажені позначеним проектом
+miEUndoDel.Caption=&Скасувати видалення
+miEUndoDel.Hint=Відновити видалений проект чи папку
+miECut.Caption=&Вирізати
+miECut.Hint=Вирізати позначений проект чи папку у буфер обміну
+miECopy.Caption=&Копіювати
+miECopy.Hint=Копіювати позначений проект чи папку у буфер обміну
+miEPaste.Caption=Вст&авити
+miEPaste.Hint=Вставити проект чи папку з буфера обміну
+miEFindFiles.Caption=&У файлах чи папках...
+miEFindFiles.Hint=Знайти проект, папку чи файл
+miEFindContents.Caption=Знайти &вміст...
+miEFindContents.Hint=Пошук слів у вмісті завантажених файлів
+miVInternalBrowser.Caption=В&будований браузер
+miVInternalBrowser.Hint=Вікно вбудованого браузера для швидкого перегляду завантажених вузлів Інтернет
+miVOptions.Caption=&Настроювання...
+miVOptions.Hint=Переглянути чи встановити різні настроювання програми
+miDStart.Caption=&Почати
+miDStart.Hint=Завантажити проект чи папку
+miDStop.Caption=&Зупинити
+miDStop.Hint=Зупинити завантаження позначеного проекту
+miDSuspendFile.Caption=Призупинити у &файл...
+miDSuspendFile.Hint=Зберегти чергу завантаження у файл
+miDResumeFile.Caption=Відновити з ф&айлу...
+miDResumeFile.Hint=Відновити чергу завантаження з файлу
+miDSpeed.Caption=&Швидкість
+miDSpeed.Hint=Швидкість завантаження
+miTDatamine.Caption=Витягування &даних...
+miTDatamine.Hint=Обробити завантажені файли проекту за допомогою TextPipe
+miTBrowse.Caption=Перегляд
+miTBrowse.Hint=Переглянути позначений проект чи файл
+miVBrowseWith.Caption=О&глянути з
+miTHHangup.Caption=&Від`єднання
+miTHHangup.Hint=Від`єднання від телефонної лінії по завершенню завантаження
+miTHShutdown.Caption=&Вимикання
+miTHShutdown.Hint=Вимикання комп`ютера по завершенню завантаження
+miHContents.Caption=&Зміст
+miHContents.Hint=Перегляд змісту довідки
+miFDelete.Caption=&Видалити
+miFDProject.Caption=&Проект
+miFDProject.Hint=Видалити позначений проект
+miFDFolder.Caption=П&апку
+miFDFolder.Hint=Видалити позначену папку
+miEDelete.Caption=&Видалити
+miEDelete.Hint=Видалити позначений проект, папку чи файл
+miEDeleteFiles.Caption=&Тільки файли проекту
+miEDeleteFiles.Hint=Видалити завантажені файли вибраного проекту
+miFDOld.Caption=&Старі файли проекту
+miFDOld.Hint=Видалити усі файли, завантажені вибраним проектом, які більше не використовуються
+miFRename.Caption=&Перейменувати
+miFRename.Hint=Перейменувати позначений проект чи папку
+miEdit.Caption=&Редагування
+miView.Caption=&Вигляд
+Toolbars1.Caption=&Панелі інструментів
+miVTToolbar.Caption=&Звичайні кнопки
+miVTToolbar.Hint=Стандартна панель інструментів, що дозволяє швидко виконувати деякі звичайні команди
+miVTAddressBar.Caption=Панель &адрес
+miVTAddressBar.Hint=Панель адрес, що дозволяє швидко завантажувати будь-який вузол Інтернет, використовуючи властивості за замовчуванням
+miVTTextLabels.Caption=&Підписи до кнопок
+miVTGrayButtons.Caption=&Сірі кнопки
+miVStatusBar.Caption=&Рядок стану
+miVStatusBar.Hint=Рядок стану
+miVExplorerBar.Caption=&Вікна
+miVProjects.Caption=&Проекти
+miVProjects.Hint=Дерево проектів
+miVMap.Caption=&Карта
+miVMap.Hint=Карта завантажених файлів
+miVQueue.Caption=&Черга
+miVQueue.Hint=Керування чергою завантажень
+miVMessages.Caption=Пов&ідомлення
+miVMPanel.Caption=&Панель
+miVMPanel.Hint=Показати стан поточного завантаження
+miVLog.Caption=Вікно &логу
+miVLog.Hint=Показати вікно логу
+miDownload.Caption=&Завантаження
+miDStartAll.Caption=Завантажити у&се
+miDStartAll.Hint=Розпочати завантаження усіх проектів
+miDStopAll.Caption=Зупинити &усе
+miDStopAll.Hint=Зупинити завантаження усіх проектів
+miPlugins.Caption=&Плагіни
+miTHTMLImp.Caption=&Імпорт з HTML файлу...
+miTBackupRestore.Caption=&Зберегти/Відновити
+miTBackupProjects.Caption=&Зберегти проекти...
+miTBackupProjects.Hint=Зберегти настроювання проекту і завантажені ним сайти у стиснутому файлі
+miTRestoreProjects.Caption=&Відновити проекти...
+miTRestoreProjects.Hint=Відновити настроювання проекту і завантажені ним сайти із стиснутого файлу
+miTSequencer.Caption=&Послідовність
+miTSResume.Caption=&Призупинено
+miTSHighlight.Caption=Позна&чити проект
+miTSReset.Caption=&Скинути на перший проект
+miHelp.Caption=&Довідка
+miHRegister.Caption=За&мовити
+miHRegister.Hint=Замовити програму у онлайн
+miHWebSite.Caption=Вузол &Інтернет
+miHWebSite.Hint=Завітати до нашої сторінки в Інтернет
+miHTips.Caption=По&ради...
+miHTips.Hint=Переглянути корисні поради
+miHCheck.Caption=Перевірка &оновлень
+About1.Caption=&Про програму...
+About1.Hint=Про програму Offline Explorer...
+miVEditIn.Caption=&Редагувати в
+miVViewIn.Caption=&Переглянути в
+miFNProject.Caption=&Проект...
+miFNProject.Hint=Проект
+miFNFolder.Caption=&Папка
+miFNFolder.Hint=Папка
+miFNTemplate.Caption=&Шаблон...
+miFNTemplate.Hint=Шаблон
+miFNTemplates.Caption=———— Шаблони ————
+miFNTemplates.Hint=———— Шаблони ————
+miFImport.Caption=&Імпорт
+miDSHigh.Caption=&Висока
+miDSHigh.Hint=Висока
+miDSMedium.Caption=&Середня
+miDSMedium.Hint=Середня
+miDSLow.Caption=&Низька
+miDSLow.Hint=Низька
+miDSBackground.Caption=&Фонова
+miDSBackground.Hint=Фонова
+miVTCustomize.Caption=&Настроювання...
+miVTCustomize.Hint=Настроїти панель інструментів
+miTHangupExit.Caption=Від`єднання і В&имикання
+miTHangupExit.Hint=Від`єднання від телефонної линії чи вимикання комп`ютера після завершення завантаження
+miTHHHangupOnce.Caption=&Разове від`єднання
+miTHHHangupOnce.Hint=Від`єднання від телефонної лінії один раз по завершенню завантаження
+miTHHHangupAlways.Caption=Від`єднувати &завжди
+miTHHHangupAlways.Hint=Від`єднання від телефонної лінії кожного разу по завершенню завантаження
+miTHSShutdownOnce.Caption=&Разове вимикання
+miTHSShutdownOnce.Hint=Вимикання комп`ютера один раз по завершенню завантаження
+miTHSShutdownAlways.Caption=Вимикати &завжди
+miTHSShutdownAlways.Hint=Вимикання комп`ютера кожного разу по завершенню завантаження
+miTRemember.Caption=&Запам`ятати сторінку
+miTRemember.Hint=Запам`ятати сторінку
+miVSequencer.Caption=Послідовність &запуску
+miVSequencer.Hint=Редагування послідовності запуску проектів
+miVTFlatToolbar.Caption=П&лоский стиль
+miVTFlatToolbar.Hint=Плоский стиль меню і кнопок
+miDSuspend.Caption=&Пауза
+miDSuspend.Hint=Призупинити/Продовжити завантаження
+miVSchedMan.Caption=&Керування розкладом
+miVSchedMan.Hint=Вікно керування розкладом завантаження проектів
+miVLanguages.Caption=&Мови
+miDSRestart.Caption=&Рестарт завантаження
+miDSRestart.Hint=Розпочати завантаження позначених проектів ще раз
+miDSUpdate.Caption=&Оновлення проекту
+miDSUpdate.Hint=Завантажити нові і/чи змінені файли для позначених проектів
+miDSContinue.Caption=&Завантаження ще не отриманих файлів
+miDSContinue.Hint=Перевірка сторінок, які були пропущені, і спроба завантажити їх
+miHForum.Caption=&Форуми MetaProducts
+miHForum.Hint=Знайти відповіді на ваші питання чи обговорити ваші пропозиції у форумах MetaProducts
+miTEdit.Caption=&Редагування
+miTEdit.Hint=Редагування
+miTTAdjust.Caption=&Настроїти панелі...
+miTTAdjust.Hint=Відкрити вікно для додавання/видалення інструментів
+mpTSuspendNoDownload.Caption=Жодного активного завантаження
+mpTSuspendNoDownload.Hint=Жодного активного завантаження
+miHRegister1.Caption=&Реєстрація...
+miHRegister1.Hint=Ввести реєстраційний ключ
+miDDCreate.Caption=&Створити новий проект
+miDDCreate.Hint=Додати посилання як новий проект
+miDDAdd.Caption=&Додати посилання до позначеного проекту
+miDDAdd.Hint=Додати посилання до позначеного проекту
+mpWBTClose.Caption=&Закрити
+mpWBTCloseAll.Caption=Закрити &усе
+mpWBTNewWindow.Caption=&Нове вікно браузера
+mpWBTNewEditWindow.Caption=Нове вікно для &Редагування
+mpWBTFixedWidth.Caption=Зафіксувати ширину сторінки
+mpWBTMultiLineTabs.Caption=Багаторядкові вкладинки
+odEDLoad.Filter=Усі файли|*.*
+MenuItem1.Caption=&Скасувати
+MenuItem4.Caption=В&ирізати
+MenuItem5.Caption=&Копіювати
+MenuItem6.Caption=Вс&тавити
+MenuItem7.Caption=&Видалити
+MenuItem9.Caption=&Позначити усе
+MenuItem10.Caption=П&еренесення слів
+odEDSave.Filter=Усі файли|*.*
+pgQueue.Caption=Черга
+mpBrowseOnline.Caption=Оглянути URL в O&nline
+mpBrowseOnline.Hint=Оглянути поточний URL в Online
+mpBrowseOffline.Caption=Оглянути URL в &Offline
+mpBrowseOffline.Hint=Оглянути поточний URL в Offline
+
+[dlgInstall]
+
+btnCancel.Caption=Скасувати
+Label2.Caption=Перед продовженням установки рекомендується закрити усі Windows-програми, що зараз виконуються.
+Label3.Caption=Клацніть "Скасувати" для виходу з установки і закриття усіх програм, що виконуються. Натисніть "Далі" для продовження.
+Label4.Caption=УВАГА: Ця програма захищена законом про авторські права і міжнародними угодами.
+Label5.Caption=Неавторизоване копіювання чи поширення цієї програми чи будь-якої її частини може викликати цивільну і кримінальну відповідальність і буде переслідуватися за законом.
+Label14.Caption=Ліцензійна угода
+rbAccept.Caption=Я &згоден з угодою
+rbDontAccept.Caption=Я &не погоджуюся
+Label6.Caption=Установка програми %s в наступну папку.
+Label7.Caption=Для вибору іншої, натисніть "Огляд".
+Label8.Caption=Ви можете скасувати установку %s, натиснувши кнопку "Скасувати".
+Label16.Caption=Інсталяційна папка
+Label22.Caption=Інсталяційна &папка
+btnBrowse.Caption=&Огляд...
+Label9.Caption=Все готово для установки %s.
+Label10.Caption=Натисніть кнопку "Далі" для початку інсталяції чи кнопку "Назад" для зміни настроювань.
+Label17.Caption=Значки до програм
+cbDesktop.Caption=Додати ярлик на "Робочий стіл"
+cbQuickLaunch.Caption=Додати ярлик до "Панелі швидкого завантаження"
+Label18.Caption=Копіювання файлів...
+lblFile.Caption=Нічого розпаковувати.
+Label11.Caption=Копіюється:
+Label12.Caption=%s успішно встановлено.
+Label13.Caption=Натисніть кнопку "Готово" для завершення.
+Label19.Caption=Інсталяцію завершено
+cbRun.Caption=Запустити %s зараз
+btnBack.Caption=< &Назад
+dlgBrowse.Caption=Виберіть папку для установки
+GroupBox1.Caption=Папка на диску
+GroupBox2.Caption=Файл
+---Label23.Caption=Integration...
+---Label24.Caption=You can set up %s integration for some installed browsers
+---Label25.Caption=Please check the corresponding boxes to install integration with the following browsers:
+---lvBrowsers.0=Name
+---lvBrowsers.1=Path
+---lvBrowsers.2=Browse
+---Label26.Caption=The program can perodically check for newer versions of %s. You can also do this manually using the program menu Help | Check for new version item.
+---cbNVCheck.Caption=&Enable automatic periodic check for new versions
+
+[LogWindow]
+Caption=Вікно повідомлень
+
+miSettings.Caption=&Настроювання
+miSTrack.Caption=&Відстежити
+miSPause.Caption=&Пауза
+miLFilter.Caption=&Фільтр
+miLFConnect.Caption=З&`єднання
+miLFDownload.Caption=&Завантаження
+miLFDisconnect.Caption=&Від`єднання
+miLFDetails.Caption=&Подробиці
+miLFQueue.Caption=Повідомлення &черги
+miLFRejectedURLs.Caption=Від&хилені URL-адреси
+miLFInternalWebSrv.Caption=Запити у вбудованому &Web-сервері
+miSRecordTime.Caption=Записувати ч&ас
+miSClear.Caption=О&чистити
+miSCopy.Caption=С&копіювати у буфер обміну
+miSSaveToFile.Caption=&Зберегти у файл...
+miLFind.Caption=З&найти...
+miLFindNext.Caption=Знайти &далі
+pmiDock.Caption=&Пристикувати
+pmiDock.Hint=Пристикувати до області екрана
+pmiDScreen.Caption=&унизу екрана
+pmiDIB.Caption=до &вікна оглядача
+pmiUnDock.Caption=&Відстикувати
+pmiUnDock.Hint=Відстикувати панель
+miSClose.Caption=&Закрити
+SaveDialog.Caption=Зберегти лог
+SaveDialog.Filter=Лог файли|*.log|Усі файли|*.*
+
+[WndProgress]
+Caption=Стан завантаження
+
+List.0=Канал
+List.1=Завантажено
+List.2=Довжина
+List.3=Стан
+List.4=URL
+pmiCancel.Caption=&Зупинити
+pmiCancel.Hint=Зупинити завантаження позначеного файлу
+pmiRestart.Caption=&Перезавантажити
+pmiRestart.Hint=Зупинити і виконати завантаження позначеного файлу з початку
+pmiFinalize.Caption=&Скінчити
+pmiFinalize.Hint=Зберегти завантажений фрагмент мультімедіа потоку
+pmiPlay.Caption=Відтворити
+pmiCopy.Caption=Скопіювати &URL
+pmiCopy.Hint=Скопіювати URL-адресу позначеного файлу
+pmiReferer.Caption=Скопіювати адресу &посилання
+pmiReferer.Hint=Скопіювати адресу сторінки, з якої завантажується даний файл
+pmiSelectProject.Caption=Вибрати &проект
+pmiSelectProject.Hint=Вибрати проект, до якого належить позначений файл
+pmiDock.Caption=&Пристикувати
+pmiDock.Hint=Пристикувати до області екрана
+pmiDBottom.Caption=&унизу екрана
+pmiDIB.Caption=до &вікна оглядача
+pmiUnDock.Caption=&Відстикувати
+pmiUnDock.Hint=Відстикувати панель
+pmiConnsHighlight.Caption=&Підсвічування активних з`єднань
+
+[dlgAbout]
+Caption=Про Offline Explorer
+
+lblOnDay1.Caption=Натисніть кнопку Замовити, щоб довідатися як сплатити за програму.
+lblOnDay2.Caption=Після одержання Вашого реєстраційного ключа, натисніть кнопку Реєстрація для розблокування програми.
+lblOnEnd1.Caption=Період ознайомлення з програмою минув.
+lblOnEnd2.Caption=Ми сподіваємося, Вам сподобалось працювати з Offline Explorer.
+btnOK.Caption=OK
+TabSheet1.Caption=Додаток
+Label3.Caption=Реєстрація:
+lblReg.Caption=НЕ ЗАРЕЄСТРОВАНА
+lblDescr.Caption=Offline Explorer дозволяє Вам швидко копіювати вузли Інтернет і переглядати їх в режимі офлайн за допомогою вбудованого чи зовнішнього браузера, чи публікувати їх на Вашому сервері Інтернет.
+lblLatestInfo.Caption=Offline Explorer - це не freeware. Ви можете оцінити програму протягом 30 днів. Після цього ви маєте її зареєструвати або видалити.
+lblTrial.Caption=Новіша інформація з Offline Explorer опублікована на нашому вузлі: http://www.metaproducts.com
+btnEMail.Caption=&E-mail
+btnWebSite.Caption=&Web вузол
+btnOrdering.Caption=&Замовити
+btnRegister.Caption=&Реєстрація...
+TabSheet2.Caption=Примітки
+TabSheet3.Caption=Ліцензія
+btnHelp.Caption=&Довідка
+btnCancel.Caption=Скасувати
+
+[dlgOptions]
+Caption=Настроювання
+
+Label1.Caption=&Категорія:
+OptionsTree.0=Інтернет
+OptionsTree.1=З`єднання
+OptionsTree.2=Швидкість
+OptionsTree.3=Набір номера
+OptionsTree.4=Від`єднання і вихід
+OptionsTree.5=Проксі-сервер
+OptionsTree.6=Інструменти
+OptionsTree.7=Браузери
+OptionsTree.8=Перегляд
+OptionsTree.9=Редактори
+OptionsTree.10=Додатково
+OptionsTree.11=Розміщення
+OptionsTree.12=Взаємодія
+OptionsTree.13=Підтвердження
+OptionsTree.14=Завершення
+btnOK.Caption=OK
+btnCancel.Caption=Скасувати
+Label32.Caption=В&ластивості Інтернет-з`єднання
+Label4.Caption=Кількість з`єднань:
+Label5.Caption=Таймаут (секунд):
+Label16.Caption=Затримка між завантаженнями:
+Label30.Caption=Вбудований сервер &HTTP
+Label11.Caption=Ідентифікація агента
+cbRetries.Caption=Обмежити кіл-ть спроб:
+cbIECookies.Caption=Використовувати MS IE cookies
+cbHTTPStart.Caption=Порт HTTP-сервера:
+cbOHTTPLocal.Caption=Тільки локальний &доступ
+rbUA1.Caption=Ідентифікувати як:
+rbUA2.Caption=Використовувати ідентифікацію:
+Label52.Caption=Керування швидкістю
+Label53.Caption=б/сек
+Label54.Caption=Використовуйте настроювання для зміни швидкості у Кб/сек для позначеної швидкості.
+Label58.Caption=Пропускна здатність потоків RTSP
+Label59.Caption=Максимальна здатність &RTSP:
+cbSetSpeedLimit.Caption=Обмеження швидкості завантаження
+brHigh.Caption=Висока
+rbMedium.Caption=Середня
+rbLow.Caption=Низька
+rbBackground.Caption=Фонова
+cbRTSPBandwidth.0=Модем 14.4K
+cbRTSPBandwidth.1=З`єднання 19.2K
+cbRTSPBandwidth.2=Модем 28.8K
+cbRTSPBandwidth.3=Модем 33.6K
+cbRTSPBandwidth.4=Модем 56K
+cbRTSPBandwidth.5=112K Dual ISDN
+cbRTSPBandwidth.6=256Kbps DSL/Cable
+cbRTSPBandwidth.7=384Kbps DSL/Cable
+cbRTSPBandwidth.8=512Kbps DSL/Cable
+cbRTSPBandwidth.9=T1 / Локальна мережа
+cbRTSPBandwidth.10=Локальна мережа 10Mbps
+Label48.Caption=&Набір номера при завантаженні сайтів
+Label14.Caption=Вибер&іть з`єднання:
+Label18.Caption=&Ім`я користувача:
+Label19.Caption=&Пароль:
+Label22.Caption=&Повтор з`єднання:
+Label23.Caption=разів
+Label24.Caption=&Інтервал між спробами:
+Label25.Caption=сек
+rbDial2.Caption=&Увімкнути вбудований набір номеру
+rbDial3.Caption=&Використовувати іншу програму
+rbDial1.Caption=&Не набирати номер автоматично
+Label65.Caption=&Командний рядок для набору:
+Label66.Caption=Рядок для &розриву з`єднання:
+Label49.Caption=Від`єднання
+Label50.Caption=Вихід з програми і вимикання комп`ютера
+cbHangUp.Caption=&Вимкнути з`єднання коли завантаження завершене
+cbHangUpAt.Caption=Ви&мкнути о
+cbClose.Caption=Ви&йти з програми коли завантаження завершене
+cbCloseAt.Caption=В&ийти о
+cbShutdown.Caption=&Вимкнути комп`ютер після виходу
+cbShutdown2.Caption=Додатковий режим &вимикання (у разі коли стався збій основного режиму)
+cbHibernate.Caption=&Очікувати завершення роботи програми
+Label7.Caption=Адреса проксі:
+Label8.Caption=Порт проксі:
+Label15.Caption=Тип проксі
+Label31.Caption=&Настроювання проксі-сервера
+Label33.Caption=А&вторизація проксі (залиште порожньою, якщо не треба)
+btnPrxADetect.Caption=&Автовизначення
+rbHProxy1.Caption=&Немає проксі
+rbHProxy2.Caption=&HTTP-проксі
+rbHProxy3.Caption=&SOCKS4
+rbHProxy4.Caption=S&OCKS5
+Label9.Caption=Ім`я користувача:
+Label10.Caption=Пароль:
+cbNTLMProxy.Caption=Авторизація &NTLM
+Label60.Caption=Тип проксі
+Label61.Caption=Настроювання проксі-сервера
+Label62.Caption=&Адреса проксі:
+Label63.Caption=&Порт проксі:
+Label69.Caption=Авторизація проксі (залиште порожньою, якщо не треба)
+rbRProxy1.Caption=&Немає
+rbRProxy2.Caption=&HTTP
+rbRProxy3.Caption=&SOCKS4
+rbRProxy4.Caption=&RTSP
+rbRProxy5.Caption=S&OCKS5
+Label67.Caption=&Ім`я користувача:
+Label68.Caption=&Пароль:
+Label6.Caption=&Адреса проксі:
+Label17.Caption=&Порт проксі:
+Label34.Caption=Тип проксі
+Label35.Caption=Настроювання проксі-сервера
+Label36.Caption=А&вторизація проксі (залиште порожньою, якщо не треба)
+cbPPASV.Caption=PASV-режим для завантаження FTP
+rbFProxy1.Caption=&Немає
+rbFProxy2.Caption=&HTTP
+rbFProxy3.Caption=&SOCKS4
+rbFProxy4.Caption=User@Si&te
+rbFProxy5.Caption=S&OCKS5
+Label26.Caption=&Ім`я користувача:
+Label27.Caption=&Пароль:
+lblTools.Caption=&При перегляді сайту використовувати ці інструменти
+Label20.Caption=&Назва:
+Label21.Caption=&Файл:
+Label43.Caption=Вікно &інструментів
+Label57.Caption=&Клавіша:
+btnADetect.Caption=&Автовизначення
+btnOBrAdd.Caption=<< &Додати
+btnOBrRemove.Caption=>>&Видалити
+cbShowMode.0=Нормальне
+cbShowMode.1=Розгорнуте
+cbShowMode.2=Згорнуте
+lblSMTP.Caption=Адреса сервера &SMTP:
+Label41.Caption=&Карта
+Label42.Caption=Автозбереження
+lblAutoSave.Caption=хвилин
+Label44.Caption=&Поява
+Label45.Caption=&Подвійне клацання по проекту
+rbAMap1.Caption=Карта показує тільки файли, призначені вибраному проектові
+rbAMap2.Caption=Карта показує усі завантажені файли
+bxAutoSave.Caption=Зберігати зміни кожні
+cbTray.Caption=Робота у треї
+cbASplash.Caption=Показувати заставку
+rbODblClick1.Caption=Відкриває проект у браузері
+rbODblClick2.Caption=Відкриває Властивості проекту
+Label64.Caption=Сортувати файли за
+rbAMapSort1.Caption=&ім`ям
+rbAMapSort2.Caption=&розширенням
+cbXButton.Caption=Кнопка "X" &згортає головне вікно
+Label37.Caption=&Каталог завантаження
+Label13.Caption=Вільне місце на диску:
+Label12.Caption=Ліміт вільного місця:
+Label39.Caption=Обслуговування
+Label29.Caption=Натисніть кнопку, щоб видалити невикористовувані сайти і файли з каталогу завантаження
+Label40.Caption=Каталог &проектів, шаблонів і карт проектів
+Label73.Caption=&Тимчасовий каталог:
+btnBrowse.Caption=&Змінити...
+btnClean.Caption=&Очистити...
+btnBrowse1.Caption=З&мінити...
+cbDirOverload.Caption=&Заборонити перезавантаження каталогів
+Label46.Caption=&Система
+Label47.Caption=&При додаванні адреси
+Label55.Caption=&Фільтр URL-адрес буфера обміну
+Label56.Caption=Адреси, що закінчуються на (через кому):
+cbOIClipboard.Caption=Стежити за &буфером обміну
+cbIIECtxMenu.Caption=Використовувати меню MS Internet &Explorer
+cbOIDefaults.Caption=Використовувати &шаблон за замовчуванням
+cbIPFolder.Caption=&Вставляти проекти у папку:
+cbOIAutoStart.Caption=&Починати завантаження
+cbICFilter.0=Не приймати
+cbICFilter.1=Приймати тільки
+Label51.Caption=Підтвердження
+cbACDelete.Caption=При видаленні файлів
+cbACDelPFiles.Caption=При видаленні файлів &проекту
+cbACHangup.Caption=При &розриві з`єднання
+cbACExit.Caption=При виході з програми
+cbACURLMoved.Caption=При зміні &URL-адреси проекту
+cbACFolderStart.Caption=При завантаженні усіх проектів пап&ки
+Label70.Caption=Завершення завантаження
+Label71.Caption=&SMTP-адреса сервера:
+Label72.Caption=Сервер вихідної пошти (SMTP)
+cbACPReport.Caption=Звіт про завершення завантажень проекту
+rbACPReport1.Caption=&Звук:
+rbACPReport2.Caption=&E-mail:
+rbACPReport3.Caption=IC&Q UIN:
+Label2.Caption=Виберіть підкатегорію для відображення
+btnHelp.Caption=&Довідка
+dlgOBrowse.Caption=Знайти файл
+dlgOBrowse.Filter=Виконавчі файли|*.exe;*.com|Усі файли|*.*
+bdDD.Caption=Каталог завантаження
+bdDD.Hint=Виберіть каталог завантаження:
+bdProjects.Caption=Каталог проектів
+bdProjects.Hint=Виберіть каталог проектів:
+odCSound.Caption=Відкрити звуковий файл
+odCSound.Filter=Звукові файли (*.wav)|*.wav|Усі файли|*.*
+Label38.Caption=&Місце на диску
+cbDialUp.Caption=&Дозволити
+Label3.Caption=Мб
+
+[dlgFolderProp]
+Caption=Властивості папки
+
+Label1.Caption=&Категорія:
+FolderTree.0=Папка
+btnCancel.Caption=Скасувати
+btnOK.Caption=OK
+Label32.Caption=Основна
+Label2.Caption=Ім`я папки:
+Label6.Caption=Каталог завантаження для папки
+Label3.Caption=Ви можете призначити окремий каталог кожній папці проектів. Усі проекти у цій папці будуть використовувати цю папку для збереження завантажених файлів.
+Label5.Caption=Якщо вказаний каталог не існує, він буде автоматично створений.
+btnDefaults.Caption=&Властивості за замовчуванням
+btnFromTemplate.Caption=&Установити з шаблону
+cbFDD.Caption=&Дозволити
+btnBrowse.Caption=&Змінити...
+btnApplyFDD.Caption=Застосувати до &усіх підпапок
+bdDD.Caption=Каталог завантаження
+bdDD.Hint=Виберіть каталог завантаження:
+
+[dlgDataMine]
+Caption=Витягування даних
+
+Label1.Caption=Витягування даних дозволяє обробляти завантажені вузли Web і витягувати інформацію чи перекладати їх відповідно до зазначених правил.
+Label2.Caption=Витягування даних використовує утиліту TextPipe від DataMystic Corporation. TextPipe це середа для зміни і обробки текстів.
+Label3.Caption=Вибачте, але у Вас не встановлена утиліта TextPipe. Натисніть на кнопку унизу для завантаження Web сторінки TextPipe.
+btnTextPipe.Caption=Web сторінка TextPipe
+Label4.Caption=Витягування даних дозволяє обробляти завантажені вузли Web і витягувати інформацію чи перекладати їх відповідно до зазначених правил. Це робиться за допомогою утиліти TextPipe від DataMystic Corporation.
+Label6.Caption=Фільтри TextPipe
+Label7.Caption=Настроювання фільтрів TextPipe
+cbTextOnly.Caption=Обробляти тільки &текстові і HTML-файли
+cbRun.Caption=&Запускати фільтр при запуску TextPipe
+cbQuit.Caption=&Вийти з TextPipe після завершення роботи фільтра
+rbFilter1.Caption=Запустити TextPipe з &новим фільтром
+rbFilter2.Caption=Використовувати файл &фільтрів TextPipe (*.fll) для обробки вибраного проекту:
+cbPassFiles.Caption=&Передати список файлів проекту до TextPipe
+btnStart.Caption=&Почати
+btnCancel.Caption=Скасувати
+btnHelp.Caption=Допомога
+dlgOpenFilter.Caption=Відкрити файл фільтра
+dlgOpenFilter.Filter=Файли фільтрів TextPipe|*.fll|Усі файли|*.*
+
+[dlgCustomizeContents]
+Caption=Настроювання змісту
+
+Label1.Caption=Заголовок файлу:
+Label2.Caption=Пункти файлу:
+Label3.Caption=Закінчення файлу:
+Label4.Caption=Порада: Використовуйте %URL% макрос для заміни його посиланням до експортованого сайту, %Caption% - ім`ям проекту, як у дереві проектів. Решта макросів: %Description%, %DownloadStart%, %DownloadEnd%, %OriginalURL%.
+btnOK.Caption=OK
+btnCancel.Caption=Скасувати
+
+[dlgProgress]
+Caption=Стан
+
+Button1.Caption=Перервати
+
+[dlgPDescr]
+Caption=Опис проекту
+
+ToolButton1.Caption=&Новий
+ToolButton1.Hint=Застосувати зміни
+SaveButton.Caption=&Зберегти
+SaveButton.Hint=Скасувати зміни
+PrintButton.Caption=&Друк
+PrintButton.Hint=Друк поточного файлу
+CutButton.Caption=В&ирізати
+CutButton.Hint=Видалити позначене
+CopyButton.Caption=&Копіювати
+CopyButton.Hint=Скопіювати позначене до буфера обміну
+PasteButton.Caption=&Вставити
+PasteButton.Hint=Вставити з буфера обміну
+UndoButton.Caption=&Скасувати
+UndoButton.Hint=Скасувати останню дію
+FontName.Hint=Назва шрифту
+BoldButton.Hint=Напівжирний
+ItalicButton.Hint=Нахилений
+UnderlineButton.Hint=Підкреслений
+LeftAlign.Hint=По лівому краю
+CenterAlign.Hint=По центру
+RightAlign.Hint=По правому краю
+BulletsButton.Hint=Увімкнути режим списку
+mpUndo.Caption=&Скасувати
+mpUndo.Hint=Скасувати останню дію
+mpCut.Caption=В&ирізати
+mpCut.Hint=Видалити позначене
+mpCopy.Caption=&Копіювати
+mpCopy.Hint=Скопіювати позначене до буфера обміну
+mpPaste.Caption=&Вставити
+mpPaste.Hint=Вставити з буфера обміну
+mpSelectAll.Caption=Позначити &усе
+
+[dlgPrint]
+Caption=Виконується друк...
+
+Label1.Caption=Виконується друк сторінок проекту. Будь ласка, зачекайте...
+btnCancel.Caption=Скасувати
+
+[dlgApplyTemplate]
+Caption=Застосувати шаблон до проекту
+
+Label1.Caption=&Виберіть шаблон для застосування до проекту:
+Label2.Caption=&Шаблон:
+Label3.Caption=Розширення типів файлів і маски фільтрів URL
+btnOK.Caption=OK
+btnCancel.Caption=Скасувати
+rbReplace.Caption=Замінити на маски і розширення з шаблону
+rbJoin.Caption=Об`єднати з масками і розширеннями з шаблону
+
+[dlgOldFiles]
+Caption=Видалення застарілих файлів проекту
+
+List.0=Файли
+btnClose.Caption=&Закрити
+btnDeleteAll.Caption=Видалити &усе
+btnDelete.Caption=&Видалити вибрані
+
+[dlgImgDimensions]
+Caption=Фільтр розмірів зображень
+
+Label19.Caption=Пропускати зображення, якщо їхні розміри менше ніж
+Label1.Caption=Пропускати зображення, якщо їхні розміри більше ніж
+Label4.Caption=Увага: дана версія підтримує тільки наступні типи файлів:
+Label2.Caption=Пропускати зображення з наступними розмірами (через кому)
+btnOK.Caption=OK
+btnCancel.Caption=Скасувати
+cbLowWidth.Caption=&Ширина
+cbLowHeight.Caption=&Висота
+cbHighWidth.Caption=Ш&ирина
+cbHighHeight.Caption=В&исота
+
+[dlgMapSelect]
+Caption=Вибір файлів з карти проекту
+
+List.0=URL
+List.1=Розмір
+dxbeMask.Caption=Введіть &маску для вибору файлів і натисніть клавішу Enter:
+dxbeMask.Hint=Введіть маску для вибору файлів
+btnDelete.Caption=&Видалити
+btnDelete.Hint=Видалити позначені файли
+btnClose.Caption=&Закрити
+btnClose.Hint=Закрити вікно
+
+[dlgSelectMask]
+Caption=Позначення URL у черзі
+
+Label1.Caption=Введіть &маску для позначення URL і натисніть клавішу Enter:
+btnOK.Caption=OK
+btnCancel.Caption=Скасувати
+
+[dlgSubst]
+Caption=Заміна URL
+
+Label1.Caption=Увага: зніміть позначку, якщо ви хочете, щоб правила заміни URL були застосовані лише для завантажених файлів. Тобто, усі URL-лінки будуть завантажені оригінальними, але offline імена файлів та посилань будуть змінені відповідно до правил.
+Label2.Caption=&URL:
+Label3.Caption=&Замінити:
+Label4.Caption=Заміна &на:
+List.0=URL
+List.1=Що замінити
+List.2=Замінити на
+btnOK.Caption=OK
+btnCancel.Caption=Скасувати
+btnHelp.Caption=&Допомога
+btnAdd.Caption=Д&одати
+btnRemove.Caption=&Видалити
+btnClear.Caption=Видалити &усе
+cbApplyAll.Caption=&Застосувати усі відповідні правила
+mpMoveUp.Caption=Перемістити &догори
+mpMoveDown.Caption=Перемістити д&одолу
+mpDuplicate.Caption=&Дублювати
+
+[dlgStatistics]
+Caption=Статистика проекту
+
+btnClose.Caption=&Закрити
+List.0=Параметр
+List.1=Значення
+btnClean.Caption=&Очистити файли проекту...
+cbValues.0=Ім`я проекту:
+cbValues.1=URL:
+cbValues.2=Файл карти:
+cbValues.3=Елементів у карті:
+cbValues.4=Час останнього завантаження:
+cbValues.5=Завершене:
+cbValues.6=Тривалість завантаження:
+cbValues.7=Середня швидкість:
+cbValues.8=Поки ще завантажується...
+cbValues.9=Проект не було завантажено.
+cbValues.10=Статистика останнього завантаження:
+cbValues.11=Завантажено файлів:
+cbValues.12=Не змінено:
+cbValues.13=Оброблено файлів:
+cbValues.14=Не знайдено:
+cbValues.15=Помилок при завантаженні:
+cbValues.16=Зупинене/Обмежене:
+cbValues.17=Розмір завантажених файлів:
+
+[dlgAddR]
+Caption=Додати маску
+
+btnOK.Caption=OK
+btnCancel.Caption=Скасувати
+
+[dlgTemplates]
+Caption=Новий
+
+lblCustom.Caption=Шаблони
+btnClose.Caption=Закрити
+btnCancel.Caption=Скасувати
+btnOK.Caption=OK
+pgNew.Caption=Стандартні
+pgTemplates.Caption=Шаблони
+btnAdd.Caption=&Новий...
+btnRemove.Caption=&Видалити
+btnProp.Caption=В&ластивості...
+btnDef.Caption=&За замовчуванням
+btnReset.Caption=С&кинути
+cbSmallIcons.Caption=Дрібні &значки
+btnHelp.Caption=&Довідка
+pmTCut.Caption=&Вирізати
+pmTCut.Hint=Вирізати позначений проект чи папку у буфер обміну
+pmTCopy.Caption=&Копіювати
+pmTCopy.Hint=Копіювати позначений проект чи папку у буфер обміну
+pmTPaste.Caption=Вст&авити
+pmTPaste.Hint=Вставити проект чи папку з буфера обміну
+
+[dlgAskPwd]
+Caption=Авторизація
+
+Label1.Caption=Введіть, будь ласка, ім`я користувача і пароль
+Label2.Caption=&Вузол:
+Label3.Caption=&Область даних:
+Label5.Caption=&Ім`я користувача:
+Label6.Caption=&Пароль:
+Button1.Caption=OK
+Button2.Caption=Скасувати
+
+[dlgExport]
+Caption=Експорт
+
+lblFNFormat.Caption=&Формат імен файлів:
+Label32.Caption=&Каталог для копіювання файлів
+Label1.Caption=Імена файлів
+Label3.Caption=Зміст
+lblPutFiles.Caption=&Розташовувати файли в:
+btnClose.Caption=Скасувати
+btnExport.Caption=&Експорт
+btnBrowse.Caption=&Перегляд...
+cbStandardExt.Caption=Використовувати стандартні розширення для відомих типів файлів
+cbPreserveOnline.Caption=&Зберігати онлайн-посилання
+btnHelp.Caption=&Довідка
+cbShortFileNames.0=Як є
+cbShortFileNames.1=8+3 - сумісність з MS DOS
+cbShortFileNames.2=Joliet - CD-R 64 символи
+cbAutorunCD.Caption=Зробити &CD з автозавантаженням
+cbContents.Caption=Створювати файл &змісту
+btnCustomize.Caption=&Настроїти...
+cbPlainDir.Caption=Не створювати &підкаталогів
+cbPutTo.0=Каталог, що зазначений вище
+cbPutTo.1=Архів ZIP
+cbPutTo.2=Архів MHT
+cbPutTo.3=Кеш MS Internet Explorer
+cbPutTo.4=HTML-допомога (CHM файл)
+cbPutTo.5=Перегляд у стиснутому EXE-файлі
+cbFastExport.Caption=&Прискорений експорт
+cbOriginalURL.Caption=Додавати ориг. URL в HTML-файл
+brdExport.Caption=Знайти
+brdExport.Hint=Виберіть каталог для експорту:
+btnAbort.Caption=&Зупинити
+
+[dlgReg]
+Caption=Реєстрація
+
+Label1.Caption=Дякуємо за реєстрацію
+Label2.Caption=Реєстрації дозволяють нам продовжувати розробку цього та інших продуктів в майбутньому.
+Label3.Caption=Якщо Ви не впевнені, як зареєструватися, чи Ви хочете довідатися про способи оплати, натисніть на кнопку Замовити.
+Label4.Caption=Як тільки оплата підтверджується, Ви автоматично отримуєте інформацію для реєстрації, яку треба ввести нижче.
+Label5.Caption=Продукт:
+Label6.Caption=Користувач:
+Label7.Caption=Ключ реєстрації:
+Label8.Caption=Тип ліцензії:
+cbRType.0=На одного користувача
+cbRType.1=Множинна
+btnOK.Caption=OK
+btnCancel.Caption=Скасувати
+btnOrder.Caption=Замовити
+
+[dlgWizard]
+Caption=Майстер створення проекту
+
+Label1.Caption=Проект - це завдання на завантаження сайту. Він використовує URL як початкову адресу. Коли ця сторінка завантажена, Offline Explorer визначає усі посилання на ній і завантажує їх згідно настроювань проекту.
+Label2.Caption=&URL-адреса проекту:
+Label3.Caption=&Назва проекту:
+Label4.Caption=Ви можете ввести ім`я проекту, яке з`явиться у дереві проектів замість адреси.
+Label5.Caption=Приклади адрес: http://www.metaproducts.com/ ftp://ftp.microsoft.com/data/
+Label7.Caption=Ласкаво просимо!
+Label8.Caption=Визначення глибини завантаження сторінок
+Label11.Caption=Рівень дозволяє швидко визначити довжину маршруту завантажуваних сторінок, починаючи з першої. Тобто рівень дозволяє визначити чи завантажувати сторінки, посилання на які містить ваша початкова URL-адреса, і, якщо так, то на скільки потрібно просунутися вглиб сайту від першої сторінки.
+Label15.Caption=Щоб завантажити лише першу сторінку з усіма її малюнками, зазначте "Рівень=0". "Рівень=1" завантажує першу сторінку і усі сторінки, що безпосередньо з нею пов`язані, але не глибше одного переходу по посиланнях від першої.
+Label17.Caption=Для завантаження необмеженого числа сторінок (наприклад цілого веб-сайту) зніміть позначку з опції "Рівень".
+Label18.Caption=При знятті позначки з опції "Рівень", дуже рекомендується також використовувати опцію "Завантажувати файли з початкового домену(URL-адреси)" чи "Завантажувати файли з початкового сервера", що ви можете зробити в одному з наступних кроків Майстра. Бо інакше ви ризикуєте завантажити увесь Internet!
+Label10.Caption=&Рівень:
+Label6.Caption=Виберіть типи файлів для завантаження
+rbDAll.Caption=Завантажувати &усі файли з першої сторінки
+rbDSkip.Caption=Пропустити завантаження &наступних типів файлів:
+cbImages.Caption=&Графіка (малюнки)
+cbAudio.Caption=&Аудіо (звуки, музика)
+cbVideo.Caption=&Відео
+cbArchive.Caption=Архіви (&ZIP, RAR тощо)
+Label9.Caption=Звідки завантажувати файли
+Label16.Caption=Наприклад, коли Offline Explorer знаходить посилання на http://www.srv.com/dir1/dir2/somefile.htm, він також намагається зробити запит вмісту каталогів /dir1/ і /dir2/. Якщо сервер підтримує перегляд каталогів, Offline Explorer зможе завантажити більше файлів.
+rbURL.Caption=Завантажувати тільки з початкової &URL-адреси:
+rbSrv.Caption=Завантажувати тільки з початкового &сервера:
+rbAny.Caption=Завантажувати з &будь-якого місця
+cbAllImages.Caption=Завантажувати &малюнки з будь-якого місця
+cbExploreDirs.Caption=Намагатися &досліджувати усі можливі підкаталоги
+Label12.Caption=Вітаємо !
+Label13.Caption=Ви щойно створили новий проект Offline Explorer.
+Label14.Caption=Що б Ви хотіли зробити далі:
+rbDNow.Caption=&Завантажити новий проект зараз
+rbProperties.Caption=&Виконати додаткове настроювання проекту
+rbDLater.Caption=Завантажити проект п&отім
+btnBack.Caption=< &Назад
+btnNext.Caption=&Далі >
+btnCancel.Caption=Скасувати
+cbShow.Caption=&Показувати при запуску Offline Explorer
+
+[dlgBR]
+Caption=Прогрес
+
+btnCancel.Caption=Скасувати
+btnOK.Caption=OK
+List.0=Каталог завантаження
+List.1=Папки
+mpDDBrowse.Caption=З&найти...
+
+[dlgProp]
+Caption=Властивості проекту
+
+Label4.Caption=&Категорія:
+btnOK.Caption=OK
+btnCancel.Caption=Скасувати
+btnHelp.Caption=Довідка
+ItemTree.0=Проект
+ItemTree.1=Типи файлів
+ItemTree.2=Текст
+ItemTree.3=Зображення
+ItemTree.4=Відео
+ItemTree.5=Аудіо
+ItemTree.6=Архіви
+ItemTree.7=Додатково
+ItemTree.8=Решта
+ItemTree.9=Фільтри URL
+ItemTree.11=Протокол
+ItemTree.12=Сервер
+ItemTree.13=Каталог
+ItemTree.14=Ім`я файлу
+ItemTree.15=Фільтри змісту
+ItemTree.16=Додатково
+ItemTree.19=Переклад посилань
+ItemTree.20=Розклад
+ItemTree.21=Паролі
+ItemTree.22=Копії файлів
+Label44.Caption=(F12 - до списку команд)
+lblTCaption.Caption=Ім`я &шаблону:
+lblCaption.Caption=Ім`я &проекту:
+lblURLs.Caption=&URL-адреси:
+Label15.Caption=Пе&ревірка змін файлів
+Label16.Caption=А&дреса і рівень
+lblURL.Caption=&URL-адреса:
+Label43.Caption=(F11 - розгорнути)
+lblProjectID.Caption=ID проекту:
+rbFM1.Caption=Завантажувати тільки &змінені файли
+cbFMCheckSize.Caption=Пе&ревірка розмірів файлів
+cbFMSkipMedia.Caption=Пропускати існуючі &медіа-файли
+rbFM2.Caption=Завантажувати &усі файли
+rbFM3.Caption=&Не завантажувати існуючі файли
+rbFM4.Caption=&Пропускати існуючі файли на рівні більше
+cbLevel.Caption=&Рівень:
+Label19.Caption=&Розташування
+Label20.Caption=&Розміри файлів
+Label21.Caption=Р&озширення
+cbFTLocation.0=Завантажувати згідно фільтрів URL
+cbFTLocation.1=Завант. тільки з початкового сервера
+cbFTLocation.2=Завант. тільки з початкового каталогу
+cbFTLocation.3=Завантажувати звідусіль
+rbFTS1.Caption=Завантажувати усі розміри
+rbFTS2.Caption=Тільки вибрані розміри:
+cbFTSHigh.Caption=Максимум
+cbFTSLow.Caption=Мінімум
+cbFTSMD.Caption=Завантажувати у &Mass Downloader
+btnFTAdd.Caption=<<  &Додати
+btnFTDel.Caption=>> &Видалити
+btnSelAll.Caption=&Усе
+btnSelNone.Caption=&Жодного
+btnImageSize.Caption=Розміри &зображень...
+Label42.Caption=Пропустити наступні &URL-лінки після завантаження
+Label29.Caption=Завантажувати файли з наступних протоколів
+Label30.Caption=Довільна конфігурація
+rbUFProt1.Caption=Завантажувати &усі протоколи
+rbUFProt2.Caption=Завантажувати тільки &початковий протокол
+rbUFProt3.Caption=&Довільна конфігурація
+cbUP0.Caption=Завантажувати з вузлів &Web (протокол HTTP)
+cbUP1.Caption=Завантажувати з вузлів &FTP (протокол FTP)
+cbUP3.Caption=Завантажувати з &захищених вузлів (протокол HTTPS)
+cbUP2.Caption=Завантажувати з локальних &файлів (адреси file://)
+cbUP4.Caption=Завантажувати потоки MS &Media Player (протокол MMS)
+cbUP5.Caption=Завантажувати потоки Real Pla&yer (протокол RTSP)
+Label40.Caption=Завантажувати файли з наступних серверів
+Label41.Caption=Довільна конфігурація
+Label6.Caption=&Маска:
+cbLSrvs.0=Маски виключення серверів
+cbLSrvs.1=Маски включення серверів
+btnLSAdd.Caption=&Додати  >>
+btnLSDel.Caption=&Видалити <<
+lblOtherSrvLev.Caption=посилань на інших серверах
+rbSPro4.Caption=Завантажувати файли тільки з початкового &сервера
+rbSPro5.Caption=Завантажувати файли тільки з початкового &домену
+cbOtherSrvLev.Caption=&До
+rbSPro1.Caption=Завантажувати файли з &усіх серверів
+rbSPro2.Caption=Завантажувати файли з &початкового
+rbSPro3.Caption=&Довільна конфігурація
+rbSProSrv.Caption=&сервера
+rbSProDmn.Caption=&домену
+Label36.Caption=Завантажувати файли з наступних каталогів
+Label37.Caption=Довільна конфігурація
+Label7.Caption=&Маска:
+cbLDirs.0=Маски виключення каталогів
+cbLDirs.1=Маски включення каталогів
+btnLPAdd.Caption=&Додати  >>
+btnLPDel.Caption=&Видалити <<
+rbUFDir1.Caption=Завантажувати файли з &усіх каталогів
+rbUFDir2.Caption=Завантажувати файли з початкового каталогу і &нижче
+rbUFDir3.Caption=&Довільна конфігурація
+Label38.Caption=Завантажувати файли з наступними іменами
+Label39.Caption=Довільна конфігурація
+rbUFFile1.Caption=Завантажувати &усі імена файлів
+rbUFFile2.Caption=Завантажувати файли з &початковим ім`ям
+rbUFFile3.Caption=&Довільна конфігурація
+Label8.Caption=&Маска:
+cbLFiles.0=Маски виключення імен файлів
+cbLFiles.1=Маски включення імен файлів
+btnLFAdd.Caption=&Додати  >>
+btnLFDel.Caption=&Видалити <<
+lblExecBefore.Caption=Виконати &перед завантаженням:
+lblExecAfter.Caption=Виконати п&ісля завантаження:
+lblSLTime.Caption=хвилин
+lblSLTSize.Caption=Кб
+Label17.Caption=&Обмеження
+Label18.Caption=О&бробка
+bxSLTSize.Caption=Зупинити завантаження при загальному розмірі понад
+bxSLNumber.Caption=Зупинити при кількості файлів більше
+bxSLTime.Caption=Зупинити завантаження, якщо &час перевищує
+btnSubst.Caption=&URL-заміна...
+cbExploreDirs.Caption=Пе&ревіряти усі можливі підкаталоги
+cbIgnoreErrors.Caption=&Ігнорувати помилки на сторінках
+cbExploreForms.Caption=Досліджувати HT&ML-форми
+cbExploreSSMaps.Caption=Завантажити к&арту зображень сервера
+cbComplexScripts.Caption=О&бчислення виражень у скриптах
+cbCheckFiles.Caption=&Перевіряти цілісність файлів
+Label2.Caption=Зміна усіх завантажених і відсутніх посилань для локального перегляду.
+Label11.Caption=Зміна завантажених посилань для локального перегляду та інших посилань - на зовнішні адреси.
+Label1.Caption=Використовуйте цей режим для створення точної копії вузла із збереженням посилань. (Попередження: при використанні цього режиму локальний перегляд буде виконуватися з помилками)
+Label31.Caption=&Змінювати посилання під час обробки файлів
+rbLOffline.Caption=&Трансляція для локального перекладу
+rbLOnline.Caption=О&нлайн трансляція
+rbNotTranslate.Caption=Без &зміни посилань
+Label10.Caption=Інтервал завантаження:
+Label5.Caption=Проміжок часу:
+Label26.Caption=День тижня:
+Label27.Caption=День:
+Label28.Caption=Місяць:
+Label25.Caption=&Автоматичне завантаження за розкладом
+Label24.Caption=Час:
+WhenBox.0=Власноручно
+WhenBox.1=Щодня
+WhenBox.2=Щотижня
+WhenBox.3=Щомісяця
+WhenBox.4=Щороку
+WhenBox.5=Кожні
+MonthBox.0=Січень
+MonthBox.1=Лютий
+MonthBox.2=Березень
+MonthBox.3=Квітень
+MonthBox.4=Травень
+MonthBox.5=Червень
+MonthBox.6=Липень
+MonthBox.7=Серпень
+MonthBox.8=Вересень
+MonthBox.9=Жовтень
+MonthBox.10=Листопад
+MonthBox.11=Грудень
+OnceBox.Caption=&Лише раз
+WeekdayBox.0=Неділя
+WeekdayBox.1=Понеділок
+WeekdayBox.2=Вівторок
+WeekdayBox.3=Середа
+WeekdayBox.4=Четвер
+WeekdayBox.5=П`ятниця
+WeekdayBox.6=Субота
+Label22.Caption=&Захищені сайти і області на сайтах
+Label23.Caption=Примітка: для NTLM-авторизації, введіть DOMAIN\Ім`я у поле користувача.
+rbSPsw0.Caption=&Використвувати це ім`я користувача і пароль
+lblSUserName.Caption=&Ім`я користувача:
+lblSPassword.Caption=&Пароль:
+rbSPsw1.Caption=на захищених вузлах
+rbSPsw5.Caption=у формах HTML
+rbSPsw2.Caption=Запитувати ім`я користувача і пароль
+rbSPsw3.Caption=Пропускати захищені вузли
+rbSPsw4.Caption=Зупиняти завантаження, якщо вузол захищений
+Label32.Caption=&Робити копії старих файлів замість перезапису
+lblLKeepCopies.Caption=копій
+Label33.Caption=&Формат старих копій файлів
+bxLKeepCopies.Caption=&Зберігати старі файли:
+cbMSIECache.Caption=&Копіювати файли у кеш MS Internet Explorer
+cbFCZeros.Caption=Доповнення &нулями
+cbFCUseDate.Caption=Використовувати &дату/час наступного формату:
+Label34.Caption=&Ключові слова
+Label12.Caption=&Шукати:
+Label35.Caption=&Сповіщення
+Label3.Caption=Сповістити по &E-mail (список адрес через кому і пробіл):
+Label13.Caption=&Тема:
+cbSearchForAll.Caption=Шукати &усі слова
+cbSaveNoKw.Caption=&Зберігати сторінки без ключових слів
+cbGraphNoKw.Caption=&Завантажувати графіку для сторінок без ключових слів
+cbStopOnKw.Caption=&Припинити завантаження при зіткненні з ключовими словами
+cbNoSaveKw.Caption=&Не зберігати сторінки, що мають у тексті ключові слова
+Label9.Caption=Виберіть підкатегорію для відображення
+odImportKeywords.Caption=Завантаження з текстового файлу
+odImportKeywords.Filter=Текстові файли|*.txt|Усі файли|*.*
+MenuItem1.Caption=&Скасувати
+MenuItem3.Caption=В&ирізати
+MenuItem4.Caption=&Копіювати
+MenuItem5.Caption=Вс&тавити
+MenuItem6.Caption=&Видалити
+MenuItem8.Caption=Позначити &усе
+mpCut.Caption=В&ирізати
+mpCopy.Caption=&Копіювати
+mpPaste.Caption=Вс&тавити
+mpEdit.Caption=&Змінити
+bxLJavaClass.Caption=Обробляти класи Java
+bxLJavaScript.Caption=Обробляти скрипти
+bxLPrimary.Caption=Завжди зберігати файли '*.&primary'
+bxLTranslate.Caption=Не змінювати посилання
+rbFCFmt1.Caption=Filename.htm(7)
+rbFCFmt2.Caption=Filename_7.htm
+rbFCFmt3.Caption=Filename(7).htm
+GroupBox3.Caption=Обмеження
+rbFTI1.Caption=Завантажувати перераховані типи
+rbFTI2.Caption=Лише зазначені типи файлів:
+gbFT2.Caption=Розміри файлів
+rbFTS1.Caption=Завантажувати усі розміри
+rbFTS2.Caption=Лише зазначені розміри:
+lblFTSHigh.Caption=Кб
+lblFTSLow.Caption=Кб
+RSrvsBx.0=Завантажувати файли з усіх серверів
+RSrvsBx.1=Завантажувати файли лише з початкового домену
+RSrvsBx.2=Завантажувати файли лише з початкового сервера
+RSrvsBx.3=Довільний набір серверів
+RPathBx.0=Завантажувати файли з усіх каталогів
+RPathBx.1=Завантажувати файли лише з початкового каталогу і нижче
+RPathBx.2=Довільний набір каталогів
+RFileBx.0=Завантажувати усі імена файлів
+RFileBx.1=Завантажувати лише файли з початковим ім`ям
+RFileBx.2=Довільний набір імен файлів
+
+[wndSchedMan]
+Caption=Керування розкладом
+
+lvSeq.0=Проекти
+lblPrj.Caption=Ім`я проекту:
+lblSch.Caption=Призначено на:
+cbWhen.0=Щодня
+cbWhen.1=Щотижня
+cbWhen.2=Щомісяця
+cbWhen.3=Щороку
+cbWhen.4=Послідовність
+cbSuspend.Caption=&Пауза
+cbLoop.Caption=&Цикл
+miSSelect.Caption=Вибрати &проект
+miSSkip.Caption=&Зробити наступним проектом
+miSRemove.Caption=&Видалити
+miSRemoveAll.Caption=Видалити &усе
+
+[dlgCSearch]
+Caption=Пошук у вмісті
+
+btnFind.Caption=&Пошук
+btnCancel.Caption=Скасувати
+btnAbort.Caption=З&упинити
+btnBrowse.Caption=&Переглянути
+btnSave.Caption=&Зберегти
+btnDelete.Caption=&Видалити
+Label1.Caption=&Шукати слова:
+cbSearchForAll.Caption=Шукати &усі слова
+cbTextOnly.Caption=У &текстових файлах
+cbRecent.Caption=Тільки в не&щодавно завантажених файлах
+sdSave.Caption=Збереження результатів пошуку
+sdSave.Filter=HTML files - offline links|*.htm|HTML files - online links|*.htm|Text files|*.txt|All files|*.*
+
+[dlgCleanUp]
+Caption=Очищення завантажених файлів
+
+btnAbort.Caption=&Перервати
+btnDelSel.Caption=Видалити &вибрані
+btnDelAll.Caption=Видалити у&се
+btnClose.Caption=&Закрити
+btnMaps.Caption=Непотрібні файли &карт
+miCUOpen.Caption=Ві&дкрити файл чи каталог
+miCUDelete.Caption=&Видалити
+
+[DialerForm]
+Caption=Набір номеру
+
+Label3.Caption=Стан:
+Label4.Caption=Остання помилка:
+CancelButton.Caption=Скасувати
+
+[TipForm]
+Caption=Порада дня
+
+Label2.Caption=Цікаво знати, що...
+cbShowOnStart.Caption=&Показувати поради при запуску
+Box.0=Клацання правою кнопкою мишки у проекті чи у його вкладці призводить до показу контекстного меню, яке допоможе вам виконати редагування, перегляд або відкриття веб-сторінок.
+Box.1=Для припинення завантаження файлу натисніть праву кнопку мишки на файлі у Панелі повідомлень і виберіть "Перервати".
+Box.2=Ви можете швидко виконати завантаження веб-сайту лише ввівши веб-адресу у Панелі адрес і натиснувши клавішу Enter, так само, як ви б зробили це при використанні браузера Internet Explorer. Також ви можете натиснути кнопку Завантажити.
+Box.3=Якщо ви хочете змінити глибину пошуку, просто введіть кількість рівней праворуч у Панелі адрес.
+Box.4=Ви можете запустити вбудований у OE браузер (ВБ) через меню Вигляд | Панель Провідника | Увімкнути вбудований браузер. Коли ВБ відкритий, ви можете двічі клацнути лівою кнопкою мишки по проекту і він буде показаний у ВБ.
+Box.5=Ви можете виконати завантаження багатьох веб-сайтів, вибираючи кожний окремо у вкладці проекту і натискаючи на кнопку початку (значок з блискавкою), або ви можете вибрати і клацнути по папці, що містить ці веб-сайти.
+Box.6=Фільтри URL у розділі Властивості проекту дозволяють вам вибірково завантажувати будь-який сервер, папку або файл, використовуючи ключові слова. Кожний сервер, папка або файл можуть бути включені чи виключені зі списку завантаження за цими ключовими словами. Дивіться файл допомоги для отримання більш докладної інформації.
+Box.7=Якщо ви хочете завантажити лише, наприклад, малюнки gif, перейдіть до вкладинки Властивості проекту | Типи файлів | Зображення і виберіть "Завантажувати тільки визначені типи файлів". Потім приберіть усі непотрібні вам типи файлів (окрім підкатегорії Зображення), залишивши лише розширення gif, і запустіть завантаження.
+Box.8=Використовуючи параметри командного рядка для інтеграції Offline Explorer з іншими планувальниками подій, ви можете виконувати призначені дії, наприклад вимикати ваш комп`ютер після завершення завантажень. Дивіться файл Допомоги для отримання більш докладної інформації.
+Box.9=Для завантаження оригінальної копії веб-сайта увімкніть опцію "Не змінювати посилання" у Властивостях проекту | Додатково.
+Box.10=Частіше відвідуйте наш веб-сайт, щоб довідатися про останні оновлення, новини, плагіни тощо.
+Box.11=Ви можете виконувати огляд, перегляд чи редагування будь-якої завантаженої веб-сторінки або файлу, додаючи спеціальні програми до нашої Панелі інструментів у Опціях | Інструменти.  До цих інструментів можна звертатися з меню Вигляд чи з проекту і його вкладинок.
+Box.12=Ви можете переглядати звіт про ваші завантаження за допомогою меню Вигляд | Повідомлення | Панель або Вікно звіту.  При виборі Повідомлення | Панель, з`явиться панель над рядком стану.  При виборі Повідомлення | Вікно створюється вікно, що дозволяє вам виконувати дії: Стеження, Пауза, Очищення, Збереження, Фільтр або Пошук у звіті.
+Box.13=Ви можете завантажити один з ваших улюблених веб-сайтів, виконавши імпортування URL з вашого браузера.  OE може виконувати імпорт URL-лінків з MSIE, Netscape та Opera.  Для імпортування URL, натисніть Файл | Імпорт Favorites.
+Box.14=Ви можете встановити Властивості за замовчуванням для усіх ваших завантажень у меню Файл | Шаблони | Властивості.
+Box.15=Ви можете тимчасово призупинити і поновити завантаження пізніше, використовуючи "Призупинити у файл" і "Відновити з файлу" у меню Завантаження.
+Box.16=Ви можете тимчасово призупинити завантаження і поновити його у головному меню Завантаження.
+Box.17=Ви можете планувати ваші завантаження за допомогою панелі Розклад, яка розташовується у Властивостях | Додатково | Розклад.
+Box.18=Ви можете використовувати Вигляд | Керування розкладом, переміщуючи проект у це вікно.
+Box.19=Завантажуйте захищений паролем сайт, використовуючи панель Паролі у меню Властивості проекту | Додатково | Паролі.
+Box.20=Ви можете роздрукувати сторінку зі вбудованого браузера за допомогою кнопки Друк.
+Box.21=Для перегляду статистики завантажень проекту, клацніть на кнопку Home(Початкова сторінка) у вбудованому браузері.
+Box.22=Для створення нового шаблону на основі існуючого проекту, скопіюйте цей проект у буфер обміну, відкрийте вікно Шаблони і вставте проект комбінацією клавіш Ctrl-V.
+Box.23=Щоб відсортувати проекти у папці, клацніть правою кнопкою мишки на потрібній папці і виберіть у контекстному меню Сортувати.
+Box.24=Ви можете виконувати огляд файлів, клацнувши лівою кнопкою мишки на Карті сайту. Щоб увікнути дану опцію, клацніть правою кнопкою мишки у площині Карти і виберіть "Відкривати одним клацанням мишки".
+Box.25=Для збереження веб-сторінки у вбудованому браузері натисніть Ctrl-Alt-S.
+Box.26=Клавіша F11 вмикає повноекранний режим для вбудованого браузера.
+Box.27=Використовуйте Ctrl-A і Ctrl-N для позначення чи зняття позначень з усіх розширень у Властивостях проекту | Фільтри файлів.
+Box.28=Ви можете переглянути список файлів, що були завантажені під час останнього з`єднання, використовуючи Редагування | Знайти вміст. Введіть один символ пробілу у полі Шукати слова і позначте опцію "Тільки в нещодавно завантажених".
+Box.29=Для переміщення усіх ключових слів зі списку Виключених до списку Включених і навпаки, у Властивостях проекту | Фільтри URL натисніть комбінацію клавіш на клавіатурі Ctrl-M.
+Box.30=Для перевірки усіх ключових слів у Властивостях проекту | Фільтри URL,  натисніть комбінацію клавіш Ctrl-A. Ctrl-N скасовує перевірку.
+Box.31=Тепер ви можете використовувати у макросах URL римські числа.
+Box.32=Призупинити завантаження одного проекту у файл і поновити завантаження іншого, ви можете, клацнувши правою кнопкою мишки на потрібному проекті і вибравши у спливаючому вікні Завантаження | Призупинити проект у файл.
+Button1.Caption=&Закрити
+Button2.Caption=&Наступна
+
+[dlgProxyURLDetect]
+Caption=Визначення настроювань проксі-сервера
+
+Label1.Caption=Визначення настроювань з URL:
+Label2.Caption=Знайдено наступні проксі-сервери. Будь ласка, виберіть один з них і натисніть OK.
+lbProxies.0=Настроювання проксі-сервера не визначені.
+btnOK.Caption=OK
+btnCancel.Caption=Скасувати
+
+[dlgSeqSchedule]
+Caption=Керування розкладом
+
+Label10.Caption=Проміжки між &завантаженнями:
+Label5.Caption=&Проміжок часу:
+Label24.Caption=&Час:
+Label26.Caption=День &тижня:
+Label27.Caption=&День:
+Label28.Caption=&Місяць:
+Label25.Caption=Завантажувати при запуску
+WhenBox.0=Власноручно
+WhenBox.1=Щодня
+WhenBox.2=Щотижня
+WhenBox.3=Щомісяця
+WhenBox.4=Щороку
+WhenBox.5=Кожні
+WeekdayBox.0=Неділя
+WeekdayBox.1=Понеділок
+WeekdayBox.2=Вівторок
+WeekdayBox.3=Середа
+WeekdayBox.4=Четвер
+WeekdayBox.5=П`ятниця
+WeekdayBox.6=Субота
+MonthBox.0=Січень
+MonthBox.1=Лютий
+MonthBox.2=Березень
+MonthBox.3=Квітень
+MonthBox.4=Травень
+MonthBox.5=Червень
+MonthBox.6=Липень
+MonthBox.7=Серпень
+MonthBox.8=Вересень
+MonthBox.9=Жовтень
+MonthBox.10=Листопад
+MonthBox.11=Грудень
+OnceBox.Caption=&Тільки один раз
+btnOK.Caption=OK
+btnCancel.Caption=Скасувати
+
+[dxBarCustomizationForm]
+Caption=Настроювання
+
+BClose.Caption=Закрити
+TabSheet1.Caption=Панелі інструментів
+LabelToobars.Caption=&Панелі:
+BBarDelete.Caption=&Видалити
+BBarNew.Caption=С&творити...
+BBarRename.Caption=&Змінити...
+BBarReset.Caption=С&кинути...
+TabSheet2.Caption=Команди
+LabelCategories.Caption=&Категорії:
+LabelCommands.Caption=К&оманди:
+LabelDescription.Caption=Опис
+TabSheet3.Caption=Настроювання
+LabelMenuAnimations.Caption=&Анімація меню:
+ComboBoxMenuAnimations.0=(Немає)
+ComboBoxMenuAnimations.1=Довільна
+ComboBoxMenuAnimations.2=Розгортання
+ComboBoxMenuAnimations.3=Виїзд
+CBHint1.Caption=Показувати &підказки на панелях
+CBHint2.Caption=Показувати гарячі &клавіші у підказках
+CBLargeIcons.Caption=&Великі значки
+Label1.Caption=&Анімація меню:
+Label2.Caption=Інші
+Label3.Caption=Персоналізація меню і панелей
+CBLargeIconsEx.Caption=&Великі значки
+ComboBoxMenuAnimationsEx.0=(Немає)
+ComboBoxMenuAnimationsEx.1=Довільна
+ComboBoxMenuAnimationsEx.2=Розгортання
+ComboBoxMenuAnimationsEx.3=Виїзд
+CBHint1Ex.Caption=Показувати &підказки на панелях
+CBHint2Ex.Caption=Показувати гарячі &клавіші у підказках
+CBMenusShowRecentItemsFirst.Caption=Показувати &нещодавно використані команди у меню
+CBShowFullMenusAfterDelay.Caption=Показувати &повні меню після затримки
+BResetUsageData.Caption=С&кинути дані
+
+[Strings]
+Папка
+Немає
+Не можу знайти браузер
+Помилка
+Не можу запустити браузер
+Ви хочете видалити
+Підтвердження
+Ви хочете видалити усі файли проекту
+Щонайменше одна папка повинна залишитися.
+Будь ласка, спочатку видаліть усі проекти в папці.
+Помилка запуску зовнішнього додатка
+Завантажено
+файлів
+Черга
+Розм.
+Кб
+Нова папка
+&Призупинити
+П&родовжити
+Швидкість
+б/с
+Ви хочете вийти
+Властивості проекту за замовчуванням
+Зупинити завантаження?
+Фільтр файлів за маскою сервера, каталогу чи файлу
+Додаткові настроювання проекту
+Назва проекту, адреса і рівень
+Паролі для завантаження з захищених вузлів
+Вибір типу файлів
+Обмежити сервери за допомогою масок
+Обмежити каталоги за допомогою масок
+Обмежити файли за допомогою масок
+Коли проект має бути завантажений
+Встановлення змісту категорії
+З`єднання з Інтернет і настроювання HTTP-сервера
+Тип і паролі проксі-сервера
+Розміщення завантажених файлів
+Ліміт вільного місця на диску
+Настроювання, що торкаються усієї програми
+При огляді вузла Інтернет, показувати вибір з цих додатків
+Список браузерів для огляду вузлів Інтернет
+При перегляді файлу, показувати вибір з цих додатків
+Список програм для перегляду файлів
+При редагуванні файлу, показувати вибір з цих додатків
+Список редакторів для редагування файлів
+Мб вільно
+Не можу знайти відповідні дані.
+Завантаження
+Готово
+Призупинка
+Обробка
+Пошук
+&Імпорт
+Розгорнути на повний екран
+Відновити вихідний розмір
+Обмеження протоколів
+Cookies у даний час заборонені в системі. Ви хочете їх дозволити?
+Виберіть режим трансляції посилань
+Редактор шаблонів
+Зупинити завантаження файлу?
+Основні властивості проекту
+Різні режими оновлення проекту
+Ім`я папки і каталог завантаження
+Взаємодія з системою
+Старі копії при завантаженні нових файлів
+Встановлення зв`язку з Інтернет
+Поведінка у різних випадках
+Ви хочете розірвати з`єднання?
+Мб
+Гб
+Фільтрувати завантажені сторінки за ключовими словами
+Підтвердити дії
+секунди
+Проект завантажений
+Проект заплановано
+Проект не завантажений
+URL-адресу не знайдено
+Завантаження зупинене
+Пошук усіх невикористовуваних завантажених файлів і видалення їх за вибором.
+Ви хочете продовжити?
+Завантажено
+Довжина
+Обмеження швидкості завантаження
+Ви хочете запустити усі проекти в папці?
+Ви хочете зупинити попередній проект?
+Ви хочете зупинити усі проекти в папці?
+Документ не знайдений
+Ця сторінка є недоступною у offline. Можливі причини: це було хибне посилання на сервері або настроювання проекту не дозволяють завантажити сторінку. У деяких випадках може допомогти збільшення у настроюваннях рівня проекту.
+Клацніть тут, щоб перейти у online
+Інформація
+байтів
+Загальний розмір файлів
+Встановлення каталогу завантаження кожної підпапки до вищезгаданого місцезнаходження.
+Ви хочете продовжити?
+Проект
+Сервер повідомляє, що початковий URL-лінк знаходиться за іншою адресою:
+Чи хочете ви перезапустити завантаження з нової адреси проекту (для збереження старої адреси клацніть Скасувати)?
+Завершення завантаження проекту
+Відкрити файл
+Вибрано
+Ви хочете зберегти інформацію про видалені файли, щоб мати змогу завантажити змінені і нові файли пізніше?
+Рівень файлу:
+Не зареєстрована
+Ліцензія для користувача / комп`ютера
+Необмежена ліцензія для компанії
+Ліцензія для компанії
+Ліцензії для користувачів / комп`ютерів
+Тимчасова ліцензія. Минає після
+Проекти
+URL
+Призупинено у файл
+Останнє завантаження за %s - %s
+Проект не вибрано
+Сьогодні %s день ознайомчого періоду в 30 днів.
+днів
+Встановити як початкову сторінку
+You have not updated the Project for %s days
+Пароли не совпадают
+Неправильный пароль
+Вы хотите перезаписать существующие Проекты?
+Проверка обновлений
+Перетащите проекты, чтобы добавить в Расписание
+Перетащите проекты, чтобы добавить в Последовательность
+Нескольких ссылок
+Новый браузер
+Новый шаблон
+Загрузить отсутствующую ссылку и добавить файл в выбранный проект
+Начальная страница
+График скорости загрузки. Последние %s секунд загрузки не было.
+График скорости загрузки. Максимальная = %s, средняя = %s в течение %s секунд.
+Ограничения загрузки
+Дополнительные настройки обработки
+Обнаружена новая версия:
+Вы хотите загрузить и установить ее?
+У вас установлена самая свежая версия

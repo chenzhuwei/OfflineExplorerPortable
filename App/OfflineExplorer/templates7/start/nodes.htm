@@ -1,0 +1,28 @@
+<%	set Obj = folders.ExtObject 
+	parent = request("parent")
+	if parent = "0" then
+		set nodes = folders
+	else
+		set nodes = folders.FolderByIID(CLng(parent))
+	end if
+	response.write("<ul>")
+	for i = 0 to nodes.count - 1
+		set node = nodes.list(i)
+		response.writeln("<li>")
+		if node.itype=101 then
+			Response.WriteLn("<a id='a-" & node.iid & "' class='expander closed' href='javascript: loadProjects(" & node.iid & ")'></a>")
+			response.writeln("<div class='node folder-closed'>")
+		else
+			response.writeln("<div class='node project'>")
+		end if
+		response.writeln(node.caption)
+		response.writeln("<br/><div class='manage'>")
+		response.writeln("<a href='#'>Edit</a> |")
+		response.writeln("<a href='#'>Delete</a> |")
+		response.writeln("<a href='#'>Start</a>")
+		response.writeln("</div></div>")
+		response.writeln("<div id='p-" & node.iid & "'></div>")
+		response.writeln("</li>")
+	next
+	response.write("</ul>")
+	%>
