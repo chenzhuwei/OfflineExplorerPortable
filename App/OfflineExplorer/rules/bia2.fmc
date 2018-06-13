@@ -1,0 +1,22 @@
+Name=Google Video
+KeySubstrings=http://www.bia2.com/video/vPlayer.swf?path=
+TestURL=http://www.bia2.com/video/vPlayer.swf?path=http://www.bia2.com/video/sd-ad.php?id=470
+StepCount=2
+0.ParamParsingCount=1
+0.0.ParsingSourceCount=1
+0.0.0.ParsingSource=URL
+0.0.ParsingRulesCount=1
+0.0.0.ParsingRule=URLPARAMS
+0.DomainNames=www.bia2.com
+0.TemplateRequestURL={:path}
+0.TemplateDirectDownloadURL=
+0.TemplateVideoTitleExtract=
+1.ParamParsingCount=1
+1.0.ParsingSourceCount=1
+1.0.0.ParsingSource=STRING	<src>	</src>
+1.0.ParsingRulesCount=1
+1.0.0.ParsingRule=STRING	DURL		
+1.DomainNames=
+1.TemplateRequestURL=
+1.TemplateDirectDownloadURL={:DURL}
+1.TemplateVideoTitleExtract=

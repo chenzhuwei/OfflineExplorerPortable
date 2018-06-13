@@ -1,0 +1,1893 @@
+[Intl File 4.0]
+Language=Romanian
+Charset=1
+Font=Tahoma
+
+[MainForm]
+
+lblAddress.Caption=Adresa:
+lblLevel.Caption=Nivel:
+btnCreate.Caption=&Descarcare
+pgProjects.Caption=Proiect
+pgWebSites.Caption=Harta
+lblDisabledURLs.Caption=Dezactivare &URLuri
+btnExpandIB.Hint=Maximizare Browser Intern pe tot ecranul
+tbWBBack.Hint=Inapoi
+tbWBForw.Hint=Inainte
+tbWBStop.Hint=Stop
+tbWBRefr.Hint=Reactualizare
+tbWBPrint.Hint=Printare|Printare pagina din Browserul intern
+tbWBSettings.Hint=Setari Browser Intern|Schimba dimensiunea fontului din pagina Browserului Intern sau activeaza/dezactiveaza imaginile
+tbWBHome.Hint=Du-te la Pagina Principala|Vizualizeaza lista proiecte si statistici in Browser
+tbWBCatchURL.Hint=Adauga urmatorul click ca si link de Proiect Nou|Urmatorul click pe un URL sau buton de forma va fi inregistrat ca si Proiect pentru o viitoare descarcare.
+mpTBrowse.Caption=&Rasfoire
+mpTBrowseWith.Caption=Rasfoire &cu
+mpTViewIn.Caption=&Vizualizare in
+mpTEditIn.Caption=&Editare in
+mpTSort.Caption=&Sortare
+mpTSName.Caption=Dupa &nume
+mpTSTime.Caption=Dupa timp &descarcare
+mpTSURL.Caption=Dupa &URL
+mpTCopyURL.Caption=Copiaza &URL
+mpTNProject.Caption=&Nou...
+Delete1.Caption=&Sterge
+mpTDelete.Caption=&Sterge...
+mpTDeleteFiles.Caption=&Doar fisiere proiect
+mpTDeleteFiles.Hint=Sterge fisiere descarcate pentru proiectele selectate
+mpTDeleteProjectOnly.Caption=&Doar setari proiect
+mpTDisable.Caption=De&zactivare din descarcare
+mpDownload.Caption=De&scarcare
+mpStart.Caption=&Start
+mpStop.Caption=Sto&p
+mpSuspendToFile.Caption=S&uspendare proiect in fisier...
+mpTExport.Caption=E&xportare...
+mpTMarkRead.Caption=Marcheaza ca &citit
+mpTMarkUnRead.Caption=Marcheaza ca &necitit
+mpTRefresh.Caption=Revi&zualizare
+mpTTemplates.Caption=Aplica &sablon...
+mpTTemplates.Hint=Aplica sablon la proiectele selectate
+mpTDescription.Caption=Des&criere...
+mpTProperties.Caption=P&roprietati...
+mpTSingleClickMap.Caption=Rasfoire prin simplu &click
+mpTCloseFolders.Caption=Inchide &directoare nefolosite
+mpTSelectFiles.Caption=Selectare F&isiere...
+mpTShow.Caption=&Arata
+mpTStop.Caption=Opreste &descarcare...
+mpTClipboard.Caption=&Monitorizez clipboard
+mpTPaste.Caption=&Afisez Proiect
+mpTIntegration.Caption=&Cand afisez URL
+mpTDefTemplate.Caption=&Utilizeaza sablon implicit
+mpTAutoStart.Caption=Porneste descarcare &automat
+mpTExit.Caption=&Iesire
+dlgRFromFile.Caption=Reluare din fisier
+dlgRFromFile.Filter=Queue fisiere|*.wdq|Toate fisierele|*.*
+dlgStoFile.Caption=Suspendare in fisier
+dlgStoFile.Filter=Fisiere queue|*.wdq|Toate fisierele|*.*
+mpAProject.Caption=&Proiect...
+mpAWizard.Caption=Proiect cu &Vrajitor...
+mpAFolder.Caption=&Director
+mpATemplate.Caption=&Sablon...
+mpASeparator.Caption=Sabloane
+mpQAbort.Caption=&Anulare
+mpQCopyURL.Caption=Copiaza &URL
+mpQCopyReferer.Caption=Copiaza &referinta
+mpQSelectProject.Caption=Selectare &proiect
+mpQSaveList.Caption=&Salveaza lista in fisier
+mpQSelectAll.Caption=S&electare toate
+mpQInvertSelection.Caption=&Inversare selectie
+mpBSeparator.Caption=Sabloane
+mpSStop.Caption=&Opreste proiect selectat
+mpSStopAll.Caption=Opreste &toate
+mpFSFontSize.Caption=Marime &font
+mpFSLargest.Caption=Cele mai ma&ri
+mpFSLarger.Caption=&Mari
+mpFSMedium.Caption=M&edii
+mpFSSmaller.Caption=M&ici
+mpFSSmallest.Caption=&Cele mai mici
+mpFSShowImages.Caption=&Arata imagini
+mpFSShowImages.Hint=Activare sau dezactivare imagini in Browser Intern
+mpBrowseOnline.Caption=Rasfoire URL curent co&nectat
+mpBrowseOnline.Hint=Rasfoire URL curent conectat
+mpBrowseOffline.Caption=Rasfoire URL curent &deconectat
+mpBrowseOffline.Hint=Rasfoire URL curent deconectat
+odRestore.Caption=Restaurare din fisier
+odRestore.Filter=Offline Explorer backup|*.boe|Toate fisierele|*.*
+odBackup.Caption=Backup in fisier
+odBackup.Filter=Offline Explorer backup|*.boe|Toate fisierele|*.*
+pmWBPrint.Caption=&Printare...
+pmWBPreview.Caption=Vizualiza&re...
+miFile.Caption=&Fisier
+miFNewProject.Caption=No&u...
+miFNewProject.Hint=Creare proiect nou sau director
+miFExport.Caption=&Exportare...
+miFExport.Hint=Copiaza fisierele proiectului intr-un alt director
+miFDelSelected.Caption=Sterge
+miFDelSelected.Hint=Sterge proiectul selectat sau directorul sau fisierul
+miFProperties.Caption=&Proprietati...
+miFProperties.Hint=Proprietati ale proiectului selectat
+miFDProperties.Caption=&Sabloane...
+miFDProperties.Hint=Proprietati implicite pentru toate proiectele noi
+miFSaveChanges.Caption=&Salveaza modificarile
+miFSaveChanges.Hint=Salveaza modificarile din optiuni sau proiecte
+miFExit.Caption=I&esire
+miFExit.Hint=Iesire program
+miFWizard.Caption=&Vrajitor...
+miFWizard.Hint=Adaug proiect nou prin Vrajitor
+miFPrint.Caption=Pri&ntare...
+miFPrint.Hint=Printare pagini ale proiectului selectat
+miEUndoDel.Caption=Resta&urare
+miEUndoDel.Hint=Restaurare proiect sau director sters
+miECut.Caption=&Taie
+miECut.Hint=Taie proiectul selectat sau directorul din clipboard
+miECopy.Caption=&Copiaza
+miECopy.Hint=Copiaza proiectul selectat sau directorul in clipboard
+miEPaste.Caption=&Afiseaza
+miEPaste.Hint=Afiseaza proiect sau director din clipboard
+miEFindFiles.Caption=&Cauta fisiere sau directoare...
+miEFindFiles.Hint=Cauta Proiect, director sau fisier
+miEFindContents.Caption=Cauta c&ontinut...
+miEFindContents.Hint=Cauta cuvinte cheie in fisierele descarcate
+miVInternalBrowser.Caption=Browser &Intern
+miVInternalBrowser.Hint= Rasfoire cu Browser Internal sau vizualizare rapida a fisierelor descarcate
+miVOptions.Caption=&Optiuni...
+miVOptions.Hint=Vizualizare si setari program
+miDStart.Caption=&Start
+miDStart.Hint=Descarcare proiect sau fisier
+miDStop.Caption=O&prire
+miDStop.Hint=Oprire descarcare proiect selectat
+miDSuspendFile.Caption=Suspendare in &fisier...
+miDSuspendFile.Hint=Salveaza descarcare in fisier
+miDResumeFile.Caption=Reluare descarcare din f&isier...
+miDResumeFile.Hint=Reluare descarcare din fisier
+miDSpeed.Caption=Vit&eza
+miDSpeed.Hint=Viteza
+miTDatamine.Caption=&Procesare date...
+miTDatamine.Hint=Procesare fisiere proiect descarcat cu TextPipe
+miTBrowse.Caption=Rasfoire
+miTBrowse.Hint=Rasfoire proiect selectat sau fisier
+miVBrowseWith.Caption=Rasf&oieste cu
+miTHHangup.Caption=&Conexiune modem
+miTHHangup.Hint=Inchide conexiune modem cand s-au terminat descarcarile
+miTHShutdown.Caption=I&nchide
+miTHShutdown.Hint=Inchide computer cand s-au terminat descarcarile
+miHContents.Caption=&Continut
+miHContents.Hint=Vizualizare Ajutor
+miFDelete.Caption=&Sterge
+miFDProject.Caption=&Proiect
+miFDProject.Hint=Sterge proiectul selectat
+miFDFolder.Caption=&Director
+miFDFolder.Hint=Sterge directorul selectat
+miEDelete.Caption=&Director sau fisier
+miEDelete.Hint=Sterge director selectat sau fisier
+miEDeleteFiles.Caption=&Doar fisiere proiect
+miEDeleteFiles.Hint=Sterge fisiere descarcate pentru proiectul selectat
+miFDOld.Caption=Fisiere vechi de pr&oiect
+miFDOld.Hint=Sterge toate fisiere care au fost descarcate cu proiectul selectat
+miFRename.Caption=&Redenumire
+miFRename.Hint=Redenumire proiect selectat sau director
+miEdit.Caption=&Editare
+miView.Caption=&Vizualizare
+Toolbars1.Caption=&Bari de unelte
+miVTToolbar.Caption=Butoane &standard
+miVTToolbar.Hint=Bara de adresa standard
+miVTAddressBar.Caption=Bara de &adresa
+miVTAddressBar.Hint=Bara de adrese, folosita la descarcarea rapida a unui site
+miVTTextLabels.Caption=&Text ale butoanelor
+miVTGrayButtons.Caption=Butoane &gri
+miVStatusBar.Caption=Bara &status
+miVStatusBar.Hint=Bara status
+miVSchedMan.Caption=Mana&ger de descarcare mai tarziu
+miVSchedMan.Hint=Manager de descarcare mai tarziu
+miVExplorerBar.Caption=&Bara Explorer
+miVProjects.Caption=&Proiecte
+miVProjects.Hint=Afisare proiecte arborescent
+miVMap.Caption=&Harta
+miVMap.Hint=Harta fisierelor descarcate
+miVQueue.Caption=&Queue
+miVQueue.Hint=Manager de descarcare
+miVMessages.Caption=&Mesaje
+miVMPanel.Caption=&Panel
+miVMPanel.Hint=Arata status al descarcarii curente
+miVLog.Caption=Arata &fereastra log
+miVLog.Hint=Arata fereastra log
+miDownload.Caption=&Descarcare
+miDStartAll.Caption=Incepe descarc&area tuturor proiectelor
+miDStartAll.Hint=Incepe descarcarea tuturor proiectelor
+miDStopAll.Caption=Oprire &toate
+miDStopAll.Hint=Oprire descarcare a tuturor proiectelor
+miPlugins.Caption=&Unelte
+miTHTMLImp.Caption=&Importare din HTML...
+miTBackupRestore.Caption=&Backup/Restore
+miTBackupProjects.Caption=&Backup Proiect(e)...
+miTBackupProjects.Hint=Salveaza setari proiect si descarca fisiere in fisier compresat
+miTRestoreProjects.Caption=&Reluare proiect(e)...
+miTRestoreProjects.Hint=Reluare setari proiect si descarca fisiere din fisier compresat
+miTSequencer.Caption=&Sequencer
+miTSResume.Caption=&Suspendare
+miTSHighlight.Caption=&Coloreaza primul proiect
+miTSReset.Caption=R&esetare la primul proiect
+miHelp.Caption=&Ajutor
+miHRegister.Caption=&Cumpara
+miHRegister.Hint=Inregistrare de program
+miHWebSite.Caption=&Web Site
+miHWebSite.Hint=Deschide web site
+miHTips.Caption=&Arata sfaturi...
+miHTips.Hint=Vizualizare sfaturi
+miHCheck.Caption=Verifica &Updateuri
+About1.Caption=&Despre Offline Explorer...
+About1.Hint=Despre program
+miVEditIn.Caption=&Editare in
+miVViewIn.Caption=&Vizualizare in
+miFNProject.Caption=&Project...
+miFNProject.Hint=Project
+miFNFolder.Caption=&Director
+miFNFolder.Hint=Director
+miFNTemplate.Caption=&Sablon...
+miFNTemplate.Hint=sablon
+miFNTemplates.Caption=———— sabloane ————
+miFNTemplates.Hint=———— sabloane ————
+miFImport.Caption=&Importare
+miDSHigh.Caption=&Mare
+miDSHigh.Hint=Mare
+miDSMedium.Caption=M&edie
+miDSMedium.Hint=Medie
+miDSLow.Caption=Mi&ca
+miDSLow.Hint=Mica
+miDSBackground.Caption=&Background
+miDSBackground.Hint=Background
+miVTCustomize.Caption=&Personalizat...
+miVTCustomize.Hint=Personalizare bara unelte de lucru
+miVLanguages.Caption=&Limbi
+miTHangupExit.Caption=Inchide con&exiune modem && Inchide comp&uterul
+miTHangupExit.Hint=Inchide conexiune modem sau inchide computerul cand s-a terminat descarcarea
+miTHHHangupOnce.Caption=Inchide conexiune modem &o singura data
+miTHHHangupOnce.Hint=Inchide conexiune modem cand descarcarea curenta a luat sfarsit
+miTHHHangupAlways.Caption=Inchide conexiune modem &tot timpul
+miTHHHangupAlways.Hint=Inchide conexiune modem de fiecare data cand s-a terminat descarcarea
+miTHSShutdownOnce.Caption=Inchide computerul &o singura data
+miTHSShutdownOnce.Hint=Inchide computerul cand descarcarea curenta a luat sfarsit
+miTHSShutdownAlways.Caption=Inchide &tot timpul computerul
+miTHSShutdownAlways.Hint=Inchide computerul de fiecare data cand s-a terminat descarcarea
+miTRemember.Caption=&Amintesteti de pagina
+miTRemember.Hint=Amintesteti de pagina
+miVSequencer.Caption=Sequence&r
+miVSequencer.Hint=Sequencer
+miVTFlatToolbar.Caption=Stil &Flat
+miVTFlatToolbar.Hint=Stil Flat
+miDSuspend.Caption=S&uspendare
+miDSuspend.Hint=Termina descarcare fisiere si suspenda celelalte URLuri
+miDSRestart.Caption=&Restartare descarcare
+miDSRestart.Hint=Redescarcare completa a proectului(elor)
+miDSUpdate.Caption=&Update de proiect
+miDSUpdate.Hint=Descarca proiectul(ele) ale caror fisiere sun noi sau modificate
+miDSContinue.Caption=&Descarcare fisiere care lipsesc
+miDSContinue.Hint=Verifica legaturile care lipsesc si incearca descarcarea lor
+miDDCreate.Caption=&Creaza proiect nou
+miDDCreate.Hint=Adauga legatura ca si proiect nou
+miDDAdd.Caption=&Adauga legatura la proiectul selectat
+miDDAdd.Hint=Adauga legatura la proiectul selectat
+pgQueue.Caption=Queue
+mpTStatistics.Caption=Stat&istici...
+tbWebBrowser.0=Browser Intern
+btnExpandIB1.Hint=Maximizare Editor Intern
+tbEDOpen.Hint=Deschide fisier pentru editare
+tbEDSave.Hint=Salveaza modificarile in fisier
+tbEDCut.Hint=Taie textul selectat din clipboard
+tbEDCopy.Hint=Copiaza textul selectat in clipboard
+tbEDPaste.Hint=Copiaza textul din clipboard
+tbEDUndo.Hint=Sterge schimbarile facute
+tbEDFind.Hint=Cauta
+mpTBrowseNewTab.Caption=B&rowseaza in tab nou
+mpTEdit.Caption=Edi&tare
+mpTTAdjust1.Caption=&Configurare Unelte...
+mpTTAdjust1.Hint=Deschide dialog Optiuni pentru adaugare/stergere unelte
+mpTTAdjust2.Caption=&Configurare Unelte...
+mpTTAdjust2.Hint=Deschide dialog Optiuni pentru adaugare/stergere unelte
+mpTTAdjust3.Caption=&Configurare Unelte...
+mpTTAdjust3.Hint=Deschide dialog Optiuni pentru adaugare/stergere unelte
+mpTSFolders.Caption=Directoare &Top-level dupa nume
+mpQSelectConnection.Caption=Selectare &Conexiune
+mpQPause.Caption=&Pauza descarcare Proiect
+mpQConnections.Caption=&Limita conexiuni
+mpQCAll.Caption=&Utilizare toate conexiunile
+mpQC1.Caption=&1 Conexiune
+mpQC2.Caption=&2 Conexiuni
+mpQC5.Caption=&5 Conexiuni
+mpQC10.Caption=1&0 Conexiuni
+mpQSelectMask.Caption=Selectare dupa &masca...
+mpQShowReferers.Caption=Afisare Re&ferers
+mpFSBrowseOnline.Caption=Browseaza URL curent O&nline
+mpFSBrowseOnline.Hint=Browseaza URL curent Online
+mpFSBrowseOffline.Caption=Browse current URL &Offline
+mpFSBrowseOffline.Hint=Browseaza URL curent Offline
+mpFSBrowsingProject.Caption=Selectare &Proiect pentru browsare
+mpFSViewSource.Caption=&Vizualizare sursa pagina
+miHForum.Caption=Forum &Utilizator
+miHForum.Hint=Gaseste raspunsuri la intrebari sau discuta sugestii la MetaProducts Forum
+miTEdit.Caption=E&ditare
+miTEdit.Hint=Editare
+miTTAdjust.Caption=&Configurare Unelte...
+miTTAdjust.Hint=Deschide dialog Optiuni pentru adaugare/stergere unelte
+mpWBTClose.Caption=&Inchide
+mpWBTCloseAll.Caption=Inchide &Toate
+mpWBTNewWindow.Caption=Fereastra &Browser noua
+mpWBTNewEditWindow.Caption=Fereastra &Editor noua
+mpWBTFixedWidth.Caption=Lungime titlu pagina
+odEDLoad.Filter=Toate fisierele|*.*
+MenuItem1.Caption=Ste&rge modificari
+MenuItem4.Caption=&Taie
+MenuItem5.Caption=&Copiaza
+MenuItem6.Caption=&Lipeste
+MenuItem7.Caption=Ster&gere
+MenuItem9.Caption=Se&lectare toate
+MenuItem10.Caption=&Word wrap
+odEDSave.Filter=Toate fisierele|*.*
+edtAddress.Caption=Introduceti adresa Web pentru a crea un nou Proiect si a descarca din site
+lvSeq.0=Proiecte
+pgLevels.Caption=Nivele
+PList.0=Canal
+PList.1=Incarcat - %
+PList.2=Lungime
+PList.3=Status
+PList.4=URL
+Log4.0=Sursa
+Log4.1=Timp
+Log4.2=Informatie
+tbWBAutoSave.Hint=AutoSalvare|Descarca si adauga paginile lipsa si fisierele automat la Proiect
+miVIcons.Caption=&Icoane Proiect
+miDSPreview.Caption=Harta site
+miDSPreview.Hint=Harta site|Generare harta site
+mpTSuspendNoDownload.Caption=Nu exista downloaduri active
+mpTSuspendNoDownload.Hint=Nu exista downloaduri active
+miHRegister1.Caption=&Inregistrare...
+miHRegister1.Hint=Inregistrare
+miESelectAll.Caption=&Selectare toate
+miESelectAll.Hint=Selectare toate
+miHNewFeature.Caption=Cerere imbu&natatire noua
+miHNewFeature.Hint=Cerere imbunatatire noua
+mpTCopyURL.Hint=Copiaza URL
+mpSuspendToFile.Hint=Suspendare fisier proiect
+mpTBrowseNewTab.Hint=Browseaza in tab nou
+mpTMarkRead.Hint=Marcheaza ca si citit
+mpTMarkUnRead.Hint=Marcheaza ca si necitit
+mpTDescription.Hint=Descriere
+mpTStatistics.Hint=Statistici
+mpTProtect.Caption=Pr&otectie...
+mpTProtect.Hint=Protectie
+mpTDisable.Hint=Oprire din descarcare
+mpTSingleClickMap.Hint=Browsare cu simplu click
+mpTCloseFolders.Hint=Inchide directoare neutilizate
+mpTSelectFiles.Hint=Selectare fisiere
+mpTSName.Hint=Dupa nume
+mpTSTime.Hint=Dupa timpul descarcarii
+mpTSURL.Hint=Dupa URL
+mpTSFolders.Hint=Directoare top-level dupa nume
+mpTRefresh.Hint=Reactualizare
+pmiCancel.Caption=&Oprire
+pmiCancel.Hint=Opreste descarcarea fisierului selectat
+pmiRestart.Caption=&Restartare
+pmiRestart.Hint=Oprire si incepere descarcare de la inceput
+pmiFinalize.Caption=&Finalizare
+pmiFinalize.Hint=Salvare fragment media descarcat
+pmiPlay.Caption=Ruleaza
+pmiCopy.Caption=Copiaza &URL
+pmiCopy.Hint=Copiaza URL al fisierului descarcat
+pmiReferer.Caption=Copiaza &Referer al URL
+pmiReferer.Hint=Copiaza referer al fisierului selectat
+pmiSelectProject.Caption=Selectare &Proiect
+pmiSelectProject.Hint=Coloreaza Proiectul, care incarca fisierul selectat
+pmiConnsHighlight.Caption=&Coloreaza conexiunile active
+dxBarStatic1.Caption=Progres descarcare
+dxBarStatic1.Hint=Progres descarcare
+pmiDown.Caption=Arata/Ascunde panou conexiuni
+pmiDown.Hint=Deschide/inchide panou conexiuni (Ctrl+P)
+btnExpandIB2.Caption=Maximizare/Restaurare
+btnExpandIB2.Hint=Maximizare Browser Intern pe tot ecranul
+tbWBBack2.Caption=Inapoi
+tbWBBack2.Hint=Inapoi
+tbWBForw2.Caption=Inainte
+tbWBForw2.Hint=Inainte
+tbWBStop2.Caption=Oprire
+tbWBStop2.Hint=Oprire
+tbWBRefr2.Caption=Reactualizare
+tbWBRefr2.Hint=Reactualizare
+tbWBPrint2.Caption=Imprimare
+tbWBPrint2.Hint=Imprimare|Imprimare pagina din browserul curent
+tbWBHome2.Caption=Acasa
+tbWBHome2.Hint=Acasa|Vizualizare proiecte si statistici in browser
+tbWBCatchURL2.Caption=Adauga urmatoarea legatura ca si proiect
+tbWBCatchURL2.Hint=Adauga urmatoarea legatura ca si proiect|Urmatorul click pe un URL sau buton va fi inregistrata ca Proiect ptr descarcat.
+tbWBAutoSave2.Caption=AutoSalvare
+tbWBAutoSave2.Hint=AutoSalvare|Descarcare a tuturor fisierelor automat ale Proiectului
+edtWBURL2.Caption=Adresa:
+edtWBURL2.Hint=Adresa:
+tbWBSettings2.Hint=Setari|Setari Browser intern|Schimba marimea fontului pentru a afisa/anula imaginile
+mpFSFontSize2.Caption=Marime font
+mpFSLargest2.Caption=Cel mai mare
+mpFSLarger2.Caption=Mare
+mpFSMedium2.Caption=Mediu
+mpFSSmaller2.Caption=Mic
+mpFSSmallest2.Caption=Cel mai mic
+mpFSShowImages2.Caption=&Afisare imagini
+mpFSShowImages2.Hint=Afisare sau ascundere a imaginilor in browser
+mpFSBrowseOnline2.Caption=Browsare URL curent Conectat
+mpFSBrowseOnline2.Hint=Browsare URL curent Conectat
+mpFSBrowseOffline2.Caption=Browsare URL curent Deconectat
+mpFSBrowseOffline2.Hint=Browsare URL curent Deconectat
+mpFSBrowsingProject2.Caption=Selectare &Proiect pentru browsare
+mpFSViewSource2.Caption=&Vizualizare sursa pagina
+tbEDOpen2.Caption=Deschide
+tbEDOpen2.Hint=Deschide|Deschidere fisier pentru editare
+tbEDSave2.Caption=Salvare
+tbEDSave2.Hint=Salvare|Salvare modificari efectuate
+tbEDCut2.Caption=Taiere
+tbEDCut2.Hint=Taiere|Taiere text selectat in clipboard
+tbEDCopy2.Caption=Copiere
+tbEDCopy2.Hint=Copiere|Copiere text selectat in clipboard
+tbEDPaste2.Caption=Lipire
+tbEDPaste2.Hint=Lipire|Lipire text selectat din clipboard
+tbEDUndo2.Caption=Readucere modificari
+tbEDUndo2.Hint=Readucere modificari|Readucere modificari
+tbEDFind2.Caption=Cauta
+tbEDFind2.Hint=Cauta|Cauta text
+pmLCaption.Caption=Log mesaje
+pmLCaption.Hint=Log mesaje
+pmLLogMessages.Caption=Incepere &logare
+pmLLogMessages.Hint=Incepere logare
+pmLClear.Caption=&Curata
+pmLClear.Hint=Curata
+pmLTrack.Caption=&Verifica Log
+pmLTrack.Hint=Verifica Log
+pmLCopy.Caption=Co&piere in Clipboard
+pmLCopy.Hint=Copiere in Clipboard
+pmLSave.Caption=&Salvare Log in fisier
+pmLSave.Hint=Salvare Log in fisier
+pmLFind.Caption=&Cauta
+pmLFind.Hint=Cauta
+pmLClose.Caption=In&chidere log
+pmLClose.Hint=Inchidere log
+pmLFilter.Caption=Fil&tru
+pmLFilter.Hint=Filtru mesaje
+pmLFConnect.Caption=&Status conexiune
+pmLFConnect.Hint=Status conexiune
+pmLFDownload.Caption=&Progres descarcare
+pmLFDownload.Hint=Progres descarcare
+pmLFDisconnect.Caption=Status d&econectare
+pmLFDisconnect.Hint=Status deconectare
+pmLFDetails.Caption=Deta&lii
+pmLFDetails.Hint=Detalii
+pmLFQueue.Caption=Mesaje &lista
+pmLFQueue.Hint=Mesaje lista
+pmLFRejectedURLs.Caption=URLuri &Respinse
+pmLFRejectedURLs.Hint=URLuri Respinse
+pmLFInternalWebSrv.Caption=Cereri &Web server intern
+pmLFInternalWebSrv.Hint=Cereri Web server intern
+dxbSScheduler.Caption=Lista activitati
+dxbSScheduler.Hint=Lista activitati
+dxbSSequencer.Caption=Secvente
+dxbSSequencer.Hint=Secvente
+dxbSSeqRun.Caption=Incepere Secvente acum
+dxbSSeqRun.Hint=Incepere Secvente acum
+dxbSSeqStartAt.Caption=Incepere Secvente la...
+dxbSSeqStartAt.Hint=Incepere Secvente la...
+dxbSeqLoop.Caption=Salt peste Secvente
+dxbSeqLoop.Hint=Salt peste Secvente
+miSSelect.Caption=Selectare &Proiect
+miSSkip.Caption=&Setare Secvente pe acest proiect
+miSRemove.Caption=&Sterge
+miSRemoveAll.Caption=Sterge &toate
+miSLoad.Caption=&Incarca Secvente...
+miSLoad.Hint=Incarca Secvente...
+miSSave.Caption=Sa&lvare Secvente...
+miSSave.Hint=Salvare Secvente...
+dxbSClose.Caption=In&chide
+dxbSClose.Hint=Inchidere Manager activitati
+mpQAbort.Hint=Oprire descarcare URL curent
+mpQAbortDisable.Caption=Oprire && &Dezactivare
+mpQAbortDisable.Hint=Oprire descarcare URL si dezactivare in setari proiect
+mpQACurrentURL.Caption=&URL-uri curente
+mpQACurrentURL.Hint=Excludere URL din descarcare
+mpQAFolder.Hint=Dezactivare legaturi din director
+mpQAFolder1.Hint=Dezactivare toate legaturile din director
+mpQAFolder2.Hint=Dezactivare toate legaturile din director
+mpQAServer.Hint=Dezactivare toate legaturile din serverul curent
+mpQSaveList.Hint=Salvare in fisier text
+mpQMoveToTop.Caption=Mutare in &Sus
+mpQMoveToBottom.Caption=Mutare in &Jos
+mpQColorize.Caption=C&olorare
+mpQCoServer.Caption=Dupa nume &server
+mpQCoExtension.Caption=Dupa &tip fisier
+mpQCoNone.Caption=&Fara
+mpDownload2.Caption=Des&carcare
+mpQCopyPOST.Caption=Copiere cerere POST
+mpQCopyPOST.Hint=Copiere cerere POST
+miVView.Caption=&Vizualizare
+miPI1.Caption=&Standard
+miPI1.Hint=Standard
+mpTDeleteProjectOnly.Hint=Doar setari proiect
+miPI2.Caption=&Important
+miPI2.Hint=Important
+miPI3.Caption=&Revizualizare
+miPI3.Hint=Revizualizare
+miPI4.Caption=&Nu sterge
+miPI4.Hint=Nu sterge
+miPI5.Caption=R&eferinta
+miPI5.Hint=Referinta
+miPI6.Caption=&Live
+miPI6.Hint=Live
+miPI7.Caption=&Noutati
+miPI7.Hint=Noutati
+miPI8.Caption=Favori&te
+miPI8.Hint=Favorite
+miPI9.Caption=&Articol
+miPI9.Hint=Articol
+miPI10.Caption=&Companie
+miPI10.Hint=Companie
+miPI11.Caption=&Financiar
+miPI11.Hint=Financiar
+miPI12.Caption=&Usergroup
+miPI12.Hint=Usergroup
+miPI13.Caption=S&pecial
+miPI13.Hint=Special
+miPI14.Caption=&In retea
+miPI14.Hint=In retea
+miPI15.Caption=Pri&vat
+miPI15.Hint=Privat
+miPI16.Caption=Pers&onal
+miPI16.Hint=Personal
+miPI17.Caption=Prioritate Mare
+miPI17.Hint=Prioritate Mare
+miPI18.Caption=Prioritate Mica
+miPI18.Hint=Prioritate Mica
+miPI19.Caption=Cu intrebari
+miPI19.Hint=Cu intrebari
+dxbSeqRemove.Caption=&Sterge proiectele descarcate din Secvente
+dxbSeqRemove.Hint=Sterge proiectele descarcate din Secvente
+mpEDeleteProjectOnly.Caption=Doar setari proiect
+mpEDeleteProjectOnly.Hint=Doar setari proiect
+miTPublish.Caption=P&ublica...
+miTPublish.Hint=Share Project settings with other users
+miTPublishedProjects.Caption=Proiecte Publicate
+miTPublishedProjects.Hint=Proiecte Publicate
+miTTextPipe.Caption=TextP&ipe...
+miTTextPipe.Hint= DataMystic TextPipe
+mpWBTMultiLineTabs.Caption=Taburi Multi-linie
+odSeqLoad.Filter=Secvente Offline Explorer|*.soe|Toate fisierele|*.*
+odSeqSave.Filter=Secvente Offline Explorer|*.soe|Toate fisierele|*.*
+sdLog.Caption=Salvare mesaje log
+sdLog.Filter=Fisiere log|*.log|Toate fisierele|*.*
+sdQueue.Filter=Fisiere text|*.txt|Toate fisierele|*.*
+
+[dlgInstall]
+
+btnCancel.Caption=Nu
+Label5.Caption=Reproducerea neautorizata sau distribuirea acestui program sau orice portiune de program poate rezulta in penalitati civile pedepsite de lege.
+Label4.Caption=Atentie: Acest program este protejat de copyright si legi internationale.
+Label3.Caption=Apasa Nu pentru a iesi din Setup . Apasa Urmatorul pentru a continua instalarea programului.
+Label2.Caption=Este recomandat inchiderea celorlalte aplicatii la instalarea acestui program.
+Label6.Caption=Se va instala %s in urmatorul director.
+Label7.Caption=Pentru a instala in alt director, apasa Browse, si selectati alt director.
+Label8.Caption=Puteti alege neinstalarea %s apasand Nu si a iesi din Setup.
+GroupBox1.Caption=Director destinatie
+btnBrowse.Caption=B&rowse...
+Label9.Caption=Gata de instalare %s.
+Label10.Caption=Apasa butonul Urmatorul pentru a incepe instalarea sau butonul Predecesorul pentru a introduce informatiile necesare.
+cbDesktop.Caption=Adauga shortcut pe Desktop
+cbQuickLaunch.Caption=Adauga shortcut in bara &Quick Launch
+GroupBox2.Caption=Fisier curent
+Label11.Caption=Copiez fisierul:
+lblFile.Caption=Nimic de despachetat.
+Label12.Caption=%s a fost instalat cu succes.
+Label13.Caption=Apasa butonul Gatapentru a termina instalarea.
+cbRun.Caption=Executa %s acum
+btnBack.Caption=< &Predecesorul
+dlgBrowse.Caption=Selectare director destinatie
+Label14.Caption=Licenta Software
+rbAccept.Caption=&Accept termenii
+rbDontAccept.Caption=Nu a&ccept termenii
+Label16.Caption=Director instalare
+Label22.Caption=&Director Destinatie
+Label17.Caption=Shortcuturi Program
+Label18.Caption=Copiere fisiere...
+Label19.Caption=Instalare completa
+---Label23.Caption=Integration...
+---Label24.Caption=You can set up %s integration for some installed browsers
+---Label25.Caption=Please check the corresponding boxes to install integration with the following browsers:
+---lvBrowsers.0=Name
+---lvBrowsers.1=Path
+---lvBrowsers.2=Browse
+---Label26.Caption=The program can perodically check for newer versions of %s. You can also do this manually using the program menu Help | Check for new version item.
+---cbNVCheck.Caption=&Enable automatic periodic check for new versions
+
+[LogWindow]
+Caption=Mesaje de fereastra
+
+miSettings.Caption=&setari
+miSTrack.Caption=&Urmarire
+miSPause.Caption=&Pauza
+miLFilter.Caption=Fi&ltru
+miLFConnect.Caption=Status &conexiune
+miLFDownload.Caption=Progress &descarcare
+miLFDisconnect.Caption=Status d&econectare
+miLFDetails.Caption=Deta&lii
+miLFQueue.Caption=Mesa&je primite
+miLFRejectedURLs.Caption=URLuri &respinse
+miSRecordTime.Caption=Ti&mp record
+miSClear.Caption=Ste&rge
+miSCopy.Caption=Cop&iaza in clipboard
+miSSaveToFile.Caption=&Salveaza in fisier...
+miLFind.Caption=&Cauta...
+miLFindNext.Caption=Cauta &urmatorul
+pmiDock.Caption=&Prinde la
+pmiDock.Hint=Prinde o zona de ecran
+pmiDScreen.Caption=Partea de jos a &ecranului
+pmiDIB.Caption=&Browser Intern
+pmiUnDock.Caption=&Desprindere
+pmiUnDock.Hint=Desprindere de zona a ecranului
+miSClose.Caption=&Inchide
+SaveDialog.Caption=Salveaza log
+SaveDialog.Filter=Log fisiere|*.log|Toate fisierele|*.*
+miLFInternalWebSrv.Caption=Cereri Sever &Web intern
+
+[WndProgress]
+Caption=Progres descarcare
+
+List.0=Canal
+List.1=Descarcat - %
+List.2=Lungime
+List.3=Status
+List.4=URL
+pmiCancel.Caption=&Anulare
+pmiCancel.Hint=NU descarca fisierul selectat
+pmiRestart.Caption=&Restartare
+pmiRestart.Hint=Opreste si incepe de la inceput descarcarea fisierului
+pmiFinalize.Caption=&Finalizare
+pmiFinalize.Hint=Salveaza fisierul media stream descarcat
+pmiCopy.Caption=Copiaza &URL
+pmiCopy.Hint=Copiaza URL din fisierul selectat
+pmiReferer.Caption=Copiaza URL &Referinta
+pmiReferer.Hint=Copiaza referinta din fisierul selectat
+pmiSelectProject.Caption=Selectare &proiect
+pmiSelectProject.Hint=Coloreaza proiectul, in care se descarca fisierul
+pmiDock.Caption=&Prinde la
+pmiDock.Hint=Prinde o zona de ecran
+pmiDBottom.Caption=Partea de jos a &ecranului
+pmiDIB.Caption=Internal &Rasfoire
+pmiUnDock.Caption=&Desprindere
+pmiUnDock.Hint=Desprindere de zona a ecranului
+pmiPlay.Caption=Rulare
+
+[dlgAbout]
+Caption=Despre Offline Explorer
+
+btnOK.Caption=DA
+TabSheet1.Caption=General
+Label3.Caption=Registrat pentru:
+lblReg.Caption=NEINREGISTRAT
+lblDescr.Caption=Offline Explorer ne permite descarcarea siteurilor web si vizualizarea lor ulterioara fiind deconectati de la Internet sau publicarea siteurilor pe servere Web.
+lblLatestInfo.Caption=Offline Explorer nu este freeware. Se poate evalua pentru o perioada de 30 zile. Dupa acest timp trebuie sa va inregistrati.
+lblTrial.Caption=Pentru ultimele informatii despre Offline Explorer, vizitati siteul Web : http://www.metaproducts.com
+btnEMail.Caption=&E-mail
+btnWebSite.Caption=&Web site
+btnOrdering.Caption=&Cumparare
+btnRegister.Caption=&Inregistrare...
+TabSheet2.Caption=Note
+TabSheet3.Caption=Licenta
+btnHelp.Caption=&Ajutor
+btnCancel.Caption=NU
+lblOnDay1.Caption=Pentru a afla date despre inregistrarea lui Offline Explorer apasa butnoul Cumpara.
+lblOnDay2.Caption=Odata ce ati obtinut detaliile de inregistrare, apsati butonul Inregistrare. Toate functiile se vor debloca pentru utilizatorii inregistrati.
+lblOnEnd1.Caption=Ati atins perioada de 30 zile de evaluare.
+lblOnEnd2.Caption=Speram ca ati folosit cu succes Offline Explorer.
+lblSiteInfo.Caption=Pentu ultimele informatii, vizitati website-ul la:
+Label4.Caption=Pentru orice intrebari va rugam scrieti la:
+btnClose.Caption=Inchide
+btnReleaseNotes.Caption=&Note
+btnLicense.Caption=&Licenta
+
+[dlgOptions]
+Caption=Optiuni
+
+Label1.Caption=Categor&ie:
+OptionsTree.0=Internet
+OptionsTree.1=Conexiune
+OptionsTree.2=Viteza
+OptionsTree.3=Dial up
+OptionsTree.4=Deconectare si Iesire
+OptionsTree.5=Server Proxy
+OptionsTree.6=Unelte
+OptionsTree.7=Browser Extern
+OptionsTree.8=Vizualizatoare
+OptionsTree.9=Editoare
+OptionsTree.10=Avansat
+OptionsTree.11=Locatii fisiere
+OptionsTree.12=Integrare
+OptionsTree.13=Confirmare
+btnOK.Caption=DA
+btnCancel.Caption=NU
+Label32.Caption=Setari conexiune Internet
+Label4.Caption=Numar de &conexiuni:
+Label5.Caption=&Timp iesire (secunde):
+Label16.Caption=&Pauza intre descarcari:
+Label30.Caption=Server HTTP intern
+Label11.Caption=Identificare agent
+cbRetries.Caption=Limitare numar de &reancercari la:
+cbHTTPStart.Caption=Activeaza pe &port:
+cbOHTTPLocal.Caption=Activeaza doar &acces local
+rbUA1.Caption=Ide&ntificare ca si:
+rbUA2.Caption=Utilizeaza aceasta identi&ficare:
+Label7.Caption=Proxy &address:
+Label8.Caption=Proxy &port:
+Label15.Caption=Tip Proxy
+Label31.Caption=Proxy server setari
+Label33.Caption=Autentificare Proxy (gol daca nu este necesar)
+btnPrxADetect.Caption=Auto &Detectare
+rbHProxy1.Caption=Fara pro&xy
+rbHProxy2.Caption=&HTTP Proxy
+rbHProxy3.Caption=&SOCKS4
+rbHProxy4.Caption=S&OCKS5
+Label9.Caption=&Utilizator:
+Label10.Caption=&Parola:
+cbNTLMProxy.Caption=Autentificare NTL&M
+Label60.Caption=Tip Proxy
+Label61.Caption=Setari Proxy server
+Label62.Caption=&Adresa Proxy:
+Label63.Caption=&Port Proxy:
+rbRProxy1.Caption=Fara pro&xy
+rbRProxy2.Caption=&HTTP proxy
+rbRProxy3.Caption=&SOCKS4
+rbRProxy4.Caption=&RTSP proxy
+rbRProxy5.Caption=S&OCKS5
+Label6.Caption=&Adresa Proxy:
+Label17.Caption=&Port Proxy:
+Label34.Caption=Tip Proxy
+Label35.Caption=Setari Proxy server
+Label36.Caption=Autentificare Proxy (gol daca nu este necesar)
+cbPPASV.Caption=Mod PAS&V pentru descarcari FTP
+rbFProxy1.Caption=Fara pro&xy
+rbFProxy2.Caption=&HTTP proxy
+rbFProxy3.Caption=&SOCKS4
+rbFProxy4.Caption=Si&te Utilizator
+rbFProxy5.Caption=S&OCKS5
+Label26.Caption=&Utilizator:
+Label27.Caption=&Parola:
+Label37.Caption=&Director de descarcare
+Label38.Caption=Spatiu pe Disk
+Label13.Caption=spatiu liber hard disk:
+Label12.Caption=Limita libera &spatiu pe disk:
+Label39.Caption=Intretinere
+Label29.Caption=Apasa butonul Sterge pentru a sterge websiteuri sau fisiere din directorul de descarcare
+Label40.Caption=Directorul &proiecte, sabloane si harti
+btnBrowse.Caption=Ras&foire...
+btnClean.Caption=&Stergere...
+btnBrowse1.Caption=&Rasfoire...
+cbDirOverload.Caption=Pre&venire directoare de descarcare de a fi supraancarcate
+lblTools.Caption=&Cand vizualizez un web site, afiseaza aceste unelte
+Label20.Caption=&Captura:
+Label21.Caption=&Fisier:
+Label43.Caption=Fereas&tra unelte
+Label57.Caption=&Hotkey:
+btnADetect.Caption=Auto &Detectare
+btnOBrAdd.Caption=<<       &Adauga
+btnOBrRemove.Caption=>> &Sterge
+cbShowMode.0=Normal
+cbShowMode.1=Maximizat
+cbShowMode.2=Minimizat
+Label2.Caption=Selectare subcategorie pentru afisare
+lblSMTP.Caption=Adresa SMT&P server:
+Label41.Caption=Harta
+Label42.Caption=Auto Salveaza
+lblAutoSave.Caption=Minute
+Label44.Caption=Aparitie
+Label45.Caption=Dublu-click pe proiect
+rbAMap1.Caption=Harta afiseaza doar &web siteurile care apartin de proiect
+rbAMap2.Caption=Harta afiseaza &toate siteurile descarcate
+bxAutoSave.Caption=&Salveaza modificari la fiecare
+cbTray.Caption=Ruleaza in &tray
+cbASplash.Caption=Afiseaza s&creen de inceput la executie
+rbODblClick1.Caption=&Vizualizez proiect in Browser
+rbODblClick2.Caption=&Deschidere proprietati proiect
+Label64.Caption=Sortare fisiere dupa:
+rbAMapSort1.Caption=&Nume
+rbAMapSort2.Caption=&Extensii
+Label46.Caption=Sistem
+Label47.Caption=Cand adaug un URL
+Label55.Caption=Filtru C&lipboard URLuri
+Label56.Caption=&URLuri care se termina cu (separate prin virgula):
+cbOIClipboard.Caption=Monitorizeaza &clipboard
+cbIIECtxMenu.Caption=Utilizare meniu contextual MS Internet &Explorer
+cbIPFolder.Caption=Pune proiectele in &director:
+cbOIAutoStart.Caption=Descarca &automat
+cbICFilter.0=Nu accepta
+cbICFilter.1=Accepta doar
+Label48.Caption=Dialup cand descarc siteuri
+cbDialUp.Caption=&Activare
+Label14.Caption=&Selectare conexiune:
+Label18.Caption=&Nume utilizator:
+Label19.Caption=&Parola:
+Label22.Caption=&Reancercare:
+Label23.Caption=timp
+Label24.Caption=&Interval dintre Reancercari:
+Label25.Caption=secunde
+Label49.Caption=Deconectare
+Label50.Caption=Iesire program si inchidere computer
+cbHangUp.Caption=&Deconectare conexiune modem cand toate fisierele su&nt descarcate
+cbHangUpAt.Caption=D&econectare la
+cbClose.Caption=Iesire cand toate fisierele s&unt descarcate
+cbCloseAt.Caption=Iesi&re la
+cbShutdown.Caption=&Inchide computerul cand se iese din program
+Label51.Caption=Confirmari
+cbACDelete.Caption=Cand se ster&g fisiere
+cbACDelPFiles.Caption=Cand se sterg fisiere din &proiect
+cbACHangup.Caption=Cand se inchide o &conexiune
+cbACExit.Caption=Cand se &iese din program
+cbACURLMoved.Caption=Cand URLul proiectului este &mutat
+cbACFolderStart.Caption=Cand &directorul va incepe descarcarea proiectelor
+Label52.Caption=Control viteza
+Label53.Caption=bytes/sec
+Label54.Caption=Schimbare din Kilobytes pe secunda in viteza selectata.
+Label58.Caption=RTSP streams lungime de banda
+Label59.Caption=Maximum &RTSP lungime de banda:
+cbSetSpeedLimit.Caption=Limitare &viteza de descarcare
+brHigh.Caption=M&are
+rbMedium.Caption=&Medie
+rbLow.Caption=M&ica
+rbBackground.Caption=&Background
+cbRTSPBandwidth.0=14.4K Modem
+cbRTSPBandwidth.1=19.2K Modem
+cbRTSPBandwidth.2=28.8K Modem
+cbRTSPBandwidth.3=33.6K Modem
+cbRTSPBandwidth.4=56K Modem
+cbRTSPBandwidth.5=112K Dual ISDN
+cbRTSPBandwidth.6=256Kbps DSL/Cable
+cbRTSPBandwidth.7=384Kbps DSL/Cable
+cbRTSPBandwidth.8=512Kbps DSL/Cable
+cbRTSPBandwidth.9=T1 / LAN
+cbRTSPBandwidth.10=10Mbps LAN
+btnHelp.Caption=Ajutor
+dlgOBrowse.Caption=Rasfoire pentru fisier
+dlgOBrowse.Filter=Fisiere executabile|*.exe;*.com|Toate fisierele|*.*
+bdDD.Caption=Director de descarcare
+bdDD.Hint=Alege director de descarcare:
+bdProjects.Caption=Director pentru proiecte
+bdProjects.Hint=Alege director de descarcare:
+cbIECookies.Caption=&Utilizeaza cookiuri Microsoft Internet Explorer
+cbOIDefaults.Caption=&Utilizare sablon implicit
+rbDial2.Caption=&Activare formare interna
+rbDial3.Caption=&Utilizare formare externa
+rbDial1.Caption=&Nu forma automat
+Label65.Caption=Linie &comanda pentru formare:
+Label66.Caption=Linie comanda pentru inchi&dere:
+cbShutdown2.Caption=Extra &compatibilitate mod inchidere computer (utilizeaza cand alte metode dau gres)
+Label69.Caption=Autentificare Proxy (gol daca nu este necesar)
+Label67.Caption=&Nume utilizator:
+Label68.Caption=Pa&rola:
+OptionsTree.14=Complet
+cbXButton.Caption=Buton "X" minimi&zeaza fereastra principala
+Label70.Caption=Descarcare completa
+Label71.Caption=Adresa server SMT&P:
+Label72.Caption=Nume server (SMTP) iesire email
+cbACPReport.Caption=Raportare despre descarcare proiect de
+rbACPReport1.Caption=&Sunet:
+rbACPReport2.Caption=&E-mail:
+rbACPReport3.Caption=IC&Q UIN:
+odCSound.Caption=Deschide fisier sunet
+odCSound.Filter=Fisiere Wave (*.wav)|*.wav|Toate fisierele|*.*
+cbHibernate.Caption=&Hibernare a sistemului fara iesire din program
+Label76.Caption=Lista servere &Proxy
+Label77.Caption=Setari conexiune
+lvProxies.0=Tip
+lvProxies.1=Server
+lvProxies.2=Port
+lvProxies.3=Utilizator
+btnPAdd.Caption=&Adauga...
+btnPRemove.Caption=&Sterge
+btnPLoad.Caption=&Incarca...
+btnPSave.Caption=&Salvare...
+btnPAutoDetect.Caption=Auto &Detectie
+cbNTLM.Caption=Utilizeaza metoda conexiune alternativa (pentru autentificare NTL&M, etc.)
+cbPASV.Caption=Mod PAS&V pentru descarcarile FTP
+btnPEdit.Caption=&Editare...
+Label73.Caption=Director &temporar:
+Button1.Caption=&Browsare...
+Label74.Caption=Meniu contextual FireFox si Mozilla:
+cbIOperaCtxMenu.Caption=Utilizare meniu contextual &Opera
+btnFireFox.Caption=In&stalare
+rbACMAsk.Caption=&Intrebare pentru confirmare
+rbACMDownload.Caption=&Incepere descarcare din noul URL
+rbACMStop.Caption=O&prire descarcare
+cbACExitDownload.Caption=&Doar cand sunt descarcari active
+cbACRestore.Caption=Ca&nd se restaureaza Proiectele cu acelasi nume
+lblRMore.Caption=Noile fisiere sau cele updatate
+cbRMore.Caption=&Cand mai mult de
+Label75.Caption=Verifica automat noile versiuni
+cbNVCheck.Caption=&La fiecare
+btnNVCheck.Caption=&Verifica acum
+OptionsTree.15=Noi versiuni
+odProxyList.Filter=Fisiere text|*.txt|Toate fisierele|*.*
+sdProxyList.Filter=Fisiere text|*.txt|Toate fisierele|*.*
+
+[dlgFolderProp]
+Caption=Proprietati Director
+
+Label1.Caption=&Categorie:
+FolderTree.0=Director
+btnCancel.Caption=NU
+btnOK.Caption=DA
+Label32.Caption=General
+Label2.Caption=&Nume director:
+Label6.Caption=Nume director pentru descarcare
+Label3.Caption=Orice proiect poate fi descarcat intr-un director.
+Label5.Caption=Daca nu este specificat , se va crea unul automat.
+btnDefaults.Caption=&Director implicit
+btnFromTemplate.Caption=&Resetare implicit din sablon
+cbFDD.Caption=Ac&tiv
+btnBrowse.Caption=&Rasfoire...
+btnApplyFDD.Caption=&Aplica pentru toate subdirectoarele
+bdDD.Caption=Director de descarcare
+bdDD.Hint=Alege director de descarcare:
+
+[dlgDataMine]
+Caption=Procesare
+
+Label1.Caption=Procesare siteuri descarcate dupa reguli specificate.Utilizarea uneltei TextPipe create de DataMystic Corporation.
+Label2.Caption=TextPipe este un multi-fisier text.
+Label3.Caption=Nu aveti instalat TextPipe pe computer. Apasati pe buton pentru a naviga pe siteul TextPipe.
+btnTextPipe.Caption=TextPipe Web site
+Label4.Caption=Procesare siteuri descarcate dupa reguli specificate.Utilizarea uneltei TextPipe create de DataMystic Corporation.
+Label6.Caption=Filtre TextPipe
+Label7.Caption=Optiuni executare TextPipe
+cbTextOnly.Caption=Cauta doar fisiere &text si HTML
+cbRun.Caption=&Executa filtru cand se incarca TextPipe
+cbQuit.Caption=&Iesire din TextPipe dupa executie filtru
+rbFilter1.Caption=Executa TextPipe cu filtru &nou
+rbFilter2.Caption=Utilizeaza filtru fisiere TextPipe (*.fll) pentru a procesa proiectele selectate:
+cbPassFiles.Caption=&Muta fisierele descarcate in TextPipe
+btnStart.Caption=&Start
+btnCancel.Caption=NU
+btnHelp.Caption=Ajutor
+dlgOpenFilter.Caption=Deschide filtru fisier
+dlgOpenFilter.Filter=Filtru fisiere TextPipe|*.fll|Toate fisiere|*.*
+
+[dlgCustomizeContents]
+Caption=Continut fisier
+
+Label1.Caption=Continut inceput de fisier:
+Label2.Caption=Continut intrare fisier:
+Label3.Caption=Continut sfarsit fisier:
+Label4.Caption=Hint: Utilizeaza %URL% macro pentru a fi substituit cu calea siteului exportat, %Caption% - cu nume proiect. Macrouri: %Description%, %DownloadStart%, %DownloadEnd%.
+btnOK.Caption=DA
+btnCancel.Caption=NU
+Button1.Caption=&Resetare
+
+[dlgProgress]
+Caption=Progres
+
+Button1.Caption=Anulare
+
+[dlgPDescr]
+Caption=Descriere proiect
+
+ToolButton1.Caption=&Nou
+ToolButton1.Hint=Aplica modificari
+SaveButton.Caption=&Salveaza
+SaveButton.Hint=Fara modificari
+PrintButton.Caption=&Printare
+PrintButton.Hint=Printare fisier curent
+CutButton.Caption=&Taie
+CutButton.Hint=Sterge obiect selectat
+CopyButton.Caption=&Copiaza
+CopyButton.Hint=Copiaza obiect selectat in clipboard
+PasteButton.Caption=&Aplica
+PasteButton.Hint=Aplica continut in clipboard
+UndoButton.Caption=Sterge &ultima actiune
+UndoButton.Hint=Sterge ultima actiune
+FontName.Hint=Nume Font|Selectare nume font
+BoldButton.Hint=Ingrosat
+ItalicButton.Hint=Italic
+UnderlineButton.Hint=Subliniat
+LeftAlign.Hint=Aliniaza la stanga
+CenterAlign.Hint=Centrat
+RightAlign.Hint=Aliniaza la dreapta
+BulletsButton.Hint=Mod
+mpUndo.Caption=Sterge &ultima actiune
+mpUndo.Hint=Sterge ultima actiune
+mpCut.Caption=&Taie
+mpCut.Hint=Sterge selected item
+mpCopy.Caption=&Copiaza
+mpCopy.Hint=Copiaza obiect selectat in clipboard
+mpPaste.Caption=&Aplica
+mpPaste.Hint=Copiaza continut in clipboard
+mpSelectAll.Caption=Selecte&aza tot
+FontSize.Hint=Marime font|Selectare marime font
+
+[dlgPrint]
+Caption=Printare...
+
+Label1.Caption=Printare pagini proiect. Asteptati...
+btnCancel.Caption=NU
+
+[dlgApplyTemplate]
+Caption=Aplica sablon la proiect
+
+Label1.Caption=&Selectare sablon pentru proiect:
+Label2.Caption=&Sablon:
+Label3.Caption=Filtre cuvinte cheie de URL si filtre extensie de fisier
+btnOK.Caption=DA
+btnCancel.Caption=NU
+rbReplace.Caption=Reintroducere cuvinte cheie si extensii din sablon
+rbJoin.Caption=Combina cu cuvinte cheie si extensii din sablon
+
+[dlgOldFiles]
+Caption=Sterge fisiere vechi
+
+List.0=Fisiere
+btnClose.Caption=&Inchide
+btnDeleteAll.Caption=Sterge &toate
+btnDelete.Caption=&Sterge cele selectate
+
+[dlgImgDimensions]
+Caption=Filtru dimensiune fisier imagine
+
+Label19.Caption=Sari fisiere imagine daca au dimensiunea mai mica de
+Label1.Caption=Sari fisiere imagine daca au dimensiunea mai mare de
+Label4.Caption=Nota: aceasta versiune suporta doar tipurile de fisiere:
+Label2.Caption=Sari fisiere imagine cu urmatoarele dime&nsiuni (separate de virgula)
+btnOK.Caption=DA
+btnCancel.Caption=NU
+cbLowWidth.Caption=&Lungime
+cbLowHeight.Caption=I&naltim&e
+cbHighWidth.Caption=L&ungime
+cbHighHeight.Caption=Inalti&me
+lblLowWidth.Caption=pixeli
+lblLowHeight.Caption=pixeli
+lblHighWidth.Caption=pixeli
+lblHighHeight.Caption=pixeli
+
+[dlgMapSelect]
+Caption=Selectare Harta fisiere
+
+dxbeMask.Caption=Introduceti &masca pentru selectare fisiere si apasati Enter :
+dxbeMask.Hint=Masca de selectare fisiere
+btnDelete.Caption=&Sterge
+btnDelete.Hint=Sterge fisiere selectate
+btnClose.Caption=&Inchide
+btnClose.Hint=Inchide fereastra
+List.0=URL
+List.1=Marime
+btnBrowse.Caption=&Browsare
+btnBrowse.Hint=Browsare
+
+[dlgSelectMask]
+Caption=Selectare URL-uri in lista de asteptare
+Label1.Caption=Tip &masca URL si apasa Enter:
+btnOK.Caption=Da
+btnCancel.Caption=Nu
+
+[dlgSubst]
+Caption=Substituiri URL
+
+Label1.Caption=Nota: debifeaza un element, daca vrei ca regula de substituire a URL sa fie aplicata doar pentru fisierele descarcate. ex. ele vor fi descarcate asa cum sunt, dar numele de fisiere offline si legaturile vor fi schimbate in concordanta cu regula aplicata.
+Label2.Caption=&URL:
+Label3.Caption=&Inlocuire:
+Label4.Caption=&Cu:
+List.0=URL
+List.1=Inlocuire
+List.2=Cu
+btnOK.Caption=Da
+btnCancel.Caption=Nu
+btnHelp.Caption=&Ajutor
+btnAdd.Caption=&Adauga
+btnRemove.Caption=&Sterge
+btnClear.Caption=Sterge t&oate
+cbApplyAll.Caption=A&plica toate regulile
+mpMoveUp.Caption=Mutare &Sus
+mpMoveDown.Caption=Mutare &Jos
+mpDuplicate.Caption=Dupli&cat
+btnTest.Caption=&Testare
+lblURL.Caption=&URL:
+lblReplace.Caption=&Inlocuire:
+lblWith.Caption=&Cu:
+
+[dlgStatistics]
+Caption=Statistici proiect
+
+List.0=Parametru
+List.1=Valoare
+btnClean.Caption=Ster&ge fisiere proiect...
+cbValues.0=Nume Proiect:
+cbValues.1=URL(uri):
+cbValues.2=Nume fisier harta:
+cbValues.3=Intrari harta:
+cbValues.4=Descarcare inceputa la:
+cbValues.5=Terminat:
+cbValues.6=Timp trecut:
+cbValues.7=Viteza medie:
+cbValues.8=In proces de descarcare...
+cbValues.9=Proiectul nu a fost descarcat.
+cbValues.10=Statistici ultima descarcare:
+cbValues.11=Fisiere descarcate:
+cbValues.12=Nemodificate:
+cbValues.13=Fisiere parsate:
+cbValues.14=Negasit:
+cbValues.15=Erori in timpul descarcarii:
+cbValues.16=Anulate/Limitate:
+cbValues.17=Marime fisiere descarcate:
+cbValues.18=Statistici Total Proiect:
+cbValues.19=Total fisiere:
+cbValues.20=Total marime:
+cbValues.21=Fisiere text:
+cbValues.22=Marime fisiere text:
+cbValues.23=fisiere imagine:
+cbValues.24=Marime fisiere imagine:
+cbValues.25=Alte fisiere:
+cbValues.26=Marime alte fisiere:
+btnCopy.Caption=Co&piere
+btnClose.Caption=&Inchidere
+
+[dlgProtect]
+Caption=Protectie setari proiect cu parola
+
+Label1.Caption=&Parola:
+Label2.Caption=&Reinlocuire:
+btnOK.Caption=Da
+btnCancel.Caption=Anulare
+
+[dlgPassword]
+Caption=Rog introduceti parola
+
+Label1.Caption=&Parola:
+btnOK.Caption=Da
+btnCancel.Caption=Anulare
+
+[dlgSetProxy]
+Caption=Setari server Proxy
+
+Label34.Caption=Tip server
+Label35.Caption=Setari server Proxy
+Label6.Caption=&Adresa:
+Label17.Caption=&Port:
+Label36.Caption=Autentificare Proxy (loc gol daca nu necesita)
+btnOK.Caption=Da
+btnCancel.Caption=Anmulare
+rbFProxy1.Caption=&HTTP proxy
+rbFProxy2.Caption=&SOCKS4
+rbFProxy3.Caption=S&OCKS5
+rbFProxy4.Caption=User@Si&te
+rbFProxy5.Caption=&RTSP Proxy
+Label26.Caption=&Utilizator:
+Label27.Caption=&Parola:
+
+[dlgAddR]
+Caption=Adauga cuvant cheie
+
+btnOK.Caption=DA
+btnCancel.Caption=NU
+
+[dlgTemplates]
+Caption=Nou
+
+lblCustom.Caption=Sablon
+btnClose.Caption=Inchide
+btnCancel.Caption=NU
+btnOK.Caption=DA
+pgNew.Caption=Standard
+pgTemplates.Caption=Sabloane
+btnAdd.Caption=&Nou...
+btnRemove.Caption=&Sterge
+btnProp.Caption=&Proprietati...
+btnDef.Caption=&Implicit
+btnReset.Caption=Re&setare
+cbSmallIcons.Caption=&icoane mici
+btnHelp.Caption=&Ajutor
+pmTCut.Caption=&Taie
+pmTCut.Hint=Taie proiectele selectate sau directoarele in clipboard
+pmTCopy.Caption=&Copiaza
+pmTCopy.Hint=Copiaza proiectele selectate sau directoarele in clipboard
+pmTPaste.Caption=&Paste
+pmTPaste.Hint=Paste Project or folder from clipboard
+pmTSort.Caption=&Sortare dupa nume
+
+[dlgAskPwd]
+Caption=Autentificare
+
+Label1.Caption=Introducere nume utilizator si parola
+Label2.Caption=&Site:
+Label3.Caption=&Realm:
+Label5.Caption=Nume &utilizator:
+Label6.Caption=&Parola:
+Button1.Caption=DA
+Button2.Caption=NU
+
+[dlgExport]
+Caption=Exportare
+
+lblFNFormat.Caption=&Format nume fisiere:
+Label32.Caption=Director &Destinatie
+Label1.Caption=Nume fisiere
+Label3.Caption=Continut fisiere
+lblPutFiles.Caption=&Pune fisierele in:
+btnClose.Caption=NU
+btnExport.Caption=&Exportare
+btnBrowse.Caption=&Rasfoire...
+cbStandardExt.Caption=Utilizeaza e&xtensii standard pentru fisiere cu tip cunoscut
+btnAbort.Caption=&Anulare
+cbPreserveOnline.Caption=&Legaturi online
+btnHelp.Caption=&Ajutor
+cbShortFileNames.0=Retinele cum sunt
+cbShortFileNames.1=8+3 - compatibile MS DOS
+cbShortFileNames.2=Joliet - CD-R 64 simboluri
+cbAutorunCD.Caption=Realizeaza &CD cu Autorun
+cbContents.Caption=Creaza c&ontinut fisier
+btnCustomize.Caption=Sa&blon...
+cbPlainDir.Caption=Nu crea &subdirectoare
+cbPutTo.0=Director de deasupra
+cbPutTo.1=arhive ZIP
+cbPutTo.2=arhive MHT
+cbPutTo.3=cache MS Internet Explorer
+cbFastExport.Caption=Expor&t rapid
+brdExport.Caption=Rasfoire
+brdExport.Hint=Selectare director pentru exportare proiecte:
+cbPutTo.4=Ajutor HTML (fisier CHM)
+cbPutTo.5=Vizualizator EXE compresat
+cbOriginalURL.Caption=Adauga URL ori&ginal la fisierele HTML
+cbRecentFiles.Caption=Exportare doar fisierele descarcate rece&nt
+
+[dlgReg]
+Caption=Inregistrare
+
+Label1.Caption=Multumim pentru inregistrare Offline Explorer Pro
+Label2.Caption=Ca si clieti ati investit in realizarea si modificare acestor programe.
+Label3.Caption=Daca nu sunteti sigur cum sa va inregistrati, sau vreti sa aflati metodele de plata, dati un click pe informatii cumparare.
+Label4.Caption=Odata ce confirmarea platii a fost facuta veti primii detaliile cu privire la inregistrarea programului.
+Label5.Caption=Produs:
+Label6.Caption=Utilizator:
+Label7.Caption=Cheie:
+Label8.Caption=Tip Licenta:
+cbRType.0=Licenta Utilizator
+cbRType.1=Licenta Site
+btnOK.Caption=DA
+btnCancel.Caption=NU
+btnOrder.Caption=Informatii cumparare
+
+[dlgWizard]
+Caption=Vrajitor proiect nou
+
+Label1.Caption=Un proiect este un task de descarcare. Utilizeaza un URL ca si o adresa de start. Cand pagina este descarcata, Offline Explorer determina toate legaturile in ea si le descarca in concordanta cu setarile facute.
+Label2.Caption=&URL proiect:
+Label3.Caption=&Nume proiect:
+Label4.Caption=Puteti sa ii dati un nume proiectului ce va aparea in locul URLului.
+Label5.Caption=URL examples are: http://www.metaproducts.com/ ftp://ftp.microsoft.com/data/
+Label7.Caption=Bine ai venit la Vrajitorul ce te ajuta la adaugare nou proiect
+Label8.Caption=Limitare pagini la descarcare in functie de nivel de adancime
+Label10.Caption=&Limita nivele:
+Label11.Caption=Nivelele ne arata cat descarcam. Doar spunand, cat de adanc incepand cu prima pagina.
+Label15.Caption=Pentru a descarca doar prima pagina cu toate imaginile, seteaza Nivel=0. Nivel=1 descarca si fisierele care sunt in legatura cu ea.
+Label6.Caption=Alege tipuri de fisiere pentru descarcare
+rbDAll.Caption=Descarca toate fisierele care au legatura cu pagina de start
+rbDSkip.Caption=Sari descarcarea urmatoarelor tipuri de &fisiere:
+cbImages.Caption=&Grafic (imagini)
+cbAudio.Caption=&Audio (sunete, muzica)
+cbVideo.Caption=&Video
+cbArchive.Caption=Arhive (&ZIP, RAR, etc.)
+Label9.Caption=Locatia unde sa descarc fisierele
+Label16.Caption=De exemplu, cand Offline Explorer gaseste o legatura de tip http://www.srv.com/dir1/dir2/somefile.htm, it will try to request /dir1/ and /dir2/ contents. Daca serverul accepta listare subdirectoare, Offline Explorer va putea descarca mai multe fisiere.
+rbURL.Caption=Descarca doar din &URL:
+rbSrv.Caption=Descarca doar din &server:
+rbAny.Caption=Descarca din orice loc&atie
+cbAllImages.Caption=Descarca &imaginile din orice locatie
+cbExploreDirs.Caption=Incearca sa e&xplorezi subdirectoarele
+Label12.Caption=Felicitari !
+Label13.Caption=S-a creat un proiect Offline Explorer nou.
+Label14.Caption=Ce vrei sa fac:
+rbDNow.Caption=&Descarca proiectul nou acum
+rbProperties.Caption=Setari &avansate
+rbDLater.Caption=Descarca &proiectul mai tarziu
+btnBack.Caption=< &Predecesorul
+btnNext.Caption=&Urmatorul >
+btnCancel.Caption=NU
+cbShow.Caption=&Arata cand Offline Explorer se executa
+Label17.Caption=Debifare limita nivele pentru a incarca nivele fara limita (intregul Website).
+Label18.Caption=Pentru aceasta, este recomandat a utiliza optiunea "Incarca doar cu URL" sau "Incarca doar de pe server" setarile din vrajitor. Altfel riscati descarcarea intregului Internet!
+Label19.Caption=Offline Explorer descarca pagini Web de pe site pentru a prelua legaturi la alte pagini sau fisiere. Informatia este utilizata pentru a construi harta site fara a descarca siteul.
+rbDSiteMap.Caption=Generare harta site
+
+[dlgBR]
+Caption=Progres
+
+btnCancel.Caption=NU
+btnOK.Caption=DA
+List.0=Director de descarcare
+List.1=Directoare stocate
+mpDDBrowse.Caption=&Rasfoire...
+
+[dlgProp]
+Caption=Proprietati proiect
+
+Label4.Caption=Categor&ie:
+btnOK.Caption=DA
+btnCancel.Caption=NU
+btnHelp.Caption=Ajutor
+ItemTree.0=Proiect
+ItemTree.1=Filtre
+ItemTree.2=Text
+ItemTree.3=Imagini
+ItemTree.4=Video
+ItemTree.5=Audio
+ItemTree.6=Arhive
+ItemTree.7=Definite de utilizator
+ItemTree.8=Altele
+ItemTree.9=Filtre URL
+ItemTree.11=Protocol
+ItemTree.12=Server
+ItemTree.13=Director
+ItemTree.14=Nume fisier
+ItemTree.15=Filtre continut
+ItemTree.16=Avansat
+ItemTree.19=Traducere
+ItemTree.20=Descarcare mai tarziu
+ItemTree.21=Parole
+ItemTree.22=Fisiere copiate
+lblTCaption.Caption=Nume &sablon:
+lblCaption.Caption=Nume &proiect:
+lblURLs.Caption=Adrese (&URLuri):
+lblProjectID.Caption=Identificator proiect:
+Label15.Caption=Verificare modificare fisier
+Label16.Caption=Adresa si nivel
+lblURL.Caption=Adresa (&URL):
+cbFMSkipMedia.Caption=Sari &fisiere Media
+cbLevel.Caption=&Limita nivel:
+rbFM1.Caption=Descarca doar fisierele &modificate sau noi
+rbFM2.Caption=Desc&arca toate fisierele
+rbFM3.Caption=&Nu opri descarcarea fisierelor existente
+rbFM4.Caption=&Sari peste fisiere existe in nivele mai mari de
+cbFMCheckSize.Caption=&Verifica marime fisier
+lblExecBefore.Caption=Executa &inainte de descarcare:
+lblExecAfter.Caption=Executa &dupa descarcare:
+lblSLtimp.Caption=Minute
+lblSLTSize.Caption=KBytes
+Label17.Caption=Limite
+Label18.Caption=Parcurgere
+bxSLTSize.Caption=Opreste descarcare a &unui website daca marimea totala este atinsa
+bxSLNumber.Caption=Opreste daca numar total de &fisiere este atins
+bxSLTime.Caption=Opreste daca &timp de descarcare este atins
+bxLJavaScript.Caption=Activeaza procesare sc&ripturi
+cbCheckFiles.Caption=&Verifica integritatea fisierelor HTML
+bxLJavaClass.Caption=Activeaza procesare clase &Java
+bxLPrimary.Caption=Intotdeauna tin&e fisierele ' *.primare '
+btnSubst.Caption=substitutii &URL...
+cbExploreDirs.Caption=E&xploreaza subdirectoarele posibile
+cbIgnoreErrors.Caption=Su&prima erorile
+Label19.Caption=Lo&catii
+Label20.Caption=Marimi fisiere
+Label21.Caption=&Extensii
+cbFTLocation.0=Incarca utilizand setarile filtrelor
+cbFTLocation.1=Incarca doar din serverul
+cbFTLocation.2=Incarca doar din directorul
+cbFTLocation.3=Incarca din orice site
+rbFTS1.Caption=Incarca &fisierele de toate marimile
+rbFTS2.Caption=Incarca &doar fisierele de marime:
+cbFTSHigh.Caption=Marime Ma&re
+cbFTSLow.Caption=Marime M&inima
+cbFTSMD.Caption=Descarca cu &Mass Downloader
+btnFTAdd.Caption=<<        &Adauga
+btnFTDel.Caption=>>Sterge &
+btnSelAll.Caption=T&oate
+btnSelNone.Caption=&Nimic
+btnImageSize.Caption=&Dimensiune imagini...
+Label22.Caption=Protected sites and site areas
+Label23.Caption=Nota: pentru autentficare NTLM, introdu DOMENIU\Utilizator in campul nume.
+rbSPsw0.Caption=&Utilizeaza acest nume si aceasta parola
+lblSUsernume.Caption=&Nume utilzator:
+lblSPassword.Caption=&Parola:
+rbSPsw1.Caption=in &loguri ale siteurilor Web sau FTP protejate
+rbSPsw5.Caption=in forme &HTML
+rbSPsw2.Caption=&Tasteaza nume utilizator si parola la siteurile protejate
+rbSPsw3.Caption=&Ignora siteul protejat si continua descarcarea
+rbSPsw4.Caption=&Opreste descarcarea daca siteul e protejat
+Label42.Caption=Sari peste urmatoarele &URLuri in timp ce descarc
+Label29.Caption=Descarca fisierele din urmatoarele protocoale
+Label30.Caption=Protocoale
+rbUFProt1.Caption=Descarca doar din toate protocoalele
+rbUFProt2.Caption=Descarca doar din protocolul &protocol
+rbUFProt3.Caption=&Configurare protocoale
+cbUP0.Caption=Incarca din siteuri &Web (HTTP protocol)
+cbUP1.Caption=Incarca din siteuri &FTP (FTP protocol)
+cbUP3.Caption=Incarca din Siteuri Web &Secure (HTTPS protocol)
+cbUP2.Caption=Incarca din f&isiere locale (file:// URLs)
+cbUP4.Caption=Incarca din MS &Media Player streams (MMS protocol)
+cbUP5.Caption=Incarca din &Real streams (RTSP protocol)
+Label40.Caption=Descarca fisierele doar din serverele
+Label41.Caption=Configurare cuvinte cheie
+Label6.Caption=Cu&vant cheie:
+cbLSrvs.0=Vizualizeaza serverele cuvant cheie excluse
+cbLSrvs.1=Vizualizeaza serverele cuvant cheie incluse
+btnLSAdd.Caption=&Adauga       >>
+btnLSDel.Caption=&Sterge <<
+lblOtherSrvLev.Caption=legare la alte servere
+rbSPro4.Caption=Descarca fisierele doar din serverul &server
+rbSPro5.Caption=Descarca fisierele doar din domeniul &domeniu
+cbOtherSrvLev.Caption=Descarca deasu&pra de
+rbSPro1.Caption=Descarca fisierele din toate &serverele
+rbSPro2.Caption=Desca&rca fisierele doar din serverele
+rbSPro3.Caption=&Configurare servere
+rbSProSrv.Caption=&Server
+rbSProDmn.Caption=&Domeniu
+Label36.Caption=Descarca fisierele doar din directoarele
+Label37.Caption=Configurare cuvinte cheie
+Label7.Caption=Cu&vant cheie:
+cbLDirs.0=Vizualizeaza directoarele cuvant cheie excluse
+cbLDirs.1=Vizualizeaza directoarele cuvant cheie incluse
+btnLPAdd.Caption=&Adauga        >>
+btnLPDel.Caption=&Sterge <<
+rbUFDir1.Caption=Desc&arca fisierele din toate directoarele
+rbUFDir2.Caption=Descarca fisierele doar din directoarele &director
+rbUFDir3.Caption=&Configurare directoare
+Label38.Caption=Descarca fisierele care au numele
+Label39.Caption=Configurare cuvinte cheie
+rbUFFile1.Caption=Descarca &toate numele de fisiere
+rbUFFile2.Caption=Descarca doar fisierele care incep cu numele &nume
+rbUFFile3.Caption=&Configurare nume fisiere
+Label8.Caption=Cu&vant:
+cbLFiles.0=Vizualizeaza fisierele cuvant cheie excluse
+cbLFiles.1=Vizualizeaza fisierele cuvant cheie incluse
+btnLFAdd.Caption=&Adaug        >>
+btnLFDel.Caption=&Sterg <<
+Label9.Caption=Selectare o subcategorie pentru a afisa
+Label10.Caption=&Intervale de descarcare:
+Label5.Caption=Interval de &timp:
+Label26.Caption=&Zi a saptamanii:
+Label27.Caption=&Zi:
+Label28.Caption=&Luna:
+Label25.Caption=Descarcare automatica a unui Proiect la o descarcare mai tarziu
+Label24.Caption=&Timp:
+WhenBox.0=Manual
+WhenBox.1=In fiecare zi
+WhenBox.2=In fiecare saptamana
+WhenBox.3=In fiecare luna
+WhenBox.4=In fiecare an
+WhenBox.5=In fiecare
+WeekdayBox.0=Duminica
+WeekdayBox.1=Luni
+WeekdayBox.2=Marti
+WeekdayBox.3=Miercuri
+WeekdayBox.4=Joi
+WeekdayBox.5=Vineri
+WeekdayBox.6=Sambata
+MonthBox.0=Ianuarie
+MonthBox.1=Februaie
+MonthBox.2=Martie
+MonthBox.3=Aprilie
+MonthBox.4=Mai
+MonthBox.5=Iunie
+MonthBox.6=Iulie
+MonthBox.7=August
+MonthBox.8=Septembrie
+MonthBox.9=Octombrie
+MonthBox.10=Noiembrie
+MonthBox.11=Decembie
+OnceBox.Caption=&Doar odata
+Label2.Caption=Alege aceasta daca vrei sa translatez toate legaturile si sa leg fisierele neexistente la o locatie OFF-LINE.
+Label11.Caption=Alege aceasta daca vrei sa translatez toate legaturile si sa leg fisierele neexistente la o locatie ON-LINE..
+Label1.Caption=Alege aceasta daca vrei sa descarc o noua copie a siteului cu legaturile originale. (Atentie: Poate fi imposibil a rasfoi un site descarcat in acest mod.)
+Label31.Caption=Translatare legaturi in timp ce parcurg fisierele
+rbLOffline.Caption=Translatare &Offline
+rbLOnline.Caption=Translatare On-&line
+rbNotTranslate.Caption=&Nici un fel de translatare
+Label32.Caption=Realizeaza copii ale fisierelor vechi in locul recopierii peste
+lblLKeepCopies.Caption=copii
+Label33.Caption=Format nume fisier la copiare
+bxLKeepCopies.Caption=&Retine numele fisierelor vechi:
+cbMSIECache.Caption=&Copiaza fisiere in cacheul lui Internet Explorer
+cbFCZeros.Caption=Adauga &zerouri
+cbFCUseDate.Caption=Utilizeaza fisiere &data/timp in formatul:
+Label34.Caption=Cuvinte text
+Label12.Caption=&Cuvinte cheie:
+Label35.Caption=Notificare
+Label3.Caption=Notifica prin &E-mail (adrese separate prin virgula sau spatiu):
+Label13.Caption=Su&biect:
+cbSearchForAll.Caption=C&auta pentru toate cuvintele cheie
+cbSaveNoKw.Caption=&Salveaza pagini fara cuvinte cheie in textul lor
+cbGraphNoKw.Caption=Descarca fisiere &grafice din pagini fara cuvinte cheie in textul lor
+odImportKeywords.Caption=Incarca cuvinte cheie dintr-un fisier
+odImportKeywords.Filter=fisiere HTML|*.htm|fisiere TEXT|*.txt|Toate fisierele|*.*
+Label43.Caption=(F11 pentru expandare)
+lblSLTime.Caption=Minute
+cbExploreForms.Caption=Forme HT&ML
+lblSUserName.Caption=&Nume utilizator:
+cbStopOnKw.Caption=O&preste descarcarea cand cuvintele cheie au fost gasite
+Label44.Caption=(F12 - lista comenzi)
+cbExploreSSMaps.Caption=Incarca h&arta imagini server
+cbComplexScripts.Caption=E&valuare calcule script
+cbNoSaveKw.Caption=&Nu salva pagini cu cuvinte cheie in ele
+MenuItem1.Caption=&Sterge modificari
+MenuItem3.Caption=&Taie
+MenuItem4.Caption=&Copiaza
+MenuItem5.Caption=&Lipeste
+MenuItem6.Caption=&Sterge
+MenuItem8.Caption=Se&lectare toate
+Label56.Caption=Testare URL inaintea filtrelor UR&L
+btnUFTest.Caption=&Testare
+cbUP6.Caption=Incarca din streamuri R&eal (protocol PNM)
+Label46.Caption=Cateva categorii filtre de fisiere nu utilizeaza filtre URL in locatie.
+Label45.Caption=Nota:
+Label51.Caption=(F11 pentru expandare)
+btnLSUp.Caption=Muta &sus
+btnLSDown.Caption=Muta &jos
+Label47.Caption=Nota:
+Label48.Caption=Cateva categorii filtre de fisiere nu utilizeaza filtre URL in locatie.
+Label52.Caption=(F11 pentru expandare)
+btnLPUp.Caption=Muta &sus
+btnLPDown.Caption=Muta &jos
+Label50.Caption=Cateva categorii filtre de fisiere nu utilizeaza filtre URL in locatie.
+Label49.Caption=Nota:
+Label53.Caption=(F11 pentru expandare)
+btnLFUp.Caption=Muta &sus
+btnLFDown.Caption=Muta &jos
+cbConvertRSS.Caption=Convertire &RSS feeds in HTML
+cbSearchInTags.Caption=Cauta in &taguri HTML
+Label54.Caption=Filtre TextPipe
+Label55.Caption=Optiuni executie TextPipe
+rbFilter1.Caption=Rulare TextPipe cu un &nou filtru
+rbFilter2.Caption=Utilizeaza fisier &filtru TextPipe (*.fll) pentru procesarea fisierelor descarcate:
+cbPassFiles.Caption=&Pasare fisiere proiect descarcate la TextPipe
+cbTextOnly.Caption=Data mining doar pe fisiere &Text si HTML
+cbRun.Caption=&Rulare filtru cand se incarca TextPipe
+cbQuit.Caption=&Iesire TextPipe dupa rulare filtru
+cbDMNew.Caption=&Data mining doar pe fisierele noi
+ItemTree.23=Data Mining
+mpCut.Caption=T&aiere
+mpCopy.Caption=&Copiere
+mpPaste.Caption=&Lipire
+mpEdit.Caption=&Editare
+dlgOpenFilter.Caption=Deschidere fisier filtru
+dlgOpenFilter.Filter=Fisiere filtru TextPipe|*.fll|Toate fisierele|*.*
+
+[wndSchedMan]
+Caption=Manager de descarcare mai tarziu
+
+lvSeq.0=Proiecte
+lblPrj.Caption=Nume proiect:
+lblSch.Caption=Descarcare mai tarziu:
+cbWhen.0=Descarcare intr-o zi
+cbWhen.1=Descarcare intr-o saptamana
+cbWhen.2=Descarcare intr-o luna
+cbWhen.3=Descarcare intr-un an
+cbWhen.4=Sequencer
+cbSuspend.Caption=&Suspendare
+cbLoop.Caption=Sa&lt
+miSSelect.Caption=Selecteaza &Proiect
+miSSkip.Caption=&Seteaza Proiect
+miSRemove.Caption=&Sterge
+miSRemoveAll.Caption=Sterge &toate
+
+[dlgCSearch]
+Caption=Gaseste
+
+btnFind.Caption=&Gaseste
+btnCancel.Caption=NU
+btnBrowse.Caption=&Rasfoieste
+btnSave.Caption=&Salveaza
+Label1.Caption=&Cauta pentru cuvinte cheie:
+cbSearchForAll.Caption=Cauta pentru toate &cuvintele cheie
+cbTextOnly.Caption=Cauta doar in fisiere &text
+cbRecent.Caption=Doar fisierele descarcate &recent
+sdSave.Caption=Salveaza rezultatele cautarii
+sdSave.Filter=HTML files - offline links|*.htm|HTML files - online links|*.htm|Text files|*.txt|All files|*.*
+btnDelete.Caption=&Sterge
+btnAbort.Caption=&Opreste
+cbSearchInTags.Caption=Cauta in &taguri HTML
+
+[dlgCleanUp]
+Caption=Sterge siteurile descarcate
+
+btnAbort.Caption=&Anulare
+btnDelSel.Caption=Sterge cele &selectate
+btnDelAll.Caption=Sterge &toate
+btnClose.Caption=&Inchide
+btnMaps.Caption=Fisiere &harta nefolosite
+miCUOpen.Caption=&Deschide fisier sau director
+miCUDelete.Caption=&Sterge
+
+[DialerForm]
+Caption=Forma
+
+Label3.Caption=Status:
+Label4.Caption=Utltima eroare:
+CancelButton.Caption=NU
+
+[TipForm]
+Caption=Sfatul zilei
+
+Label2.Caption=Stiati ca...
+cbShowOnStart.Caption=&Afiseaza sfaturi la inceput
+Box.0=Apasand click dreapta cu mouseul pe un web site in proiecte , tabul Harta va afisa un meniu care va va ajuta la editarea, vizualizarea sau rasfoirea siteurilor.
+Box.1=Pentru a opri descarcarea unui fisier, apasati click drepta cu mouseul pe fisier si selectati "Oprire".
+Box.2=Puteti descarca un web site rapid doar tastand adresa sa in bara de adrese , ca si in Internet Explorer. Apoi puteti apasa buton "Descarcare".
+Box.3=Daca doriti schimbarea adancimii cautarii , puteti schimba nivelul de cautare in partea dreapta a barei de adrese.
+Box.4=Puteti lansa Rasfoirer Intern (IB) apasand pe meniul Vizualizare | Bara explorare | Rasfoirer Intern. Cand IB este afisat, puteti da un dublu click pe proiect , iar acesta va fi afisat in IB.
+Box.5=Puteti descarca siteuri multiple selectand pe fiecare separat in tab-ul Proiect si apasand butonul Start (icoana luminoasa), sau selectati si dati click pe directorul continand siteurile. Toate siteurile din director vor fi descarcate.
+Box.6=Filtrele URLurilor din sectiunea Propritati ne lasa sa descarcam selectiv orice server, director sau fisier dorit utilizand cuvinte cheie. Fiecare server, director sau fisier pot fi sau incluse sau excluse de la descarcare in concordanta cu cuvintele cheie. Vezi fisierul Ajutor pentru mai multe detalii.
+Box.7=Daca doriti descarcarea doar a imaginilor gif, mergeti la Proprietati | Tipuri fisiere | sectiunea Imagini si selectati "Descarca doar tipul de fisiere dorit". Apoi, debifati toate tipurile de fisiere+imagini cu execeptia extensiei gif , iar apoi incepeti descarcarea.
+Box.8=Utilizati linii de comanda pentru a integra Offline Explorer cu alte programe pentru a realiza anumite actiuni, ca si exemplu oprirea computerului la terminarea descarcarii.Vezi fisierul Ajutor pentru mai multe detalii.
+Box.9=Pentru a descarca o copie fidela a siteului, bifati "Nu translata legaturi" din Proprietati | Avansat.
+Box.10=Vizitati siteul nostru adesea pentru a afla de update-uri recente, plugin-uri etc.
+Box.11=Puteti rasfoi, vizualiza sau edita orice pagina descarcata sau fisier adaugand programe speciale in dialogul Optiuni | sectiunea Unelte.  Acestea pot fi accesate din meniul Vizualizeaza sau din meniul cu butonul drept al sectiunii Proiect sau Harta.
+Box.12=Puteti vizualiza un log al descarcarii accesand Vizualizeaza | Mesaje | Panel sau fereastra Log .  daca selectati Mesaje | Panel un panel apare langa bara status.  Daca selectati Mesaje | Fereastra va fi creata o fereastra, lasandu-va sa Urmariti, Pauza, Stergere , Salvare, Filtru sau cautare prin log.
+Box.13=Puteti descarca un site favorit prin importarea unui URL din Rasfoirer.  OE poate importa URL-uri din IE, Netscape, sau Opera.  Pentru aceasta, click pe Fisier | Importa Siteuri Favorite.
+Box.14=Puteti seta parametrii siteurilor descarcate schimband sablonul din Fisier | Dialog sabloane.
+Box.15=Puteti suspenda sau redescarca utilizand "Suspendare in fisier" / "Redescarcare din Fisier" din Meniu Principal | Descarcare.
+Box.16=Puteti suspenda sau redescarca utilizand "Descarcare" | "Suspendare" din meniul principal.
+Box.17=Puteti descarca siteurile mai tarziu utilizand "Descarcare mai tarziu" sau din Proprietati | Avansat | Descarcare mai tarziu.
+Box.18=Puteti utiliza Descarcare | Manager de descarcare mai tarziu doar aruncandu-i un Proiect in el.
+Box.19=Puteti descarca siteuri protejate prin parola utilitand panelul Parole din Proprietati | Parole Avansate.
+Box.20=Puteti lista un proiect din Rasfoirerul Intern utilizand butonul Printare.
+Box.21=Pentru statisticile unui proiect, apasasi butonul Home din Rasfoirerul Intern.
+Box.22=Pentru crearea unui nou sablon bazat pe un proiect existent, copiati proiectul in clipboard, deschide dialogul de sabloane si apasati Ctrl-V.
+Box.23=Pentru a sorta proiecte  in director, click-dreapta pe directorul dorit si selectati Sortare.
+Box.24=Puteti rasfoi utilizand un singur click in Harta Siteuri. Pentru aceasta, click-dreapta pe Harta Siteuri si bifati "Rasfoieste utilizand un singur click" din meniu.
+Box.25=Pentru a salva o pagina in Rasfoirerul Intern, apasati Ctrl-Alt-S.
+Box.26=F11 afiseaza modul full-screen in Rasfoirerul Intern.
+Box.27=Utilizeaza Ctrl-A si Ctrl-N pentru a bifa sau debifa toate extensiile din Proprietati Proiecte | Filtre fisiere.
+Box.28=Puteti vizualiza fisierele incarcate in timpul ultimei descarcari utilizand Editare | Continut. Tastati un singur spatiu in campul cuvant cheie si bifati "Doar fisierele descarcate recent".
+Box.29=Pentru a muta cuvintele cheie din listele Inclus in Exclus sau vice-versa Proprietati Proiecte | Filtre URL, apasand Ctrl-M.
+Box.30=Pentru a selecta toate cuvintele cheie in Proprietati Proiecte | Filtre URL, se apasa Ctrl-A . Ctrl-N le debifeaza.
+Box.31=Se pot utiliza cifre Romane in macrourile URL.
+Box.32=Pentru a suspenda un singur Proiect intr-un fisier si a descarca alte Proiecte, click-dreapta pe proiectul dorit si selectati Descarcare | Suspendare Proiect in Fisier.
+Button1.Caption=&Inchide
+Button2.Caption=&Urmatorul sfat
+
+[dlgProxyURLDetect]
+Caption=Detectare setari Proxy
+
+Label1.Caption=Detectare setari Proxy din URL:
+Label2.Caption=Servere proxy detectate. Alegeti una si apasati butonul DA.
+lbProxies.0=Nu au fost detectate setari Proxy.
+btnOK.Caption=DA
+btnCancel.Caption=NU
+
+[dlgSeqSchedule]
+Caption=Manager Sequencer
+
+Label10.Caption=&Intervale de descarcare:
+Label5.Caption=Interval de &timp:
+Label26.Caption=&Zi a saptamanii:
+Label27.Caption=&Zi:
+Label28.Caption=&Luna:
+Label25.Caption=Descarcare automatica a uNui Proiect la o descarcare mai tarziu
+Label24.Caption=&Timp:
+WhenBox.0=Manual
+WhenBox.1=In fiecare zi
+WhenBox.2=In fiecare saptamana
+WhenBox.3=In fiecare luna
+WhenBox.4=In fiecare an
+WhenBox.5=In fiecare
+WeekdayBox.0=Duminica
+WeekdayBox.1=Luni
+WeekdayBox.2=Marti
+WeekdayBox.3=Miercuri
+WeekdayBox.4=Joi
+WeekdayBox.5=Vineri
+WeekdayBox.6=Sambata
+MonthBox.0=Ianuarie
+MonthBox.1=Februarie
+MonthBox.2=Martie
+MonthBox.3=Aprilie
+MonthBox.4=Mai
+MonthBox.5=Iunie
+MonthBox.6=Iulie
+MonthBox.7=August
+MonthBox.8=Septembrie
+MonthBox.9=Octombrie
+MonthBox.10=Noiembrie
+MonthBox.11=Decembie
+OnceBox.Caption=&Doar odata
+btnOK.Caption=DA
+btnCancel.Caption=NU
+
+[dxBarCustomizationForm]
+Caption=Personalizare
+
+BClose.Caption=Inchide
+TabSheet1.Caption=Bara unelte
+LabelToobars.Caption=B&ara unelte:
+BBarDelete.Caption=&Sterg
+BBarNew.Caption=&Nou...
+BBarRename.Caption=R&edenumesc...
+BBarReset.Caption=&Reset...
+TabSheet2.Caption=Comenzi
+LabelCategories.Caption=Cate&gorii:
+LabelCommands.Caption=Comen&zi:
+LabelDescription.Caption=Descriere
+TabSheet3.Caption=Optiuni
+LabelMenuAnimations.Caption=&Meniu animatii:
+ComboBoxMenuAnimations.0=(Nici unul)
+ComboBoxMenuAnimations.1=Aleator
+ComboBoxMenuAnimations.2=Dezvaluit
+ComboBoxMenuAnimations.3=Impartit
+CBHint1.Caption=Arata unel&te trucuri pe barele de unelte
+CBHint2.Caption=Arata ca&i scurte in sfaturi
+CBLargeIcons.Caption=Icoane &largi
+Label1.Caption=Animatii &meniu:
+Label2.Caption=Altele
+Label3.Caption=Meniuri si bare de unelte personalizate
+ComboBoxMenuAnimationsEx.0=(Nici unul)
+ComboBoxMenuAnimationsEx.1=Aleator
+ComboBoxMenuAnimationsEx.2=Dezvaluit
+ComboBoxMenuAnimationsEx.3=Impartit
+CBHint1Ex.Caption=Arata unel&te trucuri pe barele de unelte
+CBHint2Ex.Caption=Arata ca&i scurte in sfaturi
+CBLargeIconsEx.Caption=Icoane &largi
+CBMenusShowRecentItemsFirst.Caption=Arata comenzi recent folosite din me&niuri
+CBShowFullMenusAfterDelay.Caption=Arata f&ull meniurile dupa o pauza scurta
+BResetUsageData.Caption=&Resetare date folosite
+ComboBoxMenuAnimationsEx.4=Fade
+TabSheet4.Caption= Toate comenzile
+CBShowCommandsWithShortCut.Caption=Arata comenzile care au cale scurta
+GroupBox1.Caption= Grupuri
+btnGroupAdd.Caption=Adauga
+btnGroupDelete.Caption=Sterge
+GroupBox2.Caption= Obiecte
+btnGroupItemAdd.Caption=&Adauga...
+btnGroupItemDelete.Caption=Sterge
+CategoriesAdd.Caption=Adauga...
+CategoriesAdd.Hint=Adauga
+CategoriesInsert.Caption=Inserare...
+CategoriesInsert.Hint=Inserare
+CategoriesRename.Caption=Redenumire...
+CategoriesRename.Hint=Redenumire
+CategoriesVisible.Caption=Vizibil
+CategoriesVisible.Hint=Vizibil
+CommandsAdd.Caption=Adauga...
+CommandsAdd.Hint=Adauga
+CommandsDelete.Caption=Sterge
+CommandsDelete.Hint=Sterge
+CommandsClear.Caption=Curata
+CommandsClear.Hint=Curata
+CommandsMoveUp.Caption=Muta sus
+CommandsMoveUp.Hint=Muta sus
+CommandsMoveDown.Caption=Muta jos
+CommandsMoveDown.Hint=Muta jos
+CommandsSubMenuEditor.Caption=Editor SubMeniu...
+CommandsSubMenuEditor.Hint=Editor SubMeniu
+CategoriesItemsVisible.Caption=Obiecte vizibile:
+CategoriesItemsVisible.Hint=Obiecte vizibile:
+CategoriesDelete.Caption=Sterge
+CategoriesDelete.Hint=Sterge
+
+[Strings]
+Implicit
+Gol
+Nu pot gasi Rasfoirer implicit
+Eroare
+Nu pot lansa Rasfoirer implicit
+Vrei sa sterg
+Confirmare
+Vrei sa sterg toate fisierele proiectului/proiectelor
+Cel putin un director trebuie sa ramana.
+Vrei sa sterg toate proiectele din director sau selectate
+Eroare la initiere unealta externa
+Descarcate
+fisier(e)
+Queue
+Marime
+Kb
+Director nou
+&Reincarcare
+&Suspendare
+Viteza
+bytes/s
+Vrei sa ies
+Proprietati proiect implicit
+Opresc descarcarea?
+Dezactivare URLuri din descarcare
+Setari avansate proiect
+Nume proiect, adresa si nivele
+Parole utilizate pentru siteuri protejate
+Selectare tip fisiere
+Limitare servere folosind cuvinte cheie
+Limitare directoare folosind cuvinte cheie
+Limitare fisiere folosind cuvinte cheie
+Cand va fi descarcat proiectul
+Set category contents
+Setari conexiune si server http
+Setari tip si parola pentru Server Proxy
+Unde vor fi puse fisierele descarcate
+Setare limita spatiu gol pe disc
+Special setari that effect the entire program
+Cand rasfoiesc un web site, afiseaza o optiune dintre aceste unelte
+O lista de unelte de rasfoire folosite la siteuri
+Cand vizualizez un web site, afiseaza o optiune dintre aceste unelte
+O lista de vizualizatoare folosite la siteuri
+Cand editez un web site, afiseaza o optiune dintre aceste unelte
+O lista cu editoare utilizate la crearea paginilor
+MB liberi
+Nu pot gasi data.
+Descarc
+Gata
+Suspendare
+Parsare
+Cautare
+&Importare
+Maximizare rasfoire interna pe tot ecranul
+Restaureaza rasfoire interna la marime normala
+Protocoale limita
+Obiecte dezactivate. Activam?
+Selectare mod translatare
+Editor sabloane
+Opresc incarcare fisier?
+Proprietati generale proiect
+Variate moduri pentru proiect
+Nume director si director descarcare
+Integrare sistem
+Salveaza fisierele vechi cand descarc versiuni noi
+Formeaza cand descarc siteuri
+Deconectare, iesire && oprire sistem
+Vrei sa inchid conexiunea?
+Mb
+Gb
+Filtru pagini descarcate folosind cuvinte cheie
+Confirma actiunile
+secunde
+Descarcare completa
+Descarcare proiect scheduled
+Proiect nedescarcat
+Adresa (URL) negasit
+Descarcare oprita
+Aceasta va cauta prin fisierele si siteurile descarcate si va oferi stergerea lor selectiva.
+Vrei sa continui?
+Incarcat
+Lungime
+Limitare viteza descarcare
+Vrei sa pornesc toate proiectele in director?
+Vrei sa opresc proiectul predecesor?
+Vrei sa opresc toate proiectele in director?
+Documentul nu este gasit
+Aceasta pagina nu e accesibila fiind deconectat. Posibile motive: sau nu era un link corect pe server sau setarile proiectului nu permit paginii sa fie descarcate. In cateva cazuri, marirea nivelului Proiectului poate ajuta.
+Apasa aici pentru a te conecta
+Informatii
+bytes
+Marime totala fisiere
+Acesta va seta directorul de descarcare al fiecarui subdirector la valoarea de deasupra.
+Doriti sa continuam?
+Proiect
+Serverul raporteaza ca URL-ul a fost mutat la o noua adresa:
+Doriti restartarea descarcarii cu un nou URL Proiect (apasati Nu pentru a continua cu vechiul URL) ?
+Comportament cand Proiectul e descarcat complet
+Deschide fisier
+Selectat
+Doriti pastrarea informatiilor fisierelor sterse pentru a descarca mai tarziu doar fisierele noi sau schimbate?
+Nivel fisier:
+Neinregistrat
+Utilizator / Licenta Computer
+Licenta Site Nelimitata
+Licenta Site
+Utilizatori / Licenta Computer
+Licenta temporara. Expira dupa
+Proiecte
+URLuri
+Suspendat in fisier
+Ultima descarcare de la %s la %s
+Nici un proiect selectat
+Sunteti in ziua %s din perioada de evaluare de 30 zile.
+zile
+Setare pagina start
+Nu ati updatat proiectul timp de %s zile
+Parola nu se potriveste
+Parola este invalida
+Doriti suprascrierea fisierelor proiectului?
+Verifica versiune noua
+Drag proiecte pentru adaugarea in Scheduler
+Drag proiecte pentru adaugarea in Sequencer
+Linkuri multiple
+New browser
+New Template
+Download the missing link now and add it to the selected Project
+Welcome Page
+Download Speed Chart. No download activity within %s seconds.
+Download Speed Chart. Max = %s, Avg = %s within %s seconds.
+Download limits
+Advanced parsing settings
+New version detected:
+Do you want to download and install it?
+You have the most recent version of

@@ -1,0 +1,1895 @@
+[Intl File 4.0]
+Language=Português (BR)
+Charset=850
+Font=Tahoma
+
+[MainForm]
+
+lblAddress.Caption=Endereço:
+lblLevel.Caption=Níveis:
+btnCreate.Caption=&Download
+pgProjects.Caption=Projetos
+pgWebSites.Caption=Mapa
+pgQueue.Caption=Fila
+cbQueueDisable.Caption=Desabilitado
+btnExpandIB.Hint=Maximizar o Navegador Interno para tela cheia
+tbWBBack.Hint=Voltar
+tbWBForw.Hint=Avançar
+tbWBStop.Hint=Parar
+tbWBRefr.Hint=Atualizar
+tbWBPrint.Hint=Imprimir|Imprimir a página atual do Navegador interno.
+tbWBSettings.Hint=Configurações do Navegador Interno|Altere o tamanho da fonte da página atual exibida no Navegador Interno ou exiba/oculte as imagens
+tbWBZoom.Hint=Tamanho da fonte|Altera o tamanho da fonte da página atual do Navegador Interno
+tbWBHome.Hint=Voltar ao Início|Exibe a lista de Projetos e estatísticas no Navegador
+tbWBCatchURL.Hint=Adicionar o próximo link selecionado como Projeto|O próximo endereço ou botão selecionado será gravado como Projeto, para ser descarregado posteriormente.
+mpTBrowse.Caption=E&xplorar
+mpTBrowseWith.Caption=Explorar &com
+mpTViewIn.Caption=&Ver em
+mpTEditIn.Caption=&Editar com
+mpTSort.Caption=&Ordenar
+mpTSName.Caption=Por &nome
+mpTSTime.Caption=Por hora do &download
+mpTSURL.Caption=Por &URL
+mpTCopyURL.Caption=Copiar &URL
+mpTNProject.Caption=&Novo...
+Delete1.Caption=&Apagar
+mpTDelete.Caption=&Apagar...
+mpTDeleteFiles.Caption=S&omente arquivos do Projeto
+mpTDeleteFiles.Hint=Apagar os arquivos descarregados do Projeto selecionado.
+mpTDisable.Caption=Des&abilitar o download
+mpDownload.Caption=Down&load
+mpStart.Caption=Ini&ciar
+mpStop.Caption=&Parar
+mpSuspendToFile.Caption=S&uspender o Projeto para arquivo WDQ...
+mpTExport.Caption=E&xportar...
+mpTMarkRead.Caption=Marc&ar como lido
+mpTMarkUnRead.Caption=Mar&car como não lido
+mpTRefresh.Caption=Atualiza&r
+mpTTemplates.Caption=Aplicar &Modelo...
+mpTTemplates.Hint=Aplicar modelo ao Projeto
+mpTProperties.Caption=P&ropriedades...
+mpTSingleClickMap.Caption=Navegação com um único &clique
+mpTCloseFolders.Caption=&Fechar pastas inativas
+mpTShow.Caption=&Exibir
+mpTStop.Caption=Parar o &download...
+mpTClipboard.Caption=&Monitorar a Área de Transferência
+mpTPaste.Caption=Colar &Projeto
+mpTIntegration.Caption=&Ao colar URL
+mpTDefTemplate.Caption=&Usar Modelo padrão (default)
+mpTAutoStart.Caption=Iniciar o download &Automaticamente
+mpTExit.Caption=Sai&r
+dlgRFromFile.Caption=Retomar a partir do arquivo
+dlgRFromFile.Filter=Arquivos de fila|*.wdq|Todos Arquivos|*.*
+dlgStoFile.Caption=Suspender para arquivo
+dlgStoFile.Filter=Arquivos de fila|*.wdq|Todos Arquivos|*.*
+mpAProject.Caption=&Projeto...
+mpAWizard.Caption=Assis&tente de Projeto...
+mpAFolder.Caption=&Pasta
+mpATemplate.Caption=&Modelo...
+mpASeparator.Caption=Modelos
+mpQAbort.Caption=&Abortar
+mpQCopyURL.Caption=Copiar &URL
+mpQSelectProject.Caption=Selecionar &Projeto
+mpQSaveList.Caption=&Salvar lista para arquivo
+mpBSeparator.Caption=Modelos
+mpSStop.Caption=Parar Projeto &Selecionado
+mpSStopAll.Caption=P&arar Todos
+mpFSLargest.Caption=Mais Lar&go
+mpFSLarger.Caption=&Largo
+mpFSMedium.Caption=&Médio
+mpFSSmaller.Caption=&Pequeno
+mpFSSmallest.Caption=M&enor
+odRestore.Caption=Recuperar a partir de arquivo
+odRestore.Filter=Backup do Offline Explorer|*.boe|Todos Arquivos|*.*
+odBackup.Caption=Fazer Backup para arquivo *.BOE
+odBackup.Filter=Backup do Offline Explorer|*.boe|Todos Arquivos|*.*
+pmWBPrint.Caption=Im&primir...
+pmWBPreview.Caption=P&ré Visualização...
+miFile.Caption=&Arquivo
+miFNewProject.Caption=No&vo...
+miFNewProject.Hint=Criar novo Projeto ou Pasta
+miFExport.Caption=&Exportar...
+miFExport.Hint=Copiar arquivos do Projeto para outro diretório
+miFDelete.Caption=&Apagar
+miFDProject.Caption=&Projeto
+miFDProject.Hint=Apagar o Projeto selecionado
+miFDFolder.Caption=Pa&sta
+miFDFolder.Hint=Apagar a Pasta selecionada
+miEDelete.Caption=&Diretório ou Arquivo
+miEDelete.Hint=Apagar o Diretório ou Arquivo selecionados
+miEDeleteFiles.Caption=S&omente os arquivos do Projeto
+miEDeleteFiles.Hint=Apagar os arquivos descarregados do Projeto selecionado
+miFDOld.Caption=Arquivos de Projetos anti&gos
+miFDOld.Hint=Remover todos os arquivos descarregados do Projeto selecionado
+miFRename.Caption=&Renomear
+miFRename.Hint=Renomear o Projeto ou Pasta selecionada
+miFProperties.Caption=&Propriedades...
+miFProperties.Hint=Propriedades do Projeto Selecionado
+miFDProperties.Caption=M&odelos...
+miFDProperties.Hint=Propriedades padrão (default) para todos os novos Projetos criados
+miFSaveChanges.Caption=Sal&var Alterações
+miFSaveChanges.Hint=Salva as mudanças realizadas nas Opções ou em Projetos
+miFExit.Caption=Sai&r
+miFExit.Hint=Sai do programa
+miEdit.Caption=&Editar
+miEUndoDel.Caption=&Desfazer apagar
+miEUndoDel.Hint=Restaura o Projeto ou Pasta apagada
+miECut.Caption=Recor&tar
+miECut.Hint=Recorta o Projeto ou Pasta selecionada para a Área de Transferência
+miECopy.Caption=&Copiar
+miECopy.Hint=Copia o Projeto ou Pasta selecionada para a Área de Transferência
+miEPaste.Caption=Co&lar
+miEPaste.Hint=Cola o Projeto ou Pasta da Área de Transferência
+miEFindFiles.Caption=&Buscar Arquivos ou Pastas...
+miEFindFiles.Hint=Busca Projeto, Pasta ou arquivo
+miEFindContents.Caption=Buscar c&onteúdo...
+miEFindContents.Hint=Procura por palavraschave dentro dos arquivos descarregados
+miView.Caption=&Ver
+Toolbars1.Caption=Barra de Ferramen&tas
+miVTToolbar.Caption=Botõe&s Padrão
+miVTToolbar.Hint=Barra padrão, que permite executar as tarefas mais comuns
+miVTAddressBar.Caption=B&arra de Endereços
+miVTAddressBar.Hint=Barra de Endereços, que pode ser usada para descarregar rapidamente qualquer Website, utilizando as Propriedades Padrão de Projetos
+miVTTextLabels.Caption=Botões com &Texto
+miVTGrayButtons.Caption=Botões Cin&za
+miVStatusBar.Caption=Barra de &Status
+miVStatusBar.Hint=Barra de status
+miVSchedMan.Caption=Gerenciador de Tare&fas agendadas
+miVSchedMan.Hint=Gerencia downloads agendados
+miVExplorerBar.Caption=&Barra do Explorer
+miVProjects.Caption=&Projetos
+miVProjects.Hint=Árvore dos Projetos
+miVMap.Caption=&Mapa
+miVMap.Hint=Mapa dos arquivos descarregados
+miVQueue.Caption=&Fila
+miVQueue.Hint=Gerenciador da fila de downloads
+miVInternalBrowser.Caption=Navegador &Interno
+miVInternalBrowser.Hint=Janela do Navegador Interno, para ver os Websites descarregados
+miVMessages.Caption=&Mensagens
+miVMPanel.Caption=&Painel
+miVMPanel.Hint=Exibe o status do download atual
+miVLog.Caption=Janela de &Registro
+miVLog.Hint=Exibe a janela de registros
+miVOptions.Caption=&Opções...
+miVOptions.Hint=Exibe ou configura as opções do programa
+miDownload.Caption=&Download
+miDStart.Caption=&Iniciar
+miDStart.Hint=Descarrega o Projeto ou a Pasta
+miDStop.Caption=&Parar
+miDStop.Hint=Para o download do Projeto selecionado
+miDStartAll.Caption=Iniciar &Todos
+miDStopAll.Caption=Parar Todo&s
+miDStopAll.Hint=Para o download de todos os Projetos
+miDSuspend.Caption=S&uspender
+miDSuspend.Hint=Suspende/Reinicia os downloads
+miDSuspendFile.Caption=Suspender para Ar&quivo...
+miDSuspendFile.Hint=Salva a fila de downloads para um arquivo WDQ
+miDResumeFile.Caption=Reiniciar do Arqu&ivo...
+miDResumeFile.Hint=Reinicia a fila de downloads a partir de um arquivo
+miPlugins.Caption=Ferramen&tas
+miTDatamine.Caption=Explorador de &Dados...
+miTDatamine.Hint=Processa os arquivos do Projeto com o TextPipe
+miTHTMLImp.Caption=&Importar de HTML...
+miTBackupRestore.Caption=Fazer &Backup/Restaurar
+miTBackupProjects.Caption=Fazer &Backup de Projeto(s)...
+miTBackupProjects.Hint=Salva as configurações do Projeto e os arquivos descarregados em um arquivo compactado
+miTRestoreProjects.Caption=&Restaurar Projeto(s)...
+miTRestoreProjects.Hint=Restaura configurações do Projeto e os arquivos descarregados de um arquivo compactado
+miTSequencer.Caption=&Sequenciador
+miTSResume.Caption=&Suspenso
+miTSHighlight.Caption=&Evidenciar o próximo Projeto
+miTSReset.Caption=R&estaurar ao primeiro Projeto
+miHelp.Caption=Aj&uda
+miHContents.Caption=&Conteúdo
+miHContents.Hint=Ver o conteúdo da Ajuda
+miHRegister.Caption=Compre &Agora!
+miHRegister.Hint=Registre o programa online
+miHWebSite.Caption=Site da &Web
+miHWebSite.Hint=Acesse nossa Home page
+miHTips.Caption=Exibir dica&s...
+miHTips.Hint=Veja dicas úteis
+miHCheck.Caption=Verificar at&ualizações
+About1.Caption=Sobre o &Offline Explorer...
+About1.Hint=Informações do programa
+miTBrowse.Caption=Explorar
+miTBrowse.Hint=Explorar o Projeto ou arquivo selecionado
+miFDelSelected.Caption=Apagar
+miFDelSelected.Hint=Apaga o Projeto, Pasta ou arquivo selecionado
+miFWizard.Caption=Assis&tente...
+miFWizard.Hint=Adicionar novo Projeto usando o Assistente
+miVBrowseWith.Caption=Nave&gar com
+miVEditIn.Caption=&Editar com
+miVViewIn.Caption=&Ver em
+miFNProject.Caption=&Projeto...
+miFNProject.Hint=Projeto
+miFNFolder.Caption=Pa&sta
+miFNFolder.Hint=Pasta
+miFNTemplate.Caption=&Modelo...
+miFNTemplate.Hint=Modelo
+miFNTemplates.Caption=———— Modelos ————
+miFNTemplates.Hint=———— Modelos ————
+miFImport.Caption=&Importar
+miDSpeed.Caption=Velocidad&e
+miDSpeed.Hint=Velocidade
+miDSHigh.Caption=&Alta
+miDSHigh.Hint=Alta
+miDSMedium.Caption=&Média
+miDSMedium.Hint=Média
+miDSLow.Caption=&Baixa
+miDSLow.Hint=Baixa
+miDSBackground.Caption=&Segundo plano
+miDSBackground.Hint=Segundo plano
+miVTCustomize.Caption=&Personalizar...
+miVTCustomize.Hint=Personalizar a Barra de Ferramentas
+miVLanguages.Caption=&Idiomas
+miFPrint.Caption=Impri&mir...
+miFPrint.Hint=Imprimir todas as páginas de Web descarregadas do Projeto selecionado
+miTHangupExit.Caption=Desconectar e Desligar comp&utador
+miTHangupExit.Hint=Desconecta a conexão do modem ou desliga o computador quando o download acabar
+miTHHangup.Caption=&Desconectar
+miTHHangup.Hint=Desconecta conexão do modem quando o download acabar
+miTHShutdown.Caption=De&sligar
+miTHShutdown.Hint=Desliga o computador quando o download acabar
+miTHHHangupOnce.Caption=Desc&onectar uma vez
+miTHHHangupOnce.Hint=Desconecta conexão do modem uma vez somente, quando o download acabar
+miTHHHangupAlways.Caption=Desconect&ar sempre
+miTHHHangupAlways.Hint=Desconecta conexão do modem todas as vezes que o download acabar
+miTHSShutdownOnce.Caption=Desligar uma vez o c&omputador
+miTHSShutdownOnce.Hint=Desliga o computador uma vez somente, quando o download acabar
+miTHSShutdownAlways.Caption=Sempre Deslig&ar Computador
+miTHSShutdownAlways.Hint=Desliga o computador todas as vezes que o download acabar
+miTRemember.Caption=Lembra&r página
+miTRemember.Hint=Lembrar página
+miVSequencer.Caption=Sequenciado&r
+miVSequencer.Hint=Sequenciador
+mpTDescription.Caption=Des&crição...
+miDStartAll.Hint=Iniciar o download de todos Projetos
+miVTFlatToolbar.Caption=Botões simples
+miVTFlatToolbar.Hint=Botões simples
+lblDisabledURLs.Caption=&URLs Desabilitados
+tbWebBrowser.0=Navegador Interno
+mpTSFolders.Caption=Pas&tas principais por nome
+mpTDeleteProjectOnly.Caption=S&omente Configurações do Projeto
+mpTStatistics.Caption=Estatíst&icas...
+mpTSelectFiles.Caption=Selecionar Arqu&ivos...
+mpQCopyReferer.Caption=Copiar &Referência
+mpQSelectAll.Caption=S&elecionar Todos
+mpQInvertSelection.Caption=&Inverter Seleção
+mpQSelectMask.Caption=Selecionar por &máscara...
+mpFSFontSize.Caption=Tamanho da &Fonte
+mpFSShowImages.Caption=Exibir Imagen&s
+mpFSShowImages.Hint=Exibir ou ocultar imagens no Navegador Interno
+mpBrowseOnline.Caption=Explorar a URL atual O&nline
+mpBrowseOnline.Hint=Explorar a URL atual Online
+mpBrowseOffline.Caption=Explorar a URL atual &Offline
+mpBrowseOffline.Hint=Explorar a URL atual Offline
+miDSRestart.Caption=&Reiniciar o Download
+miDSRestart.Hint=Realizar novamente o download dos Projetos selecionados
+miDSUpdate.Caption=At&ualizar o Projeto
+miDSUpdate.Hint=Fazer o Download dos Projetos selecionados para capturar arquivos novos ou modificados
+miDSContinue.Caption=Fazer &Download dos arquivos ausentes
+miDSContinue.Hint=Verifica quais links estão faltando e tenta o download dos mesmos
+miDDCreate.Caption=&Criar um novo Projeto
+miDDCreate.Hint=Adicionar o link como um novo Projeto
+miDDAdd.Caption=&Adicionar o link ao Projeto selecionado
+miDDAdd.Hint=Adicionar o link ao Projeto selecionado
+mpWBTClose.Caption=Fe&char
+mpWBTNewWindow.Caption=&Nova Janela
+btnExpandIB1.Hint=Maximizar Editor Interno para tela cheia
+tbEDOpen.Hint=Abrir arquivo para edição
+tbEDSave.Hint=Salvar alterações no arquivo
+tbEDCut.Hint=Recortar o texto selecionado para a Área de Transf.
+tbEDCopy.Hint=Copiar o texto selecionado para a Área de Transf.
+tbEDPaste.Hint=Colar texto da Área de Transf.
+tbEDUndo.Hint=Desfazer alterações
+tbEDFind.Hint=Localizar
+mpTBrowseNewTab.Caption=Navega&r em outra divisão
+mpTEdit.Caption=Edi&tar
+mpTTAdjust1.Caption=&Configurar Ferramentas...
+mpTTAdjust1.Hint=Abrir a caixa de Opções para adicionar/remover ferramentas
+mpTTAdjust2.Caption=&Configurar Ferramentas...
+mpTTAdjust2.Hint=Abrir a caixa de Opções para adicionar/remover ferramentas
+mpTTAdjust3.Caption=&Configurar Ferramentas...
+mpTTAdjust3.Hint=Abrir a caixa de Opções para adicionar/remover ferramentas
+mpQSelectConnection.Caption=Selecionar &Conexão
+mpQPause.Caption=&Pausar download do Projeto
+mpQConnections.Caption=&Limitar Conexões
+mpQCAll.Caption=&Usar todas conexões possíveis
+mpQC1.Caption=&1 Conexão
+mpQC2.Caption=&2 Conexões
+mpQC5.Caption=&5 Conexões
+mpQC10.Caption=1&0 Conexões
+mpQShowReferers.Caption=Exibir Re&ferências
+mpFSBrowseOnline.Caption=Navegar URL atual O&nline
+mpFSBrowseOnline.Hint=Navegar URL atual Online
+mpFSBrowseOffline.Caption=Navegar URL atual &Offline
+mpFSBrowseOffline.Hint=Navegar URL atual &Offline
+mpFSBrowsingProject.Caption=Selecionar o &Projeto que você está navegando
+mpFSViewSource.Caption=&Ver código fonte
+miHForum.Caption=Fóruns de &Usuários
+miHForum.Hint=Encontre respostas às suas questões ou discuta suas sugestões no Fórum de Usuários da MetaProducts
+miTEdit.Caption=E&ditar
+miTEdit.Hint=Editar
+miTTAdjust.Caption=&Configurar Ferramentas...
+miTTAdjust.Hint=Abrir a caixa de Opções para adicionar/remover ferramentas
+mpWBTCloseAll.Caption=Fech&ar Tudo
+mpWBTNewEditWindow.Caption=Nova Janela de &Edição
+mpWBTFixedWidth.Caption=Largura fixa de título da página
+odEDLoad.Filter=Todos Arquivos|*.*
+MenuItem1.Caption=Desfa&zer
+MenuItem4.Caption=Recor&tar
+MenuItem5.Caption=&Copiar
+MenuItem6.Caption=Co&lar
+MenuItem7.Caption=Apa&gar
+MenuItem9.Caption=Se&lecionar Tudo
+MenuItem10.Caption=&Quebra de Linha
+odEDSave.Filter=Todos Arquivos|*.*
+edtAddress.Caption=Digite o endereço Web aqui para criar um novo Projeto e descarregar o site.
+lvSeq.0=Projetos
+pgLevels.Caption=Níveis
+PList.0=Canal
+PList.1=Carregado - %
+PList.2=Extensão
+PList.3=Status
+PList.4=URL
+Log4.0=Origem
+Log4.1=Horário
+Log4.2=Informação
+tbWBAutoSave.Hint=AutoSave|Descarregar e adicionar todas as páginas e arquivos que faltam ao Projeto automaticamente
+miVIcons.Caption=&Ícones do Projeto
+miDSPreview.Caption=Mapa do Site
+miDSPreview.Hint=Mapa do Site|Gerar pré-visualização do mapa do site
+mpTSuspendNoDownload.Caption=Não há downloads ativos
+mpTSuspendNoDownload.Hint=Não há downloads ativos
+miHRegister1.Caption=&Registrar...
+miHRegister1.Hint=Registrar
+miESelectAll.Caption=&Selecionar Tudo
+miESelectAll.Hint=Selecionar Tudo
+miHNewFeature.Caption=Sugerir Novas &Ferramentas
+miHNewFeature.Hint=Enviar Sugestão de Novas Ferramentas e Características
+mpTCopyURL.Hint=Copiar URL
+mpSuspendToFile.Hint=Suspender Projeto para arquivo
+mpTBrowseNewTab.Hint=Navegar em nova aba
+mpTMarkRead.Hint=Marcar como lida
+mpTMarkUnRead.Hint=Marcar como não lida
+mpTDescription.Hint=Descrição
+mpTStatistics.Hint=Estatísticas
+mpTProtect.Caption=Pr&oteger...
+mpTProtect.Hint=Proteger
+mpTDisable.Hint=Desabilitar carregamento
+mpTSingleClickMap.Hint=Navegação com clique único
+mpTCloseFolders.Hint=Fechar pastas sem uso
+mpTSelectFiles.Hint=Selecionar Arquivos
+mpTSName.Hint=Por nome
+mpTSTime.Hint=Por hora do download
+mpTSURL.Hint=Por URL
+mpTSFolders.Hint=Pastas de primeiro nível por nome
+mpTRefresh.Hint=Atualizar
+pmiCancel.Caption=&Abortar
+pmiCancel.Hint=Cancelar download do arquivo selecionado
+pmiRestart.Caption=&Reiniciar
+pmiRestart.Hint=Parar e retomar do início o download do arquivo selecionado
+pmiFinalize.Caption=&Finalizar
+pmiFinalize.Hint=Salvar fragmento da mídia por demanda
+pmiPlay.Caption=Reproduzir
+pmiCopy.Caption=Copiar &URL
+pmiCopy.Hint=Copia a URL do arquivo selecionado
+pmiReferer.Caption=Copiar &Referência da URL
+pmiReferer.Hint=Copiar a referência do arquivo selecionado
+pmiSelectProject.Caption=Selecionar &Projeto
+pmiSelectProject.Hint=Destacar o Projeto, que irá carregar o arquivo selecionado
+pmiConnsHighlight.Caption=Destacar Cone&xões Ativas
+dxBarStatic1.Caption=Progresso do Download
+dxBarStatic1.Hint=Progresso do Download
+pmiDown.Caption=Exibir/Ocultar Painel de Conexões
+pmiDown.Hint=Abrir/Fechar Painel de Conexões (Ctrl+P)
+btnExpandIB2.Caption=Maximizar/Restaurar
+btnExpandIB2.Hint=Maximizar Navegador Interno para tela cheia
+tbWBBack2.Caption=Voltar
+tbWBBack2.Hint=Voltar
+tbWBForw2.Caption=Adiante
+tbWBForw2.Hint=Adiante
+tbWBStop2.Caption=Parar
+tbWBStop2.Hint=Parar
+tbWBRefr2.Caption=Atualizar
+tbWBRefr2.Hint=Atualizar
+tbWBPrint2.Caption=Imprimir
+tbWBPrint2.Hint=Imprimir|Imprime a página atual do Navegador Interno
+tbWBHome2.Caption=Início
+tbWBHome2.Hint=Ir ao Início|Exibe a lista de Projetos e estatísticas no navegador
+tbWBCatchURL2.Caption=Adicionar o próximo link seguido
+tbWBCatchURL2.Hint=Adiciona o próximo link seguido como Projeto|O clique em uma URL ou botão de formulário será gravado como um Projeto para que possa ser descarregado posteriormente.
+tbWBAutoSave2.Caption=AutoSalvamento
+tbWBAutoSave2.Hint=AutoSalvamento|Descarrega e adiciona automaticamente ao Projeto todas as páginas e arquivos ausentes
+edtWBURL2.Caption=Endereço:
+edtWBURL2.Hint=Endereço:
+tbWBSettings2.Hint=Configurações|Configurações do Navegador Interno|Altere o tamanho da fonte da página atual do Navegador Interno; e habilite/desabilite imagens
+mpFSFontSize2.Caption=Tamaho da &Fonte
+mpFSLargest2.Caption=&Maior
+mpFSLarger2.Caption=&Grande
+mpFSMedium2.Caption=&Médio
+mpFSSmaller2.Caption=&Pequena
+mpFSSmallest2.Caption=Mínim&a
+mpFSShowImages2.Caption=E&xibir imagens
+mpFSShowImages2.Hint=Habilite ou desabilite imagens no Navegador Interno
+mpFSBrowseOnline2.Caption=Explorar a URL atual O&nline
+mpFSBrowseOnline2.Hint=Explorar a URL atual Online
+mpFSBrowseOffline2.Caption=Explorar a URL atual &Offline
+mpFSBrowseOffline2.Hint=Explorar a URL atual Offline
+mpFSBrowsingProject2.Caption=Seleciona o &Project que você está explorando
+mpFSViewSource2.Caption=&Ver código fonte
+tbEDOpen2.Caption=Abrir
+tbEDOpen2.Hint=Abrir|Abrir arquivo para edição
+tbEDSave2.Caption=Salvar
+tbEDSave2.Hint=Salvar|Salvar alterações do arquivo
+tbEDCut2.Caption=Recortar
+tbEDCut2.Hint=Recortar|Recorta o texto selecionado para a Área de Transferência
+tbEDCopy2.Caption=Copiar
+tbEDCopy2.Hint=Copiar|Copia o texto selecionado para a Área de Transferência
+tbEDPaste2.Caption=Colar
+tbEDPaste2.Hint=Colar|Colar da Área de Transferência
+tbEDUndo2.Caption=Desfazer
+tbEDUndo2.Hint=Desfazer|Desfazer alterações
+tbEDFind2.Caption=Buscar
+tbEDFind2.Hint=Buscar|Encontrar texto
+pmLCaption.Caption=Registro de Mensagens
+pmLCaption.Hint=Registro de Mensagens
+pmLLogMessages.Caption=Gravar &Log
+pmLLogMessages.Hint=Iniciar gravação de Log
+pmLClear.Caption=&Limpar
+pmLClear.Hint=Limpar
+pmLTrack.Caption=Registro de &Track
+pmLTrack.Hint=Registro de Track
+pmLCopy.Caption=Co&piar para Área de Transferência
+pmLCopy.Hint=Copiar para Área de Transferência
+pmLSave.Caption=&Salvar Log em Arquivo
+pmLSave.Hint=Salvar Log em Arquivo
+pmLFind.Caption=&Buscar
+pmLFind.Hint=Buscar
+pmLClose.Caption=Fechar L&og
+pmLClose.Hint=Fechar Log
+pmLFilter.Caption=Fil&tro
+pmLFilter.Hint=Filtrar Mensagens
+pmLFConnect.Caption=Estado da &Conexão
+pmLFConnect.Hint=Estado da Conexão
+pmLFDownload.Caption=Progresso do &Download
+pmLFDownload.Hint=Progresso do Download
+pmLFDisconnect.Caption=Estado da Descone&xão
+pmLFDisconnect.Hint=Estado da Desconexão
+pmLFDetails.Caption=Deta&lhes
+pmLFDetails.Hint=Detalhes
+pmLFQueue.Caption=Mensagens na Fila (&Queue)
+pmLFQueue.Hint=Colocar mensagens na fila
+pmLFRejectedURLs.Caption=URLs &Rejeitadas
+pmLFRejectedURLs.Hint=URLs Rejeitadas
+pmLFInternalWebSrv.Caption=Requisições ao Servidor &Web interno
+pmLFInternalWebSrv.Hint=Requisições ao Servidor Web interno
+dxbSScheduler.Caption=Agendador
+dxbSScheduler.Hint=Agendador
+dxbSSequencer.Caption=Sequenciador
+dxbSSequencer.Hint=Sequenciador
+dxbSSeqRun.Caption=Iniciar Sequenciador agora
+dxbSSeqRun.Hint=Iniciar Sequenciador agora
+dxbSSeqStartAt.Caption=Iniciar Sequenciador em...
+dxbSSeqStartAt.Hint=Iniciar Sequenciador em...
+dxbSeqLoop.Caption=Repetir a sequência
+dxbSeqLoop.Hint=Repetir a sequência
+miSSelect.Caption=Selecionar &Projeto
+miSSkip.Caption=Atribuir &Sequenciador a este Projeto
+miSRemove.Caption=&Remover
+miSRemoveAll.Caption=Remover Tod&as
+miSLoad.Caption=Carreg&ar Sequência...
+miSLoad.Hint=Carregar Sequência...
+miSSave.Caption=Sal&var Sequência...
+miSSave.Hint=Salvar Sequência...
+dxbSClose.Caption=Fe&char
+dxbSClose.Hint=Fechar Gerenciador de Eventos
+mpQAbort.Hint=Abortar o download das URLs atuais
+mpQAbortDisable.Caption=Abortar && &Desabilitar
+mpQAbortDisable.Hint=Abortar download das URLs atuais e desabilita-las nas configurações do Projeto
+mpQACurrentURL.Caption=A(s) &URL(s) atuais
+mpQACurrentURL.Hint=Excluir as URLs atuais do download
+mpQAFolder.Hint=Desabilitar todos os links que estão na pasta atual
+mpQAFolder1.Hint=Desabilita todos os links que estão nesta pasta
+mpQAFolder2.Hint=Desabilita todos os links que estão na pasta
+mpQAServer.Hint=Desabilita todos os links que estão no servidor ativo
+mpQSaveList.Hint=Salvar para arquivo de texto
+mpQMoveToTop.Caption=Mover para o &Topo
+mpQMoveToBottom.Caption=Mover para &Baixo
+mpQColorize.Caption=C&olorir
+mpQCoServer.Caption=Por nome do &servidor
+mpQCoExtension.Caption=Por &tipo de arquivo
+mpQCoNone.Caption=&Nenhum
+mpDownload2.Caption=Down&load
+mpQCopyPOST.Caption=Copiar re&quisição POST
+mpQCopyPOST.Hint=Copiar requisição POST
+miVView.Caption=&Ver
+miPI1.Caption=&Standard
+miPI1.Hint=Standard
+mpTDeleteProjectOnly.Hint=Somente configurações do Projeto
+miPI2.Caption=&Importante
+miPI2.Hint=Importante
+miPI3.Caption=&Rever
+miPI3.Hint=Rever
+miPI4.Caption=Não apa&gar
+miPI4.Hint=Não apagar
+miPI5.Caption=R&eferência
+miPI5.Hint=Referência
+miPI6.Caption=Ao &Vivo
+miPI6.Hint=No ar
+miPI7.Caption=&Notícias
+miPI7.Hint=Notícias
+miPI8.Caption=Favori&tos
+miPI8.Hint=Favoritos
+miPI9.Caption=&Artigo
+miPI9.Hint=Artigo
+miPI10.Caption=&Companhia
+miPI10.Hint=Companhia
+miPI11.Caption=&Financeiro
+miPI11.Hint=Financeiro
+miPI12.Caption=Gr&upo de usuários
+miPI12.Hint=Grupo de usuários (usergroup)
+miPI13.Caption=Es&pecial
+miPI13.Hint=Especial
+miPI14.Caption=Compartil&hado
+miPI14.Hint=Compartilhado
+miPI15.Caption=Pri&vado
+miPI15.Hint=Privado
+miPI16.Caption=Pess&oal
+miPI16.Hint=Pessoal
+miPI17.Caption=Al&ta Prioridade
+miPI17.Hint=Prioridade Alta
+miPI18.Caption=Bai&xa Prioridade
+miPI18.Hint=Prioridade baixa
+miPI19.Caption=&Questionável
+miPI19.Hint=Questionável
+dxbSeqRemove.Caption=&Remover Projetos descarregados da Sequência
+dxbSeqRemove.Hint=Remover Projetos já descarregados da Sequência
+mpEDeleteProjectOnly.Caption=Some&nte Configurações do Projeto
+mpEDeleteProjectOnly.Hint=Somente configurações do Projeto
+miTPublish.Caption=P&ublicar...
+miTPublish.Hint=Compartilhar configurações de Projeto com outros usuários
+miTPublishedProjects.Caption=Pro&jetos Publicados
+miTPublishedProjects.Hint=Projetos Publicados
+miTTextPipe.Caption=TextP&ipe...
+miTTextPipe.Hint=Executar DataMystic TextPipe
+mpWBTMultiLineTabs.Caption=Tabulações de múltiplas linhas
+odSeqLoad.Filter=Sequência Offline Explorer|*.soe|Todos Arquivos|*.*
+odSeqSave.Filter=Sequência Offline Explorer|*.soe|Todos Arquivos|*.*
+sdLog.Caption=Salvar Log de Mensagens
+sdLog.Filter=Arquivos de Log|*.log|Todos Arquivos|*.*
+sdQueue.Filter=Arquivos de Texto|*.txt|Todos Arquivos|*.*
+
+[dlgInstall]
+
+btnCancel.Caption=Cancelar
+Label2.Caption=Recomendamos que saia de todos os programas do Windows antes de correr este programa de Instalação.
+Label3.Caption=Clique em Cancelar para sair do programa de instalação e feche todos os programas que estejam a ser executados. Clique em Próximo para continuar com a instalação do programa.
+Label4.Caption=AVISO: Este programa está protegido por leis de direitos de autor e convenções internacionais.
+Label5.Caption=Reprodução não autorizada ou distribuição deste programa ou parte dele pode resultar em severas penas criminais e será levado até às ultimas consequências de acordo com os termos da lei.
+Label14.Caption=Licensa de Software
+rbAccept.Caption=I &aceitar o acordo
+rbDontAccept.Caption=I &não aceitar o acordo
+Label6.Caption=O programa de instalação irá instalar o %s na seguinte pasta de destino:
+Label7.Caption=Para instalar numa pasta diferente, clique Pequisar, e seleccione uma outra pasta.
+Label8.Caption=Pode escolher não instalar o %s clicando Cancelar para sair do programa de instalação.
+Label16.Caption=Pasta de Instalação
+Label22.Caption=&Pasta de Destino
+btnBrowse.Caption=Pesquisa&r...
+Label9.Caption=Neste momento está pronto a instalar o %s.
+Label10.Caption=Carregue no botão Próximo para dar inicio à instalação ou no botão Retroceder para reintroduzir as informações da instalação.
+Label17.Caption=Atalhos dos Programas
+cbDesktop.Caption=Adicionar atalho no &Ambiente de Trabalho
+cbQuickLaunch.Caption=Adicionar atalho à Barra de Iniciação &Rápida
+Label18.Caption=Copiando Ficheiros...
+lblFile.Caption=Nada a descomprimir.
+Label11.Caption=Copiando ficheiro:
+Label12.Caption=%s foi instalado com sucesso.
+Label13.Caption=Carregue no botão Terminar para sair desta instalação.
+Label19.Caption=Instalação Completa
+cbRun.Caption=&Executar %s agora
+btnBack.Caption=< &Retroceder
+dlgBrowse.Caption=Seleccione a pasta de destino
+---Label23.Caption=Integration...
+---Label24.Caption=You can set up %s integration for some installed browsers
+---Label25.Caption=Please check the corresponding boxes to install integration with the following browsers:
+---lvBrowsers.0=Name
+---lvBrowsers.1=Path
+---lvBrowsers.2=Browse
+---Label26.Caption=The program can perodically check for newer versions of %s. You can also do this manually using the program menu Help | Check for new version item.
+---cbNVCheck.Caption=&Enable automatic periodic check for new versions
+
+[LogWindow]
+Caption=Janela de Mensagens
+
+miSettings.Caption=Configuraçõe&s
+miSTrack.Caption=Ras&trear
+miSPause.Caption=&Pausar
+miLFilter.Caption=Fi&ltrar
+miLFConnect.Caption=Status da &Conexão
+miLFDownload.Caption=Progresso do &Download
+miLFDisconnect.Caption=Status da D&isconexão
+miLFDetails.Caption=Deta&lhes
+miSClear.Caption=Limpa&r
+miSCopy.Caption=Copiar pa&ra Área de Transf.
+Savetofile1.Caption=&Salvar para arquivo...
+miLFind.Caption=&Buscar...
+miLFindNext.Caption=Próxima ocorrê&ncia
+pmiDock.Caption=Colar (&Dock) em
+pmiDock.Hint=Colar em uma das áreas da tela
+pmiDScreen.Caption=Rodapé da &Tela
+pmiDIB.Caption=Navegador Intern&o
+pmiUnDock.Caption=Descolar (&Undock)
+pmiUnDock.Hint=Descolar (Undock) o painel, transformandoo em barra flutuante
+miSClose.Caption=Fe&char
+SaveDialog.Caption=Salvar registro
+SaveDialog.Filter=Arquivos de Registro|*.log|Todos Arquivos|*.*
+miSRecordTime.Caption=Gravar a &hora
+miSSaveToFile.Caption=&Salvar para arquivo...
+miLFQueue.Caption=Colocar mensagens na fila
+miLFRejectedURLs.Caption=URLs &Rejeitadas
+miLFInternalWebSrv.Caption=Consultas ao Servidor de &Web interno
+
+[WndProgress]
+Caption=Progresso do Download
+
+List.0=Canal
+List.1=Descarregado
+List.2=Tamanho
+List.3=Status
+List.4=URL
+pmiCancel.Caption=&Abortar
+pmiCancel.Hint=Cancelar o download do arquivo selecionado
+pmiRestart.Caption=&Reiniciar
+pmiRestart.Hint=Para e reinicia o download do arquivo selecionado a partir do começo
+pmiFinalize.Caption=&Finalizar
+pmiFinalize.Hint=Salvar o fragmento do arquivo de media por demanda (stream)
+pmiCopy.Caption=Copiar &URL
+pmiCopy.Hint=Copia a URL do arquivo selecionado
+pmiReferer.Caption=Copiar a URL de &referência
+pmiReferer.Hint=Copia o link de origem do arquivo selecionado
+pmiSelectProject.Caption=Selecionar &Projeto
+pmiSelectProject.Hint=Seleciona o projeto, fazendo com que o mesmo seja carregado
+pmiDock.Caption=Colar (&Dock) em
+pmiDock.Hint=Dock to one of screen areas
+pmiDBottom.Caption=Rodapé da &Tela
+pmiDIB.Caption=Navegador Intern&o
+pmiUnDock.Caption=Descolar (&Undock)
+pmiUnDock.Hint=Descolar (Undock) o painel, transformandoo em barra flutuante
+pmiPlay.Caption=Reproduzir
+
+[dlgAbout]
+Caption=Sobre o Offline Explorer
+
+btnOK.Caption=OK
+TabSheet1.Caption=Geral
+Label3.Caption=Registrado para:
+lblReg.Caption=NÃO REGISTRADO
+lblDescr.Caption=Offline Explorer permite copiar sites da Web rapidamente para que você possa vêlos posteriormente sem estar conectado à Internet, usando o navegador interno ou um externo, ou ainda publicar em seu servidor de Web.
+lblTrial.Caption=Para informações atualizadas sobre o Offline Explorer Enterprise, visite nosso Web Site em: http://www.metaproducts.com
+btnEMail.Caption=&Email
+btnWebSite.Caption=Site da &Web
+btnOrdering.Caption=C&omprar...
+btnRegister.Caption=&Registrar...
+TabSheet2.Caption=Notas da Versão
+TabSheet3.Caption=Licença
+btnHelp.Caption=A&juda
+btnCancel.Caption=Cancelar
+lblLatestInfo.Caption=Offline Explorer não é freeware (grátis). Você pode avaliar este programa durante 30 dias. Após este período, você deve registrálo.
+lblOnDay1.Caption=Para saber como registrar sua cópia do Offline Express pressione o botão Comprar.
+lblOnDay2.Caption=Uma vez que você tenha obtido os dados de seu registro, pressione o botão Registrar. Esta operação irá ativar todas as funções que estão disponíveis somente para usuários registrados.
+lblOnEnd1.Caption=Você atingiu o final do período de avaliação de 30 dias.
+lblOnEnd2.Caption=Nós esperamos que você tenha gostado de usar o Offline Explorer.
+lblSiteInfo.Caption=Para informações atuais, visite nosso site Web em:
+Label4.Caption=Sinta-se à vontade de entrar em contato conosco se você tiver dúvidas:
+btnClose.Caption=Fechar
+btnReleaseNotes.Caption=R&Notas da Versão
+btnLicense.Caption=&Licença
+
+[dlgOptions]
+Caption=Opções
+
+Label1.Caption=Categor&ia:
+OptionsTree.0=Internet
+OptionsTree.1=Conexão
+OptionsTree.2=Velocidade
+OptionsTree.3=Dial up
+OptionsTree.4=Desconectar & Sair
+OptionsTree.5=Servidor Proxy
+OptionsTree.6=Ferramentas
+OptionsTree.7=Navegadores Externos
+OptionsTree.8=Visualizadores
+OptionsTree.9=Editores
+OptionsTree.10=Avançado
+OptionsTree.11=Diretórios
+OptionsTree.12=Integração
+OptionsTree.13=Confirmações
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+Label32.Caption=Configurações da conexão à Internet
+Label4.Caption=Número de &conexões:
+Label5.Caption=&Tempo de espera (segundos):
+Label16.Caption=Intervalo entre &downloads:
+Label30.Caption=Servidor &HTTP Interno
+Label11.Caption=Identificação do Agente
+cbRetries.Caption=Limita&r quantidade de tentativas em:
+cbIECookies.Caption=&Usar cookies do Microsoft Internet Explorer
+cbHTTPStart.Caption=Habilitar na &porta:
+cbOHTTPLocal.Caption=Permitir somente &acesso local
+rbUA1.Caption=Ide&ntificarse como:
+rbUA2.Caption=Use esta identi&ficação:
+Label7.Caption=Endereço do Prox&y:
+Label8.Caption=Porta do &Proxy:
+Label15.Caption=Tipo do Proxy
+Label31.Caption=Configurações do servidor Proxy
+Label33.Caption=Autenticação do Proxy (deixe em branco se não for preciso)
+btnPrxADetect.Caption=Auto &Detectar
+rbHProxy1.Caption=Sem pro&xy
+rbHProxy2.Caption=Proxy &HTTP
+rbHProxy3.Caption=SO&CKS4
+rbHProxy4.Caption=S&OCKS5
+Label9.Caption=&Nome de Usuário:
+Label10.Caption=&Senha:
+cbNTLMProxy.Caption=Usar autenticação NTL&M
+Label6.Caption=Endereço Prox&y:
+Label17.Caption=Porta do &Proxy:
+Label34.Caption=Tipo do Proxy
+Label35.Caption=Configurações do servidor Proxy
+Label36.Caption=Autenticação do Proxy (deixe em branco se não for preciso)
+cbPPASV.Caption=Modo PAS&V para downloads de FTP
+rbFProxy1.Caption=Sem pro&xy
+rbFProxy2.Caption=Proxy &HTTP
+rbFProxy3.Caption=SO&CKS4
+rbFProxy4.Caption=User@Si&te
+rbFProxy5.Caption=S&OCKS5
+Label26.Caption=&Nome de Usuário:
+Label27.Caption=&Senha:
+Label37.Caption=&Diretório de Download
+Label38.Caption=E&spaço em Disco
+Label13.Caption=Espaço livre no disco rígido:
+Label12.Caption=Limite de espaço livre no disco rí&gido:
+Label39.Caption=Manutenção
+Label29.Caption=Clique no botão Limpar para remover Websites e arquivos não utilizados de seu diretório de downloads
+Label40.Caption=Diretório dos &Projetos, Modelos e Mapas
+btnBrowse.Caption=E&xplorar...
+btnClean.Caption=&Limpar...
+btnBrowse1.Caption=&Explorar...
+lblTools.Caption=Ao visuali&zar um Website, exibir as seguintes opções de escolha dentre estas ferramentas:
+Label20.Caption=&Nome:
+Label21.Caption=&Programa:
+Label43.Caption=Barra de &Ferramentas
+Label57.Caption=Atal&ho:
+btnADetect.Caption=Auto &Detectar
+btnOBrAdd.Caption=<<  &Adicionar
+btnOBrRemove.Caption=>> &Remover
+cbShowMode.0=Normal
+cbShowMode.1=Maximizar
+cbShowMode.2=Minimizar
+Label2.Caption=Selecione uma Subcategoria para ser exibida
+lblSMTP.Caption=Endereço do servidor SMT&P:
+Label41.Caption=&Mapa
+Label42.Caption=Autosalvar
+lblAutoSave.Caption=Minutos
+Label44.Caption=Apar&encia
+Label45.Caption=Um clique &Duplo no Projeto
+rbAMap1.Caption=Mapa exibe somente &Websites pertencentes ao Projeto selecionado
+rbAMap2.Caption=M&apa exibe todos os Websites descarregados
+bxAutoSave.Caption=&Salvar alterações a cada
+cbTray.Caption=Executar na Barra de &Tarefas
+cbASplash.Caption=Exibir tela de apresentação ao ini&ciar
+rbODblClick1.Caption=E&xibe o Projeto no navegador
+rbODblClick2.Caption=Abre as &Propriedades do Projeto
+Label46.Caption=&Sistema
+Label47.Caption=Ao adicionar uma URL
+Label55.Caption=Filtrar URL's da Área de Transferência (C&lipboard)
+Label56.Caption=U&RLs que acabam com (lista separada por vírgulas):
+cbOIClipboard.Caption=Monitorar Área de Transferência (&Clipboard)
+cbIIECtxMenu.Caption=Usar o menu contextual do MS Internet &Explorer
+cbOIDefaults.Caption=&Usar o Modelo padrão (default)
+cbIPFolder.Caption=C&olocar os Projetos na Pasta:
+cbOIAutoStart.Caption=Iniciar o download &Automaticamente
+cbICFilter.0=Não aceitar
+cbICFilter.1=Aceitar somente
+Label48.Caption=&Discar ao descarregar sites
+cbDialUp.Caption=&Habilitado
+Label14.Caption=&Selecionar conexão:
+Label18.Caption=&Nome de Usuário:
+Label19.Caption=Senh&a:
+Label22.Caption=Se a conexão cair, &rediscar
+Label23.Caption=vezes
+Label24.Caption=Inter&valo entre tentativas:
+Label25.Caption=segundos
+Label49.Caption=Desconectar
+Label50.Caption=Sair do programa e desligar computador
+cbHangUp.Caption=&Desconectar o modem quando todos os downloads acabarem
+cbHangUpAt.Caption=Desconec&tar às:
+cbClose.Caption=Sair do programa quando todos os downloads acabar&em
+cbCloseAt.Caption=Sai&r às
+cbShutdown.Caption=De&sligar o computador depois que o programa for encerrado
+Label51.Caption=Confirmações
+cbACDelete.Caption=Ao apa&gar arquivos
+cbACDelPFiles.Caption=Ao apagar arquivos de &Projetos
+cbACHangup.Caption=Ao &desconectarse da Internet
+cbACExit.Caption=Ao &encerrar o programa
+cbACURLMoved.Caption=Quando a URL do Projeto for &movida
+cbACFolderStart.Caption=Quando o download dos Projetos de uma Pasta esti&verem para ser iniciados
+Label52.Caption=Controle da Velocidade
+Label53.Caption=bytes/s
+Label54.Caption=Use esta configuração para alterar a taxa de transferência (em Kilobytes por segundo) para uma determinada faixa de velocidade.
+cbSetSpeedLimit.Caption=&Limitar velocidade em
+brHigh.Caption=&Alta
+rbMedium.Caption=&Média
+rbLow.Caption=&Baixa
+rbBackground.Caption=&Segundo plano
+btnHelp.Caption=Ajuda
+dlgOBrowse.Caption=Procurar arquivo
+dlgOBrowse.Filter=Arquivos executáveis|*.exe;*.com|Todos Arquivos|*.*
+bdDD.Caption=Diretório de Download
+bdDD.Hint=Escolha o Diretório de Download:
+bdProjects.Caption=Diretório dos Projetos
+bdProjects.Hint=Escolha o Diretório dos Projetos:
+cbDirOverload.Caption=Pre&venir contra sobrecarga de download nos diretórios
+Label58.Caption=Uso de Banda de streams RTSP
+Label59.Caption=Uso de Banda &RTSP Máxima:
+cbRTSPBandwidth.0=Modem 14.4K
+cbRTSPBandwidth.1=Conexão 19.2K
+cbRTSPBandwidth.2=Modem 28.8K
+cbRTSPBandwidth.3=Modem 33.6K
+cbRTSPBandwidth.4=Modem 56K
+cbRTSPBandwidth.5=ISDN 112K Duplo
+cbRTSPBandwidth.6=DSL/Cabo 256Kbps
+cbRTSPBandwidth.7=DSL/Cabo 384Kbps
+cbRTSPBandwidth.8=DSL/Cabo 512Kbps
+cbRTSPBandwidth.9=Rede T1 / LAN
+cbRTSPBandwidth.10=Rede LAN 10Mbps
+rbDial2.Caption=Habilitar discador int&erno
+rbDial3.Caption=&Usar discador externo
+rbDial1.Caption=Não &discar automaticamente
+Label65.Caption=Linha de &comando para discagem:
+Label66.Caption=Lin&ha de comando para desligar:
+cbShutdown2.Caption=&Compatibilidade extra de desligamento do computador (use somente se o modo normal falhar)
+Label60.Caption=Tipo de Proxy
+Label61.Caption=Configurações do servidor Proxy
+Label62.Caption=Endereço d&a Proxy:
+Label63.Caption=&Porta do Proxy:
+Label69.Caption=Autenticação Proxy (deixe em branco se desnecessário)
+rbRProxy1.Caption=Sem pro&xy
+rbRProxy2.Caption=Proxy &HTTP
+rbRProxy3.Caption=&SOCKS4
+rbRProxy4.Caption=Proxy &RTSP
+rbRProxy5.Caption=S&OCKS5
+Label67.Caption=&Nome de Usuário:
+Label68.Caption=Senha (Pass&word):
+Label64.Caption=Ordenar arquivos por:
+rbAMapSort1.Caption=&Nome
+rbAMapSort2.Caption=&Extensão
+OptionsTree.14=Finalização
+cbXButton.Caption=O botão "X" minimi&za a janela principal
+Label70.Caption=Download encerrado
+Label71.Caption=Endereço do servidor SMT&P:
+Label72.Caption=Servidor de envio de mail (SMTP)
+cbACPReport.Caption=Gerar relatório sobre finalização do Projeto por
+rbACPReport1.Caption=&Som:
+rbACPReport2.Caption=&E-mail:
+rbACPReport3.Caption=UIN do IC&Q:
+odCSound.Caption=Abrir arquivo de som
+odCSound.Filter=Arquivo Wave (*.wav)|*.wav|Todos arquivos|*.*
+cbHibernate.Caption=&Hibernar o sistema sem fechar o programa
+Label76.Caption=Lista de servidores &Proxy
+Label77.Caption=Configurações da Conexão
+lvProxies.0=Tipo
+lvProxies.1=Servidor
+lvProxies.2=Porta
+lvProxies.3=Usuário
+btnPAdd.Caption=&Adicionar...
+btnPRemove.Caption=&Remover
+btnPLoad.Caption=Carre&gar...
+btnPSave.Caption=&Salvar...
+btnPAutoDetect.Caption=&Detecção automática
+cbNTLM.Caption=Usar método alternativo de conexão (para autenticação NTL&M, etc.)
+cbPASV.Caption=Modo PAS&V para downloads por FTP
+btnPEdit.Caption=&Editar...
+Label73.Caption=Diretório &Temporário:
+Button1.Caption=E&xplorar...
+Label74.Caption=Menu contextual do FireFox e Mozilla:
+cbIOperaCtxMenu.Caption=Usear menu contextual do &Opera
+btnFireFox.Caption=In&stalar
+rbACMAsk.Caption=Pergunt&ar por confirmação
+rbACMDownload.Caption=&Iniciar download da nova URL
+rbACMStop.Caption=In&terromper o download
+cbACExitDownload.Caption=S&omente quando houver downloads ativos
+cbACRestore.Caption=Qua&ndo restaurar Projetos com nomes iguais
+lblRMore.Caption=arquivos novos ou atualizados
+cbRMore.Caption=&Quando maior que
+Label75.Caption=Verificar por novas versões automaticamente
+cbNVCheck.Caption=A ca&da
+btnNVCheck.Caption=Verifi&car agora
+OptionsTree.15=Novas Versões
+odProxyList.Filter=Arquivo de texto|*.txt|Todos arquivos|*.*
+sdProxyList.Filter=Arquivo de texto|*.txt|Todos arquivos|*.*
+
+[dlgFolderProp]
+Caption=Propriedades da Pasta
+
+Label1.Caption=&Categoria:
+FolderTree.0=Pasta
+btnCancel.Caption=Cancelar
+btnOK.Caption=OK
+Label32.Caption=Geral
+Label2.Caption=&Nome da Pasta:
+Label6.Caption=Diretório de download da Pasta
+Label3.Caption=Você pode especificar diretórios diferentes para cada uma das Pastas de Projetos. Todos os Projetos localizados naquela Pasta irão utilizar o diretório escolhido para armazenar os Websites.
+Label5.Caption=Se o diretório especificado não existir, o mesmo será criado automaticamente.
+btnDefaults.Caption=Padrões de &Pasta
+btnFromTemplate.Caption=&Reinicializar os padrões usando Modelo
+cbFDD.Caption=&Habilitar
+btnBrowse.Caption=&Explorar...
+btnApplyFDD.Caption=&Aplicar a todos subdiretórios
+bdDD.Caption=Diretório de download da Pasta
+bdDD.Hint=Escolha o Diretório de Download:
+
+[dlgDataMine]
+Caption=Explorador de dados
+
+Label1.Caption=A Exploração de Dados (Data mining) permite que você processe os Web sites descarregados, e extraia informações ou as converta conforme determinados parâmetros.
+Label2.Caption=O processo de exploração de dados é baseado na ferramenta TextPipe da DataMystic Corporation. O TextPipe é uma poderosa ferramenta de transformação de múltiplos arquivos de texto.
+Label3.Caption=Desculpe, mas você não possui o TextPipe instalado em seu computador. Clique no botão abaixo para abrir a página da Web do TextPipe.
+btnTextPipe.Caption=Web site do TextPipe
+Label4.Caption=A Exploração de Dados (Data mining) permite que você processe os Web sites descarregados, e extraia informações ou as converta conforme determinados parâmetros. Esta tarefa é realizada utilizando o TextPipe, da DataMystic Corporation.
+cbTextOnly.Caption=Exploração de dados somente de arquivos &Texto e HTML
+cbRun.Caption=Ca&rregar filtros ao carregar o TextPipe
+cbQuit.Caption=&Sair do TextPipe após aplicar o filtro
+rbFilter1.Caption=Executar o TextPipe com um filtro &novo
+rbFilter2.Caption=Usar o arquivo de filtro (*.fll) do TextPipe para processar o Projeto selecionado:
+btnStart.Caption=&Iniciar
+btnCancel.Caption=Cancelar
+btnHelp.Caption=Ajuda
+dlgOpenFilter.Caption=Abrir arquivo de filtro
+dlgOpenFilter.Filter=Arquivos de Filtro TextPipe|*.fll|Todos Arquivos|*.*
+Label6.Caption=Filtros TextPipe
+Label7.Caption=Opções de execução do TextPipe
+cbPassFiles.Caption=&Passar arquivos descarregados do Projeto para TextPipe
+
+[dlgCustomizeContents]
+Caption=Personalizar o Arquivo de conteúdo
+
+Label1.Caption=Cabeçalho do arquivo de conteúdo:
+Label2.Caption=Entrada do arquivo de conteúdo:
+Label3.Caption=Rodapé do arquivo de conteúdo:
+Label4.Caption=Dica: Use %URL% macro para substituir com o caminho (path) para o site exportado, %Caption%  com o nome do Projeto, como ele aparece na árvore de Projetos.
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+Button1.Caption=Limpa&r
+
+[dlgProgress]
+Caption=Progresso
+
+Button1.Caption=Abortar
+
+[dlgPDescr]
+Caption=Descrição do Projeto
+
+ToolButton1.Caption=&Novo
+ToolButton1.Hint=Aplicar alterações
+SaveButton.Caption=&Salvar
+SaveButton.Hint=Cancelar alterações
+PrintButton.Caption=Im&primir
+PrintButton.Hint=Imprime o arquivo atual
+CutButton.Caption=Recor&tar
+CutButton.Hint=Recorta o item selecionado
+CopyButton.Caption=&Copiar
+CopyButton.Hint=Copia o item selecionado para a Área de Transf.
+PasteButton.Caption=Co&lar
+PasteButton.Hint=Cola o conteúdo da Área de Transferência
+UndoButton.Caption=Desfa&zer
+UndoButton.Hint=Desfaz a última operação
+FontName.Hint=Nome da Fonte|Selecione o nome da fonte
+BoldButton.Hint=Negrito
+ItalicButton.Hint=Itálico
+UnderlineButton.Hint=Sublinhado
+LeftAlign.Hint=À Esquerda
+CenterAlign.Hint=Centralizado
+RightAlign.Hint=À Direita
+BulletsButton.Hint=Marcadores|Selecione o tipo de marcadores
+mpUndo.Caption=&Desfazer
+mpUndo.Hint=Desfaz a última operação
+mpCut.Caption=Recor&tar
+mpCut.Hint=Recorta o item selecionado
+mpCopy.Caption=&Copiar
+mpCopy.Hint=Copia o item selecionado para a Área de Transf.
+mpPaste.Caption=Co&lar
+mpPaste.Hint=Cola o conteúdo da Área de Transferência
+mpSelectAll.Caption=Selecion&ar Tudo
+FontSize.Hint=Tam. Fonte|Selecionar tamanho da fonte
+
+[dlgPrint]
+Caption=Imprimindo...
+
+Label1.Caption=Imprimindo as páginas do Projeto. Por favor, aguarde...
+btnCancel.Caption=Cancelar
+
+[dlgApplyTemplate]
+Caption=Aplicar Modelo ao Projeto
+
+Label1.Caption=&Selecione as partes para aplicar
+Label2.Caption=&Modelo:
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+Label3.Caption=Palavraschave dos Filtros URL do Projeto e Extensões dos Filtros de Arquivo
+rbReplace.Caption=Substituir as palavraschave e extensões a partir do Modelo
+rbJoin.Caption=Adicionar as palavraschave e extensões a partir do Modelo
+
+[dlgOldFiles]
+Caption=Apagar arquivos de Projeto antigos
+
+List.0=Arquivos
+btnClose.Caption=Fe&char
+btnDeleteAll.Caption=&Apagar Todos
+btnDelete.Caption=Apagar seleciona&dos
+
+[dlgImgDimensions]
+Caption=Filtro de dimensões de Imagens
+
+Label19.Caption=Ignorar arquivos de imagens com dimensões menores que
+Label1.Caption=Ignorar arquivos de imagens com dimensões maiores que
+Label4.Caption=Nota: esta versão suporta somente os seguintes tipos de arquivo:
+Label2.Caption=Ig&norar arquivos de imagens com as seguintes dimensões (separar por vírgulas):
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+cbLowWidth.Caption=&Largura
+cbLowHeight.Caption=&Altura
+cbHighWidth.Caption=Lar&gura
+cbHighHeight.Caption=Al&tura
+lblLowWidth.Caption=pixels
+lblLowHeight.Caption=pixels
+lblHighWidth.Caption=pixels
+lblHighHeight.Caption=pixels
+
+[dlgMapSelect]
+Caption=Selecionar Arquivos de Mapa
+
+dxbeMask.Caption=Digite a &máscara para selecionar arquivos e pressione Enter:
+dxbeMask.Hint=Digite a máscara de seleção de arquivos
+btnDelete.Caption=Apa&gar
+btnDelete.Hint=Apagar arquivos selecionados
+btnClose.Caption=Fe&char
+btnClose.Hint=Fechar janela
+List.0=URL
+List.1=Tamanho
+btnBrowse.Caption=E&xplorar
+btnBrowse.Hint=Explorar
+
+[dlgSelectMask]
+Caption=Selecionar URLs na Fila
+
+Label1.Caption=Digite a &máscara para selecionar URLs e pressione Enter:
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+
+[dlgSubst]
+Caption=Substituição de URL
+
+Label1.Caption=Nota: desmarque um item, se você quer que a regra de substituição de URL seja aplicada somente para arquivos capturados. P.ex., as URLs serão capturadas como estão, mas arquivos offline e os links serão alterados conforme as regras de substituição.
+Label2.Caption=&URL:
+Label3.Caption=Substitui&r:
+Label4.Caption=&Com:
+List.0=URL
+List.1=Substituir
+List.2=Com
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+btnHelp.Caption=A&juda
+btnAdd.Caption=&Adicionar
+btnRemove.Caption=&Remover
+btnClear.Caption=Remove to&dos
+cbApplyAll.Caption=A&plicar todas as regras
+mpMoveUp.Caption=Mover &Acima
+mpMoveDown.Caption=Mover A&baixo
+mpDuplicate.Caption=Dupli&car
+btnTest.Caption=&Testar
+lblURL.Caption=&URL:
+lblReplace.Caption=Substitui&r:
+lblWith.Caption=&Com:
+
+[dlgStatistics]
+Caption=Estatísticas do Projeto
+
+List.0=Parâmetro
+List.1=Valor
+btnClean.Caption=Elimi&nar arquivos do Projeto...
+cbValues.0=Nome do Projeto:
+cbValues.1=URL(s):
+cbValues.2=Nome do arquivo de Mapa:
+cbValues.3=Registros no Mapa:
+cbValues.4=Data do último download:
+cbValues.5=Finalizado:
+cbValues.6=Tempo decorrido:
+cbValues.7=Velocidade Média:
+cbValues.8=Ainda em download...
+cbValues.9=Projeto não foi descarregado.
+cbValues.10=Last Download statistics:
+cbValues.11=Arquivos descarregados:
+cbValues.12=Não modificados:
+cbValues.13=Arquivos verificados:
+cbValues.14=Não encontrados:
+cbValues.15=Erro durante o download:
+cbValues.16=Abortados/Limitados:
+cbValues.17=Tamanho dos arquivos descarregados:
+cbValues.18=Estatísticas Totais do Projeto:
+cbValues.19=Total de arquivos:
+cbValues.20=Tamanho Total:
+cbValues.21=Arquivos de Texto:
+cbValues.22=Tamanho dos arquivos de Texto:
+cbValues.23=Arquivos de Imagem:
+cbValues.24=Tamanho dos arquivos de Imagem:
+cbValues.25=Outros arquivos:
+cbValues.26=Tamanho dos outros arquivos:
+btnCopy.Caption=Co&piar
+btnClose.Caption=Fe&char
+
+[dlgProtect]
+Caption=Proteger configurações do Projeto com senha
+
+Label1.Caption=&Senha:
+Label2.Caption=Por favor, &redigite:
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+
+[dlgPassword]
+Caption=Por favor, digite a senha
+
+Label1.Caption=&Senha:
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+
+[dlgSetProxy]
+Caption=Configurações do servidor Proxy
+
+Label34.Caption=Tipo do Servidor
+Label35.Caption=Configurações do servidor Proxy
+Label6.Caption=&Address:
+Label17.Caption=&Porta:
+Label36.Caption=Autenticação no Proxy (deixe em branco se desnecessário)
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+rbFProxy1.Caption=Proxy &HTTP
+rbFProxy2.Caption=&SOCKS4
+rbFProxy3.Caption=S&OCKS5
+rbFProxy4.Caption=Usuário@Si&te
+rbFProxy5.Caption=Proxy &RTSP
+Label26.Caption=&Nome de Usuário:
+Label27.Caption=Sen&ha:
+
+[dlgAddR]
+Caption=Adicionar PalavraChave
+
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+
+[dlgTemplates]
+Caption=Novo
+
+lblCustom.Caption=P&ersonalizado
+btnClose.Caption=&Fechar
+btnCancel.Caption=Cancelar
+btnOK.Caption=OK
+pgNew.Caption=&Normal
+pgTemplates.Caption=Modelos
+btnAdd.Caption=&Novo...
+btnRemove.Caption=&Remover
+btnProp.Caption=&Propriedades...
+btnDef.Caption=Pa&drão
+btnReset.Caption=&Limpar
+cbSmallIcons.Caption=Exib&ir ícones pequenos
+btnHelp.Caption=A&juda
+pmTCut.Caption=Recor&tar
+pmTCut.Hint=Recorta o Projeto ou Pasta selecionada para a Área de Transf.
+pmTCopy.Caption=&Copiar
+pmTCopy.Hint=Copia o Projeto ou Pasta selecionada para a Área de Transf.
+pmTPaste.Caption=Co&lar
+pmTPaste.Hint=Cola o Projeto ou Pasta selecionada para a Área de Transf.
+pmTSort.Caption=Organizar por nome&s
+
+[dlgAskPwd]
+Caption=Authenticação
+
+Label1.Caption=Por favor, digite o nome de usuário e a senha
+Label2.Caption=&Site:
+Label3.Caption=&Domínio:
+Label5.Caption=Nome de &Usuário:
+Label6.Caption=Sen&ha:
+Button1.Caption=OK
+Button2.Caption=Cancelar
+
+[dlgExport]
+Caption=Exportar
+
+lblFNFormat.Caption=&Formato dos nomes de arquivos:
+Label32.Caption=Diretório de &Destinação para copiar os Websites descarregados
+Label1.Caption=Nomes de arquivos
+Label3.Caption=Arquivo de Conteúdo
+lblPutFiles.Caption=&Posicionar os arquivos em:
+btnClose.Caption=Cancelar
+btnExport.Caption=&Exportar
+btnBrowse.Caption=Explora&r...
+cbStandardExt.Caption=Usar e&xtensões de arquivos padrão para formatos conhecidos
+btnAbort.Caption=&Abortar
+cbPreserveOnline.Caption=Preser&var links online
+btnHelp.Caption=A&juda
+cbShortFileNames.0=Manter como está
+cbShortFileNames.1=8+3  Compatível com MS DOS
+cbShortFileNames.2=Joliet  Símbolos CDR 64
+cbAutorunCD.Caption=Fazer &CD com inicialização automática (Autorun)
+cbContents.Caption=Criar arquivo de c&onteúdo
+btnCustomize.Caption=Personali&zar...
+cbPlainDir.Caption=Não criar &subdiretórios
+cbPutTo.0=Diretório um nível acima
+cbPutTo.1=Arquivo ZIP
+cbPutTo.2=Arquivo MHT
+cbPutTo.3=Cache do MS Internet Explorer
+brdExport.Caption=Explorar
+brdExport.Hint=Selecione o diretório para exportar o(s) Projeto(s):
+cbFastExport.Caption=Expor&tar Rapidamente
+cbPutTo.4=Ajuda HTML (Arquivo CHM)
+cbPutTo.5=Visualizador EXE Comprimido
+cbOriginalURL.Caption=Adicionar URL ori&ginal aos arquivos HTML
+cbRecentFiles.Caption=Exportar somente arquivos descarregados rece&ntemente
+
+[dlgReg]
+Caption=Registro
+
+Label1.Caption=Obrigado por registrar o Offline Explorer Enterprise
+Label2.Caption=Este registro nos permite investir em futuros desenvolvimentos deste e de outros produtos no futuro.
+Label3.Caption=Se você não tem certeza de como efetuar o registro, ou deseja saber mais sobre as várias maneiras de pagamento, clique no botão "Comprar..." abaixo:
+Label4.Caption=Uma vez que seu pagamento seja confirmado, você receberá automaticamente os detalhes de registro que você deverá preencher na caixa abaixo.
+Label5.Caption=Produto:
+Label6.Caption=Usuário Registrado:
+Label7.Caption=Chave de Registro:
+Label8.Caption=Tipo de Licença:
+cbRType.0=Licença para um único usuário (SingleUser)
+cbRType.1=Licença para um local (Site License)
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+btnOrder.Caption=Comprar...
+
+[dlgWizard]
+Caption=Assistente de Criação de Novo Projeto
+
+Label1.Caption=Um Projeto é uma operação de download. Ele utiliza um endereço URL como ponto de partida. Quando a página correspondente for carregada, o Offline Explorer determina todos os links existentes, e os grava em seu computador, conforme as Propriedades do Projeto.
+Label2.Caption=&URL do Projeto:
+Label3.Caption=&Nome do Projeto:
+Label4.Caption=Você pode fornecer um nome para o Projeto, que irá aparecer na Árvore de Projetos, ao invés da URL.
+Label5.Caption=Exemplos de URL: http://www.metaproducts.com/ ftp://ftp.microsoft.com/data/
+Label7.Caption=Bemvindo ao Assistente de Criação de Projetos
+Label8.Caption=Limitar o download de páginas pela quantidade de Níveis
+Label10.Caption=&Limite de Níveis:
+Label11.Caption=Os Níveis permitem configurar rapidamente quantas páginas da Web você quer descarregar. Eles determinam quantos links além da primeira página devem ser descarregados.
+Label15.Caption=Para descarregar somente a primeira página e suas imagens, configure Limite de Níveis=0. Com o Limite de Níveis=1, a primeira página e as páginas diretamente ligadas a esta são descarregadas.
+Label6.Caption=Escolha os tipos de arquivos a serem descarregados:
+rbDAll.Caption=Fazer o down&load de todos os arquivos que estão relacionados à página inicial
+rbDSkip.Caption=Ignorar os seguintes tipos de ar&quivos:
+cbImages.Caption=&Gráficos (imagens)
+cbAudio.Caption=&Audio (som, músicas)
+cbVideo.Caption=&Vídeo
+cbArchive.Caption=Compactados (&ZIP, RAR, etc.)
+Label9.Caption=Local de origem dos arquivos descarregados
+rbURL.Caption=Carregar somente a partir da URL &inicial:
+rbSrv.Caption=Carregar a partir do &servidor inicial:
+rbAny.Caption=Carregar de &qualquer site
+cbAllImages.Caption=Carregar &imagens localizadas em qualquer site
+Label12.Caption=Parabéns!
+Label13.Caption=Você acaba de finalizar a criação de um novo Projeto do Offline Explorer
+Label14.Caption=O que você gostaria de fazer agora:
+rbDNow.Caption=&Descarregar o novo Projeto agora
+rbProperties.Caption=Configurar os parâmetros &avançados
+rbDLater.Caption=Descarregar o &Projeto em outro momento
+btnBack.Caption=< &Voltar
+btnNext.Caption=&Avançar >
+btnCancel.Caption=Cancelar
+cbShow.Caption=E&xibir quando o Offline Explorer iniciar
+Label16.Caption=Por exemplo, quando o Offline Explorer encontra um link para http://www.srv.com/dir1/dir2/somefile.htm, ele irá tentar requisitar o conteúdo de /dir1/ e /dir2/. Se o servidor permitir a listagem de diretórios, o Offline Explorer será capaz de descarregar mais arquivos.
+cbExploreDirs.Caption=Tentar e&xplorar todos subdiretórios possíveis
+Label17.Caption=Desmarque a caixa de limitação de Níveis para carregar uma quantidade ilimitada de níveis (todo o site da Web).
+Label18.Caption=Se você fizer isto, é altamente recomendável usar a opção "Carregar somente a partir da URL inicial" ou "Carregar somente a partir do servidor inicial" nas janelas do Assistente. Caso contrário, você corre o risco de tentar descarregar todos os sites da Internet.
+Label19.Caption=Offline Explorer descarrega e copia páginas do site da Web para reconhecer outras páginas e arquivos. Esta informação é utilizada para construir o mapa do site sem descarregar o site completo.
+rbDSiteMap.Caption=Gerar mapa do site
+
+[dlgBR]
+Caption=Progresso
+
+btnCancel.Caption=Cancelar
+btnOK.Caption=OK
+List.0=Diretório de Download
+List.1=Pastas
+mpDDBrowse.Caption=E&xplorar...
+
+[dlgProp]
+Caption=Propriedades do Projeto
+
+Label4.Caption=Categor&ia:
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+btnHelp.Caption=Ajuda
+ItemTree.0=Projeto
+ItemTree.1=Filtros de Arquivo
+ItemTree.2=Texto
+ItemTree.3=Imagens
+ItemTree.4=Vídeo
+ItemTree.5=Áudio
+ItemTree.6=Compactados
+ItemTree.7=Personalizados
+ItemTree.8=Outros
+ItemTree.9=Filtros URL
+ItemTree.11=Protocolos
+ItemTree.12=Servidores
+ItemTree.13=Diretórios
+ItemTree.14=Nome de Arquivo
+ItemTree.15=Content Filters
+ItemTree.16=Avançado
+ItemTree.19=Tradução de Links
+ItemTree.20=Agendar
+ItemTree.21=Senhas
+ItemTree.22=Cópias de Arquivos
+lblTCaption.Caption=Nome do &Modelo:
+lblCaption.Caption=Nome do &Projeto:
+lblURLs.Caption=Endereços (&URLs):
+lblProjectID.Caption=ID do Projeto:
+Label15.Caption=Veri&ficar alteração de Arquivo
+Label16.Caption=En&dereço e níveis
+lblURL.Caption=Endereço (&URL):
+cbLevel.Caption=&Limite de Níveis:
+rbFM1.Caption=Download somente de arquivos &Modificados
+rbFM2.Caption=Download de Todos &Arquivos
+rbFM3.Caption=&Não descarregar arquivos existentes
+rbFM4.Caption=Ignorar arquivo&s existentes em níveis superiores a
+cbFMCheckSize.Caption=&Verificar tamanho do arquivo
+lblExecBefore.Caption=Executar antes do do&wnload:
+lblExecAfter.Caption=Executar &após o download:
+lblSLTime.Caption=minutos
+lblSLTSize.Caption=KBytes
+Label17.Caption=&Limites
+Label18.Caption=&Buscando
+bxSLTSize.Caption=Interromper o download &se o tamanho total exceder
+bxSLNumber.Caption=Interromper o download se o número de arquivos e&xceder
+bxSLTime.Caption=Interromper o download se o &tempo exceder
+bxLJavaScript.Caption=Habilitar o processamento de sc&ripts
+cbCheckFiles.Caption=Verifi&car integridade de arquivos HTML
+bxLJavaClass.Caption=Permitir execução de classes &Java
+bxLPrimary.Caption=Sempre mant&er arquivos ' *.primary '
+btnSubst.Caption=Substitutos de &URL...
+Label19.Caption=&Localização
+Label20.Caption=Tamanho dos arquivos
+Label21.Caption=&Extensões
+cbFTLocation.0=Utilizar configuração dos Filtros URL
+cbFTLocation.1=A partir do servidor inicial
+cbFTLocation.2=A partir do diretório inicial
+cbFTLocation.3=De qualquer site
+rbFTS1.Caption=Qualquer tamanho de ar&quivo
+rbFTS2.Caption=Somente tamanh&os selecionados:
+cbFTSHigh.Caption=Tamanho Má&ximo
+cbFTSLow.Caption=Taman&ho Mínimo
+cbFTSMD.Caption=Utilizar o &Mass Downloader
+rbFTI1.Caption=&Todos os tipos de arquivos listados
+rbFTI2.Caption=&Somente os tipos selecionados:
+btnFTAdd.Caption=<< &Adicionar
+btnFTDel.Caption=>>  &Remover
+Label22.Caption=Sites protegidos ou áreas protegidas
+Label23.Caption=Nota: para autorização NTLM, digite DOMÍNIO\Usuário no campo Nome de Usuário.
+rbSPsw0.Caption=&Usar este nome e esta senha
+lblSUserName.Caption=&Nome de Usuário:
+lblSPassword.Caption=Sen&ha:
+rbSPsw1.Caption=para conectarse em &Websites e servidores FTP protegidos.
+rbSPsw5.Caption=em formulários H&TML
+rbSPsw2.Caption=&Perguntar nome de usuário e senha em sites protegidos
+rbSPsw3.Caption=I&gnorar sites protegidos e continuar o download
+rbSPsw4.Caption=Interromper o download se o &site possuir proteção
+Label40.Caption=Descarregar arquivos dos seguintes servidores
+Label41.Caption=Configuração personalizada de palavraschave
+Label6.Caption=Palavra C&have:
+cbLSrvs.0=Ver palavraschave excluídas
+cbLSrvs.1=Ver palavraschave incluídas
+btnLSAdd.Caption=&Adicionar >>
+btnLSDel.Caption=&Remover <<
+lblOtherSrvLev.Caption=links em outros Servidores
+rbSPro4.Caption=Arquivos localizados somente no Servidor inicial
+rbSPro5.Caption=Arquivos localizados somente no Domínio inicial
+cbOtherSrvLev.Caption=D&escarregar até
+rbSPro1.Caption=Descarregar &arquivos de todos os servidores
+rbSPro2.Caption=Descarregar s&omente a partir do
+rbSPro3.Caption=&Configuração personalizada de Servidores
+rbSProSrv.Caption=&Servidor
+rbSProDmn.Caption=&Domínio inicial
+Label36.Caption=Arquivos localizados nos seguintes Diretórios
+Label37.Caption=Configuração personalizada de palavraschave
+Label7.Caption=Palavra C&have:
+cbLDirs.0=Ver palavraschave excluídas
+cbLDirs.1=Ver palavraschave incluídas
+btnLPAdd.Caption=&Adicionar >>
+btnLPDel.Caption=&Remover <<
+rbUFDir1.Caption=Descarregar de &todos Diretórios
+rbUFDir2.Caption=A partir do &Diretório inicial e subsequentes
+rbUFDir3.Caption=&Configuração personalizada de diretórios
+Label38.Caption=Descarregar arquivos com os seguintes nomes
+Label39.Caption=Configuração personalizada de palavraschave
+rbUFFile1.Caption=Carregar arquivos com &qualquer nome
+rbUFFile2.Caption=Arquiv&os com o mesmo nome
+rbUFFile3.Caption=&Configuração personalizada de nome de arquivo
+Label8.Caption=Palavra C&have:
+cbLFiles.0=Ver palavraschave excluídas
+cbLFiles.1=Ver palavraschave incluídas
+btnLFAdd.Caption=&Adicionar >>
+btnLFDel.Caption=&Remover <<
+Label9.Caption=Selecione uma Subcategoria para ser exibida
+Label10.Caption=I&ntervalos de download:
+Label5.Caption=Intervalo de &Tempo:
+Label26.Caption=Dia da &Semana:
+Label27.Caption=&Dia:
+Label28.Caption=&Mês:
+Label25.Caption=Download Automático do Projeto no horário agendado
+Label24.Caption=&Tempo:
+WhenBox.0=Manualmente
+WhenBox.1=Diariamente
+WhenBox.2=Semanalmente
+WhenBox.3=Mensalmente
+WhenBox.4=Anualmente
+WhenBox.5=A cada
+WeekdayBox.0=Domingo
+WeekdayBox.1=Segundafeira
+WeekdayBox.2=Terçafeira
+WeekdayBox.3=Quartafeira
+WeekdayBox.4=Quintafeira
+WeekdayBox.5=Sextafeira
+WeekdayBox.6=Sábado
+MonthBox.0=Janeiro
+MonthBox.1=Fevereiro
+MonthBox.2=Março
+MonthBox.3=Abril
+MonthBox.4=Maio
+MonthBox.5=Junho
+MonthBox.6=Julho
+MonthBox.7=Agosto
+MonthBox.8=Setembro
+MonthBox.9=Outubro
+MonthBox.10=Novembro
+MonthBox.11=Dezembro
+OnceBox.Caption=S&omente uma vez
+Label29.Caption=Carregar arquivos dos seguintes protocolos
+Label30.Caption=Protocolos Personali&zados
+rbUFProt1.Caption=&Todos protocolos
+rbUFProt2.Caption=Somente &Protocolo inicial
+rbUFProt3.Caption=&Configuração Personalizada
+cbUP0.Caption=Carregar de &Websites (protocolo HTTP)
+cbUP1.Caption=Carregar de sites de &FTP (protocolo FTP)
+cbUP3.Caption=Carregar de Websites &Seguros (protocolo HTTPS)
+cbUP2.Caption=Carregar de arquivos &locais (file://)
+cbUP4.Caption=Carregar arquivos de streaming MS &Media Player (protocolo MMS)
+cbUP5.Caption=Carregar arquivos de streaming &Real (protocolo RTSP)
+Label2.Caption=Escolha esta opção se você deseja traduzir todos os links (válidos ou não) para um local OFFLINE.
+Label11.Caption=Escolha esta opção se você deseja traduzir todos os links  (válidos ou não) para sua localização ONLINE.
+Label1.Caption=Escolha esta opção caso você queira realizar uma cópia exata do Website, incluindo os links originais. (Atenção: A navegação de um Projeto descarregado desta maneira pode se tornar inviável caso você não esteja conectado à Internet.)
+Label31.Caption=&Traduzir links ao descarregar páginas
+rbLOffline.Caption=Tradução &Offline
+rbLOnline.Caption=Tradução On&line
+rbNotTranslate.Caption=&Sem Tradução
+Label32.Caption=Fazer cópias de arquivos antigos ao invés de sobrescrevêlos
+lblLKeepCopies.Caption=cópias
+Label33.Caption=F&ormato do nome de arquivos antigos
+bxLKeepCopies.Caption=Manter ar&quivos antigos:
+cbMSIECache.Caption=&Copiar arquivos para o cache do Internet Explorer
+Label34.Caption=Palavras chave de &Texto
+Label12.Caption=Palavras c&have:
+Label35.Caption=&Notificação
+Label3.Caption=Notificar por &Email (endereços separados por vírgulas ou espaços):
+Label13.Caption=Ass&unto:
+cbSearchForAll.Caption=Buscar por &todas palavras chave
+cbSaveNoKw.Caption=&Salvar páginas sem palavras chave contidas no texto
+cbGraphNoKw.Caption=Descarregar arquivos &gráficos para páginas sem palavras chave contidas
+btnSelAll.Caption=&Todos
+btnSelNone.Caption=&Nenhum
+btnImageSize.Caption=&Dimensões da Imagem...
+odImportKeywords.Caption=Carregar Palavras chave a partir de arquivo de texto
+odImportKeywords.Filter=Arquivos de Texto|*.txt|Todos arquivos|*.*
+cbFMSkipMedia.Caption=Pular arquivos de Mídia &existentes
+cbExploreDirs.Caption=E&xplorar todos subdiretórios
+Label43.Caption=(F11 para expandir)
+Label42.Caption=Ignorar as seguintes &URLs durante o download
+cbIgnoreErrors.Caption=Su&primir os erros de Web site
+cbExploreForms.Caption=Explorar Formulários HT&ML
+cbExploreSSMaps.Caption=Carregar m&apas de imagem serverside
+cbFCZeros.Caption=Adicionar &zeros iniciais
+cbFCUseDate.Caption=Usar &data/hora no seguinte formato:
+cbStopOnKw.Caption=Interrom&per o download quando palavras chave forem encontradas
+Label44.Caption=(F12 para lista de comandos)
+cbComplexScripts.Caption=A&valiar cálculo dos scripts
+cbNoSaveKw.Caption=&Não gravar páginas com palavras-chave no texto
+MenuItem1.Caption=Desfa&zer
+MenuItem3.Caption=Cor&tar
+MenuItem4.Caption=&Copiar
+MenuItem5.Caption=Co&lar
+MenuItem6.Caption=Apa&gar
+MenuItem8.Caption=Se&lecionar Tudo
+Label56.Caption=Testar uma URL com os Filtros de UR&L
+btnUFTest.Caption=&Testar
+cbUP6.Caption=Carregar streams de R&eal (Protocolo PNM)
+Label46.Caption=Algumas categorias de Filtros de Arquivos não usam as configurações de Filtros de URL na caixa de Localização.
+Label45.Caption=Nota:
+Label51.Caption=(F11 para expandir)
+btnLSUp.Caption=Mover &acima
+btnLSDown.Caption=Mover a&baixo
+Label47.Caption=Nota:
+Label48.Caption=Algumas categorias de Filtros de Arquivos não usam as configurações de Filtros de URL na caixa de Localização.
+Label52.Caption=(F11 para expandir)
+btnLPUp.Caption=Mover &acima
+btnLPDown.Caption=Mover a&baixo
+Label50.Caption=Algumas categorias de Filtros de Arquivos não usam as configurações de Filtros de URL na caixa de Localização.
+Label49.Caption=Nota:
+Label53.Caption=(F11 para expandir)
+btnLFUp.Caption=Mover &acima
+btnLFDown.Caption=Mover a&baixo
+cbConvertRSS.Caption=Converter fontes &RSS para HTML
+cbSearchInTags.Caption=Buscar dentro das &tags de HTML
+Label54.Caption=Filtros TextPipe
+Label55.Caption=Opções de execução do TextPipe
+rbFilter1.Caption=Executar TextPipe com um &novo filtro
+rbFilter2.Caption=Usar o arquivo de &filtro TextPipe (*.fll) para processar os arquivos descarregados:
+cbPassFiles.Caption=&Passar arquivos descarregados do Projeto para TextPipe
+cbTextOnly.Caption=Examinar dados somente de arquivos de &Texto e HTML
+cbRun.Caption=Executa&r filtro ao iniciar o TextPipe
+cbQuit.Caption=Encerrar TextPipe após utili&zar o filtro
+cbDMNew.Caption=Examinar &dados somente de arquivos novos e atualizados
+ItemTree.23=Examinar Dados
+mpCut.Caption=Recor&tar
+mpCopy.Caption=&Copiar
+mpPaste.Caption=Co&lar
+mpEdit.Caption=&Editar
+dlgOpenFilter.Caption=Abrir arquivo de filtro
+dlgOpenFilter.Filter=Arquivos de Filtro TextPipe|*.fll|Todos Arquivos|*.*
+
+[wndSchedMan]
+Caption=Gerenciador de Tarefas Agendadas
+
+lvSeq.0=Projetos
+lblPrj.Caption=Nome do Projeto:
+lblSch.Caption=Agendado para:
+cbWhen.0=Escala diária
+cbWhen.1=Escala semanal
+cbWhen.2=Escala mensal
+cbWhen.3=Escala anual
+cbWhen.4=Sequenciador
+cbSuspend.Caption=&Suspender sequenciador
+cbLoop.Caption=&Repetir
+miSSelect.Caption=Selecionar &Projeto
+miSSkip.Caption=Atribuir &Sequenciador a este projeto
+miSRemove.Caption=&Remover
+miSRemoveAll.Caption=Remover &Tudo
+
+[dlgCSearch]
+Caption=Buscar conteúdo
+
+btnFind.Caption=&Encontrar
+btnCancel.Caption=Cancelar
+btnBrowse.Caption=&Navegar
+Label1.Caption=&Palavraschave:
+cbSearchForAll.Caption=&Todas palavraschave:
+cbTextOnly.Caption=Só Arquivos de &Texto
+cbRecent.Caption=Somente Arquivos &Recentes
+btnSave.Caption=&Salvar
+btnDelete.Caption=&Deletar
+sdSave.Caption=Salvar Resultados da Busca
+sdSave.Filter=HTML files - offline links|*.htm|HTML files - online links|*.htm|Text files|*.txt|All files|*.*
+btnAbort.Caption=C&ancelar
+cbSearchInTags.Caption=Buscar dentro das &tags de HTML
+
+[dlgCleanUp]
+Caption=Limpar sites descarregados
+
+btnAbort.Caption=&Abortar
+btnDelSel.Caption=Apagar &Selecionados
+btnDelAll.Caption=&Apagar Tudo
+btnClose.Caption=&Fechar
+btnMaps.Caption=Arquivos de &Mapa não utilizados
+miCUOpen.Caption=Abrir arquiv&o ou diretório
+miCUDelete.Caption=Apa&gar
+
+[DialerForm]
+Caption=Tabela do Discador
+
+Label3.Caption=Status:
+Label4.Caption=Último erro:
+CancelButton.Caption=Cancelar
+
+[TipForm]
+Caption=Dica do Dia
+
+Label2.Caption=Você sabia que...
+cbShowOnStart.Caption=Exibir dicas ao iniciar
+Box.0=Clicar com o botão direito do mouse em um Projeto ou Mapa exibe o menu contextual, que irá auxiliálo nas operações de edição, visualização e navegação dos sites da Web.
+Box.1=Para interromper o download de um arquivo, clique com o botão direito do mouse sobre o arquivo no Painel de Mensagens e selecione "Abortar".
+Box.2=Você pode descarregar um web site rapidamente simplesmente digitando o endereço na Barra de Endereços e pressionando Enter, da mesma maneira que você faria utilizando o Internet Explorer da Microsoft. Você pode também clicar no botão Download.
+Box.3=Se você quiser alterar a quantidade de níveis da busca, altere o número de níveis na caixa correspondente, ao lado da Barra de Endereços.
+Box.4=Você pode executar o Navegador Interno (NI) do OE ao habilitar a opção Ver | Barra do Explorer | Navegador Interno. Uma vez que o NI for exibido, você pode dar um duplo clique em qualquer Projeto, e o mesmo será exibido no NI.
+Box.5=Você pode fazer o download de vários web sites selecionando cada um deles separadamente no menu de Projetos, e clicando no botão Iniciar (ícone do raio), ou você pode selecionar e clicar em uma pasta contendo vários web sites. Todos web sites constantes desta pasta terão seu download iniciado.
+Box.6=Os Filtros de URL incluídos na seção de Propriedades permitem que você faça o download somente dos servidores, diretórios ou arquivos desejados utilizando Palavraschave. Cada servidor, diretório ou arquivo pode ser incluído ou excluído do download, de acordo com estas Palavraschave. Veja o Arquivo de Ajuda para maiores detalhes.
+Box.7=Se você deseja fazer o download somente de imagens do tipo GIF, vá até o botão Propriedades | Filtros de Arquivo | Subcategoria de Imagens, e selecione "Somente os tipos selecionados". Em seguida, desmarque todos os tipos de Imagens, com exceção da opção GIF, e todos os outros tipos listados nos Filtros de Arquivos (Texto, Vídeo, etc) com exceção de Imagens e inicie o download.
+Box.8=Use os parâmetros de linha de comando para integrar o Offline Explorer com outras ferramentas de agendamento de tarefas fabricadas por outras empresas, e para executar algumas operações específicas, tais como desligar o computador após o download. Veja o Arquivo de Ajuda para a descrição detalhada.
+Box.9=Para fazer o download de uma cópia exata de um site da Web, habilite a opção "Sem tradução" localizada em Propriedades | Avançado | Tradução de links.
+Box.10=Visite regularmente o nosso Web site para saber mais sobre atualizações recentes, notícias, novidades, plugins, etc.
+Box.11=Você pode navegar, visualizar e editar qualquer página da web que foi descarregada, adicionando programas específicos no painel de Ferramentas, localizada em Opções | Ferramentas. Estas ferramentas podem ser acessadas a partir do menu Ver ou então dos Divisores Projetos ou Mapas.
+Box.12=Você pode ver um registro (log) do seu download selecionando Ver | Mensagens | Painel ou Janela de Registro. Se você selecionar Mensagens | Painel, um painel redimensionável será exibido logo acima da barra de status. Se você selecionar Mensagens | Janela, uma nova janela será criada, permitindo que você Rastreie, Pause, Limpe, Salve ou Filtre seu Registro.
+Box.13=Faça o download de seu Web site favorito importando a URL de seu navegador. O Offline pode importar URL's do MSIE, Netscape e Opera. Para importar uma URL clique em Arquivo | Importar.
+Box.14=Você pode configurar Propriedades Padrão para todos os downloads, alterando as informações contidas nas Propriedades do Modelo Padrão, localizadas em Arquivo | Modelos | Propriedades.
+Box.15=Você pode suspender temporariamente, e retomar um download posteriormente em outro dia, utilizando as opções "Suspender para Arquivo" e "Reiniciar do Arquivo", localizadas no menu Download.
+Box.16=Você pode suspender temporariamente o download e retomálo posteriormente, utilizando as opções "Suspender" e "Reiniciar", encontradas no menu Download. (Nota: A opção "Suspender" será alterada para "Reiniciar" quando você clicar em "Suspender".)
+Box.17=Você pode agendar seus downloads para qualquer momento, utilizando o painel de Agendamento, localizado em Propriedades | Avançado | Agendar.
+Box.18=Você pode utilizar Ver | Gerenciador de Tarefas, arrastando um projeto para a janela do Gerenciador.
+Box.19=Descarregue um site protegido por senha usando o controle de Senhas, em Propriedades | Avançado | Senhas.
+Box.20=Você pode imprimir uma página a partir do Navegador Interno, usando o botão Imprimir.
+Box.21=Para ver algumas estatísticas do download de Projetos, clique no botão Início do Navegador Interno.
+Box.22=Para criar um novo Modelo baseado em um Projeto existente, copie este projeto para a Área de Transferência, abra a janela de Modelos, e cole utilizando a combinação Ctrl+V.
+Box.23=Para ordenar Projetos dentro de uma Pasta de Projetos, clique com o botão direito na pasta desejada, e selecione a opção Ordenar do menu contextual.
+Box.24=Você pode navegar pelos arquivos utilizando um clique simples no Divisor Mapa. Para habilitar esta função, dê um clique com o botão direito no Mapa do Site, e habilite a opção "Navegação com um único clique".
+Box.25=Para salvar uma página da Web no Navegador Interno, pressione ao mesmo tempo as teclas Ctrl + Alt + S.
+Box.26=A tecla F11 alterna entre os modos Tela Cheia / Janela do Navegador Interno.
+Box.27=Use a combinação de teclas Ctrl+A e Ctrl+N para selecionar todas/nenhuma extensão, nas janelas de Propriedades de Projeto | Filtro de Arquivos.
+Box.28=Você pode ver a lista dos arquivos que foram descarregados durante a última sessão utilizando o botão Editar | Encontrar conteúdo. Digite um espaço no campo Palavraschave, e selecione a opção "Somente arquivos recentes".
+Box.29=Para mover todas as Palavraschave da lista de Exclusão para a lista de Inclusão (e viceversa), em Filtros de URL localizado nas Propriedades do Projeto, pressione a combinação Ctrl+M.
+Box.30=Para selecionar todas as Palavraschave da janela de Filtros de URL em Propriedades do Projeto, pressione Ctrl + A. Ctrl + N alterna a seleção para nada selecionado.
+Box.31=Você agora pode utilizar números romanos nas macros de URL.
+Box.32=Para suspender um único Projeto para um arquivo e manter o download de outros Projetos, dê um clique com o botão direito no Projeto desejado, e selecione Download | Suspender Projeto para Arquivo para arquivo WDO no menu popup.
+Button1.Caption=Fechar
+Button2.Caption=Próxima dica
+
+[dlgProxyURLDetect]
+Caption=Detectar configurações de Proxy
+
+Label1.Caption=Detectando configurações de proxy a partir da URL:
+Label2.Caption=Os servidores de Proxy abaixo foram detectados. Selecione um deles e clique em OK.
+lbProxies.0=Nenhum servidor Proxy detectado.
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+
+[dlgSeqSchedule]
+Caption=Agendamento do Sequenciador
+
+Label10.Caption=&Intervalos de Download:
+Label5.Caption=In&tervalo de tempo:
+Label24.Caption=&Hora:
+Label26.Caption=Dia da se&mana:
+Label27.Caption=&Dia:
+Label28.Caption=&Mês:
+Label25.Caption=Iniciar sequenciador conforme programação
+WhenBox.0=Manualmente
+WhenBox.1=Diariamente
+WhenBox.2=Semanalmente
+WhenBox.3=Mensalmente
+WhenBox.4=Anualmente
+WhenBox.5=A cada
+WeekdayBox.0=Domingo
+WeekdayBox.1=Segunda
+WeekdayBox.2=Terça
+WeekdayBox.3=Quarta
+WeekdayBox.4=Quinta
+WeekdayBox.5=Sexta
+WeekdayBox.6=Sábado
+MonthBox.0=Janeiro
+MonthBox.1=Fevereiro
+MonthBox.2=Março
+MonthBox.3=Abril
+MonthBox.4=Maio
+MonthBox.5=Junho
+MonthBox.6=Julho
+MonthBox.7=Agosto
+MonthBox.8=Setembro
+MonthBox.9=Outubro
+MonthBox.10=Novembro
+MonthBox.11=Dezembro
+OnceBox.Caption=S&omente uma vez
+btnOK.Caption=OK
+btnCancel.Caption=Cancelar
+
+[dxBarCustomizationForm]
+Caption=Personalizar
+
+BClose.Caption=Fechar
+TabSheet1.Caption= Barras de Ferramentas
+LabelToobars.Caption=B&arras de Ferramentas:
+BBarDelete.Caption=&Apagar
+BBarNew.Caption=&Novo...
+BBarRename.Caption=R&enomear...
+BBarReset.Caption=&Reiniciar...
+TabSheet2.Caption= Comandos
+LabelCategories.Caption=Cate&gorias:
+LabelCommands.Caption=Coman&dos:
+LabelDescription.Caption=Descrição
+TabSheet3.Caption= Opções
+LabelMenuAnimations.Caption=Animações de &Menu:
+ComboBoxMenuAnimations.0=(Nenhum)
+ComboBoxMenuAnimations.1=Aleatório
+ComboBoxMenuAnimations.2=Desdobrar
+ComboBoxMenuAnimations.3=Deslizar
+CBHint1.Caption=Exibir Dicas nas Barras de Ferramen&tas
+CBHint2.Caption=Exibir Teclas de Atal&ho nas Dicas de Ferramentas
+CBLargeIcons.Caption=Ícones &Grandes
+Label1.Caption=Animações do &Menu:
+Label2.Caption=Outros
+Label3.Caption=Menus e Barras de Ferramentas Personalizadas
+ComboBoxMenuAnimationsEx.0=(Nenhum)
+ComboBoxMenuAnimationsEx.1=Aleatório
+ComboBoxMenuAnimationsEx.2=Desdobrar
+ComboBoxMenuAnimationsEx.3=Deslizar
+CBHint1Ex.Caption=Exibir Dicas nas Barras de Ferramen&tas
+CBHint2Ex.Caption=Exibir Teclas de Atal&ho nas Dicas de Ferramentas
+CBLargeIconsEx.Caption=Ícones &Grandes
+CBMenusShowRecentItemsFirst.Caption=Me&nus exibem comandos recentes antes na lista
+CBShowFullMenusAfterDelay.Caption=Exibir menus comp&letos após intervalo de tempo
+BResetUsageData.Caption=&Apagar meus dados de utilização do programa
+ComboBoxMenuAnimationsEx.4=Esmaecer
+TabSheet4.Caption= Todos comandos
+CBShowCommandsWithShortCut.Caption=Exibe comandos que podem ter atalhos de teclado
+GroupBox1.Caption= Grupos
+btnGroupAdd.Caption=Adicionar
+btnGroupDelete.Caption=Apagar
+GroupBox2.Caption= Itens
+btnGroupItemAdd.Caption=&Adicionar...
+btnGroupItemDelete.Caption=Apagar
+CategoriesAdd.Caption=Adicionar...
+CategoriesAdd.Hint=Adicionar
+CategoriesInsert.Caption=Inserir...
+CategoriesInsert.Hint=Inserir
+CategoriesRename.Caption=Renomear...
+CategoriesRename.Hint=Renomear
+CategoriesVisible.Caption=Visível
+CategoriesVisible.Hint=Visível
+CommandsAdd.Caption=Adicionar...
+CommandsAdd.Hint=Adicionar
+CommandsDelete.Caption=Apagar
+CommandsDelete.Hint=Apagar
+CommandsClear.Caption=Limpar
+CommandsClear.Hint=Limpar
+CommandsMoveUp.Caption=Mover Acima
+CommandsMoveUp.Hint=Mover Acima
+CommandsMoveDown.Caption=Mover Abaixo
+CommandsMoveDown.Hint=Mover Abaixo
+CommandsSubMenuEditor.Caption=Editor de SubMenu...
+CommandsSubMenuEditor.Hint=Editor de SubMenu
+CategoriesItemsVisible.Caption=Itens Visíveis:
+CategoriesItemsVisible.Hint=Itens Visíveis:
+CategoriesDelete.Caption=Apagar
+CategoriesDelete.Hint=Apagar
+
+[Strings]
+Padrão
+Vazio
+Não foi possível encontrar o Navegador Padrão
+Erro
+Não foi possível iniciar o Navegador Padrão
+Você quer remover
+Confirmação
+Você quer remover todos os arquivos do(s) Projeto(s)
+Pelo menos uma Pasta deve existir
+Você quer remover todos os Projetos desta Pasta ou nesta seleção
+Erro ao inicializar Programa Externo
+Descarregado
+arquivo(s)
+Fila
+Tamanho
+Kb
+Nova Pasta
+&Reiniciar
+&Suspender
+Velocidade
+bytes/s
+Você deseja sair?
+Propriedades Padrão de Projetos
+Parar o Download?
+Filtrar conforme Servidor, Diretório, Nome de Arquivo ou Palavraschave
+Configurações Avançadas do Projeto
+Nome do Projeto, Endereço e Níveis
+Senhas utilizadas para Websites protegidos
+Seleção de tipos de arquivo
+Limitar servidores utilizando palavraschave
+Limitar diretórios utilizando palavraschave
+Limitar arquivos utilizando palavraschave
+Quando o Projeto deverá ser descarregado
+Configuração de conteúdo de categorias
+Conexão à Internet e configurações do Servidor HTTP
+Configurações de Senhas e Tipo do Servidor Proxy
+Onde os arquivos descarregados serão gravados
+Configure o limite de espaço livre em disco
+Configurações especiais que afetam todo o programa
+Ao navegar em um site da Web, exibir opções de escolha dentre estas ferramentas
+Lista de navegadores para explorar sites
+Ao navegar em um site da Web, exibir opções de escolha dentre estas ferramentas
+Lista de programas para visualizar arquivos da Web
+Ao editar um site da Web, exibir opções de escolha dentre estas ferramentas
+Lista de programas para editar arquivos da Web
+MB LIvres
+Não foi possível encontrar dados coincidentes
+Descarregando
+Pronto
+Suspendendo
+Buscando
+Procurando
+&Importar
+Maximizar o Navegador Interno para tela cheia
+Restaurar o Navegador Interno ao tamanho normal
+Limitar protocolos
+Os "Cookies" estão atualmente desabilitados em seu computador. Você quer habilitálos agora?
+Selecione o modo de tradução dos links
+Editor de Modelos
+Parar o download deste arquivo?
+Propriedades Gerais do Projeto
+Vários modos de atualização do Projeto
+Nome da Pasta e Diretório de Download
+Integração com o Sistema
+Manter arquivos antigos se houver novas versões
+Discagem ao fazer o download de sites da Internet
+Desconectar, sair && desligar o computador
+Você quer desligar a conexão do modem?
+Mb
+Gb
+Filtrar páginas descarregadas utilizando palavraschave no conteúdo
+Confirmar certas operações
+segundos
+Download completo
+Download do Projeto agendado
+Projeto não descarregado
+Endereço (URL) não encontrado
+Download interrompido
+Este procedimento irá buscar todos os arquivos e sites descarregados, e exibir uma lista para que você possa escolher.
+Você deseja continuar?
+Descarregado
+Tamanho
+Limitar velocidade do download
+Você deseja iniciar todos os Projetos desta Pasta?
+Você quer interromper o Projeto anterior?
+Você quer interromper todos os Projetos desta Pasta?
+Documento não encontrado
+Esta página não está acessível no modo offline. Razões possíveis: ou o link no servidor era inválido ou as configurações do Projeto não permitiram o download desta página. Em alguns casos, aumentar o valor da configuração de Níveis do Projeto pode solucionar o problema.
+Clique aqui para ir online
+Informação
+bytes
+Tamanho total dos arquivos é de
+Esta opção fará com que o diretório de download de todos subdiretórios (Projetos) desta Pasta seja alterado para o valor escolhido.
+Você deseja continuar?
+Projeto
+O servidor informou que a URL inicial foi transferida para um novo endereço:
+Você deseja reiniciar o download utilizando o novo valor de URL do Projeto? (clique em Cancelar para manter o endereço URL antigo)
+Ação quando o download do Projeto finalizar
+Abrir arquivo
+Selecionado
+Você deseja manter a informação dos arquivos removidos para descarregar arquivos novos e modificados depois?
+Nível de Arquivos:
+Não Registrado
+Usuário/Licença por Computador
+Licença Ilimitada por Site
+Licença por Site
+Usuários / Licenças por Computadores
+Licença Temporária. Expira em
+Projetos
+URLs
+Suspenso para arquivo
+Último download de %s a %s
+Nenhum Projeto selecionado
+Você está no dia %s do seu período de avaliação de 30 dias.
+dias
+Marcar como Home page
+Você não atualiza o Projeto há %s dias
+As Senhas digitadas não são iguais
+A Senha é inválida
+Você deseja sobrescrever Projetos existentes?
+Verificar por versões mais novas
+Arraste Projetos para adicioná-los ao Agendador
+Arraste Projetos para adicioná-los ao Sequenciador
+Links Múltiplos
+New browser
+New Template
+Download the missing link now and add it to the selected Project
+Welcome Page
+Download Speed Chart. No download activity within %s seconds.
+Download Speed Chart. Max = %s, Avg = %s within %s seconds.
+Download limits
+Advanced parsing settings
+New version detected:
+Do you want to download and install it?
+You have the most recent version of

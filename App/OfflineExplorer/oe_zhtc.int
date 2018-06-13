@@ -1,0 +1,2460 @@
+[Intl File 4.0]
+Language=Traditional Chinese
+Charset=1
+Font=宋體
+FontSize=9
+
+[MainForm]
+About1.Caption=關於 Offline Explorer(&A)...
+About1.Hint=關於程式
+btnCreate.Caption=下載(&D)
+btnExpandIB.Hint=最大化內置流覽器到全屏
+btnExpandIB1.Hint=將內置編輯器最大化至全屏
+btnExpandIB2.Caption=最大化/還原
+btnExpandIB2.Hint=最大化內置流覽器到全屏
+Delete1.Caption=刪除(&D)
+dlgRFromFile.Caption=從檔中繼續
+dlgRFromFile.Filter=佇列檔|*.wdq|所有檔|*.*
+dlgStoFile.Caption=掛起到文件
+dlgStoFile.Filter=佇列檔|*.wdq|所有檔|*.*
+dxBarStatic1.Caption=下載進程
+dxBarStatic1.Hint=下載進程
+dxbManager.0=主菜單
+dxbManager.1=工具條
+dxbManager.10=下載控制
+dxbManager.11=工具
+dxbManager.12=幫助
+dxbManager.13=管理
+dxbManager.14=創建
+dxbManager.15=項目視圖
+dxbManager.16.Hint=網路連結設置
+dxbManager.16=下載
+dxbManager.17=設置
+dxbManager.18=快捷按鈕工具條
+dxbManager.2=進程工具條
+dxbManager.3=流覽器工具條
+dxbManager.4=編輯器工具條
+dxbManager.5=資訊日誌
+dxbManager.6=計畫管理器工具條
+dxbManager.7=資料採擷
+dxbManager.8.Hint=設置外部工具
+dxbManager.8=流覽&&編輯(&E)
+dxbManager.9=使用者介面
+dxbSClose.Caption=關閉(&C)
+dxbSClose.Hint=關閉任務計畫管理器
+dxbSeqLoop.Caption=迴圈佇列
+dxbSeqLoop.Hint=迴圈佇列
+dxbSeqRemove.Caption=從佇列中移除已下載項目(&R)
+dxbSeqRemove.Hint=從佇列中移除已下載項目
+dxbSScheduler.Caption=任務計畫
+dxbSScheduler.Hint=任務計畫
+dxbSSeqRun.Caption=開始運行佇列
+dxbSSeqRun.Hint=開始運行佇列
+dxbSSeqStartAt.Caption=開始開始運行佇列, 在...
+dxbSSeqStartAt.Hint=開始開始運行佇列, 在...
+dxbSSequencer.Caption=佇列
+dxbSSequencer.Hint=佇列
+dxcSSelect.0=按日計畫
+dxcSSelect.1=按周計畫
+dxcSSelect.2=按月計畫
+dxcSSelect.3=按年計畫
+edtAddress.Caption=在此處輸入網址創建專案並下載網站
+edtIB2Search.Caption=使用Google搜索:
+edtIB2Search.Hint=使用Google搜索:
+edtWBURL.Hint=要在內部流覽器中流覽的網址
+edtWBURL2.Caption=地址:
+edtWBURL2.Hint=地址:
+lblAddress.Caption=地址:
+lblDisabledURLs.Caption=禁用的 URLs(&U)
+lblLevel.Caption=級別:
+Log4.0=源
+Log4.1=時間
+Log4.2=信息
+lvSeq.0=項目
+MenuItem1.Caption=撤銷(&U)
+MenuItem10.Caption=自動換行(&W)
+MenuItem4.Caption=剪切(&T)
+MenuItem5.Caption=複製(&C)
+MenuItem6.Caption=粘貼(&P)
+MenuItem7.Caption=刪除(&D)
+MenuItem9.Caption=全選(&L)
+miDDAdd.Caption=將連結添加到選中專案(&A)
+miDDAdd.Hint=將連結添加到選中專案
+miDDAddUS.Caption=添加連結(應用網址替換)(&U)
+miDDCreate.Caption=創建新項目(&C)
+miDDCreate.Hint=將連結添加為新專案
+miDEW1.Hint=DEW 1
+miDEW2.Hint=DEW 2
+miDEW3.Hint=DEW 3
+miDEW4.Hint=DEW 4
+miDEW5.Caption=抽取儲存格
+miDEW5.Hint=抽取儲存格
+miDownload.Caption=下載(&D)
+miDResumeFile.Caption=從檔中繼續(&I)...
+miDResumeFile.Hint=從檔中恢復下載佇列
+miDSBackground.Caption=後臺(&B)
+miDSBackground.Hint=後臺
+miDSContinue.Caption=下載丟失的檔(&D)
+miDSContinue.Hint=檢查連結是否已丟失並嘗試下載丟失的連結
+miDSHigh.Caption=高(&H)
+miDSHigh.Hint=高
+miDSLow.Caption=低(&L)
+miDSLow.Hint=低
+miDSMedium.Caption=中(&M)
+miDSMedium.Hint=中
+miDSpeed.Caption=速度(&E)
+miDSpeed.Hint=速度
+miDSPreview.Caption=網站地圖
+miDSPreview.Hint=網站地圖|生存網站地圖預覽
+miDSRestart.Caption=重新開始下載(&R)
+miDSRestart.Hint=完全重新下載選中的專案
+miDStart.Caption=開始(&S)
+miDStart.Hint=下載項目或資料夾
+miDStartAll.Caption=全部開始(&L)
+miDStartAll.Hint=開始下載全部專案
+miDStop.Caption=停止(&P)
+miDStop.Hint=停止下載選中專案
+miDStopAll.Caption=全部停止(&A)
+miDStopAll.Hint=停止下載全部專案
+miDSUpdate.Caption=更新項目(&U)
+miDSUpdate.Hint=下載選中的專案以便獲取新的或已更改的檔
+miDSuspend.Caption=掛起(&U)
+miDSuspend.Hint=掛起/繼續下載
+miDSuspendFile.Caption=掛起到文件(&F)...
+miDSuspendFile.Hint=將下載佇列保存到檔
+miECopy.Caption=複製(&C)
+miECopy.Hint=將選中的專案或資料夾複製到剪貼板
+miECut.Caption=剪切(&T)
+miECut.Hint=將選中的項目或資料夾剪切到剪貼板
+miEDelete.Caption=目錄或檔(&D)
+miEDelete.Hint=刪除選中目錄或檔
+miEDeleteFiles.Caption=僅僅專案檔案(&O)
+miEDeleteFiles.Hint=刪除選中項目的下載檔案
+miEdit.Caption=編輯(&E)
+miEFindContents.Caption=查找內容(&O)...
+miEFindContents.Hint=在已下載的檔中搜索關鍵字
+miEFindFiles.Caption=查找文件或資料夾(&F)...
+miEFindFiles.Hint=查找專案、資料夾或檔
+miEPaste.Caption=粘貼(&P)
+miEPaste.Hint=從剪貼板粘貼項目或資料夾
+miESelectAll.Caption=全選(&S)
+miESelectAll.Hint=全選
+miEUndoDel.Caption=撤銷刪除(&U)
+miEUndoDel.Hint=恢復刪除的項目或資料夾
+miFDelete.Caption=刪除(&D)
+miFDelSelected.Caption=刪除
+miFDelSelected.Hint=刪除選中專案、資料夾或檔
+miFDFolder.Caption=資料夾(&F)
+miFDFolder.Hint=刪除選中資料夾
+miFDOld.Caption=舊專案檔案(&L)
+miFDOld.Hint=刪除選中專案裝入的所有檔
+miFDProject.Caption=項目(&P)
+miFDProject.Hint=刪除選中項目
+miFDProperties.Caption=範本(&T)...
+miFDProperties.Hint=所有新建專案的缺省屬性
+miFExit.Caption=退出(&X)
+miFExit.Hint=退出程式
+miFExport.Caption=匯出(&E)...
+miFExport.Hint=將下載的專案檔案複製到另外一個目錄
+miFile.Caption=文件(&F)
+miFImport.Caption=導入(&I)
+miFNewProject.Caption=新建(&W)...
+miFNewProject.Hint=創建新項目或資料夾
+miFNFolder.Caption=資料夾(&F)
+miFNFolder.Hint=資料夾
+miFNProject.Caption=項目(&P)...
+miFNProject.Hint=項目
+miFNTemplate.Caption=範本(&T)...
+miFNTemplate.Hint=範本
+miFNTemplates.Caption=── 範本 ──
+miFNTemplates.Hint=── 範本 ──
+miFPrint.Caption=列印(&N)...
+miFPrint.Hint=列印選中專案裝入的全部 Web 頁
+miFProperties.Caption=屬性(&P)...
+miFProperties.Hint=選中的專案屬性
+miFRename.Caption=重命名(&R)
+miFRename.Hint=重命名選中的項目或資料夾
+miFSaveChanges.Caption=保存更改(&S)
+miFSaveChanges.Hint=保存你對選項或專案的更改
+miFSiteMap.Caption=生成Google網站地圖...(&G)
+miFSiteMap.Hint=生成Google網站地圖
+miFWizard.Caption=嚮導(&W)...
+miFWizard.Hint=使用嚮導添加新專案
+miHCheck.Caption=檢查更新(&U)
+miHCheck.Hint=檢查更新
+miHContents.Caption=主題(&C)
+miHContents.Hint=查看?明目錄
+miHelp.Caption=幫助(&H)
+miHForum.Caption=用戶論壇(&U)
+miHForum.Hint=在 MetaProducts 用戶論壇查找您問題的答案，或者討論您的建議
+miHNewFeature.Caption=建議新功能(&F)
+miHNewFeature.Hint=建議新功能
+miHRegister.Caption=立即購買(&B)!
+miHRegister.Hint=線上註冊程式
+miHRegister1.Caption=註冊(&R)...
+miHRegister1.Hint=註冊
+miHTips.Caption=日積月累(&S)...
+miHTips.Hint=查看有用的提示
+miHWebSite.Caption=Web 網站(&W)
+miHWebSite.Hint=打開我們的主頁
+miLFL5000.Caption=5,000 行
+miLFL5000.Hint=5,000 行
+miLFL50000.Caption=50,000 行
+miLFL50000.Hint=50,000 行
+miLFL500000.Caption=500,000 行
+miLFL500000.Hint=500,000 行
+miPC1.Caption=(&1) 個連接
+miPC1.Hint=1 個連接
+miPC10.Caption=1(&0) 個連接
+miPC10.Hint=10 個連接
+miPC2.Caption=(&2) 個連接
+miPC2.Hint=2 個連接
+miPC20.Caption=20 個連接(&C)
+miPC20.Hint=20 個連接
+miPC3.Caption=(&3) 個連接
+miPC3.Hint=3 個連接
+miPC5.Caption=(&5) 個連接
+miPC5.Hint=5 個連接
+miPCSetup.Caption=安裝...(&S)
+miPCSetup.Hint=安裝
+miPI1.Caption=標準(&S)
+miPI1.Hint=標準
+miPI10.Caption=公司(&C)
+miPI10.Hint=公司
+miPI11.Caption=金融(&F)
+miPI11.Hint=金融
+miPI12.Caption=用戶組(&U)
+miPI12.Hint=用戶組
+miPI13.Caption=特殊(&P)
+miPI13.Hint=特殊
+miPI14.Caption=共用(&H)
+miPI14.Hint=共用
+miPI15.Caption=隱私(&V)
+miPI15.Hint=隱私
+miPI16.Caption=個人(&O)
+miPI16.Hint=個人
+miPI17.Caption=高優先順序(&G)
+miPI17.Hint=高優先順序
+miPI18.Caption=低優先順序(&W)
+miPI18.Hint=低優先順序
+miPI19.Caption=有疑問的(&Q)
+miPI19.Hint=有疑問的
+miPI2.Caption=重要(&I)
+miPI2.Hint=重要
+miPI3.Caption=審閱(&R)
+miPI3.Hint=審閱
+miPI4.Caption=不要刪除(&D)
+miPI4.Hint=不要刪除
+miPI5.Caption=參考(&E)
+miPI5.Hint=參考
+miPI6.Caption=活動(&L)
+miPI6.Hint=活動
+miPI7.Caption=新聞(&N)
+miPI7.Hint=新聞
+miPI8.Caption=收藏(&T)
+miPI8.Hint=收藏
+miPI9.Caption=文章(&A)
+miPI9.Hint=文章
+miPlugins.Caption=工具(&T)
+miSLoad.Caption=載入佇列(&L)...
+miSLoad.Hint=載入佇列...
+miSMPanel.Caption=下載進程(&D)
+miSMPanel.Hint=顯示當前下載狀態
+miSRemove.Caption=移除(&R)
+miSRemoveAll.Caption=移除所有(&A)
+miSSave.Caption=保存佇列(&V)...
+miSSave.Hint=保存佇列...
+miSSelect.Caption=選擇項目(&P)
+miSSkip.Caption=為該專案設置佇列(&S)
+miTBackupProjects.Caption=備份項目(&B)...
+miTBackupProjects.Hint=將專案設置和下載的檔保存在壓縮檔中
+miTBackupRestore.Caption=備份/恢復(&B)
+miTBrowse.Caption=流覽
+miTBrowse.Hint=流覽選中專案或檔
+miTCustom1.Caption=菜單 1
+miTCustom2.Caption=菜單 2
+miTCustom3.Caption=菜單 3
+miTDatamine.Caption=資料採擷(&D)...
+miTDatamine.Hint=用 TextPipe 處理下載的專案檔案
+miTEdit.Caption=編輯(&D)
+miTEdit.Hint=編輯
+miTHangupExit.Caption=掛斷並關機(&U)
+miTHangupExit.Hint=下載完成後掛斷數據機連接或關閉電腦
+miTHHangup.Caption=掛斷(&H)
+miTHHangup.Hint=掛斷
+miTHHHangupAlways.Caption=總是掛斷(&A)
+miTHHHangupAlways.Hint=總是掛斷
+miTHHHangupOnce.Caption=掛斷一次(&O)
+miTHHHangupOnce.Hint=掛斷一次
+miTHShutdown.Caption=關機(&S)
+miTHShutdown.Hint=關機
+miTHSShutdownAlways.Caption=總是關機(&A)
+miTHSShutdownAlways.Hint=總是關機
+miTHSShutdownOnce.Caption=關機一次(&O)
+miTHSShutdownOnce.Hint=關機一次
+miTHTMLImp.Caption=從 HTML 中導入(&I)...
+miTPublish.Caption=發佈(&U)...
+miTPublish.Hint=與其它用戶共用項目設置
+miTPublishedProjects.Caption=發佈的項目(&H)
+miTPublishedProjects.Hint=發佈的項目
+miTRemember.Caption=記住頁面(&R)
+miTRemember.Hint=記住頁面
+miTRestoreProjects.Caption=恢復項目(&R)...
+miTRestoreProjects.Hint=從壓縮檔中恢復專案設置和下載的檔
+miTSequencer.Caption=佇列(&S)
+miTSHighlight.Caption=突出顯示下個專案(&H)
+miTSReset.Caption=重置到第一個項目(&E)
+miTSResume.Caption=已掛起(&S)
+miTTAdjust.Caption=配置工具(&C)...
+miTTAdjust.Hint=打開添加/刪除工具的選項對話方塊
+miTTextPipe.Caption=TextPipe(&I)...
+miTTextPipe.Hint=運行 TextPipe
+miVBrowseWith.Caption=流覽方式(&W)
+miVEditIn.Caption=編輯方式(&E)
+miVExplorerBar.Caption=流覽器欄(&B)
+miVIcons.Caption=專案圖示(&I)
+miView.Caption=查看(&V)
+miVInternalBrowser.Caption=內置流覽器(&I)
+miVInternalBrowser.Hint=用於快速查看下載的 Web 網站的內置流覽器窗口
+miVLanguages.Caption=語言(&L)
+miVLevels.Caption=級(&L)
+miVLevels.Hint=級
+miVLog.Caption=日誌視窗(&W)
+miVLog.Hint=顯示日誌視窗
+miVMap.Caption=地圖(&M)
+miVMap.Hint=已下載檔案的地圖
+miVMessages.Caption=消息(&M)
+miVMPanel.Caption=面板(&P)
+miVMPanel.Hint=顯示當前下載的狀態
+miVOptions.Caption=選項(&O)...
+miVOptions.Hint=查看或設置各種程式選項
+miVProjects.Caption=項目(&P)
+miVProjects.Hint=項目樹
+miVQueue.Caption=佇列(&Q)
+miVQueue.Hint=下載佇列管理器
+miVSBlack.Caption=黑色(&a)
+miVSBlack.Hint=黑色
+miVSBlue.Caption=藍色(&B)
+miVSBlue.Hint=藍色
+miVSchedMan.Caption=計畫管理器(&H)
+miVSchedMan.Hint=管理下載計畫
+miVSequencer.Caption=佇列(&R)
+miVSequencer.Hint=佇列
+miVSSilver.Caption=銀色(&S)
+miVSSilver.Hint=銀色
+miVStatusBar.Caption=狀態列(&S)
+miVStatusBar.Hint=狀態列
+miVStyle.Caption=顏色主題(&C)
+miVStyle.Hint=更改使用者介面顏色
+miVTAddressBar.Caption=地址欄(&A)
+miVTAddressBar.Hint=位址欄，可用於使用缺省的專案屬性快速下載任何 Web 網站
+miVTCustomize.Caption=自訂(&C)...
+miVTCustomize.Hint=自訂工具列
+miVTFlatToolbar.Caption=平面樣式(&F)
+miVTFlatToolbar.Hint=平面樣式
+miVTGrayButtons.Caption=灰色按鈕(&G)
+miVTTextLabels.Caption=文本標籤(&T)
+miVTToolbar.Caption=標準按鈕(&S)
+miVTToolbar.Hint=標準工具列，可允許快速執行常規任務
+miVView.Caption=查看(&V)
+miVViewIn.Caption=查看方式(&V)
+mpAddToSeq.Caption=添加到佇列(&q)
+mpAddToSeq.Hint=添加專案到佇列
+mpAFolder.Caption=資料夾(&F)
+mpAProject.Caption=項目(&P)...
+mpASeparator.Caption=範本
+mpATemplate.Caption=範本(&T)...
+mpAWizard.Caption=項目嚮導(&W)...
+mpBrowseOffline.Caption=離線流覽當前 URL(&O)
+mpBrowseOffline.Hint=離線流覽當前 URL
+mpBrowseOnline.Caption=連線流覽當前 URL(&N)
+mpBrowseOnline.Hint=連線流覽當前 URL
+mpBSeparator.Caption=範本
+mpDownload2.Caption=下載(&L)
+mpDownload2.Caption=下載(&l)
+mpEDeleteProjectOnly.Caption=僅專案設置(&N)
+mpEDeleteProjectOnly.Hint=僅專案設置
+mpFSAddSelLinks.Caption=將選定的連結添加到當前專案(&u)
+mpFSAddSelLinks.Hint=將選定的連結添加到當前專案
+mpFSBrowseOffline.Caption=離線流覽當前 URL(&O)
+mpFSBrowseOffline.Hint=離線流覽當前 URL
+mpFSBrowseOffline2.Caption=離線流覽當前網址(&O)
+mpFSBrowseOffline2.Hint=離線流覽當前網址
+mpFSBrowseOnline.Caption=線上流覽當前 URL(&N)
+mpFSBrowseOnline.Hint=線上流覽當前 URL
+mpFSBrowseOnline2.Caption=線上流覽當前網址(&N)
+mpFSBrowseOnline2.Hint=線上流覽當前網址
+mpFSBrowsingProject.Caption=選擇您正在流覽的項目(&P)
+mpFSBrowsingProject2.Caption=選擇正在流覽的項目(&P)
+mpFSFontSize.Caption=字體大小(&F)
+mpFSFontSize2.Caption=字體大小(&F)
+mpFSLarger.Caption=較大(&L)
+mpFSLarger2.Caption=較大(&L)
+mpFSLargest.Caption=最大(&G)
+mpFSLargest2.Caption=最大(&G)
+mpFSMedium.Caption=中等(&M)
+mpFSMedium2.Caption=中等(&M)
+mpFSShowImages.Caption=顯示圖像(&S)
+mpFSShowImages.Hint=在內置流覽器中啟用或禁用圖像
+mpFSShowImages2.Caption=顯示圖片(&S)
+mpFSShowImages2.Hint=在內置流覽器中啟用或禁用圖片
+mpFSSmaller.Caption=較小(&S)
+mpFSSmaller2.Caption=較小(&S)
+mpFSSmallest.Caption=最小(&A)
+mpFSSmallest2.Caption=最小(&A)
+mpFSViewSource.Caption=查看頁面原始檔案(&V)
+mpFSViewSource2.Caption=查看原始檔案(&V)
+mpPColor.Caption=顏色(&C)
+mpPColor.Hint=顏色
+mpQAbort.Caption=中止(&A)
+mpQAbort.Hint=中止下載當前 URL(s)
+mpQAbortDisable.Caption=中止並禁止
+mpQAbortDisable.Hint=中止下載當前 URLs 並在項目設置中禁用這些位址
+mpQACurrentURL.Caption=當前 URL(s) (&U)
+mpQACurrentURL.Hint=從下載中排出當前 URL
+mpQAFolder.Hint=禁用當前資料夾中的全部連結
+mpQAFolder1.Hint=禁用該資料夾中的全部連結
+mpQAFolder2.Hint=禁用該資料夾中的全部連結
+mpQAServer.Hint=禁用當前伺服器中的全部連結
+mpQC1.Caption=(&1) 個連接
+mpQC10.Caption=1(&0) 個連接
+mpQC2.Caption=(&2) 個連接
+mpQC5.Caption=(&5) 個連接
+mpQCAll.Caption=使用全部可用的連接(&U)
+mpQCoExtension.Caption=按照檔案類型(&T)
+mpQColorize.Caption=調色(&O)
+mpQConnections.Caption=連接限制(&L)
+mpQCoNone.Caption=無(&N)
+mpQCopyPOST.Caption=複製 POST 請求(&Q)
+mpQCopyPOST.Hint=複製 POST 請求
+mpQCopyReferer.Caption=複製引用(&R)
+mpQCopyURL.Caption=複製 URL(&U)
+mpQCoServer.Caption=按照伺服器名(&S)
+mpQInvertSelection.Caption=反轉選擇(&I)
+mpQMoveToBottom.Caption=移到底部(&B)
+mpQMoveToTop.Caption=移到頂部(&T)
+mpQPause.Caption=暫停項目下載(&P)
+mpQSaveList.Caption=保存列表到檔(&S)
+mpQSaveList.Hint=保存到文字檔
+mpQSelectAll.Caption=全部選中(&E)
+mpQSelectConnection.Caption=選擇連接(&C)
+mpQSelectMask.Caption=按萬用字元選擇(&M)...
+mpQSelectProject.Caption=選擇項目(&P)
+mpQShowReferers.Caption=顯示引用(&F)
+mpSStop.Caption=停止選中專案(&S)
+mpSStopAll.Caption=全部停止(&A)
+mpStart.Caption=開始(&S)
+mpStop.Caption=停止(&P)
+mpSuspendToFile.Caption=掛起專案到檔(&U)...
+mpSuspendToFile.Hint=掛起到文件
+mpTAutoStart.Caption=自動開始下載(&A)
+mpTBrowse.Caption=流覽(&B)
+mpTBrowseNewTab.Caption=在新標籤流覽(&R)
+mpTBrowseNewTab.Hint=在新標籤流覽
+mpTBrowseWith.Caption=流覽方式(&W)
+mpTClipboard.Caption=監視剪貼板(&M)
+mpTCloseFolders.Caption=關閉未用的資料夾(&F)
+mpTCloseFolders.Hint=關閉未用資料夾
+mpTCopyURL.Caption=複製 URL(&U)
+mpTCopyURL.Hint=複製網址
+mpTDefTemplate.Caption=使用缺省範本(&U)
+mpTDelete.Caption=刪除(&D)...
+mpTDeleteFiles.Caption=僅僅專案檔案(&O)
+mpTDeleteFiles.Hint=刪除選中專案下載過的檔
+mpTDeleteProjectOnly.Caption=僅僅項目設置(&O)
+mpTDeleteProjectOnly.Hint=僅專案設置
+mpTDescription.Caption=項目描述(&C)...
+mpTDescription.Hint=描述
+mpTDisable.Caption=禁用裝載(&A)
+mpTDisable.Hint=禁止載入
+mpTEdit.Caption=編輯(&T)
+mpTEditIn.Caption=編輯方式(&E)
+mpTExit.Caption=退出(&X)
+mpTExport.Caption=匯出(&X)...
+mpTIntegration.Caption=粘貼 URL 時(&W)
+mpTMarkRead.Caption=標為已讀(&K)
+mpTMarkRead.Hint=標記為已讀
+mpTMarkUnRead.Caption=標為未讀(&K)
+mpTMarkUnRead.Hint=標記為未讀
+mpTNProject.Caption=新建(&N)...
+mpTPaste.Caption=粘貼項目(&P)
+mpTProperties.Caption=屬性(&R)...
+mpTProtect.Caption=保護(&O)...
+mpTProtect.Hint=保護
+mpTRefresh.Caption=刷新(&H)
+mpTRefresh.Hint=刷新
+mpTSelectFiles.Caption=選擇檔(&I)...
+mpTSelectFiles.Hint=選擇檔
+mpTSFolders.Caption=按名稱的頂級資料夾(&T)
+mpTSFolders.Hint=最高級資料夾, 按名稱
+mpTShow.Caption=顯示(&S)
+mpTSingleClickMap.Caption=按一下流覽(&C)
+mpTSingleClickMap.Hint=按一下流覽
+mpTSName.Caption=按照名稱(&N)
+mpTSName.Hint=按照名稱
+mpTSort.Caption=排序(&S)
+mpTStatistics.Caption=統計(&I)...
+mpTStatistics.Hint=統計
+mpTSTime.Caption=按照下載時間(&D)
+mpTSTime.Hint=按照下載時間
+mpTStop.Caption=停止下載(&D)...
+mpTSURL.Caption=按照 URL(&U)
+mpTSURL.Hint=按照網址
+mpTSuspendNoDownload.Caption=沒有活動下載
+mpTSuspendNoDownload.Hint=沒有活動下載
+mpTTAdjust1.Caption=配置工具(&C)...
+mpTTAdjust1.Hint=打開添加/刪除工具的選項對話方塊
+mpTTAdjust2.Caption=配置工具(&C)...
+mpTTAdjust2.Hint=打開添加/刪除工具的選項對話方塊
+mpTTAdjust3.Caption=配置工具(&C)...
+mpTTAdjust3.Hint=打開添加/刪除工具的選項對話方塊
+mpTTemplates.Caption=應用範本(&T)...
+mpTTemplates.Hint=將範本應用到選中專案
+mpTViewIn.Caption=查看方式(&V)
+mpWBTClose.Caption=關閉(&C)
+mpWBTCloseAll.Caption=全部關閉(&A)
+mpWBTFixedWidth.Caption=固定頁面標題寬度
+mpWBTMultiLineTabs.Caption=多執行緒標籤
+mpWBTNewEditWindow.Caption=新建編輯視窗(&E)
+mpWBTNewWindow.Caption=新建窗口(&N)
+odBackup.Caption=備份到檔
+odBackup.Filter=Offline Explorer 備份|*.boe|所有檔|*.*
+odEDLoad.Filter=所有檔|*.*
+odEDSave.Filter=所有檔|*.*
+odRestore.Caption=從檔中恢復
+odRestore.Filter=Offline Explorer 備份|*.boe|所有檔|*.*
+odSeqLoad.Filter=Offline Explorer 佇列|*.soe|所有檔|*.*
+odSeqSave.Filter=Offline Explorer 佇列|*.soe|所有檔|*.*
+pgLevels.Caption=級別
+pgProjects.Caption=項目
+pgQueue.Caption=佇列
+pgWebSites.Caption=地圖
+PList.0=通道
+PList.1=已載入 - %
+PList.2=長度
+PList.3=狀態
+PList.4=網址
+pmiCancel.Caption=退出(&A)
+pmiCancel.Hint=取消下載所選檔
+pmiConnectionsCnt.Caption=連接(&C)
+pmiConnectionsCnt.Hint=更改連接數量
+pmiConnsHighlight.Caption=高亮活動的連接(&H)
+pmiCopy.Caption=複製網址(&U)
+pmiCopy.Hint=複製所選檔的連結
+pmiDown.Caption=顯示/隱藏連接面板
+pmiDown.Hint=打開/關閉連接面板 (Ctrl+P)
+pmiDownloadedC.Caption=已下載
+pmiDownloadedC.Hint=已下載
+pmiDownloadedN.Hint=下載完畢 - 1 個文件
+pmiFinalize.Caption=終止(&F)
+pmiFinalize.Hint=保存下載的流媒體片段
+pmiMassDown.Caption=使用Mass Downloader下載(&L)
+pmiMassDown.Hint=使用Mass Downloader下載
+pmiPlay.Caption=播放
+pmiPlay.Hint=播放
+pmiQueueC.Caption=佇列
+pmiQueueC.Hint=佇列
+pmiReferer.Caption=複製引用網址(&R)
+pmiReferer.Hint=複製所選文件的引用
+pmiRestart.Caption=重啟(&R)
+pmiRestart.Hint=停止並從頭開始下載所選檔
+pmiSelectProject.Caption=選擇項目(&P)
+pmiSelectProject.Hint=高亮下載了所選檔的專案
+pmiSizeC.Caption=大小
+pmiSizeC.Hint=大小
+pmLCaption.Caption=資訊日誌
+pmLCaption.Hint=資訊日誌
+pmLClear.Caption=清除(&C)
+pmLClear.Hint=清除
+pmLClose.Caption=關閉日誌(&O)
+pmLClose.Hint=關閉日誌
+pmLCopy.Caption=複製到剪貼板(&P)
+pmLCopy.Hint=複製到剪貼板
+pmLFCheckAll.Caption=選擇全部(&H)
+pmLFCheckAll.Hint=選擇全部
+pmLFConnect.Caption=連接狀態(&C)
+pmLFConnect.Hint=連接狀態
+pmLFDetails.Caption=細節(&L)
+pmLFDetails.Hint=細節
+pmLFDisconnect.Caption=斷開狀態(&I)
+pmLFDisconnect.Hint=斷開狀態
+pmLFDownload.Caption=下載進程(&D)
+pmLFDownload.Hint=下載進程
+pmLFilter.Caption=篩檢程式(&T)
+pmLFilter.Hint=篩檢程式信息
+pmLFind.Caption=尋找(&F)
+pmLFind.Hint=尋找
+pmLFInternalWebSrv.Caption=內置網路服務器請求(&W)
+pmLFInternalWebSrv.Hint=內置網路服務器請求
+pmLFLimit.Caption=日誌限制(&t)
+pmLFQueue.Caption=佇列資訊(&Q)
+pmLFQueue.Hint=佇列資訊
+pmLFRejectedURLs.Caption=未通過的網址(&R)
+pmLFRejectedURLs.Hint=未通過的網址
+pmLFUnCheckAll.Caption=取消所有(&U)
+pmLFUnCheckAll.Hint=取消所有
+pmLLogMessages.Caption=開始記錄日誌(&L)
+pmLLogMessages.Hint=開始記錄日誌
+pmLSave.Caption=將日誌保存為檔(&S)
+pmLSave.Hint=將日誌保存為檔
+pmLTrack.Caption=追蹤日誌(&T)
+pmLTrack.Hint=追蹤日誌
+pmWBPreview.Caption=預覽列印(&R)...
+pmWBPrint.Caption=列印(&P)...
+Ribbon.0=主頁
+Ribbon.7=工具
+Ribbon.6=設置
+Ribbon.4=顯示
+Ribbon.9=幫助
+sdLog.Caption=保存資訊日誌
+sdLog.Filter=日誌檔|*.log|所有檔|*.*
+sdQueue.Filter=文字檔|*.txt|所有檔|*.*
+tbEDCopy.Hint=將選中的文本複製到剪貼板
+tbEDCopy2.Caption=複製
+tbEDCopy2.Hint=複製|將選中的文本複製到剪貼板
+tbEDCut.Hint=將選中的文本剪切到剪貼板
+tbEDCut2.Caption=剪切
+tbEDCut2.Hint=剪切|將所選文本剪切到剪貼板
+tbEDFind.Hint=查找
+tbEDFind2.Caption=查找
+tbEDFind2.Hint=查找|查找文本
+tbEDOpen.Hint=打開要編輯的檔
+tbEDOpen2.Caption=打開
+tbEDOpen2.Hint=打開|打開要編輯的檔
+tbEDPaste.Hint=從剪貼板粘貼文字
+tbEDPaste2.Caption=粘貼
+tbEDPaste2.Hint=粘貼|從剪貼板粘貼文字
+tbEDSave.Hint=將更改保存到檔
+tbEDSave2.Caption=保存
+tbEDSave2.Hint=保存|將更改保存到檔
+tbEDUndo.Hint=撤銷
+tbEDUndo2.Caption=撤銷
+tbEDUndo2.Hint=撤銷|撤銷更改
+tbIB2DEW.Caption=數據抽取
+tbSOld.Caption=顯示老式功能表
+tbSOld.Hint=切換到老式功能表和工具條
+tbVRibbon.Caption=顯示快捷按鈕
+tbVRibbon.Hint=切換到Office 2010 式的使用者介面
+tbWBAutoSave.Hint=自動保存|下載並自動將所有缺失的頁面和檔添加到專案
+tbWBAutoSave2.Caption=自動保存
+tbWBAutoSave2.Hint=自動保存|下載並自動將所有缺失的頁面和檔添加到專案
+tbWBBack.Hint=後退
+tbWBBack2.Caption=後退
+tbWBBack2.Hint=後退
+tbWBCatchURL.Hint=將下個點擊的連結添加為專案|下次對 URL 或表單按鈕的按一下將記錄為可供下載的項目。
+tbWBCatchURL2.Caption=添加下一個點擊的連結
+tbWBCatchURL2.Hint=添加下一個點擊的連結為專案|下一個點擊的網址或填表按鈕將被記錄為一個專案以供今後隨時下載.
+tbWBForw.Hint=前進
+tbWBForw2.Caption=前進
+tbWBForw2.Hint=前進
+tbWBHome.Hint=回主頁|在流覽器中查看項目列表和統計
+tbWBHome2.Caption=主頁
+tbWBHome2.Hint=回主頁|在流覽器中流覽專案清單和統計資訊
+tbWBPrint.Hint=列印|列印當前內置流覽器頁
+tbWBPrint2.Caption=列印
+tbWBPrint2.Hint=列印|列印當前內置流覽器頁面
+tbWBRefr.Hint=刷新
+tbWBRefr2.Caption=刷新
+tbWBRefr2.Hint=刷新
+tbWBSettings.Hint=內置流覽器設置|更改當前內置流覽器頁的字體大小或啟用/禁用圖像
+tbWBSettings2.Hint=設置|內部流覽器設置|更改當前內部流覽器頁面字體大小或 啟用／禁用 圖片
+tbWBStop.Hint=停止
+tbWBStop2.Caption=停止
+tbWBStop2.Hint=停止
+tbWebBrowser.0=內置流覽器
+Toolbars1.Caption=工具列(&T)
+miLCopyURL.Caption=複製URL(&U)
+miLCopyURL.Hint=從所選日誌行複製URL
+dxbManager.19=連接
+dxbManager.19.Hint=Internet 設置
+dxbManager.20=附加
+tbSIDelay.Caption=下載間隔:
+tbSIDelay.Hint=下載間隔
+tbSIRetries.Caption=重試次數:
+tbSIRetries.Hint=重試次數
+tbSICookies.Caption=使用 IE cookies
+tbSICookies.Hint=使用 IE cookies
+tbSIUAgent.Caption=識別為:
+tbSIUAgent.Hint=識別為
+tbSIConns.Caption=連接數:
+tbSIConns.Hint=連接數
+tbSITimeout.Caption=超時(秒):
+tbSITimeout.Hint=超時(秒)
+tbIOGZIP.Caption=使用 GZIP 編輯提高速度
+tbIOGZIP.Hint=使用 GZIP 編輯提高速度
+tbIONTLM.Caption=使用別的連接方式
+tbIONTLM.Hint=使用別的連接方式
+tbIOPASV.Caption=為 FTP 下載使用 PASV 模式
+tbIOPASV.Hint=為 FTP 下載使用 PASV 模式
+Ribbon.1=屬性
+Ribbon.2=下載
+Ribbon.8=高級
+dxbManager.21=文件篩檢程式
+dxbManager.22=URL 篩檢程式
+dxbManager.23=高級設置
+dxbManager.24=註冊 && 許可
+dxbManager.25=MetaProducts
+dxbManager.26=代理
+dxbManager.26.Hint=代理伺服器
+dxbManager.27=顯示/隱藏
+dxbManager.28=內容
+dxbManager.29=計畫
+dxbManager.30=速度
+dxbManager.31=撥號
+dxbManager.32=關閉
+dxbManager.33=備份/還原項目
+dxbManager.34=流覽/編輯
+dxbManager.35=開始
+dxbManager.36=整合
+dxbManager.37=確認提示
+dxbManager.38=完成
+dxbManager.39=新版
+dxbManager.40=地圖
+dxbManager.41=外觀
+dxbManager.42=重啟 && 更新
+dxbManager.43=網站地圖
+dxbManager.44=睡眠 && 喚醒
+dxbManager.45=資料採擷
+dxbManager.46=列印
+dxbManager.47=範本
+dxbManager.48=地圖
+dxbManager.49=導入 && 匯出
+dxbManager.50=發佈
+dxbManager.51=版本資訊
+tbDStart.Caption=開始
+tbDStart.Hint=使用預設檔設置選項開始下載
+miDRSRestart.Caption=(&R)重新開始
+miDRSRestart.Hint=完全重新下載所選專案
+miDRSUpdate.Caption=(&U)更新項目
+miDRSUpdate.Hint=下載所選專案以獲得更新檔
+miDRSContinue.Caption=(&D)下載缺失的文件
+miDRSContinue.Hint=檢查缺失檔並下載
+miTRestoreMap.Caption=恢復項目地圖(&M)
+miTRestoreMap.Hint=處理下載檔案以恢復專案地圖
+tbHDTools.Caption=工具
+tbTTCreate.Caption=新建範本...
+tbTTCreate.Hint=創建新範本
+tbHLicense.Caption=許可...
+tbHLicense.Hint=許可
+tbHRelease.Caption=版本資訊...
+tbHRelease.Hint=版本資訊
+tbProjectState.Caption=專案狀態(&t)
+tbPSStopped.Caption=(&S)停止
+tbPSStopped.Hint=停止
+tbPSNormal.Caption=(&N)正常
+tbPSNormal.Hint=正常
+tbISDialup.Caption=撥號...
+tbISDialup.Hint=撥號
+tbISSpeedCust.Caption=(&C)自訂...
+tbISSpeedCust.Hint=自訂
+tbISHSCust.Caption=(&C)自訂...
+tbISHSCust.Hint=自訂
+tbIPProxy.Caption=代理...
+tbIPProxy.Hint=代理
+tbAFiles.Caption=文件...
+tbAFiles.Hint=檔位置
+tbAIntegration.Caption=整合...
+tbAIntegration.Hint=整合
+tbAConfirm.Caption=確認提示...
+tbAConfirm.Hint=確認提示
+tbACompletion.Caption=下載提示...
+tbACompletion.Hint=下載提示
+tbAVersions.Caption=新版本...
+tbAVersions.Hint=新版本
+tbAMap.Caption=地圖...
+tbAMap.Hint=地圖標籤設置
+tbAAppearance.Caption=外觀...
+tbAAppearance.Hint=使用者介面設置
+tbPFFText.Caption=文本
+tbPFFText.Hint=文本
+tbPFFImages.Caption=圖片
+tbPFFImages.Hint=圖片
+tbPFFVideo.Caption=視頻
+tbPFFVideo.Hint=視頻
+tbPFFAudio.Caption=音訊
+tbPFFAudio.Hint=音訊
+tbPFFArchive.Caption=壓縮包
+tbPFFArchive.Hint=壓縮包
+tbPFFUDef.Caption=用戶設置
+tbPFFUDef.Hint=用戶設置
+tbPFFOther.Caption=其他
+tbPFFOther.Hint=其他
+tbPFFLocation.Caption=(&L)位置
+tbPFFLUF.Caption=(&U)使用URL過濾設置載入
+tbPFFLUF.Hint=使用URL過濾設置載入
+tbPFFLServer.Caption=僅從起始伺服器載入
+tbPFFLServer.Hint=僅從起始伺服器載入
+tbPFFLDir.Caption=僅從起始目錄載入
+tbPFFLDir.Hint=僅從起始目錄載入
+tbPFFLAny.Caption=從所有網址載入
+tbPFFLAny.Hint=從所有網址載入
+tbPFFLDomain.Caption=僅從起始功能變數名稱載入
+tbPFFLDomain.Hint=僅從起始功能變數名稱載入
+tbPFFCustomize.Caption=(&C)自訂...
+tbPFFCustomize.Hint=自訂
+tbPUFProtocol.Caption=協議...
+tbPUFProtocol.Hint=協議
+tbPUFServer.Caption=伺服器...
+tbPUFServer.Hint=伺服器
+tbPUFDir.Caption=目錄...
+tbPUFDir.Hint=目錄
+tbPUFFile.Caption=檔案名...
+tbPUFFile.Hint=檔案名
+tbPASchedule.Caption=計畫...
+tbPASchedule.Hint=計畫
+tbPAPassword.Caption=密碼...
+tbPAPassword.Hint=密碼
+tbPACopies.Caption=文件複本...
+tbPACopies.Hint=文件複本
+tbPALinks.Caption=連結轉換
+tbPALOffline.Caption=(&f)離線
+tbPALOffline.Hint=離線
+tbPALOnline.Caption=(&n)線上
+tbPALOnline.Hint=線上
+tbPALNo.Caption=(&o) 不轉換
+tbPALNo.Hint=不轉換
+tbPAContent.Caption=內容篩檢程式...
+tbPAContent.Hint=內容篩檢程式
+tbPALimits.Caption=限制...
+tbPALimits.Hint=限制下載，依據大小, 檔或時間
+tbPAParsing.Caption=分析...
+tbPAParsing.Hint=分析選項
+dxbManager.52=範本
+dxbManager.53=導入
+dxbManager.54=匯出
+miFExport5.Caption=匯出文件(&E)...
+miFExport5.Hint=複製下載的專案檔案到其它目錄, HTML ?明文檔或者其它格式
+tbHITorrent.Caption=BT種子文件...
+tbHITorrent.Hint=從BT種子檔創建專案
+miFImport5.Caption=我的最愛(&v)
+miFImport5.Hint=從我的最愛/書簽中的連結創建專案
+tbHNewProject.Caption=新建項目...
+tbHNewProject.Hint=新建項目下載網站
+tbHNewFolder.Caption=新建資料夾
+tbHNewFolder.Hint=新建分組專案檔案夾
+tbHPrjTemplate.Caption=從範本創建專案
+tbHIProjectSettings.Caption=專案設置
+tbHEProjectSettings.Caption=專案設置
+tbHITextFile.Caption=從文字檔載入 (&T)...
+tbHITextFile.Hint=從文字檔載入專案設置
+tbHETextFile.Caption=保存為文字檔 (&T)...
+tbHETextFile.Hint=保存專案設置為文字檔
+tbHCMyTemplates.Caption=我的範本(&M)
+tbHCMyTemplates.Hint=從範本(事先設置的專案)創建專案. 使用工具標籤編輯範本清單.
+odTorrent.Caption=打開BT種子文件
+odTorrent.Filter=BT種子文件|*.torrent|所有檔|*.*
+odText.Caption=從文字檔載入項目
+odText.Filter=文字檔|*.txt|所有檔|*.*
+sdText.Caption=保存項目為文字檔
+sdText.Filter=文字檔|*.txt|所有檔|*.*
+tbFProjectSettings.Caption=專案設置 (&J)
+tbVSBTAll.Caption=BT下載 (&B)
+tbVSBTAll.Hint=打開視窗列出全部BT下載
+tbAOptimizeIndex.Caption=優化搜索索引 (&O)
+tbAOptimizeIndex.Hint=運行重索引搜索資料庫的特別程式. 該程式靜默運行, 重索引完成時會自動停止.
+tbHReportProblem.Caption=報告問題 (&L)
+tbHReportProblem.Hint=在公司網站上提交事由
+dxbManager.55=管理
+miFVisualWizard.Caption=視覺化嚮導
+miFVisualWizard.Hint=視覺化創建新項目
+miVSCaramel.Caption=褐色 (&C)
+miVSCaramel.Hint=褐色
+miVSCoffee.Caption=咖啡色 (&O)
+miVSCoffee.Hint=咖啡色
+miVSPink.Caption=粉色 (&P)
+miVSPink.Hint=粉色
+miVSGreen.Caption=綠色 (&G)
+miVSGreen.Hint=綠色
+miDRSCheckLinks.Caption=檢查站台連結
+miDRSCheckLinks.Hint=下載專案並對該站台連結和錯誤生成細節報告
+mpFSShowSearch.Caption=顯示搜索欄位 (&S)
+mpFSShowSearch.Hint=顯示搜索欄位
+tbIBWStart.Caption=開始錄製
+tbIBWStart.Hint=開始錄製
+tbIBWStop.Caption=取消錄製
+tbIBWStop.Hint=取消錄製
+tbIBVWizard.Caption=視覺化嚮導:
+tbIBVWizard.Hint=視覺化創建新項目
+tbIBWDone.Caption=完成
+tbIBWDone.Hint=完成視覺化選擇並創建新項目
+tbAdministration.Caption=管理
+tbAdministration.Hint=密碼保護特定功能
+tbHEBurn.Caption=燒錄專案檔案
+tbHEBurn.Hint=將下載的檔匯出至CD/DVD光碟
+tbClose.Caption=關閉
+tbClose.Hint=關閉
+
+[dlgDXImages]
+Caption=dlgDXImages
+[dlgInstall]
+
+btnBack.Caption=< 上一步(&B)
+btnBrowse.Caption=流覽(&R)...
+btnCancel.Caption=取消
+btnNext.Caption=下一步 >
+Caption=歡迎
+cbAutostart.Caption=系統啟動時運行(&L)
+cbDesktop.Caption=添加快捷方式到桌面上
+cbNVCheck.Caption=啟用定期自動更新(&E)
+cbQuickLaunch.Caption=添加快捷方式到快速啟動欄(&Q)
+cbRun.Caption=立刻運行 %s
+cbTutorial.Caption=打開 %s 教程(&T)
+dlgBrowse.Caption=選擇目標目錄
+GroupBox1.Caption=目的檔案夾
+GroupBox2.Caption=當前文件
+ilAllFiles.Caption=所有檔
+ilBrowseExec.Caption=流覽 %s 可執行檔
+ilBrowsers.Caption=集成流覽器
+ilBuyNow.Caption=立即購買!
+ilDestination.Caption=選擇目標路徑
+ilDone.Caption=完成.
+ilFinish.Caption=完成
+ilInstalled.Caption=(集成已安裝)
+ilInstalling.Caption=正在安裝
+ilInstCancel.Caption=安裝未完成. 如果現在退出安裝, 程式將不會被安裝.%s您可以在以後的時間運行安裝程式完成安裝.%s確認要取消安裝嗎?
+ilInstComplete.Caption=安裝結束
+ilInstProblem.Caption=安裝過程中發生問題. 請確定有足夠的磁碟空間, 磁片未防寫或更新程式未載入, 然後重新運行安裝程式.
+ilInstRunQ1.Caption=%s 正在運行.
+ilInstRunQ2.Caption=%s 運行時, 無法繼續安裝.
+ilInstRunQ3.Caption=是否要關閉 %s?
+ilInstRunQ4.Caption=另一用戶正在運行 %s.%s您需要退出所有 %s 程式, 然後重新運行安裝程式.
+ilIntro.Caption=介紹
+ilLicenseAgreement.Caption=許可證協議
+ilNext.Caption=下一步
+ilNoEnoughRights.Caption=對不起, 您沒有足夠的許可權來完成該操作.\n請諮詢系統管理員來完成該操作.
+ilNotDetected.Caption=- (未檢測到)
+ilNothingToUnpack.Caption=無解壓文件.
+ilPreparing.Caption=正在準備...
+ilReboot.Caption=您需要重啟系統來完成安裝. 現在重啟?
+ilRebootInst.Caption=請在安裝 %s 前重啟系統
+ilRebootQ.Caption=您需要重啟系統來完成安裝. 現在重啟?
+ilRebootRun.Caption=請在運行 %s 前重啟系統
+ilRemoved.Caption=%s 已從系統成功移除.
+ilRemoveQ.Caption=是否要完全移除 %s?
+ilSetupCapt.Caption=%s 安裝
+ilStartInstall.Caption=開始安裝
+ilTechSupp.Caption=技術支援
+ilUninstall.Caption=卸載 %s
+ilUninstCapt.Caption=卸載 %s
+ilUninstRunQ1.Caption=%s 正在運行, 無法繼續卸載.
+ilUninstRunQ2.Caption=另一用戶正在運行 %s.%s您需要退出所有 %s 程式,然後再卸載程式.
+ilWebSite.Caption=網站
+ilWelcome.Caption=歡迎
+Label10.Caption=按下下一步按鈕以開始安裝或按下上一步按鈕以重新查看安裝資訊.
+Label11.Caption=正在複製檔:
+Label12.Caption=%s 已經成功的安裝了.
+Label13.Caption=按下完成按鈕以退出此安裝程式.
+Label14.Caption=軟體許可
+Label16.Caption=安裝資料夾
+Label17.Caption=程式快捷方式
+Label18.Caption=正在複製檔...
+Label19.Caption=安裝完成
+Label2.Caption=強烈建議您在運行此安裝程式之前退出所有 Windows 程式.
+Label22.Caption=目的檔案夾(&F)
+Label23.Caption=集成...
+Label24.Caption=您可以為已安裝的流覽器集成 %s
+Label25.Caption=請勾選相應選項集成到下列流覽器:
+Label26.Caption=程式可以每隔一定時間檢查 %s 的更新. 您也可以手動更新, 使用程式功能表 ?明 | 檢查更新.
+Label3.Caption=點擊取消以退出安裝程式並關閉你正在運行的任何程式. 點擊下一步以繼續此安裝程式.
+Label4.Caption=警告: 此程式受版權法和國際公約保護.
+Label5.Caption=未經授權擅自複製或傳播本程式或它的任何一部分, 可能導致嚴厲的民事及刑事制裁, 並將在法律許可的最大範圍內受到起訴.
+Label6.Caption=安裝程式將要把 %s 安裝到下麵的資料夾中.
+Label7.Caption=要安裝到別的資料夾, 則點擊流覽, 並選擇另一個檔件.
+Label8.Caption=你可以通過點擊取消來選擇不要安裝 %s 而退出安裝程式.
+Label9.Caption=你現在已經準備好安裝 %s 了.
+lblFile.Caption=無文件可解壓.
+lvBrowsers.0=名字
+lvBrowsers.1=路徑
+lvBrowsers.2=流覽
+rbAccept.Caption=我接受以上協議(&A)
+rbDontAccept.Caption=我不接受以上協議(&D)
+
+[LogWindow]
+Caption=消息視窗
+
+miLFConnect.Caption=連接狀態(&C)
+miLFDetails.Caption=細節(&L)
+miLFDisconnect.Caption=斷開連接狀態(&I)
+miLFDownload.Caption=下載進程(&D)
+miLFilter.Caption=過濾(&L)
+miLFind.Caption=查找(&F)...
+miLFindNext.Caption=查找下一個(&N)
+miLFInternalWebSrv.Caption=請求到內部 Web 伺服器(&W)
+miLFQueue.Caption=查詢消息(&Q)
+miLFRejectedURLs.Caption=被拒絕的 URLs(&R)
+miSClear.Caption=清除(&R)
+miSClose.Caption=關閉(&C)
+miSCopy.Caption=複製到剪貼板(&Y)
+miSettings.Caption=設置(&S)
+miSPause.Caption=暫停(&P)
+miSRecordTime.Caption=記錄時間(&M)
+miSSaveToFile.Caption=保存到檔(&S)...
+miSTrack.Caption=跟蹤(&T)
+pmiDIB.Caption=內置流覽器(&B)
+pmiDock.Caption=停靠到(&D)
+pmiDock.Hint=停靠到螢幕區域
+pmiDScreen.Caption=螢幕底部(&S)
+pmiUnDock.Caption=飄浮(&U)
+pmiUnDock.Hint=將面板變成飄浮狀態，以便可以在螢幕任何位置自由移動
+SaveDialog.Caption=保存日誌
+SaveDialog.Filter=日誌檔|*.log|全部檔|*.*
+Savetofile1.Caption=保存到檔(&S)...
+
+[WndProgress]
+Caption=下載狀況
+
+List.0=進程
+List.1=已裝入
+List.2=長度
+List.3=狀態
+List.4=URL
+pmiCancel.Caption=中止(&A)
+pmiCancel.Hint=取消下載選中檔
+pmiConnsHighlight.Caption=突出顯示活動連接(&H)
+pmiCopy.Caption=複製 URL(&U)
+pmiCopy.Hint=複製選中檔的 URL
+pmiDBottom.Caption=螢幕底部(&S)
+pmiDIB.Caption=內置流覽器(&B)
+pmiDock.Caption=停靠到(&D)
+pmiDock.Hint=停靠到螢幕區域
+pmiFinalize.Caption=完成(&F)
+pmiFinalize.Hint=保存下載的流媒體段
+pmiPlay.Caption=播放
+pmiReferer.Caption=複製引用者 URL(&R)
+pmiReferer.Hint=複製選中文件的引用者
+pmiRestart.Caption=重新開始(&R)
+pmiRestart.Hint=停止並從頭開始下載選中檔
+pmiSelectProject.Caption=選擇項目(&P)
+pmiSelectProject.Hint=突出顯示裝入選中檔的專案
+pmiUnDock.Caption=飄浮(&U)
+pmiUnDock.Hint=將面板變成飄浮狀態，以便可以在螢幕任何位置自由移動
+[dlgAbout]
+Caption=關於 Offline Explorer
+
+btnCancel.Caption=取消
+btnClose.Caption=關閉
+btnEMail.Caption=電子郵件(&E)
+btnHelp.Caption=幫助(&H)
+btnLicense.Caption=授權合約(&L)
+btnOK.Caption=確定
+btnOrdering.Caption=訂購(&O)
+btnRegister.Caption=註冊(&R)...
+btnReleaseNotes.Caption=版本歷史(&N)
+btnWebSite.Caption=Web 網站(&W)
+Label3.Caption=註冊用戶:
+Label4.Caption=如果有問題, 請寫信告知我們:
+lblDescr.Caption=Offline Explorer 允許你快速複製 Web 網站並使用內置或外置流覽器離線流覽，或者將其發佈在你的 Web 伺服器上。
+lblLatestInfo.Caption=Offline Explorer 並不是免費軟體。您可以試用 30 天，之後就必須付費註冊。
+lblOnDay1.Caption=要查看關於如何註冊 Offline Explorer 副本的資訊，請按訂購按鈕。
+lblOnDay2.Caption=只要您獲得了您的註冊細節，就請按一下註冊按鈕。這將取消對應用程式特性的全部限制，使您可以訪問註冊用戶才能使用的功能。
+lblOnEnd1.Caption=您已經用完了三十天試用期。
+lblOnEnd2.Caption=衷心希望您使用 Offline Explorer 愉快。
+lblReg.Caption=未註冊
+lblSiteInfo.Caption=欲知最新消息, 請訪問網站:
+lblTrial.Caption=要獲得關於 Offline Explorer 的最新資訊，請查看我們的 Web 網站: http://www.metaproducts.com
+TabSheet1.Caption=常規
+TabSheet2.Caption=版本歷史
+TabSheet3.Caption=授權合約
+
+[dlgOptions]
+Caption=選項
+
+bdDD.Caption=下載目錄
+bdDD.Hint=選擇下載目錄:
+bdProjects.Caption=專案目錄
+bdProjects.Hint=選擇專案目錄:
+brHigh.Caption=高(&H)
+btnADetect.Caption=自動檢測(&D)
+btnBrowse.Caption=流覽(&B)...
+btnBrowse1.Caption=流覽(&O)...
+btnCancel.Caption=取消
+btnClean.Caption=清除(&C)...
+btnFireFox.Caption=安裝(&S)
+btnHelp.Caption=幫助
+btnNVCheck.Caption=立刻檢查(&C)
+btnOBrAdd.Caption=<<  添加(&A)
+btnOBrRemove.Caption=>>  刪除(&R)
+btnOK.Caption=確定
+btnPAdd.Caption=添加(&A)...
+btnPAutoDetect.Caption=自動檢測(&D)
+btnPEdit.Caption=編輯(&E)...
+btnPLoad.Caption=載入(&L)...
+btnPRemove.Caption=移除(&R)
+btnPrxADetect.Caption=自動檢測(&D)
+btnPSave.Caption=保存(&S)...
+Button1.Caption=流覽(&B)...
+bxAutoSave.Caption=保存間隔(&S)
+cbACDelete.Caption=刪除檔時(&D)
+cbACDelPFiles.Caption=刪除專案檔案時(&P)
+cbACExit.Caption=退出程式時(&E)
+cbACExitDownload.Caption=僅當有活動的下載時(&O)
+cbACFolderStart.Caption=開始資料夾下的專案時(&F)
+cbACHangup.Caption=掛斷連接時(&H)
+cbACPEDetailed.Caption=發佈所有的新下載的和更新的檔清單
+cbACPReport.Caption=報告專案下載完成的方式
+cbACRestore.Caption=當使用相同名字恢復項目時(&N)
+cbACURLMoved.Caption=移動項目 URL 時(&M)
+cbASplash.Caption=顯示啟動畫面(&C)
+cbClose.Caption=全部下載完成後退出程式(&E)
+cbCloseAt.Caption=退出時間(&X)
+cbDialUp.Caption=啟用(&E)
+cbDirOverload.Caption=避免下載目錄超載(&V)
+cbGZIP.Caption=使用 GZIP 編碼, 以提高速度(&G)
+cbHangUp.Caption=全部下載完成後斷開連接(&D)
+cbHangUpAt.Caption=掛斷的時間(&I)
+cbHibernate.Caption=使系統休眠而不退出程式(&H)
+cbHTTPStart.Caption=啟用埠(&P):
+cbICFilter.0=不接受
+cbICFilter.1=只接受
+cbIECookies.Caption=使用 IE cookies(&U)
+cbIIECtxMenu.Caption=在 IE 快顯功能表中添加選項(&E)
+cbIOperaCtxMenu.Caption=在 Opera 快顯功能表中添加選項 (&O)
+cbIPFolder.Caption=將項目放在此資料夾中(&F):
+cbNTLM.Caption=使用可選的連接模式(用於 NTLM 身份認證, 等.)(&M)
+cbNTLMProxy.Caption=使用 NTLM 驗證(&M)
+cbNVCheck.Caption=每次(&E)
+cbOHTTPLocal.Caption=只允許本地訪問(&A)
+cbOIAutoStart.Caption=自動開始下載(&A)
+cbOIClipboard.Caption=監視剪貼板(&C)
+cbOIDefaults.Caption=使用缺省範本(&U)
+cbPASV.Caption=用於 FTP 下載的PASV 模式(&V)
+cbPPASV.Caption=FTP 下載時使用 PASV 模式(&V)
+cbRetries.Caption=限制重試次數(&R):
+cbRMore.Caption=當大於(&W)
+cbRTSPBandwidth.0=14.4K 數據機
+cbRTSPBandwidth.1=19.2K 連接
+cbRTSPBandwidth.10=10Mbps LAN
+cbRTSPBandwidth.2=28.8K 數據機
+cbRTSPBandwidth.3=33.6K 數據機
+cbRTSPBandwidth.4=56K 數據機
+cbRTSPBandwidth.5=112K 雙通道 ISDN
+cbRTSPBandwidth.6=256Kbps DSL/光纜
+cbRTSPBandwidth.7=384Kbps DSL/光纜
+cbRTSPBandwidth.8=512Kbps DSL/光纜
+cbRTSPBandwidth.9=T1 / LAN
+cbSetSpeedLimit.Caption=限制下載速度(&S)
+cbShowMode.0=常規
+cbShowMode.1=最大化
+cbShowMode.2=最小化
+cbShutdown.Caption=程式退出後關閉系統(&S)
+cbShutdown2.Caption=額外相容的關機模式(僅當標準模式關機失敗時才啟用)(&C)
+cbTray.Caption=在通知欄上運行(&T)
+cbXButton.Caption=“X”按鈕最小化主視窗(&Z)
+dlgOBrowse.Caption=流覽檔
+dlgOBrowse.Filter=可執行檔|*.exe;*.com|所有檔|*.*
+Label1.Caption=分類(&Y):
+Label10.Caption=密碼(&W):
+Label11.Caption=使用者代理標識
+Label12.Caption=磁片剩餘空間限制(&F):
+Label13.Caption=硬碟剩餘空間:
+Label14.Caption=選擇連接(&S):
+Label15.Caption=代理伺服器類型
+Label16.Caption=下載間的延遲(&D):
+Label17.Caption=代理伺服器埠(&P):
+Label18.Caption=登錄名(&L):
+Label19.Caption=密碼(&P):
+Label2.Caption=選擇要顯示的分類
+Label20.Caption=標題(&C):
+Label21.Caption=文件(&F):
+Label22.Caption=重試次數(&R):
+Label23.Caption=次
+Label24.Caption=間隔時間(&I):
+Label25.Caption=秒
+Label26.Caption=用戶名(&N):
+Label27.Caption=密碼(&W):
+Label29.Caption=按一下“清除”按鈕可以從你的下載目錄中刪除未用的 Web 網站和檔
+Label30.Caption=內置 HTTP 伺服器(&H)
+Label31.Caption=代理伺服器設置
+Label32.Caption=Internet 連接設置(&I)
+Label33.Caption=代理伺服器驗證(若不需要則留空)
+Label34.Caption=代理伺服器類型
+Label35.Caption=代理伺服器設置
+Label36.Caption=代理伺服器驗證(若不需要則留空)
+Label37.Caption=下載目錄(&D)
+Label38.Caption=磁碟空間(&S)
+Label39.Caption=維護
+Label4.Caption=連接數(&C):
+Label40.Caption=專案、範本和地圖目錄(&P)
+Label41.Caption=地圖(&M)
+Label42.Caption=自動保存
+Label43.Caption=工具窗口(&T)
+Label44.Caption=外觀(&E)
+Label45.Caption=按兩下項目含義(&D)
+Label46.Caption=系統(&S)
+Label47.Caption=添加 URL 時(&W)
+Label48.Caption=下載網站時撥號(&D)
+Label49.Caption=斷開連接
+Label5.Caption=超時(秒)(&T):
+Label50.Caption=程式退出和關閉系統
+Label51.Caption=確認
+Label52.Caption=速度控制
+Label53.Caption=千位元組/秒
+Label54.Caption=使用此設置更改選中速度設置的每秒千位元組的資料傳輸速度。
+Label55.Caption=剪貼板 URL 篩檢程式(&L)
+Label56.Caption=以下列副檔名結束的 URL(以逗號分隔)(&M):
+Label57.Caption=熱鍵(&H):
+Label58.Caption=RTSP 流頻寬
+Label59.Caption=最大 RTSP 頻寬(&R):
+Label6.Caption=代理伺服器位址(&A):
+Label60.Caption=代理伺服器類型
+Label61.Caption=代理伺服器設置
+Label62.Caption=代理伺服器位址(&A):
+Label63.Caption=代理伺服器埠(&P):
+Label64.Caption=排序文件的依據:
+Label65.Caption=撥號的命令列(&C):
+Label66.Caption=掛斷的命令列(&H):
+Label67.Caption=用戶名(&N):
+Label68.Caption=密碼(&W):
+Label69.Caption=代理伺服器驗證(若不需要則留空)
+Label7.Caption=代理伺服器位址(&A):
+Label70.Caption=下載完成
+Label71.Caption=SMTP 伺服器地址(&P):
+Label72.Caption=寄出郵件(SMTP)伺服器
+Label73.Caption=臨時目錄(&T):
+Label74.Caption=FireFox 和 Mozilla 快顯功能表:
+Label75.Caption=自動檢查更新
+Label76.Caption=代理伺服器清單(&P)
+Label77.Caption=連接設置
+Label8.Caption=代理伺服器埠(&P):
+Label9.Caption=用戶名(&N):
+lblAutoSave.Caption=分鐘
+lblRMore.Caption=下載的新檔或更新的檔
+lblSMTP.Caption=SMTP 伺服器地址(&P):
+lblTools.Caption=查看 Web 網站時顯示這些工具的選擇(&W)
+lvProxies.0=類型
+lvProxies.1=伺服器
+lvProxies.2=埠
+lvProxies.3=用戶
+odCSound.Caption=打開音效檔
+odCSound.Filter=波形檔(*.wav)|*.wav|所有檔|*.*
+odProxyList.Filter=文字檔|*.txt|所有檔|*.*
+OptionsTree.0=Internet
+OptionsTree.1=連接
+OptionsTree.2=速度
+OptionsTree.3=撥號
+OptionsTree.4=斷開連接和退出
+OptionsTree.5=代理伺服器
+OptionsTree.6=工具
+OptionsTree.7=外部流覽器
+OptionsTree.8=檢視器
+OptionsTree.9=編輯器
+OptionsTree.10=高級
+OptionsTree.11=目錄
+OptionsTree.12=集成
+OptionsTree.13=確認
+OptionsTree.14=完成
+OptionsTree.15=更新
+rbACMAsk.Caption=提示確認(&A)
+rbACMDownload.Caption=開始下載新網址(&S)
+rbACMStop.Caption=停止下載(&T)
+rbACPReport1.Caption=聲音(&S):
+rbACPReport2.Caption=電子郵件(&E):
+rbACPReport3.Caption=ICQ 號(&Q):
+rbAMap1.Caption=只顯示屬於選中專案的 Web 網站地圖(&W)
+rbAMap2.Caption=顯示所有下載的 Web 網站地圖(&A)
+rbAMapSort1.Caption=名稱(&N)
+rbAMapSort2.Caption=副檔名(&E)
+rbBackground.Caption=後臺(&B)
+rbDial1.Caption=不自動撥號(&D)
+rbDial2.Caption=啟用內置撥號程式(&E)
+rbDial3.Caption=使用外部撥號程式(&U)
+rbFProxy1.Caption=無代理(&X)
+rbFProxy2.Caption=HTTP 代理(&H)
+rbFProxy3.Caption=SOCKS4(&S)
+rbFProxy4.Caption=User@Site(&r)
+rbFProxy5.Caption=SoCKS5(&O)
+rbHProxy1.Caption=無代理(&X)
+rbHProxy2.Caption=HTTP 代理(&H)
+rbHProxy3.Caption=SOCKS4(&S)
+rbHProxy4.Caption=SOCKS5(&O)
+rbLow.Caption=低(&L)
+rbMedium.Caption=中(&M)
+rbODblClick1.Caption=在流覽器中查看項目(&V)
+rbODblClick2.Caption=打開專案屬性(&O)
+rbRProxy1.Caption=無代理(&X)
+rbRProxy2.Caption=HTTP 代理(&H)
+rbRProxy3.Caption=SOCKS4(&S)
+rbRProxy4.Caption=RTSP 代理(&R)
+rbRProxy5.Caption=SCKS5(&O)
+rbUA1.Caption=標識為(&N):
+rbUA2.Caption=使用此使用者代理(&F):
+sdProxyList.Filter=文字檔|*.txt|所有檔|*.*
+OptionsTree.16=網站地圖
+OptionsTree.17=外觀
+cbAMinimize.Caption=啟動時最小化(&M)
+Button2.Caption=應用 (&P)
+lblDDWarning.Caption=注意: 不建議使用長於60個字元的路徑.
+cbACPEStats.Caption=發送下載統計 (&O)
+Label79.Caption=BT
+cbATrayBalloon.Caption=下載完成時顯示工作列小氣球
+lblAPsw1.Caption=密碼:
+lblAPsw2.Caption=再次輸入 (&R):
+lblAdmin.Caption=受密碼保護的功能
+cbPPOptions.Caption=保護選項對話方塊 (&O)
+cbPPAdd.Caption=保護添加新專案和資料夾 (&A)
+OptionsTree.18=管理
+
+[dlgMakeSiteMap]
+Caption=生成Google網站地圖
+
+btnBrowse.Caption=流覽...(&r)
+btnClose.Caption=取消
+btnExport.Caption=生成(&M)
+btnHelp.Caption=幫助(&H)
+cbFreq.0=未指定
+cbFreq.1=問題
+cbFreq.2=每小時
+cbFreq.3=每天
+cbFreq.4=每週
+cbFreq.5=每月
+cbFreq.6=每年
+cbFreq.7=從不
+cbPlainDir.Caption=輸出最後的更改日期(&m)
+cbRecentFiles.Caption=僅使用最近下載的檔(&n)
+Label3.Caption=可選參數
+Label32.Caption=用於生成網站地圖文件的資料夾(&D)
+lblFNFormat.Caption=優先順序(&P):
+lblPutFiles.Caption=更改頻率(&C):
+[dlgFolderProp]
+Caption=資料夾屬性
+
+bdDD.Caption=資料夾下載目錄
+bdDD.Hint=選擇下載目錄:
+btnApplyFDD.Caption=應用到全部子資料夾(&A)
+btnBrowse.Caption=流覽(&B)...
+btnCancel.Caption=取消
+btnDefaults.Caption=資料夾缺省值
+btnFromTemplate.Caption=從範本中重置缺省值(&R)
+btnHelp.Caption=(&H)elp
+btnOK.Caption=確定
+cbFDD.Caption=啟用(&E)
+FolderTree.0=資料夾
+Label1.Caption=分類(&C):
+Label2.Caption=資料夾名稱(&N):
+Label3.Caption=你可以為你的每個專案檔案夾指定不同的目錄。在此檔中的全部專案都將使用此目錄存放下載的 Web 網站。
+Label32.Caption=常規
+Label5.Caption=如果指定目錄不存在的話，將會被自動創建。
+Label6.Caption=資料夾下載目錄
+lblDDWarning.Caption=注意: 不建議使用長於60個字元的路徑.
+
+[dlgDataMine]
+Caption=資料採擷
+
+btnCancel.Caption=取消
+btnHelp.Caption=幫助
+btnStart.Caption=啟動(&S)
+btnTextPipe.Caption=TextPipe Web 網站
+cbPassFiles.Caption=將下載的專案檔案傳遞給 TextPipe(&P)
+cbQuit.Caption=運行篩檢程式完成後退出 TextPipe(&Q)
+cbRun.Caption=當 TextPipe 裝入時運行篩檢程式(&R)
+cbTextOnly.Caption=僅對文本和 HTML 檔進行資料採擷(&T)
+dlgOpenFilter.Caption=打開篩檢程式文件
+dlgOpenFilter.Filter=TextPipe 篩檢程式文件|*.fll|所有檔|*.*
+Label1.Caption=資料採擷使得你可以處理下載的 Web 網站並根據特定的規則從中提取資訊或將其轉換為有用的資訊。
+Label2.Caption=資料採擷處理基於由DataMystic公司出品的 TextPipe 工具。TextPipe 是一個多檔文本轉換平臺。
+Label3.Caption=抱歉，你並未在電腦上安裝 TextPipe。按一下下面的按鈕可以打開 TextPipe 官方網站。
+Label4.Caption=資料採擷使得你可以處理下載的 Web 網站並根據特定的規則從中析取資訊或將其轉換為有用的資訊。此功能由DataMystic公司出品的 TextPipe 工具完成。
+Label6.Caption=TextPipe 篩檢程式
+Label7.Caption=TextPipe 執行選項
+rbFilter1.Caption=用新篩檢程式運行(&N)
+rbFilter2.Caption=使用新 TextPipe 篩檢程式檔(&.fll)處理選中專案(&F):
+
+[dlgCustomizeContents]
+Caption=自訂目錄檔
+
+btnCancel.Caption=取消
+btnOK.Caption=確定
+Button1.Caption=重置(&R)
+Label1.Caption=目錄檔頭:
+Label2.Caption=目錄檔項:
+Label3.Caption=目錄檔案結尾:
+Label4.Caption=提示: 使用 %URL% 宏將替換為匯出網站的路徑，%Caption% 將替換為項目名稱，即在專案樹中顯示的名稱。
+
+[dlgProgress]
+Caption=進度
+
+Button1.Caption=中止
+
+[dlgPDescr]
+Caption=項目描述
+
+BoldButton.Hint=粗體
+BulletsButton.Hint=專案符號|進入專案符號模式
+CenterAlign.Hint=居中
+CopyButton.Caption=複製(&C)
+CopyButton.Hint=將選中專案複製到剪貼板
+CutButton.Caption=剪切(&T)
+CutButton.Hint=刪除選中項目
+FontName.Hint=字體名稱|選擇字體名稱
+FontSize.Hint=字體大小|選擇字體大小
+ItalicButton.Hint=斜體
+LeftAlign.Hint=左對齊
+mpCopy.Caption=複製(&C)
+mpCopy.Hint=將選中專案複製到剪貼板
+mpCut.Caption=剪切(&T)
+mpCut.Hint=刪除選中項目
+mpPaste.Caption=粘貼(&P)
+mpPaste.Hint=粘貼剪貼板內容
+mpSelectAll.Caption=全部選中(&A)
+mpUndo.Caption=撤銷(&U)
+mpUndo.Hint=撤銷上次操作
+PasteButton.Caption=粘貼(&P)
+PasteButton.Hint=粘貼剪貼板內容
+PrintButton.Caption=列印(&P)
+PrintButton.Hint=列印當前檔
+RightAlign.Hint=右對齊
+SaveButton.Caption=保存(&S)
+SaveButton.Hint=取消更改
+ToolButton1.Caption=新建(&N)
+ToolButton1.Hint=應用更改
+UnderlineButton.Hint=底線
+UndoButton.Caption=撤銷(&U)
+UndoButton.Hint=撤銷上次操作
+
+[dlgPrint]
+Caption=正在列印...
+
+btnCancel.Caption=取消
+Label1.Caption=正在列印專案頁。請稍候...
+
+[dlgApplyTemplate]
+Caption=應用範本到專案
+
+btnCancel.Caption=取消
+btnOK.Caption=確定
+Label1.Caption=選擇要應用到專案的範本部分(&S):
+Label2.Caption=範本(&T):
+Label3.Caption=專案 URL 篩檢程式關鍵字和檔篩檢程式副檔名
+rbJoin.Caption=聯合範本中的關鍵字和副檔名
+rbReplace.Caption=替換範本中的關鍵字和副檔名
+
+[dlgOldFiles]
+Caption=刪除舊的專案檔案
+
+btnClose.Caption=關閉(&C)
+btnDelete.Caption=刪除選中的(&D)
+btnDeleteAll.Caption=全部刪除(&A)
+List.0=文件
+
+[dlgImgDimensions]
+Caption=圖像尺寸過濾
+
+btnCancel.Caption=取消
+btnOK.Caption=確定
+cbHighHeight.Caption=高度(&G)
+cbHighWidth.Caption=寬度(&D)
+cbLowHeight.Caption=高度(&H)
+cbLowWidth.Caption=寬度(&W)
+Label1.Caption=跳過影像檔, 若其尺寸大於
+Label19.Caption=跳過影像檔, 若其尺寸小於
+Label2.Caption=跳過下列尺寸的影像檔(以逗號分隔)
+Label4.Caption=注意: 此版本只支援下列檔案類型:
+lblHighHeight.Caption=圖元
+lblHighWidth.Caption=圖元
+lblLowHeight.Caption=圖元
+lblLowWidth.Caption=圖元
+
+[dlgMapSelect]
+Caption=選擇地圖檔
+
+btnBrowse.Caption=流覽(&B)
+btnBrowse.Hint=流覽
+btnClose.Caption=關閉(&C)
+btnClose.Hint=關閉窗口
+btnDelete.Caption=刪除(&D)
+btnDelete.Hint=刪除選中檔
+dxBarManager1.0=選中文件
+dxbeMask.Caption=輸入萬用字元來選擇檔然後按 Enter 鍵(&M):
+dxbeMask.Hint=輸入萬用字元選擇檔
+List.0=網址
+List.1=大小
+dxBarStatic1.Caption=按兩次ESC鍵停止
+dxBarStatic1.Hint=按兩次ESC鍵停止
+
+[dlgSelectMask]
+Caption=選擇佇列中的 URLs
+
+btnCancel.Caption=取消
+btnOK.Caption=確定
+Label1.Caption=輸入萬用字元來選擇檔然後按 Enter 鍵(&M):
+
+[dlgSubst]
+Caption=URL 替換
+
+btnAdd.Caption=添加(&A)
+btnCancel.Caption=取消
+btnClear.Caption=全部刪除(&L)
+btnHelp.Caption=幫助(&H)
+btnOK.Caption=確定
+btnRemove.Caption=刪除(&R)
+btnTest.Caption=測試(&T)
+cbApplyAll.Caption=應用全部匹配規則(&P)
+Label1.Caption=注意: 如果您只想 URL 替換規則被應用到下載檔案，請取消選中。即，URL 將會按照原樣進行下載，但是離線檔案名和連結將會根據替換規則進行更改。
+Label2.Caption=網址(&U):
+Label3.Caption=替換(&R):
+Label4.Caption=為(&W):
+lblReplace.Caption=替換(&R):
+lblURL.Caption=網址(&U):
+lblWith.Caption=為(&W):
+List.0=網址
+List.1=替換
+List.2=為
+mpDuplicate.Caption=副本(&C)
+mpMoveDown.Caption=下移(&D)
+mpMoveUp.Caption=上移(&U)
+
+[dlgStatistics]
+Caption=項目統計
+
+btnClean.Caption=清理專案檔案(&N)...
+btnClose.Caption=關閉(&C)
+btnCopy.Caption=複製(&P)
+cbValues.0=項目名稱:
+cbValues.1=網址:
+cbValues.10=上次下載統計:
+cbValues.11=已下載檔案:
+cbValues.12=未修改:
+cbValues.13=處理數:
+cbValues.14=未找到:
+cbValues.15=下載時出錯:
+cbValues.16=中止/限制:
+cbValues.17=下載的文件大小:
+cbValues.18=全部專案統計:
+cbValues.19=所有檔:
+cbValues.2=地圖檔案名:
+cbValues.20=總大小:
+cbValues.21=文字檔:
+cbValues.22=文字檔大小:
+cbValues.23=圖片檔:
+cbValues.24=圖片檔大小:
+cbValues.25=其它文件:
+cbValues.26=其它文件大小:
+cbValues.3=地圖項:
+cbValues.4=上次下載開始時間:
+cbValues.5=完成時間:
+cbValues.6=已用時間:
+cbValues.7=平均速度:
+cbValues.8=仍在下載中...
+cbValues.9=項目未下載。
+List.0=參數
+List.1=值
+
+[dlgProtect]
+Caption=用密碼保護專案設置
+
+btnCancel.Caption=取消
+btnOK.Caption=確認
+Label1.Caption=密碼(&P):
+Label2.Caption=請重試(&R):
+
+[dlgPassword]
+Caption=請輸入密碼
+
+btnCancel.Caption=取消
+btnOK.Caption=確認
+Label1.Caption=密碼(&P):
+
+[dlgMultipleImport]
+Caption=導入多個標籤/收藏
+
+btnCancel.Caption=取消
+btnOK.Caption=確認
+Label1.Caption=選擇連結添加為專案並點擊確認按鈕(&S)
+Label2.Caption=範本(&T):
+
+[dlgSetProxy]
+Caption=代理伺服器設置
+
+btnCancel.Caption=取消
+btnOK.Caption=確認
+Label17.Caption=埠(&P):
+Label26.Caption=用戶名(&N):
+Label27.Caption=密碼(&W):
+Label34.Caption=伺服器類型
+Label35.Caption=代理伺服器設置
+Label36.Caption=代理身份驗證(如果不需要, 請留空)
+Label6.Caption=地址(&A):
+rbFProxy1.Caption=HTTP 代理(&H)
+rbFProxy2.Caption=SOCKS4(&S)
+rbFProxy3.Caption=SOCKS5(&O)
+rbFProxy4.Caption=User@Site(&T)
+rbFProxy5.Caption=RTSP 代理(&R)
+
+[dlgAddR]
+Caption=添加關鍵字
+
+btnCancel.Caption=取消
+btnOK.Caption=確定
+
+[dlgTemplates]
+Caption=新建
+
+btnAdd.Caption=新建(&N)...
+btnCancel.Caption=取消
+btnClose.Caption=關閉
+btnDef.Caption=缺省(&D)
+btnHelp.Caption=幫助(&H)
+btnOK.Caption=確定
+btnProp.Caption=屬性(&P)...
+btnRemove.Caption=刪除(&R)
+btnReset.Caption=重置(&S)
+cbSmallIcons.Caption=顯示小圖示(&I)
+lblCustom.Caption=自訂
+pgNew.Caption=標準
+pgTemplates.Caption=範本
+pmTCopy.Caption=複製(&C)
+pmTCopy.Hint=將選中專案或資料夾複製到剪貼板
+pmTCut.Caption=剪切(&T)
+pmTCut.Hint=將選中項目或資料夾剪切到剪貼板
+pmTPaste.Caption=粘貼(&P)
+pmTPaste.Hint=從剪貼板上粘貼項目或資料夾
+pmTSort.Caption=按名稱排序(&S)
+btnLoad.Caption=載入 (&L)...
+btnPaste.Caption=粘貼 (&A)
+odText.Caption=從文本載入專案
+odText.Filter=文字檔|*.txt|所有檔|*.*
+
+[dlgAskPwd]
+Caption=認證
+
+Button1.Caption=確定
+Button2.Caption=取消
+Label1.Caption=請輸入用戶名和密碼
+Label2.Caption=網站(&S):
+Label3.Caption=域(&R):
+Label5.Caption=用戶名(&U):
+Label6.Caption=密碼(&P):
+
+[dlgExport]
+Caption=匯出
+
+brdExport.Caption=流覽
+brdExport.Hint=選擇匯出專案的目錄:
+btnAbort.Caption=中止(&A)
+btnBrowse.Caption=流覽(&R)...
+btnClose.Caption=取消
+btnCustomize.Caption=自訂(&U)...
+btnExport.Caption=匯出(&E)
+btnHelp.Caption=幫助(&H)
+cbAutorunCD.Caption=製作自動運行的 CD(&C)
+cbContents.Caption=創建目錄檔(&O)
+cbDisablePopups.Caption=禁止彈出連結(&i)
+cbFastExport.Caption=快速匯出(&T)
+cbFTPDelete.Caption=上傳完成後刪除匯出的檔(&u)
+cbOpen.Caption=匯出完成後打開檔(&p)
+cbOriginalURL.Caption=在 HTML 檔中添加原始(&G)
+cbPlainDir.Caption=不創建子目錄(&S)
+cbPreserveOnline.Caption=保留連線連結(&P)
+cbPutTo.0=以上目錄
+cbPutTo.1=ZIP 壓縮包
+cbPutTo.2=MHT 壓縮包
+cbPutTo.3=IE 緩存
+cbPutTo.4=HTML 幫助(CHM 檔)
+cbPutTo.5=壓縮 EXE 檢視器
+cbPutTo.6=HTML 幫助文檔
+cbPutTo.7=上傳到 FTP 伺服器
+cbRecentFiles.Caption=僅匯出最近下載的檔(&n)
+cbShortFileNames.0=保持原樣
+cbShortFileNames.1=8+3 - MS DOS 相容
+cbShortFileNames.2=Joliet - CD-R 64 符號
+cbStandardExt.Caption=已知的檔案類型使用標準副檔名(&X)
+Label1.Caption=檔案名
+Label3.Caption=目錄檔
+Label32.Caption=複製下載的 Web 網站的目的目錄(&D)
+Label33.Caption=用戶名:
+Label34.Caption=密碼:
+Label42.Caption=伺服器:
+Label51.Caption=匯出下載檔案到:
+lblFNFormat.Caption=檔案名格式(&F):
+lblPutFiles.Caption=將文件放在(&P):
+lblFilesLinks.Caption=檔案名和連結翻譯
+lblOptions.Caption=其它選項
+Label31.Caption=FTP 伺服器
+cbReport.Caption=創建report.txt文件 (&A)
+
+[dlgReg]
+Caption=註冊
+
+btnCancel.Caption=取消
+btnOK.Caption=確定
+btnOrder.Caption=訂購
+cbRType.0=單用戶許可
+cbRType.1=多用戶許可
+Label1.Caption=感謝你註冊 Offline Explorer
+Label2.Caption=這樣的註冊允許我們在未來的日子裡進行此產品和其它產品更深入的開發。
+Label3.Caption=如果你對於如何註冊不太清楚，或者想要查找關於目前可用的註冊方式的話，請按一下“訂購”按鈕。
+Label4.Caption=只要支付被確認，你將會自動受到你的註冊資料，以便輸入到下面的文字方塊中。
+Label5.Caption=產品:
+Label6.Caption=註冊用戶:
+Label7.Caption=註冊金鑰:
+Label8.Caption=許可類型:
+
+[dlgWizard]
+Caption=新建項目嚮導
+
+btnBack.Caption=< 上一步(&B)
+btnCancel.Caption=取消
+btnNext.Caption=下一步(&N) >
+cbAllImages.Caption=從任意位置裝入圖像(&I)
+cbArchive.Caption=壓縮包(ZIP, RAR 等)(&Z)
+cbAudio.Caption=音訊(聲音、音樂)(&A)
+cbExploreDirs.Caption=嘗試探索所有可能的子目錄(&X)
+cbImages.Caption=圖像(&G)
+cbShow.Caption=Offline Explorer 啟動時顯示(&S)
+cbVideo.Caption=視頻(&V)
+Label1.Caption=一個項目就是一個下載任務。該任務使用 URL 作為初始位址。當該頁面裝入時，Offline Explorer 將分析其中的全部連結並根據專案設置裝入這些連結。
+Label10.Caption=級別限制(&L):
+Label11.Caption=級別允許你快速設置要裝入的 Web 頁數量。簡單的說，這就是從第一頁開始要跟隨幾層連結。
+Label12.Caption=恭喜 !
+Label13.Caption=你已經創建了一個新的 Offline Explorer 專案。
+Label14.Caption=你想要進行的下一步操作是:
+Label15.Caption=如果只下載第一頁及其圖像，設置級別=0。級別=1 將裝入第一頁及其直接連結頁面。
+Label16.Caption=例如，當 Offline Explorer 找到指向 http://www.srv.com/dir1/dir2/somefile.htm 的連結時，會嘗試請求 /dir1/ 和 /dir2/ 的內容。如果伺服器允許目錄清單，Offline Explorer 將可以下載更多的檔。
+Label17.Caption=取消級限制, 以載入無限級 (整個網站).
+Label18.Caption=如果這樣做, 強烈建議您在下一個嚮導使用 "僅從起始網址載入" 或 "僅從起始伺服器載入" 設置. 否則, 您有可能會下載整個互聯網 !
+Label19.Caption=Offline Explorer 下載網站網頁來獲得鏈向其它頁面和檔的連結. 該資訊用於創建網站地圖而不用下載整合網站.
+Label2.Caption=項目 URL(&U):
+Label3.Caption=項目名稱(&N):
+Label4.Caption=你可以提供一個專案名稱，取代 URL 顯示在專案樹中。
+Label5.Caption=URL 示例: http://www.metaproducts.com/ ftp://ftp.microsoft.com/data/
+Label6.Caption=選擇下載的檔案類型
+Label7.Caption=歡迎使用新專案嚮導
+Label8.Caption=限制頁面下載深度級別
+Label9.Caption=下載檔案的位置
+rbAny.Caption=從任意位置裝入(&A)
+rbDAll.Caption=下載連結到初始頁面的所有檔(&L)
+rbDLater.Caption=稍候下載項目(&P)
+rbDNow.Caption=立即下載新專案(&D)
+rbDSiteMap.Caption=生存網站地圖
+rbDSkip.Caption=跳過下列檔案類型的裝入(&F):
+rbProperties.Caption=設置高級設置(&A)
+rbSrv.Caption=僅從初始伺服器裝入(&S):
+rbURL.Caption=僅裝入初始 URL(&U):
+
+[dlgBR]
+Caption=進度
+
+btnCancel.Caption=取消
+btnOK.Caption=確定
+List.0=下載目錄
+List.1=資料夾
+mpDDBrowse.Caption=流覽(&B)...
+
+[dlgProp]
+Caption=專案屬性
+
+btnApply.Caption=應用(&P)
+btnCancel.Caption=取消
+btnDEW.Caption=範本
+btnDEWDelete.Caption=刪除(&D)
+btnFTAdd.Caption=<<  添加(&A)
+btnFTDel.Caption=>> 刪除(&R)
+btnHelp.Caption=幫助
+btnImageSize.Caption=圖像尺寸(&D)...
+btnLFAdd.Caption=添加(&A)  >>
+btnLFDel.Caption=刪除(&R)  <<
+btnLFDown.Caption=下移(&D)
+btnLFUp.Caption=上移(&U)
+btnLPAdd.Caption=添加(&A)  >>
+btnLPDel.Caption=刪除(&R)  <<
+btnLPDown.Caption=下移(&D)
+btnLPUp.Caption=上移(&U)
+btnLSAdd.Caption=添加(&A)  >>
+btnLSDel.Caption=刪除(&R)  <<
+btnLSDown.Caption=下移(&D)
+btnLSUp.Caption=上移(&U)
+btnOK.Caption=確定
+btnSelAll.Caption=全部(&L)
+btnSelNone.Caption=無(&N)
+btnSubst.Caption=URL 替換(&U)...
+btnUFTest.Caption=測試(&T)
+bxLJavaClass.Caption=啟用 Java 類處理(&J)
+bxLJavaScript.Caption=啟用腳本處理(&R)
+bxLKeepCopies.Caption=保留舊檔(&K):
+bxLPrimary.Caption=總是保留“*.primary”文件(&M)
+bxSLNumber.Caption=如果超過總檔數則停止裝入(&F)
+bxSLTime.Caption=如果超過下載時間則停止裝入(&T)
+bxSLTSize.Caption=如果超過總位元組數則停止裝入 Web 網站(&S)
+cbCheckFiles.Caption=檢查 HTML 檔完整性(&C)
+cbComplexScripts.Caption=計算腳本(&V)
+cbConvertRSS.Caption=將 RSS 種子轉換成 HTML(&R)
+cbDMNew.Caption=僅採集新下載和更新的檔(&D)
+cbExploreDirs.Caption=探索所有可能的子目錄(&X)
+cbExploreForms.Caption=探索 HT(&M)L 表單
+cbExploreSSMaps.Caption=載入伺服器端影像對應(&A)
+cbFCUseDate.Caption=使用下列格式的日期/時間(&D):
+cbFCZeros.Caption=添加前置字元為零(&Z)
+cbFMCheckSize.Caption=檢查檔大小(&C)
+cbFMSkipMedia.Caption=跳過已有媒體文件(&E)
+cbFTLocation.0=用 URL 篩檢程式設置載入
+cbFTLocation.1=僅從初始伺服器載入
+cbFTLocation.2=僅從初始目錄載入
+cbFTLocation.3=從任何網站載入
+cbFTLocation.4=僅從開始功能變數名稱載入
+cbFTSHigh.Caption=最大大小(&X)
+cbFTSLow.Caption=最小大小(&I)
+cbFTSMD.Caption=用 Mass Downloader 載入(&M)
+cbGraphNoKw.Caption=下載文本中不含關鍵字頁面中的影像檔(&G)
+cbGraphNoKw5.Caption=下載這些頁面中的全部圖片(&r)
+cbGraphOnKw5.Caption=下載這些頁面中的全部圖片(&g)
+cbIgnoreErrors.Caption=忽略網站錯誤(&P)
+cbIndex.Caption=索引下載的檔以供快速搜索(&x)
+cbLDirs.0=查看排除目錄關鍵字
+cbLDirs.1=查看包含目錄關鍵字
+cbLevel.Caption=級別限制(&L):
+cbLFiles.0=查看排除文件關鍵字
+cbLFiles.1=查看包含檔關鍵字
+cbLSrvs.0=查看排除伺服器關鍵字
+cbLSrvs.1=查看包含伺服器關鍵字
+cbMSIECache.Caption=複製檔到 IE 緩存(&C)
+cbNoSaveKw.Caption=不在頁面中保存文本的關鍵字(&N)
+cbOtherSrvLev.Caption=最多載入(&U)
+cbPassFiles.Caption=將下載的專案檔案載入到 TextPipe (&P)
+cbQuit.Caption=運行篩檢程式後, 退出 TextPipe (&Q)
+cbRun.Caption=啟動 TextPipe 後, 運行篩檢程式(&R)
+cbSaveNoKw.Caption=保存文本中不含關鍵字的頁面(&S)
+cbSaveNoKw5.Caption=保存這些頁面(&e)
+cbSaveOnKw5.Caption=保存這些頁面(&v)
+cbSearchForAll.Caption=搜索全部關鍵字(&A)
+cbSearchForAll5.Caption=搜索全部關鍵字 (&a)
+cbSearchInTags.Caption=在 HTML 標記內搜索(&T)
+cbSearchInTags5.Caption=在 HTML 標記中搜索(&t)
+cbSPro2.Caption=僅載入下列開始範圍內的檔 (&o)
+cbStopNoKw5.Caption=如果未找到關鍵字,則仲下載頁面(&p)
+cbStopOnKw.Caption=遇到關鍵字則停止下載(&P)
+cbStopOnKw5.Caption=遇到關鍵字則停止下載(&o)
+cbTextOnly.Caption=僅對文本和HTML進行資料採擷 (&T)
+cbUFDir2.Caption=僅從開始目錄內以及以下目錄下載檔案 (&o)
+cbUFFile2.Caption=僅下載以下列檔案名開關的檔 (&o)
+cbUP0.Caption=載入 Web 網站(HTTP 協議)(&W)
+cbUP1.Caption=載入 FTP 網站(FTP 協議)(&F)
+cbUP2.Caption=載入本地檔(file:// URLs)(&I)
+cbUP3.Caption=載入安全 Web 網站(HTTPS 協議)(&S)
+cbUP4.Caption=載入 MS Media Player 流(MMS 協議)(&M)
+cbUP5.Caption=載入 Real 流(RTSP 協議)(&R)
+cbUP6.Caption=載入 Real 流(PNM 協議)(&E)
+dlgOpenFilter.Caption=打開篩檢程式文件
+dlgOpenFilter.Filter=TextPipe 篩檢程式文件|*.fll|所有檔|*.*
+ItemTree.0=項目
+ItemTree.1=文件篩檢程式
+ItemTree.11=協議
+ItemTree.12=伺服器
+ItemTree.13=目錄
+ItemTree.14=檔案名
+ItemTree.15=內容篩檢程式
+ItemTree.16=高級
+ItemTree.19=連結轉換
+ItemTree.20=計畫
+ItemTree.21=密碼
+ItemTree.22=檔副本
+ItemTree.2=文本
+ItemTree.23=資料採擷
+ItemTree.24=資料提取
+ItemTree.3=圖像
+ItemTree.4=視頻
+ItemTree.5=音訊
+ItemTree.6=壓縮包
+ItemTree.7=用戶自訂
+ItemTree.8=其它
+ItemTree.9=URL 篩檢程式
+Label1.Caption=選擇此選項將製作 Web 網站的完全鏡像副本，原始連結不變。(警告: 如果使用此模式下載的話，專案可能無法離線流覽。)
+Label10.Caption=下載間隔(&I):
+Label11.Caption=選擇此選項將把全部連結和連結丟失檔轉換為連線位置。
+Label12.Caption=關鍵字(&K):
+Label121.Caption=關鍵字(&K):
+Label13.Caption=主題(&B):
+Label15.Caption=檔修改檢查(&F)
+Label16.Caption=地址和級別(&D)
+Label17.Caption=限制(&L)
+Label18.Caption=分析(&P)
+Label19.Caption=位置(&C)
+Label2.Caption=選擇此選項將把所有的連結和連結丟失檔轉換為離線位置。
+Label20.Caption=文件大小(&Z)
+Label21.Caption=副檔名(&E)
+Label22.Caption=被保護的網站和網站區域
+Label23.Caption=注意: 對於 NTLM 認證，請在用戶名中輸入“域\用戶”。
+Label24.Caption=時間(&T):
+Label25.Caption=按照給定計劃自動下載專案(&A)
+Label26.Caption=星期(&W):
+Label27.Caption=日(&D):
+Label28.Caption=月(&M):
+Label29.Caption=載入下列協議
+Label3.Caption=用電子郵件通知(逗號或空格分隔的地址)(&E):
+Label30.Caption=自訂協議(&U)
+Label31.Caption=處理檔時的連結轉換(&T)
+Label32.Caption=製作舊檔的副本而不是覆蓋(&M)
+Label33.Caption=舊檔副本檔案名格式(&O)
+Label34.Caption=文本關鍵字(&T)
+Label35.Caption=通知(&N)
+Label36.Caption=載入來自下列目錄的檔
+Label37.Caption=自訂配置關鍵字(&K)
+Label38.Caption=載入下列檔案名的檔
+Label39.Caption=自訂配置關鍵字(&K)
+Label4.Caption=分類(&Y):
+Label40.Caption=從下列伺服器中載入檔
+Label41.Caption=自訂配置關鍵字(&K)
+Label42.Caption=下載時跳過下列 URLs(&U)
+Label43.Caption=(F11 可展開)
+Label44.Caption=(F12 可列出命令)
+Label45.Caption=備註:
+Label46.Caption=某些檔案過濾分類無法在它們的位址框使用 URL 過濾設定。
+Label47.Caption=備註:
+Label48.Caption=某些檔案過濾分類無法在它們的位址框使用 URL 過濾設定。
+Label49.Caption=備註:
+Label5.Caption=時間間隔(&T):
+Label50.Caption=某些檔案過濾分類無法在它們的位址框使用 URL 過濾設定。
+Label51.Caption=(F11 用來展開)
+Label52.Caption=(F11 用來展開)
+Label53.Caption=(F11 用來展開)
+Label54.Caption=TextPipe 篩檢程式
+Label55.Caption=TextPipe 執行選項
+Label56.Caption=對 URL 篩檢程式測試一 URL(&L)
+Label6.Caption=關鍵字(&W)
+Label7.Caption=關鍵字(&W)
+Label8.Caption=關鍵字(&W)
+Label9.Caption=選擇要顯示的分類
+lblCaption.Caption=項目名稱(&P):
+lblExecAfter.Caption=下載後執行(&A):
+lblExecBefore.Caption=下載前執行(&B):
+lblLKeepCopies.Caption=個副本
+lblOtherSrvLev.Caption=個其它伺服器上的連結
+lblProjectID.Caption=項目ID:
+lblSLTime.Caption=分鐘
+lblSLTSize.Caption=千位元組
+lblSPassword.Caption=密碼(&W):
+lblSUserName.Caption=用戶名(&N):
+lblTCaption.Caption=範本名稱(&T):
+lblURL.Caption=地址(URL)(&U):
+lblURLs.Caption=地址(URLs)(&U):
+lvDEW.0=範本
+MenuItem1.Caption=撤銷(&U)
+MenuItem3.Caption=剪切(&T)
+MenuItem4.Caption=複製(&C)
+MenuItem5.Caption=粘貼(&P)
+MenuItem6.Caption=刪除(&D)
+MenuItem8.Caption=全選(&L)
+MonthBox.0=一月
+MonthBox.1=二月
+MonthBox.10=十一月
+MonthBox.11=十二月
+MonthBox.2=三月
+MonthBox.3=四月
+MonthBox.4=五月
+MonthBox.5=六月
+MonthBox.6=七月
+MonthBox.7=八月
+MonthBox.8=九月
+MonthBox.9=十月
+mpCopy.Caption=複製(&C)
+mpCut.Caption=剪切(&U)
+mpEdit.Caption=編輯(&E)
+mpPaste.Caption=粘貼(&P)
+odImportKeywords.Caption=從文字檔中載入關鍵字
+odImportKeywords.Filter=文字檔|*.txt|所有檔|*.*
+OnceBox.Caption=只有一次(&O)
+rbFilter1.Caption=運行 TextPipe, 使用新篩檢程式(&N)
+rbFilter2.Caption=使用 TextPipe 篩檢程式來處理下載的檔(&F):
+rbFM1.Caption=只下載修改過的檔(&M)
+rbFM2.Caption=下載所有檔(&A)
+rbFM3.Caption=不下載已有文件(&N)
+rbFM4.Caption=跳過級別高於指定數目的已有檔(&S)
+rbFTS1.Caption=裝入全部大小的檔(&F)
+rbFTS2.Caption=僅裝入符合選中大小的檔(&O):
+rbLOffline.Caption=離線轉換(&O)
+rbLOnline.Caption=連線轉換(&L)
+rbNotTranslate.Caption=不轉換(&N)
+rbSPro1.Caption=載入全部伺服器下的檔(&L)
+rbSPro2.Caption=載入文件若該文件位於初始(&O)
+rbSPro3.Caption=自訂伺服器配置(&C)
+rbSPro4.Caption=僅載入初始伺服器下的檔(&S)
+rbSPro5.Caption=僅載入初始功能變數名稱下的文件(&D)
+rbSProDmn.Caption=功能變數名稱(&D)
+rbSProSrv.Caption=伺服器(&S)
+rbSPsw0.Caption=使用此用戶名和密碼(&U)
+rbSPsw1.Caption=登錄到被保護的 Web 和 FTP 網站(&L)
+rbSPsw2.Caption=在被保護的網站處提示輸入用戶名和密碼(&P)
+rbSPsw3.Caption=忽略被保護的網站並繼續下載(&I)
+rbSPsw4.Caption=若網站被保護則停止下載(&S)
+rbSPsw5.Caption=以 HTML 表單形式(&H)
+rbUFDir1.Caption=載入全部目錄內的檔(&L)
+rbUFDir2.Caption=只載入初始目錄及其下級內的檔(&D)
+rbUFDir3.Caption=自訂目錄配置(&C)
+rbUFFile1.Caption=載入所有檔案名(&L)
+rbUFFile2.Caption=僅載入起始檔案名的檔(&F)
+rbUFFile3.Caption=自訂檔案名配置(&C)
+rbUFProt1.Caption=載入全部協定(&L)
+rbUFProt2.Caption=僅載入初始協議(&P)
+rbUFProt3.Caption=自訂協定配置(&C)
+WeekdayBox.0=周日
+WeekdayBox.1=週一
+WeekdayBox.2=週二
+WeekdayBox.3=週三
+WeekdayBox.4=週四
+WeekdayBox.5=週五
+WeekdayBox.6=週六
+WhenBox.0=手動
+WhenBox.1=每天
+WhenBox.2=每週
+WhenBox.3=每月
+WhenBox.4=每年
+WhenBox.5=每隔
+Label58.Caption=文本關鍵字
+Label59.Caption=當頁面中找到關鍵字時
+Label60.Caption=當頁面中無法找到關鍵字時
+Label57.Caption=從下載的頁面提取資料
+ItemTree.10=忽略URL
+ItemTree.17=限制
+ItemTree.18=分析
+cbUP7.Caption=載入BT協議 (&B)
+cbNoFollow.Caption=將線上連結標記為"nofollow" (&M)
+cbIgnoreLogout.Caption=忽略退出登錄連結 (&G)
+ItemTree.25=報告
+lblLMixed.Caption=將所有限定連結保持完整. 所有下載的連結指向離線.
+rbLMixed.Caption=混合
+lblNPReports.Caption=生成包含詳細的網站錯誤資訊和連結資訊的資料庫
+btnViewReport.Caption=流覽報告 (&V)...
+rbReportErrors1.Caption=不記錄錯誤資訊和網站結構
+rbReportErrors2.Caption=僅記錄錯誤資訊
+rbReportErrors3.Caption=記錄錯誤資訊以及完整的網站結構以發現所有錯誤源
+mpMoveUp.Caption=向上移動 (&U)
+mpMoveDown.Caption=向下移動 (&D)
+
+[wndSchedMan]
+Caption=計畫管理器
+
+cbLoop.Caption=迴圈(&L)
+cbSuspend.Caption=掛起佇列(&S)
+cbWhen.0=每天計畫
+cbWhen.1=每週計畫
+cbWhen.2=每月計畫
+cbWhen.3=每年計畫
+cbWhen.4=佇列
+lblPrj.Caption=項目名稱:
+lblSch.Caption=計畫時間:
+lvSeq.0=項目
+miSRemove.Caption=刪除(&R)
+miSRemoveAll.Caption=全部刪除(&A)
+miSSelect.Caption=選擇項目(&P)
+miSSkip.Caption=設置佇列到此專案(&S)
+[dlgCSearch]
+Caption=查找內容
+
+btnAbort.Caption=中止(&A)
+btnBrowse.Caption=流覽(&B)
+btnCancel.Caption=取消
+btnDelete.Caption=刪除(&D)
+btnEdit.Caption=編輯(&E)
+btnFind.Caption=查找(&F)
+btnSave.Caption=保存(&S)
+cbIndexed.Caption=索引搜索
+cbRecent.Caption=只對最近載入的檔(&R)
+cbSearchForAll.Caption=搜索全部關鍵字(&A)
+cbSearchInTags.Caption=在 HTML 標記內搜索(&T)
+cbTextOnly.Caption=只搜索文字檔(&T)
+Label1.Caption=搜索關鍵字(&S):
+sdSave.Caption=保存搜索結果
+sdSave.Filter=HTML 檔 - 離線連結|*.htm|HTML 檔 - 線上連結|*.htm|Text 文件|*.txt|所有檔|*.*
+
+[dlgCleanUp]
+Caption=清除下載的網站
+
+btnAbort.Caption=中止(&A)
+btnClose.Caption=關閉(&C)
+btnDelAll.Caption=全部下載(&A)
+btnDelSel.Caption=刪除選中的(&S)
+btnMaps.Caption=未用的地圖文件(&M)
+miCUDelete.Caption=刪除(&D)
+miCUOpen.Caption=打開檔或目錄(&O)
+
+[DialerForm]
+Caption=撥號窗口
+
+CancelButton.Caption=取消
+Label3.Caption=狀態:
+Label4.Caption=上次錯誤:
+
+[TipForm]
+Caption=日積月累
+
+Box.0=用滑鼠按右鍵專案或地圖標籤中的 Web 網站將顯示允許你編輯、查看或流覽 Web 網站的快顯功能表。
+Box.1=要停止下載檔案，請用滑鼠按右鍵消息面板中的檔，然後選擇“中止”。
+Box.10=經常查看我們的 Web 網站可以獲得最新的更新、新聞、外掛程式，等等。
+Box.11=你可以流覽、查看或編輯任何下載的 Web 頁或檔，只要你在 選項|工具 設置中添加了特定的程式。這些工具可以從 工具 功能表中訪問，也可以從項目和地圖標籤中的快顯功能表訪問。
+Box.12=選擇 查看|消息|面板或日誌視窗 可以查看下載的日誌。如果你選擇了 消息|面板，則會在狀態列上出現一個可縮放的面板。如果你選擇了 消息|視窗，則會出現一個可縮放的視窗，你可以跟蹤、暫停、清除、保存、過濾或搜索你的日誌。
+Box.13=下載你喜愛的 Web 網站只需從你的流覽器中導入 URL。OE 可以從 MSIE, Netscape 和 Opera 中導入 URL。要導入 URL，請按一下 文件 | 導入我的最愛。
+Box.14=你可以為你所有的下載設置缺省的屬性，即更改 檔|範本|屬性 中的專案。
+Box.15=如果想要暫時掛起，過兩天再繼續下載，請使用下載功能表中的“掛起到檔”和“從檔中繼續”選項。
+Box.16=可以使用下載功能表中的“掛起”和“繼續”臨時掛起並恢復下載。(注意: 當你按一下“掛起”功能表項目後，該功能表項目將會變為“繼續”。)
+Box.17=將下載計畫在任何時間的方法是使用我們的計畫面板，它位於 屬性|高級|計畫 中。
+Box.18=將專案拖曳到計畫管理器中可以為該專案快速設置計畫。
+Box.19=下載被口令保護的網站可以使用 屬性|高級密碼 設置中的口令面板。
+Box.2=如果想要快速下載 Web 網站，只需在位址欄中輸入 Web 位址並按 Enter 鍵，就像你在 IE 中一樣。你也可以按一下下載按鈕。
+Box.20=使用列印按鈕可以列印內置流覽器中的頁面。
+Box.21=要查看項目的下載統計，請按一下內置流覽器的主頁按鈕。
+Box.22=要根據已有專案創建新範本，請將該專案複製到剪貼板上，打開範本對話方塊，然後使用複合鍵 Ctrl+V 粘貼。
+Box.23=要排序資料夾中的專案，請用滑鼠按右鍵目的資料夾，然後從快顯功能表中選擇排序。
+Box.24=在網站地圖中按一下流覽檔可能更加方便。要啟用此功能，用滑鼠按右鍵網站地圖區域並選中“按一下流覽”選項。
+Box.25=要保存內置流覽器中的 Web 頁，請按 Ctrl+Alt+S。
+Box.26=F11 可以切換內置流覽器的全屏模式。
+Box.27=使用 Ctrl+A 和 Ctrl+N 可以立即選中和取消選中 專案屬性|檔篩檢程式 中的全部副檔名。
+Box.28=使用 編輯|查找內容 視窗可以查看上次下載過程中載入的檔清單。在關鍵字域中輸入空格，然後選中“只對最近載入的檔”選項。
+Box.29=在 專案屬性|URL 篩檢程式 中，要將排除清單中的全部關鍵字移動到包含關鍵字中，請按鍵盤上的 Ctrl+M 鍵。
+Box.3=如果你想要更改搜索深度，可以更改位址欄右側的數位級別。
+Box.30=要選中 專案屬性|URL 篩檢程式 中的全部關鍵字，可以按鍵盤上的 Ctrl+A 鍵。而按 Ctrl+N 可以全部不選。
+Box.31=你現在可以在 URL 宏中使用羅馬數字。
+Box.32=要將單個項目掛起到檔並保持其它專案仍舊下載的話，請用滑鼠按右鍵目標專案，然後從彈出功能表中選擇 下載|掛起專案到檔。
+Box.4=如果想要調用 OE 的內置流覽器(IB)，請打開 查看|流覽器欄|內置流覽器 開關。只要 IB 為顯示狀態，你按兩下任何專案都將在 IB 中顯示該專案。
+Box.5=下載多個 Web 網站，可以在專案標籤中一個一個的選中對應的項目然後按一下閃電形狀的開始按鈕，也可以按一下包含許多 Web 網站的資料夾。該資料夾中的全部 Web 網站都將被下載。
+Box.6=屬性中的 URL 篩檢程式設置允許你使用關鍵字選擇下載任何伺服器、目錄或檔。每個伺服器、目錄或檔都可根據這些關鍵字被包含於下載之內或排除在下載之外。請參看?明檔獲得更多資訊。
+Box.7=如果你僅僅想要下載 GIF 圖像，請前往 屬性|檔篩檢程式|圖像 設置，並選擇“僅載入選中的檔案類型”。然後，除了保留 GIF 副檔名的選中外，去掉所有其它影像檔類型的選中。這樣就可以開始下載了。
+Box.8=使用命令列參數可以將 Offline Explorer 與協力廠商的計畫任務程式集成，並執行特定的操作，如下載後關閉你的電腦。請參看幫助檔獲得完整的描述。
+Box.9=要下載 Web 網站的精確副本，請選中 屬性|高級 中的“不轉換連結”選項。
+Button1.Caption=關閉
+Button2.Caption=下個提示
+cbShowOnStart.Caption=啟動時顯示日積月累
+Label2.Caption=你知道嗎...
+
+[dlgProxyURLDetect]
+Caption=代理伺服器檢測
+
+btnCancel.Caption=取消
+btnOK.Caption=確定
+Label1.Caption=正在從下列 URL 檢測代理伺服器設置:
+Label2.Caption=檢測到了下列代理伺服器。請選擇其中之一然後按一下確定按鈕。
+lbProxies.0=沒有檢測到代理伺服器。
+
+[dlgSeqSchedule]
+Caption=佇列計畫
+
+btnCancel.Caption=取消
+btnOK.Caption=確定
+Label10.Caption=下載間隔(&I):
+Label24.Caption=時間(&T):
+Label25.Caption=以給定計劃啟動佇列器
+Label26.Caption=星期(&W):
+Label27.Caption=日(&D):
+Label28.Caption=月(&M):
+Label5.Caption=時間間隔(&T):
+MonthBox.0=一月
+MonthBox.1=二月
+MonthBox.10=十一月
+MonthBox.11=十二月
+MonthBox.2=三月
+MonthBox.3=四月
+MonthBox.4=五月
+MonthBox.5=六月
+MonthBox.6=七月
+MonthBox.7=八月
+MonthBox.8=九月
+MonthBox.9=十月
+OnceBox.Caption=只有一次(&O)
+WeekdayBox.0=周日
+WeekdayBox.1=週一
+WeekdayBox.2=週二
+WeekdayBox.3=週三
+WeekdayBox.4=週四
+WeekdayBox.5=週五
+WeekdayBox.6=週六
+WhenBox.0=手動
+WhenBox.1=每天
+WhenBox.2=每週
+WhenBox.3=每月
+WhenBox.4=每年
+WhenBox.5=每個
+
+[dlgShare]
+Caption=發佈您的項目 !
+
+btnCancel.Caption=取消
+btnShare.Caption=發佈 !
+Label1.Caption=您可以與其它人共用項目設置.
+Label2.Caption=如果您的專案成功下載網站並很好的工作, 那麼這些內容將會?明其它使用者節省時間和精力.
+Label3.Caption=請提供對使用項目設置有幫助的評注, 描述, 等內容:
+Label4.Caption=請提供您的網名以供在搜索結果中顯示:
+[dlgBTAll]
+Caption=BT下載
+
+lvBT.0=名稱
+lvBT.1=文件
+lvBT.2=大小
+lvBT.3=已載入
+lvBT.4=目錄
+btnImport.Caption=導入節點 (&I)
+btnCheck.Caption=檢查完整性 (&C)
+btnClose.Caption=關閉
+odBT.Filter=BT節點文件|BTPeers.dat|所有檔|*.*
+mpCheckIntegrity.Caption=檢查完整性 (&C)
+mpDelete.Caption=刪除 (&D)
+
+[dlgTorrent]
+Caption=BT下載詳情
+
+lvFiles.0=檔案名
+lvFiles.1=大小
+lvFiles.2=具體位置
+lvFiles.3=片段
+lvFiles.4=已載入
+Label1.Caption=已下載片段:
+Label3.Caption=中的
+lvPeers.0=節點
+lvPeers.1=擁有片段
+lvPeers.2=片段
+lvPeers.3=狀態
+btnDownload.Caption=下載 (&D)
+btnClose.Caption=關閉 (&C)
+mpAbort.Caption=中斷 (&A)
+mpReconnect.Caption=重新連結 (&R)
+mpDMax.Caption=活動下載 (&C)
+mpUpdateTracker.Caption=更新跟蹤 (&U)
+mpCheckIntegrity.Caption=檢查完整性 (&C)
+mpOpenFolder.Caption=打開資料夾 (&F)
+mpOpenFile.Caption=打開文件 (&O)
+lvPeers.4=速度
+lblFolder.Caption=保存於:
+btnBrowse.Caption=流覽 (&B)...
+mpCheckAll.Caption=檢查所有檔 (&C)
+mpUncheckAll.Caption=取消所有檔 (&U)
+mpCheckIntegrity1.Caption=檢查完整性 (&I)
+mpPause.Caption=暫停 (&P)
+
+Label6.Caption=您也會受益於使用其它 Offline Explorer 用戶發佈共用的項目.
+[dlgMenuSelect]
+Caption=歡迎使用
+
+Label1.Caption=請選擇喜愛的功能表導航模式:
+Label4.Caption=您可以選擇Office 2007式的外觀，該外觀按照您執行任務的邏輯分組按鈕. 或者您可以使用舊式工具列功能表.
+Label5.Caption=您可以使用 查看 或 功能表 標籤來更改介面風格(切換到舊式功能表/切換到新式快捷按鈕.)
+btnOK.Caption=確定
+rbRibbon.Caption=(&N)Office 2007式的快捷按鈕:
+rbMenu.Caption=(&O)舊式工具條功能表:
+
+
+[dxBarCustomizationForm]
+Caption=自訂
+
+BBarDelete.Caption=刪除(&D)
+BBarNew.Caption=新建(&N)...
+BBarRename.Caption=重命名(&E)...
+BBarReset.Caption=重置(&R)...
+BClose.Caption=關閉
+BResetUsageData.Caption=重置我的慣用數據(&R)
+btnAddGroup.Caption=添加
+btnAddGroup.Hint=添加組 (Ins)
+btnAddGroupItem.Caption=添加...
+btnAddGroupItem.Hint=添加條目... (Ins)
+btnDeleteGroup.Caption=刪除
+btnDeleteGroup.Hint=刪除組 (Del)
+btnDeleteGroupItem.Caption=刪除
+btnDeleteGroupItem.Hint=刪除條目 (Del)
+btnGroupAdd.Caption=添加
+btnGroupDelete.Caption=刪除
+btnGroupItemAdd.Caption=添加(&A)...
+btnGroupItemDelete.Caption=刪除
+btnMoveDownGroup.Caption=向下
+btnMoveDownGroup.Hint=下移組
+btnMoveDownGroupItem.Caption=向下
+btnMoveDownGroupItem.Hint=下移條目
+btnMoveUpGroup.Caption=向上
+btnMoveUpGroup.Hint=上移組
+btnMoveUpGroupItem.Caption=向上
+btnMoveUpGroupItem.Hint=上移條目
+CategoriesAdd.Caption=添加...
+CategoriesAdd.Hint=添加
+CategoriesDelete.Caption=刪除
+CategoriesDelete.Hint=刪除
+CategoriesInsert.Caption=插入...
+CategoriesInsert.Hint=插入
+CategoriesItemsVisible.0=從不
+CategoriesItemsVisible.1=自訂
+CategoriesItemsVisible.2=總是
+CategoriesItemsVisible.Caption=可見項目:
+CategoriesItemsVisible.Hint=可見項目:
+CategoriesRename.Caption=重命名...
+CategoriesRename.Hint=重命名
+CategoriesVisible.Caption=可見
+CategoriesVisible.Hint=可見
+CBHint1.Caption=在工具列上顯示工具提示(&T)
+CBHint1Ex.Caption=在工具列上顯示工具提示(&T)
+CBHint2.Caption=在工具提示中顯示快速鍵(&H)
+CBHint2Ex.Caption=在工具提示中顯示快速鍵(&H)
+CBLargeIcons.Caption=大圖示(&L)
+CBLargeIconsEx.Caption=大圖示(&L)
+CBMenusShowRecentItemsFirst.Caption=功能表中首先顯示最近用過的命令(&N)
+CBShowCommandsWithShortCut.Caption=顯示有快速鍵的命令
+CBShowFullMenusAfterDelay.Caption=滑鼠指標短暫停留後顯示完整功能表(&U)
+ComboBoxMenuAnimations.0=(無)
+ComboBoxMenuAnimations.1=隨機
+ComboBoxMenuAnimations.2=展開
+ComboBoxMenuAnimations.3=滑動
+ComboBoxMenuAnimationsEx.0=(無)
+ComboBoxMenuAnimationsEx.1=隨機
+ComboBoxMenuAnimationsEx.2=展開
+ComboBoxMenuAnimationsEx.3=滑動
+ComboBoxMenuAnimationsEx.4=Fade
+CommandsAdd.Caption=添加...
+CommandsAdd.Hint=添加
+CommandsClear.Caption=清除
+CommandsClear.Hint=清除
+CommandsDelete.Caption=刪除
+CommandsDelete.Hint=刪除
+CommandsMoveDown.Caption=下移
+CommandsMoveDown.Hint=下移
+CommandsMoveUp.Caption=上移
+CommandsMoveUp.Hint=上移
+CommandsSubMenuEditor.Caption=子功能表編輯器...
+CommandsSubMenuEditor.Hint=子功能表編輯器
+gbGroups.Caption=組
+gpGroupItems.Caption=條目
+GroupBox1.Caption=組
+GroupBox2.Caption=項目
+Label1.Caption=菜單動畫(&M):
+Label2.Caption=其它
+Label3.Caption=個人化功能表和工具列
+LabelCategories.Caption=分類(&G):
+LabelCommands.Caption=命令(&D):
+LabelDescription.Caption=描述
+LabelMenuAnimations.Caption=菜單動畫(&M):
+LabelToobars.Caption=工具列(&A):
+TabSheet1.Caption=工具列
+TabSheet2.Caption=命令
+TabSheet3.Caption=選項
+TabSheet4.Caption=全部命令
+tsCommands.Caption=全部命令
+tsGroups.Caption=組
+tsItems.Caption=命令
+tsOptions.Caption=選項
+tsToolbars.Caption=工具條
+
+[Strings]
+缺省
+空
+找不到缺省流覽器
+錯誤
+無法調用缺省流覽器
+你真的想要刪除
+確認
+你是否想要刪除全部專案檔案
+至少應該保留一個資料夾。
+你真的想要刪除資料夾中或選中的全部專案嗎
+啟動外部工具錯誤
+已下載
+個文件
+佇列
+大小
+Kb
+新建資料夾
+繼續(&R)
+掛起(&S)
+速度
+位元組/秒
+你真的想要退出嗎
+缺省專案屬性
+停止下載嗎?
+按伺服器、目錄或檔案名關鍵字的篩檢程式檔
+高級專案設置
+項目名稱、地址和級別
+用於被保護的 Web 網站的密碼
+檔案類型選擇
+使用關鍵字限制伺服器
+使用關鍵字限制目錄
+使用關鍵字限制檔
+下載項目的時間
+設置分類內容
+Internet 連接和 http 伺服器設置
+代理伺服器類型和密碼設置
+下載檔案放置的地點
+設置剩餘磁碟空間限制
+影響整個程式的特殊設置
+流覽 Web 網站時顯示下列工具的選擇
+用於流覽 Web 網站的流覽器列表
+查看 Web 網站時顯示下列工具的選擇
+用於查看 Web 文件的檢視器列表
+編輯 Web 網站時顯示下列工具的選擇
+用於編輯 Web 檔的編輯器列表
+MB 剩餘空間
+找不到匹配的資料。
+正在下載
+就緒
+正在掛起
+正在處理
+正在搜索
+導入(&I)
+最大化內置流覽器到全屏
+恢復內置流覽器到常規尺寸
+限制協議
+Cookies 在系統中被禁用。你是否想要啟用?
+設置連結轉換模式
+範本編輯器
+停止載入檔?
+常規專案屬性
+更新專案的各種模式
+資料夾名稱和下載目錄
+系統集成
+下載更新時保留舊檔
+下載 Internet 網站時撥號
+斷開連接、退出和關閉系統
+你是否想要掛斷數據機連接?
+Mb
+Gb
+使用內容關鍵字過濾下載的頁面
+確認特定操作
+秒
+下載完成
+專案下載已計畫
+項目未下載
+地址(URL)找不到
+下載已停止
+這將搜索所有未用的已下載檔案和網站並提供選擇性刪除。
+你想要繼續嗎?
+已載入
+長度
+限制下載速度
+你想要開始資料夾中的全部專案嗎?
+你想要停止上個專案嗎?
+你是否想要停止資料夾中的全部專案?
+文檔未找到
+此網頁無法離線訪問。可能的原因: 或者是伺服器上的無效連結，或者專案設置不允許下載該頁。在某些情況下，增加專案級別可能會有所幫助。
+按一下此處連線
+信息
+位元組
+總計文件大小為
+這將把每個字資料夾的下載目錄設為以上值。
+您想要繼續嗎?
+項目
+伺服器報告起始 URL 已經移到新地址:
+您想要用新的專案 URL 重新開始下載嗎(點擊取消可保留舊 URL)?
+項目下載完成後的行為
+打開文件
+已選
+您是否想要保留已刪除檔的資訊，以便稍候下載更改的和新檔?
+文件級別:
+未註冊
+使用者/電腦許可
+無限制許可
+單位許可
+使用者/電腦許可
+臨時許可。過期時間
+項目
+URLs
+已暫停到檔
+上次下載從 %s 到 %s
+未選中項目
+您已經使用了三十天試用期中的 %s 天。
+天
+設置為主頁
+您已經 %s 天沒有更新項目了
+密碼不匹配
+密碼非法
+您要覆蓋已存在的專案嗎?
+檢查更新
+拖動專案添加到任務計畫
+拖動專案添加到任務佇列
+多連結
+新建流覽器
+新建範本
+立刻下載缺少的連結並將它添加到所選項目
+歡迎頁面
+下載速度圖表. %s 秒內無下載活動.
+下載速度圖表. 最大 =%s, 平均 =%s 在 %s 秒內.
+下載限制
+高級分析設置

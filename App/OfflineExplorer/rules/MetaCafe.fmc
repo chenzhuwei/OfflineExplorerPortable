@@ -1,0 +1,23 @@
+Name=MetaCafe.com
+StepCount=1
+0.ParamParsingCount=4
+0.0.ParsingSourceCount=1
+0.0.0.ParsingSource=STRING	mediaurl=	&
+0.0.ParsingRulesCount=1
+0.0.0.ParsingRule=DECODE	DIRECTURL	URLENCODING
+0.1.ParsingSourceCount=1
+0.1.0.ParsingSource=STRING	&gdakey=	&
+0.1.ParsingRulesCount=1
+0.1.0.ParsingRule=STRING	GDAKEY		
+0.2.ParsingSourceCount=1
+0.2.0.ParsingSource=STRING	&title=	&
+0.2.ParsingRulesCount=1
+0.2.0.ParsingRule=STRING	VIDEOTITLE		
+0.3.ParsingSourceCount=1
+0.3.0.ParsingSource=CALCULATED_PARAM	VIDEOTITLE
+0.3.ParsingRulesCount=1
+0.3.0.ParsingRule=DECODE	VIDEOTITLE	URLENCODING
+0.DomainNames=metacafe.com
+0.TemplateRequestURL=
+0.TemplateDirectDownloadURL={:DIRECTURL}?__gda__={:GDAKEY}
+0.TemplateVideoTitleExtract={:VIDEOTITLE}

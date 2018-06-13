@@ -1,0 +1,15 @@
+Name=xuk.ru
+KeySubstrings=xuk.ru/video/
+TestURL=http://xuk.ru/video/others/ivette__plastic_bag.html
+StepCount=1
+0.ParamParsingCount=1
+0.0.ParsingSourceCount=3
+0.0.0.ParsingSource=STRING	<param  name="flashvars" value="	>
+0.0.1.ParsingSource=STRING	<param name="flashvars" value="	>
+0.0.2.ParsingSource=STRING	flashvars="	"
+0.0.ParsingRulesCount=1
+0.0.0.ParsingRule=URLPARAMS
+0.DomainNames=xuk.ru
+0.TemplateRequestURL=
+0.TemplateDirectDownloadURL={:rootUrl}{:idHtml}{:id}
+0.TemplateVideoTitleExtract=
